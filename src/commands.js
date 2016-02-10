@@ -77,6 +77,7 @@ var commands = [
             if (isAdmin(message))
             {
                 app.bot.setChannelTopic(message, splitCmd(message.content, 1));
+                markForDeletion(message);
             }
         }
     },
