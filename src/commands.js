@@ -253,12 +253,6 @@ exports.command = function(message) {
 
 function sendMessage(cmdMessage, content, deletionTime) { // deletionTime = minutes, 0 = no deletion
     app.bot.sendMessage(cmdMessage, content, function(error, message) {
-        if (deletionTime !== undefined && deletionTime != 0 && deletionTime == parseInt(deletionTime)) {
-            deletionTime = deletionTime * 60 * 1000; // minutes to ms
-        } else {
-            // Default deletion delay = 1 min
-            deletionTime = 1 * 60 * 1000;
-        }
         markForDeletion(cmdMessage, deletionTime);
         markForDeletion(message, deletionTime);
     });
@@ -266,6 +260,12 @@ function sendMessage(cmdMessage, content, deletionTime) { // deletionTime = minu
 
 function markForDeletion(message, delay) {
     // Deletes a message after delay(ms) has passed
+    if (delay !== undefined && delay != 0 && delay == parseInt(delay)) {
+            delay = delay * 60 * 1000; // minutes to ms
+        } else {
+            // Default deletion delay = 1 min
+            delay = 1 * 60 * 1000;
+    }
     setTimeout(function() {
         app.bot.deleteMessage(message);
     }, delay);
