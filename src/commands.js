@@ -24,6 +24,7 @@ var commands = [
                 getConnection(function(err, connection) {
                     if (!err) {
                         connection.query('DELETE FROM commands WHERE command = "?";', [command], function(err) {
+                            connection.release();
                             if (err) {
                                 console.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
                                 sendMessage(message, 'Error removing "' + command + '" from database.');
@@ -49,6 +50,7 @@ var commands = [
                     getConnection(function(err, connection) {
                        if (!err) {
                            connection.query('INSERT INTO commands(command, response) VALUES("?", "?");', [command, response], function(err) {
+                               connection.release();
                                 if (err) {
                                     console.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
                                     sendMessage(message, 'An error happened. The !command might be taken.');
@@ -299,6 +301,7 @@ function getDbCommands(message, callback) {
     getConnection(function(err, connection) {
         if (!err) {
             connection.query('SELECT * FROM commands', function(err, rows) {
+                connection.release();
                 if (err) {
                     sendMessage(message, 'Database connection failed.');
                     return callback(undefined);
