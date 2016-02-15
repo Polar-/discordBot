@@ -173,7 +173,7 @@ var commands = [
             if (opt == parseInt(opt)) {
                     opt = parseInt(opt);
                     var txt = splitCmd(message.content, 2);
-                    sendMessage(message, 'I will remind you in ' + opt + ' minute(s).');
+                    sendMessage(message, 'I will remind you in ' + opt + ' minute(s).', opt);
                     opt = opt * 1000 * 60; // milliseconds to minutes
                     setTimeout(function() {
                        sendMessage(message, message.sender.mention() + ' ' + txt);
@@ -251,7 +251,7 @@ exports.command = function(message) {
     }
 }
 
-function sendMessage(cmdMessage, content, deletionTime) { // deletionTime = minutes, 0 = no deletion
+function sendMessage(cmdMessage, content, deletionTime) { // deletionTime in minutes, 0 = no deletion
     app.bot.sendMessage(cmdMessage, content, function(error, message) {
         markForDeletion(cmdMessage, deletionTime);
         markForDeletion(message, deletionTime);
