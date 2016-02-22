@@ -183,7 +183,7 @@ var commands = [
     },
     {
         cmd: '!help',
-        alias: '!halp',
+        alias: '!commands',
         help: 'Usage: !help <(optional)!command>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
