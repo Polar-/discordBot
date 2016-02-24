@@ -215,6 +215,51 @@ var commands = [
                 });
             } else sendMessage(message, this.help);
         }
+    },
+    {
+        cmd: '!region',
+        alias: '!region',
+        help: 'Usage: !region <(optional)region>. Without options cycles between regions. Available regions: uk, nl, de',
+        execute: function(message) {
+            var opt = getCmd(message.content, 1);
+            var regions = [
+                {
+                    alias: "uk",
+                    name: "london"
+                },
+                {
+                    alias: "nl",
+                    name: "amsterdam"
+                },
+                {
+                    alias: "de",
+                    name: "frankfurt"
+                },
+            ];
+            if (opt === "uk" || opt === "nl" || opt === "de") {
+                for (var i = 0; i < regions.length; i++) {
+                    if (regions[i].alias === opt) {
+                        message.channel.server.region = regions[i].name;
+                        sendMessage(message, "Set server region to " + regions[i].alias + ": " + regions[i].name);
+                    }
+                }
+            } 
+            else if (opt === undefined) {
+                var chosen = "";
+                for (var i = 0; i < regions.length; i++) {
+                    if (regions[i].name === message.channel.server.region) {
+                        if (i < regions.length) {
+                            message.channel.server.region = regions[i + 1].name;
+                            chosen = regions[i + 1];
+                        } else {
+                            message.channel.server.region = regions[0].name;
+                            chosen = regions[0];
+                        }
+                    }
+                }
+                sendMessage(message, "Set server region to " + chosen.alias + ": " + chosen.name);                 
+            } else sendMessage(message, this.help);
+        }
     }
 ];
 
