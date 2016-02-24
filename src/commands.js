@@ -241,15 +241,19 @@ var commands = [
                     if (regions[i].alias === opt) {
                         message.channel.server.region = regions[i].name;
                         sendMessage(message, "Set server region to " + regions[i].alias + ": " + regions[i].name);
+                        console.log("region after change: " + message.channel.server.region);
                     }
                 }
             } 
             else if (opt === undefined) {
-                var chosen = "";
+                var chosen;
                 for (var i = 0; i < regions.length; i++) {
                     if (regions[i].name === message.channel.server.region) {
-                        if (i < regions.length) {
+                        if (i < regions.length - 1) {
+                            console.log("CURRENTREGION: " + regions[i].name);
+                            console.log("NEXTREGION" + regions[i + 1].name);
                             message.channel.server.region = regions[i + 1].name;
+
                             chosen = regions[i + 1];
                         } else {
                             message.channel.server.region = regions[0].name;
@@ -308,8 +312,11 @@ function markForDeletion(message, delay) {
     if (delay !== undefined && delay != 0 && delay == parseInt(delay)) {
             delay = delay * 60 * 1000; // minutes to ms
         } else {
-            // Default deletion delay = 1 min
+            // delay = 1 min
             delay = 1 * 60 * 1000;
+            
+            // default deletion time: delay * minutes
+            delay *= config.defaultDeletionTime;
     }
     setTimeout(function() {
         app.bot.deleteMessage(message);
