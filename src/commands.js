@@ -312,11 +312,8 @@ function markForDeletion(message, delay) {
     if (delay !== undefined && delay != 0 && delay == parseInt(delay)) {
             delay = delay * 60 * 1000; // minutes to ms
         } else {
-            // delay = 1 min
-            delay = 1 * 60 * 1000;
-            
-            // default deletion time: delay * minutes
-            delay *= config.defaultDeletionTime;
+            // delay = 1 min * defaultdeletiontime
+            delay = 60 * 1000 * config.defaultDeletionTime;
     }
     setTimeout(function() {
         app.bot.deleteMessage(message);
