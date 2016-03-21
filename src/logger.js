@@ -22,7 +22,9 @@ exports.log = function(content) {
     logToFile(content);
 }
 
+// Logs a message into log.txt
 function logToFile(content) {
+    // Add a line to log.txt
     fs.appendFile('log.txt', content + '\n', function(err) {
         if (err) {
             console.log('An error occurred when logging to file: ' + err);
