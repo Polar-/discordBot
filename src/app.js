@@ -47,6 +47,7 @@ function login() {
     });
 }
 
+// Login bot
 if (!login()) {
     reconnect();
 } else {
