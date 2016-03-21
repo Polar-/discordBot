@@ -36,23 +36,25 @@ function reconnect() {
 
 // Function for logging in with information from config file
 // Returns true if login was successful
-function login() {
+function login(callback) {
     bot.login(config.discordUsername, config.discordPassword, function(error, token) {
         if (error) {
             console.log("Couldn't connect to server :" + error)
-            return false;
+            return callback(false);
         } else {
-            return true;
+            return callback(true);
         }
     });
 }
 
 // Login bot
-if (!login()) {
-    reconnect();
-} else {
-    console.log("Logged in successfully.");
-}
+login(function(success) {
+    if (!success) {
+        reconnect();
+    } else {
+        console.log("Logged in successfully.");
+    }
+});
 
 // bot-getter
 exports.bot = bot;
