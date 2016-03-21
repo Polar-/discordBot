@@ -35,13 +35,30 @@ function logToFile(content) {
 // Get current time in a nice, log-friendly format
 function currentTime() {
     var curTime = new Date();
-    curTime = curTime.getDate() + '.' + 
-        (curTime.getMonth() + 1) + '.' + 
-        curTime.getFullYear() + ' ' + 
-        curTime.getHours() + ':' + 
-        curTime.getMinutes() + ' ';
+    var date = formatTime(curTime.getDate());
+    var month = formatTime((curTime.getMonth() + 1).toString());
+    var year = formatTime(curTime.getFullYear());
+    var hour = formatTime(curTime.getHours());
+    var minute = formatTime(curTime.getMinutes());
+    curTime =
+        date + '.' + 
+        month + '.' + 
+        year + ' ' + 
+        hour + ':' + 
+        minute + ' ';
     return curTime;
 }
+
+// Adds a 0 if given number's length is 1
+function formatTime(num) {
+    var format = '';
+    if (num.length == 1) {
+        format += '0';
+    }
+    format += num;
+    return format;
+}
+
 
 // Not in use, use local time
 function toHHMM(date) {
