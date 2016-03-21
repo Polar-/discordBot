@@ -9,7 +9,7 @@ var logger = require("./logger.js");
 
 // Command listener
 bot.on("message", function(message) {
-    logger.log(message);
+    logger.logMessage(message);
 	if (message.sender.username != bot.user.username) {
         commands.command(message);
 	}
@@ -25,13 +25,13 @@ bot.on("disconnected", function() {
 function reconnect() {
     var reconnecting = setInterval(function() {
         if (login()) {
-            console.log("Logged in succesfully.")
+            logger.log("Logged in succesfully.")
             clearTimeout(reconnection);
         }
         else {
-            console.log("Reconnecting failed. Trying again in 15 seconds.");
+            logger.log("Reconnecting failed. Trying again in 30 seconds.");
         }
-    }, 15000);
+    }, 30);
 }
 
 // Function for logging in with information from config file
@@ -39,7 +39,7 @@ function reconnect() {
 function login(callback) {
     bot.login(config.discordUsername, config.discordPassword, function(error, token) {
         if (error) {
-            console.log("Couldn't connect to server :" + error)
+            logger.log("Couldn't connect to server :" + error)
             return callback(false);
         } else {
             return callback(true);
@@ -52,7 +52,7 @@ login(function(success) {
     if (!success) {
         reconnect();
     } else {
-        console.log("Logged in successfully.");
+        logger.log("Logged in successfully.");
     }
 });
 

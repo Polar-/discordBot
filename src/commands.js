@@ -5,6 +5,7 @@ var sound = require('./sound.js');
 var mysql = require('mysql');
 var config = require('./config/config.js')
 var app = require('./app.js');
+var logger = require("./logger.js");
 
 // Init MySql-connection
 var pool = mysql.createPool({
@@ -26,7 +27,7 @@ var commands = [
                         connection.query('DELETE FROM commands WHERE command = "?";', [command], function(err) {
                             connection.release();
                             if (err) {
-                                console.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
+                                logger.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
                                 sendMessage(message, 'Error removing "' + command + '" from database.');
                             }
                             else sendMessage(message, 'Removed "' + command + '" from database.');                        
@@ -52,10 +53,10 @@ var commands = [
                            connection.query('INSERT INTO commands(command, response) VALUES("?", "?");', [command, response], function(err) {
                                connection.release();
                                 if (err) {
-                                    console.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
+                                    logger.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
                                     sendMessage(message, 'An error happened. The !command might be taken.');
                                 } else {
-                                    console.log('Command "' + command + '" with response "' + response + '" was added to database successfully.')
+                                    logger.log('Command "' + command + '" with response "' + response + '" was added to database successfully.')
                                     sendMessage(message, 'Command "' + command + '" was added successfully.');
                                 }
                            });
@@ -241,7 +242,7 @@ var commands = [
                     if (regions[i].alias === opt) {
                         message.channel.server.region = regions[i].name;
                         sendMessage(message, "Set server region to " + regions[i].alias + ": " + regions[i].name);
-                        console.log("region after change: " + message.channel.server.region);
+                        logger.log("region after change: " + message.channel.server.region);
                     }
                 }
             } 
@@ -250,8 +251,8 @@ var commands = [
                 for (var i = 0; i < regions.length; i++) {
                     if (regions[i].name === message.channel.server.region) {
                         if (i < regions.length - 1) {
-                            console.log("CURRENTREGION: " + regions[i].name);
-                            console.log("NEXTREGION" + regions[i + 1].name);
+                            logger.log("CURRENTREGION: " + regions[i].name);
+                            logger.log("NEXTREGION" + regions[i + 1].name);
                             message.channel.server.region = regions[i + 1].name;
 
                             chosen = regions[i + 1];
@@ -279,7 +280,7 @@ exports.command = function(message) {
     // Go through the array of command-objects
     for (var i = 0; i < commands.length; i++) {
         if (currentCommand === commands[i].cmd || currentCommand === commands[i].alias) {
-            console.log('Executing ' + commands[i].cmd + '...');
+            logger.log('Executing ' + commands[i].cmd + '...');
             commands[i].execute(message);
             return;
         }
@@ -290,7 +291,7 @@ exports.command = function(message) {
                 for (var i = 0; i < rows.length; i++) {
                     var cmd = rows[i].command.replace(/'/g, '');
                     if (getCmd(message.content) === cmd) {
-                        console.log('Executing ' + cmd + '...');
+                        logger.log('Executing ' + cmd + '...');
                         sendMessage(message, rows[i].response.replace(/'/g, ''));
                         return; 
                     }
@@ -323,7 +324,7 @@ function markForDeletion(message, delay) {
 function getConnection(callback) {
     pool.getConnection(function(err, connection) {
         if (err) {
-            console.log('MYSQL Error getting connection from pool: ' + err);
+            logger.log('MYSQL Error getting connection from pool: ' + err);
             return callback(err, connection);
         }
         else return callback(err, connection);

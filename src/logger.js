@@ -3,19 +3,34 @@
 
 var commands = require('./commands.js');
 
-exports.log = function(message) {
-    var tStamp = message.timestamp;
-    tStamp = new Date(tStamp);
-    tStamp = toHHMM(tStamp);
+exports.logMessage = function(message) {
     console.log(
-        tStamp +
-        ' on ' + message.channel.server +
+        currentTime() +
+        'on ' + message.channel.server +
         '/' + message.channel.name + ' - ' +
         message.sender.username +
         ': ' + message.cleanContent
     );
 }
 
+// Logs a message
+exports.log = function(message) {
+    var content = currentTime() + message;
+    console.log(content);
+}
+
+// Get current time in a nice, log-friendly format
+function currentTime() {
+    var curTime = new Date();
+    curTime = curTime.getDate() + '.' + 
+        (curTime.getMonth() + 1) + '.' + 
+        curTime.getFullYear() + ' ' + 
+        curTime.getHours() + ':' + 
+        curTime.getMinutes() + ' ';
+    return curTime;
+}
+
+// Not in use, use local time
 function toHHMM(date) {
     var txt = '';
     var hours = '';
