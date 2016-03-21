@@ -1,22 +1,33 @@
 // PolarBot
 // logger.js
 
-var commands = require('./commands.js');
+const fs = require('fs');
 
+// Logs a discordJS-message -object
 exports.logMessage = function(message) {
-    console.log(
+    var content = 
         currentTime() +
-        'on ' + message.channel.server +
+        message.channel.server +
         '/' + message.channel.name + ' - ' +
         message.sender.username +
-        ': ' + message.cleanContent
-    );
+        ': ' + message.cleanContent;
+    console.log(content);
+    logToFile(content);
 }
 
 // Logs a message
-exports.log = function(message) {
-    var content = currentTime() + message;
+exports.log = function(content) {
+    content = currentTime() + content;
     console.log(content);
+    logToFile(content);
+}
+
+function logToFile(content) {
+    fs.appendFile('log.txt', content + '\n', function(err) {
+        if (err) {
+            console.log('An error occurred when logging to file: ' + err);
+        }
+    });
 }
 
 // Get current time in a nice, log-friendly format
