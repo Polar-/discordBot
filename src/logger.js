@@ -52,6 +52,7 @@ function currentTime() {
 // Adds a 0 if given number's length is 1
 function formatTime(num) {
     var format = '';
+    num = num.toString();
     if (num.length == 1) {
         format += '0';
     }
