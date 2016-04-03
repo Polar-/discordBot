@@ -277,10 +277,8 @@ var commands = [
         execute: function(message) {
             if (isAdmin(message)) {
                 var opt = splitCmd(message.content, 1);
-                console.log(opt);
                 opt = opt.split(" ");
                 opt.splice(10, 1);
-                console.log(opt);
                 if (opt != undefined && opt.length != 10) {
                     sendMessage(message, "Please enter 10 players.");
                 } else {
@@ -314,38 +312,80 @@ var commands = [
                 if (players != undefined && players.length != 0) {
                     // generate random teams
                     var tmpPlayers = players.slice();
+                    var tmpTeam1 = [];
+                    var tmpTeam2 = [];
                     var done = 1;
                     while (tmpPlayers.length > 0) {
                         var random = Math.floor(Math.random() * tmpPlayers.length);
-                        console.log("randoming between 0 and " + tmpPlayers.length);
-                        console.log(random);
+                        var value = tmpPlayers.slice(random, random + 1);
                         if (done > 5) {
-                            team1.push(tmpPlayers[random]);
+                            tmpTeam1.push(value);
                         } else {
-                            team2.push(tmpPlayers[random]);
+                            tmpTeam2.push(value);
                         }
                         tmpPlayers.splice(random, 1);
                         done++;
                     }
+                    team1 = tmpTeam1;
+                    team2 = tmpTeam2;
+                    showTeams(message);
+                } else {
+                    sendMessage(message, "No players.");
+                }
+            }
+        }
+    },
+    {
+        cmd: '!showteams',
+        execute: function(message) {
+            if (isAdmin(message)) {
+                if (team1 != undefined && players.length != 0) {
+                    showTeams(message);
+                } else {
+                    sendMessage(message, "No players.");
+                }
+            }
+        }
+    },
+    {
+        cmd: "!start",
+        execute: function(message) {
+            if (isAdmin(message)) {
+                if (players.length == 10) {
+                    // get voice channel names (from config)
+                    var channels = message.channel.server.channels;
+                    var team1Channel = channels.get("name", config.team1);
+                    var team2Channel = channels.get("name", config.team2);
                     
-                    // print players
-                    // team1
-                    var content = "";
-                    content += "Team1: \n";
-                    for (var i = 0; i < team1.length; i++) {
-                        content += team1[i] + " ";
+                    // check that channels are set and exist
+                    if (team1Channel == undefined || team2Channel == undefined) {
+                        sendMessage(message, "Team channels not set (or not found), please set them in the config.");
+                    } else {
+                        // send start message, teams
+                        sendMessage(message, "Starting CS:GO 10-man.");
+                        
+                        // get user-objects of players
+                        var users = message.channel.server.members;
+                        
+                        for (var i = 0; i < players.length; i++) {
+                            var curPlayer = users.get("username", players[i]);
+                            if (curPlayer != undefined) {
+                                // get player team
+                                for (var j = 0; j < team1.length; j++) {
+                                    if (curPlayer.username == team1[j]) {
+                                        app.bot.moveMember(curPlayer, team1Channel);
+                                        break;
+                                    }
+                                }
+                                for (var j = 0; j < team2.length; j++) {
+                                    if (curPlayer.username == team2[j]) {
+                                        app.bot.moveMember(curPlayer, team2Channel);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
                     }
-                    content += "\n\n";
-                    
-                    // team2
-                    content += "Team2: \n";
-                    for (var i = 0; i < team2.length; i++) {
-                        content += team2[i] + " ";
-                    }
-                    content += "\n";
-                    sendMessage(message, content);
-                    team1 = [];
-                    team2 = [];
                 } else {
                     sendMessage(message, "No players.");
                 }
@@ -446,6 +486,25 @@ function getDbCommands(message, callback) {
             });
         }
     });
+}
+
+function showTeams(message) {
+    // print players
+    // team1
+    var content = "";
+    content += "Team1: \n";
+    for (var i = 0; i < team1.length; i++) {
+        content += team1[i] + " ";
+    }
+    content += "\n\n";
+    
+    // team2
+    content += "Team2: \n";
+    for (var i = 0; i < team2.length; i++) {
+        content += team2[i] + " ";
+    }
+    content += "\n";
+    sendMessage(message, content);
 }
 
 function isAdmin(message) {
