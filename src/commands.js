@@ -15,6 +15,11 @@ var pool = mysql.createPool({
     database : config.dbDatabase
 });
 
+// for 10mans
+var players = [];
+var team1 = [];
+var team2 = [];
+
 var commands = [
     { 
         cmd: '!remove',
@@ -218,6 +223,7 @@ var commands = [
         }
     },
     {
+        // Is not supported
         cmd: '!region',
         alias: '!region',
         help: 'Usage: !region <(optional)region>. Without options cycles between regions. Available regions: uk, nl, de',
@@ -265,6 +271,86 @@ var commands = [
                 sendMessage(message, "Set server region to " + chosen.alias + ": " + chosen.name);                 
             } else sendMessage(message, this.help);
         }
+    },
+    {
+        cmd: "!players",
+        execute: function(message) {
+            if (isAdmin(message)) {
+                var opt = splitCmd(message.content, 1);
+                console.log(opt);
+                opt = opt.split(" ");
+                opt.splice(10, 1);
+                console.log(opt);
+                if (opt != undefined && opt.length != 10) {
+                    sendMessage(message, "Please enter 10 players.");
+                } else {
+                    players = opt;
+                    sendMessage(message, "Updated players.");
+                }
+            }
+        }
+    },
+    {
+        cmd: '!showplayers',
+        execute: function(message) {
+            if (isAdmin(message)) {
+                if (players != undefined && players.length != 0) {
+                    var content = "";
+                    for (var i = 0; i < players.length; i++) {
+                        content += players[i] + " ";
+                    }
+                    content += ".";
+                    sendMessage(message, "Current players: " + content);
+                } else {
+                    sendMessage(message, "No players.");
+                }
+            }
+        }
+    },
+    {
+        cmd: '!randomteams',
+        execute: function(message) {
+            if (isAdmin(message)) {
+                if (players != undefined && players.length != 0) {
+                    // generate random teams
+                    var tmpPlayers = players.slice();
+                    var done = 1;
+                    while (tmpPlayers.length > 0) {
+                        var random = Math.floor(Math.random() * tmpPlayers.length);
+                        console.log("randoming between 0 and " + tmpPlayers.length);
+                        console.log(random);
+                        if (done > 5) {
+                            team1.push(tmpPlayers[random]);
+                        } else {
+                            team2.push(tmpPlayers[random]);
+                        }
+                        tmpPlayers.splice(random, 1);
+                        done++;
+                    }
+                    
+                    // print players
+                    // team1
+                    var content = "";
+                    content += "Team1: \n";
+                    for (var i = 0; i < team1.length; i++) {
+                        content += team1[i] + " ";
+                    }
+                    content += "\n\n";
+                    
+                    // team2
+                    content += "Team2: \n";
+                    for (var i = 0; i < team2.length; i++) {
+                        content += team2[i] + " ";
+                    }
+                    content += "\n";
+                    sendMessage(message, content);
+                    team1 = [];
+                    team2 = [];
+                } else {
+                    sendMessage(message, "No players.");
+                }
+            }
+        }
     }
 ];
 
@@ -301,6 +387,7 @@ exports.command = function(message) {
     }
 }
 
+
 function sendMessage(cmdMessage, content, deletionTime) { // deletionTime in minutes, 0 = no deletion
     app.bot.sendMessage(cmdMessage, content, function(error, message) {
         markForDeletion(cmdMessage, deletionTime);
@@ -325,7 +412,6 @@ function getConnection(callback) {
     pool.getConnection(function(err, connection) {
         if (err) {
             logger.log('MYSQL Error getting connection from pool: ' + err);
-            return callback(err, connection);
         }
         else return callback(err, connection);
     });
