@@ -223,7 +223,7 @@ var commands = [
         }
     },
     {
-        // Is not supported
+        // Is not supported, can only get region not set it
         cmd: '!region',
         alias: '!region',
         help: 'Usage: !region <(optional)region>. Without options cycles between regions. Available regions: uk, nl, de',
@@ -276,6 +276,7 @@ var commands = [
         cmd: "!players",
         execute: function(message) {
             if (isAdmin(message)) {
+                // copy players from options
                 var opt = splitCmd(message.content, 1);
                 opt = opt.split(" ");
                 opt.splice(10, 1);
@@ -292,6 +293,7 @@ var commands = [
         cmd: '!showplayers',
         execute: function(message) {
             if (isAdmin(message)) {
+                // print current players
                 if (players != undefined && players.length != 0) {
                     var content = "";
                     for (var i = 0; i < players.length; i++) {
@@ -315,6 +317,8 @@ var commands = [
                     var tmpTeam1 = [];
                     var tmpTeam2 = [];
                     var done = 1;
+                    
+                    // random teams
                     while (tmpPlayers.length > 0) {
                         var random = Math.floor(Math.random() * tmpPlayers.length);
                         var value = tmpPlayers.slice(random, random + 1);
@@ -351,7 +355,7 @@ var commands = [
         cmd: "!start",
         execute: function(message) {
             if (isAdmin(message)) {
-                if (players.length == 10) {
+                if (players.length == 10 && team1.length == 5 && team2.length == 5) {
                     // get voice channel names (from config)
                     var channels = message.channel.server.channels;
                     var team1Channel = channels.get("name", config.team1);
@@ -362,23 +366,26 @@ var commands = [
                         sendMessage(message, "Team channels not set (or not found), please set them in the config.");
                     } else {
                         // send start message, teams
-                        sendMessage(message, "Starting CS:GO 10-man.");
+                        sendMessage(message, "Starting CS:GO 10-man. \nconnect polar.dy.fi; password apina");
                         
                         // get user-objects of players
                         var users = message.channel.server.members;
                         
                         for (var i = 0; i < players.length; i++) {
+                            // Find current player from users
                             var curPlayer = users.get("username", players[i]);
                             if (curPlayer != undefined) {
                                 // get player team
                                 for (var j = 0; j < team1.length; j++) {
                                     if (curPlayer.username == team1[j]) {
+                                        // move player
                                         app.bot.moveMember(curPlayer, team1Channel);
                                         break;
                                     }
                                 }
                                 for (var j = 0; j < team2.length; j++) {
                                     if (curPlayer.username == team2[j]) {
+                                        // move player
                                         app.bot.moveMember(curPlayer, team2Channel);
                                         break;
                                     }
@@ -393,13 +400,6 @@ var commands = [
         }
     }
 ];
-
-/* NOT IN USE WITH POOLING
-// Node-MySql error handler -- called if no error-callback is queried and an error happens
-connection.on('error', function(err) {
-  console.log('MYSQL ERROR:' + err.code);
-});
-*/
 
 exports.command = function(message) {
     var currentCommand = getCmd(message.content);
