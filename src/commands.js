@@ -208,6 +208,21 @@ var commands = [
                 });
             } else sendMessage(message, this.help);
         }
+    },
+    {
+        cmd: '!coinflip',
+        alias: '!cointoss',
+        help: 'Usage: !coinflip. Flips a coin. Heads or tails.',
+        execute: function(message) {
+            var random = Math.round(Math.random())
+            var res = '';
+            if (random == 0) {
+                res = 'Heads.';
+            } else if (random == 1) {
+                res = 'Tails.';
+            }
+            sendMessage(message, res);
+        }
     }
 ];
 
