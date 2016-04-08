@@ -3,14 +3,19 @@
 
 const fs = require('fs');
 
-// Logs a discordJS-message -object
+// Logs a message-object
 exports.logMessage = function(message) {
-    var content = 
-        currentTime() +
-        message.channel.server +
-        '/' + message.channel.name + ' - ' +
-        message.sender.username +
-        ': ' + message.cleanContent;
+    var srv = message.channel.server;
+    var chn = message.channel.name;
+    var usr = message.sender.username;
+    var msg = message.cleanContent;
+    
+    if (srv == undefined && chn == undefined) {
+        srv = "private";
+        chn = usr;
+    }
+    
+    var content = currentTime() + srv + '/' + chn + ' - ' + usr + ': ' + msg;
     console.log(content);
     logToFile(content);
 }

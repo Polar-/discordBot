@@ -1,24 +1,14 @@
 // PolarBot
 // commands.js
 
-var sound = require('./sound.js');
 var mysql = require('mysql');
-var config = require('./config/config.js')
+var config = require('./config/config.js');
 var app = require('./app.js');
-var logger = require("./logger.js");
+var logger = require('./logger.js');
+var db = require('./database.js');
 
-// Init MySql-connection
-var pool = mysql.createPool({
-    host     : config.dbHost,
-    user     : config.dbUser,
-    password : config.dbPassword,
-    database : config.dbDatabase
-});
-
-// for 10mans
-var players = [];
-var team1 = [];
-var team2 = [];
+// Extending modules
+var tenman = require('./tenman.js');
 
 var commands = [
     { 
@@ -33,7 +23,7 @@ var commands = [
                             connection.release();
                             if (err) {
                                 logger.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
-                                sendMessage(message, 'Error removing "' + command + '" from database.');
+                                sendMessage(message, 'Error removing "' + command + '" from database. See logs for details.');
                             }
                             else sendMessage(message, 'Removed "' + command + '" from database.');                        
                         });
@@ -42,31 +32,26 @@ var commands = [
             }
         }
     },
-    { 
+    {
         cmd: '!add',
         help: 'Adds a new text-based command with a response. Usage: !add <!command> <response>.',
         execute: function(message) {
             var command = getCmd(message.content, 1);
             var response = splitCmd(message.content, 2);
             
-            // Check if given command is valid
+            // Check if command is valid
             if (command != undefined && command[0] === '!' && command.length > 1 && command.length && command.length < 21) {
-                // Check if given response is valid
+                // Check if response is valid
                 if (response.length > 0 && response.length < 1001) {
-                    getConnection(function(err, connection) {
-                       if (!err) {
-                           connection.query('INSERT INTO commands(command, response) VALUES("?", "?");', [command, response], function(err) {
-                               connection.release();
-                                if (err) {
-                                    logger.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
-                                    sendMessage(message, 'An error happened. The !command might be taken.');
-                                } else {
-                                    logger.log('Command "' + command + '" with response "' + response + '" was added to database successfully.')
-                                    sendMessage(message, 'Command "' + command + '" was added successfully.');
-                                }
-                           });
-                       } 
-                    });
+                    db.query('INSERT INTO commands(command, response, user) VALUES("?", "?", "?");', function(err) {
+                        if (err) {
+                            logger.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
+                            sendMessage(message, 'An error happened. The !command might be taken.');
+                        } else {
+                            logger.log('Command "' + command + '" with response "' + response + '" was added to database successfully.')
+                            sendMessage(message, 'Command "' + command + '" was added successfully.');
+                        }
+                    }, [command, response, message.sender.username]);
                 } else sendMessage(message, this.help);
             } else sendMessage(message, this.help);
         }
@@ -217,189 +202,38 @@ var commands = [
                             txt += ', ';
                         } else txt += '. To get more information on a certain command, use !help <!command>.';
                     }
-                    sendMessage(message, txt);
+                    var pmChannels = app.bot.privateChannels;
+                    var pmChannel = pmChannels.get("recipient", message.sender);
+                    sendMessage(pmChannel, txt);
                 });
             } else sendMessage(message, this.help);
         }
     },
     {
-        // Is not supported, can only get region not set it
-        cmd: '!region',
-        alias: '!region',
-        help: 'Usage: !region <(optional)region>. Without options cycles between regions. Available regions: uk, nl, de',
+        cmd: '!coinflip',
+        alias: '!cointoss',
+        help: 'Usage: !coinflip. Flips a coin. Heads or tails.',
         execute: function(message) {
-            var opt = getCmd(message.content, 1);
-            var regions = [
-                {
-                    alias: "uk",
-                    name: "london"
-                },
-                {
-                    alias: "nl",
-                    name: "amsterdam"
-                },
-                {
-                    alias: "de",
-                    name: "frankfurt"
-                },
-            ];
-            if (opt === "uk" || opt === "nl" || opt === "de") {
-                for (var i = 0; i < regions.length; i++) {
-                    if (regions[i].alias === opt) {
-                        message.channel.server.region = regions[i].name;
-                        sendMessage(message, "Set server region to " + regions[i].alias + ": " + regions[i].name);
-                        logger.log("region after change: " + message.channel.server.region);
-                    }
-                }
-            } 
-            else if (opt === undefined) {
-                var chosen;
-                for (var i = 0; i < regions.length; i++) {
-                    if (regions[i].name === message.channel.server.region) {
-                        if (i < regions.length - 1) {
-                            logger.log("CURRENTREGION: " + regions[i].name);
-                            logger.log("NEXTREGION" + regions[i + 1].name);
-                            message.channel.server.region = regions[i + 1].name;
-
-                            chosen = regions[i + 1];
-                        } else {
-                            message.channel.server.region = regions[0].name;
-                            chosen = regions[0];
-                        }
-                    }
-                }
-                sendMessage(message, "Set server region to " + chosen.alias + ": " + chosen.name);                 
-            } else sendMessage(message, this.help);
-        }
-    },
-    {
-        cmd: "!players",
-        execute: function(message) {
-            if (isAdmin(message)) {
-                // copy players from options
-                var opt = splitCmd(message.content, 1);
-                opt = opt.split(" ");
-                opt.splice(10, 1);
-                if (opt != undefined && opt.length != 10) {
-                    sendMessage(message, "Please enter 10 players.");
-                } else {
-                    players = opt;
-                    sendMessage(message, "Updated players.");
-                }
+            var random = Math.round(Math.random())
+            var res = '';
+            if (random == 0) {
+                res = 'Heads.';
+            } else if (random == 1) {
+                res = 'Tails.';
             }
-        }
-    },
-    {
-        cmd: '!showplayers',
-        execute: function(message) {
-            if (isAdmin(message)) {
-                // print current players
-                if (players != undefined && players.length != 0) {
-                    var content = "";
-                    for (var i = 0; i < players.length; i++) {
-                        content += players[i] + " ";
-                    }
-                    content += ".";
-                    sendMessage(message, "Current players: " + content);
-                } else {
-                    sendMessage(message, "No players.");
-                }
-            }
-        }
-    },
-    {
-        cmd: '!randomteams',
-        execute: function(message) {
-            if (isAdmin(message)) {
-                if (players != undefined && players.length != 0) {
-                    // generate random teams
-                    var tmpPlayers = players.slice();
-                    var tmpTeam1 = [];
-                    var tmpTeam2 = [];
-                    var done = 1;
-                    
-                    // random teams
-                    while (tmpPlayers.length > 0) {
-                        var random = Math.floor(Math.random() * tmpPlayers.length);
-                        var value = tmpPlayers.slice(random, random + 1);
-                        if (done > 5) {
-                            tmpTeam1.push(value);
-                        } else {
-                            tmpTeam2.push(value);
-                        }
-                        tmpPlayers.splice(random, 1);
-                        done++;
-                    }
-                    team1 = tmpTeam1;
-                    team2 = tmpTeam2;
-                    showTeams(message);
-                } else {
-                    sendMessage(message, "No players.");
-                }
-            }
-        }
-    },
-    {
-        cmd: '!showteams',
-        execute: function(message) {
-            if (isAdmin(message)) {
-                if (team1 != undefined && players.length != 0) {
-                    showTeams(message);
-                } else {
-                    sendMessage(message, "No players.");
-                }
-            }
-        }
-    },
-    {
-        cmd: "!start",
-        execute: function(message) {
-            if (isAdmin(message)) {
-                if (players.length == 10 && team1.length == 5 && team2.length == 5) {
-                    // get voice channel names (from config)
-                    var channels = message.channel.server.channels;
-                    var team1Channel = channels.get("name", config.team1);
-                    var team2Channel = channels.get("name", config.team2);
-                    
-                    // check that channels are set and exist
-                    if (team1Channel == undefined || team2Channel == undefined) {
-                        sendMessage(message, "Team channels not set (or not found), please set them in the config.");
-                    } else {
-                        // send start message, teams
-                        sendMessage(message, "Starting CS:GO 10-man. \nconnect polar.dy.fi; password apina");
-                        
-                        // get user-objects of players
-                        var users = message.channel.server.members;
-                        
-                        for (var i = 0; i < players.length; i++) {
-                            // Find current player from users
-                            var curPlayer = users.get("username", players[i]);
-                            if (curPlayer != undefined) {
-                                // get player team
-                                for (var j = 0; j < team1.length; j++) {
-                                    if (curPlayer.username == team1[j]) {
-                                        // move player
-                                        app.bot.moveMember(curPlayer, team1Channel);
-                                        break;
-                                    }
-                                }
-                                for (var j = 0; j < team2.length; j++) {
-                                    if (curPlayer.username == team2[j]) {
-                                        // move player
-                                        app.bot.moveMember(curPlayer, team2Channel);
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                } else {
-                    sendMessage(message, "No players.");
-                }
-            }
+            sendMessage(message, res);
         }
     }
 ];
+
+// Load extending modules
+load(tenman);
+
+function load(cmds) {
+    for (var i = 0; i < cmds.length; i++) {
+        commands.push(cmds[i]);
+    }
+}
 
 exports.command = function(message) {
     var currentCommand = getCmd(message.content);
@@ -427,7 +261,6 @@ exports.command = function(message) {
     }
 }
 
-
 function sendMessage(cmdMessage, content, deletionTime) { // deletionTime in minutes, 0 = no deletion
     app.bot.sendMessage(cmdMessage, content, function(error, message) {
         markForDeletion(cmdMessage, deletionTime);
@@ -448,15 +281,6 @@ function markForDeletion(message, delay) {
     }, delay);
 }
 
-function getConnection(callback) {
-    pool.getConnection(function(err, connection) {
-        if (err) {
-            logger.log('MYSQL Error getting connection from pool: ' + err);
-        }
-        else return callback(err, connection);
-    });
-}
-
 function getCmd(cmd, index) {
     // Used for getting commands at split[index]
     var i = index == undefined ? 0 : index;
@@ -475,36 +299,12 @@ function splitCmd(cmd, index) {
 }
 
 function getDbCommands(message, callback) {
-    getConnection(function(err, connection) {
-        if (!err) {
-            connection.query('SELECT * FROM commands', function(err, rows) {
-                connection.release();
-                if (err) {
-                    sendMessage(message, 'Database connection failed.');
-                    return callback(undefined);
-                } else return callback(rows);
-            });
+    db.query('SELECT * FROM commands', function(err, rows) {
+        if (err) {
+            sendMessage(message, 'Database connection failed. See logs for more information.');
         }
+        return callback(rows)
     });
-}
-
-function showTeams(message) {
-    // print players
-    // team1
-    var content = "";
-    content += "Team1: \n";
-    for (var i = 0; i < team1.length; i++) {
-        content += team1[i] + " ";
-    }
-    content += "\n\n";
-    
-    // team2
-    content += "Team2: \n";
-    for (var i = 0; i < team2.length; i++) {
-        content += team2[i] + " ";
-    }
-    content += "\n";
-    sendMessage(message, content);
 }
 
 function isAdmin(message) {
@@ -516,3 +316,9 @@ function isAdmin(message) {
     }
     return false;
 }
+
+// Export functions
+exports.isAdmin = isAdmin;
+exports.getCmd = getCmd;
+exports.splitCmd = splitCmd;
+exports.sendMessage = sendMessage;

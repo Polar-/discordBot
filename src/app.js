@@ -18,7 +18,6 @@ bot.on("message", function(message) {
 // Disconnect listener
 bot.on("disconnected", function() {
     logger.log("Lost connection to server.");
-    
 });
 
 // Reconnects every 15 seconds until login is succesful
