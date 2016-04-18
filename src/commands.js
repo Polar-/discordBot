@@ -17,17 +17,12 @@ var commands = [
         execute: function(message) {
             var command = getCmd(message.content, 1);
             if (isAdmin(message) && command != undefined && command.length > 1 && command[0] === '!') {
-                getConnection(function(err, connection) {
-                    if (!err) {
-                        connection.query('DELETE FROM commands WHERE command = "?";', [command], function(err) {
-                            connection.release();
-                            if (err) {
-                                logger.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
-                                sendMessage(message, 'Error removing "' + command + '" from database. See logs for details.');
-                            }
-                            else sendMessage(message, 'Removed "' + command + '" from database.');                        
-                        });
+                db.query('DELETE FROM commands WHERE command = "?";', [command], function(err) {
+                    if (err) {
+                        logger.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
+                        sendMessage(message, 'Error removing "' + command + '" from database. See logs for details.');
                     }
+                    else sendMessage(message, 'Removed "' + command + '" from database.');                        
                 });
             }
         }
