@@ -17,21 +17,21 @@ bot.on("message", function(message) {
 
 // Disconnect listener
 bot.on("disconnected", function() {
-    logger.log("Lost connection to server.");
+    logger.log("Lost connection to server. Reconnecting in " + config.reconnectInterval / 1000 + " seconds...");
+    setTimeout(function() {
+        logger.log("Attempting reconnection...");
+        var reconnecting = setInterval(function() {
+            login(function(success) {
+                if (success) {
+                    clearTimeout(reconnecting);
+                }
+                else {
+                    logger.log("Reconnecting failed. Trying again in " + config.reconnectInterval / 1000 + " seconds.");
+                }
+            });
+        }, config.reconnectInterval);
+    }, config.reconnectInterval);
 });
-
-// Reconnects every 15 seconds until login is succesful
-function reconnect() {
-    var reconnecting = setInterval(function() {
-        if (login()) {
-            logger.log("Logged in succesfully.")
-            clearTimeout(reconnection);
-        }
-        else {
-            logger.log("Reconnecting failed. Trying again in 30 seconds.");
-        }
-    }, 30);
-}
 
 // Function for logging in with information from config file
 // Returns true if login was successful
@@ -41,6 +41,7 @@ function login(callback) {
             logger.log("Couldn't connect to server :" + error)
             return callback(false);
         } else {
+            logger.log("Logged in successfully.");
             return callback(true);
         }
     });
@@ -48,9 +49,7 @@ function login(callback) {
 
 // Login bot
 login(function(success) {
-    if (!success) {
-        reconnect();
-    } else {
+    if (success) {
         logger.log("Logged in successfully.");
     }
 });

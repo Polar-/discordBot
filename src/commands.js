@@ -223,6 +223,15 @@ var commands = [
             }
             sendMessage(message, res);
         }
+    },
+    {
+        cmd: '!logout',
+        help: '',
+        execute: function(message) {
+            if (isAdmin(message)) {
+                app.bot.logout();
+            }
+        }
     }
 ];
 
