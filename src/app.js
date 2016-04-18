@@ -38,7 +38,7 @@ bot.on("disconnected", function() {
 function login(callback) {
     bot.login(config.discordUsername, config.discordPassword, function(error, token) {
         if (error) {
-            logger.log("Couldn't connect to server :" + error)
+            logger.log("Couldn't connect to server: " + error)
             return callback(false);
         } else {
             logger.log("Logged in successfully.");
@@ -50,7 +50,7 @@ function login(callback) {
 // Login bot
 login(function(success) {
     if (success) {
-        logger.log("Logged in successfully.");
+        logger.log("Listening for commands...");
     }
 });
 
