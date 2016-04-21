@@ -17,13 +17,19 @@ var commands = [
         execute: function(message) {
             var command = getCmd(message.content, 1);
             if (isAdmin(message) && command != undefined && command.length > 1 && command[0] === '!') {
-                db.query('DELETE FROM commands WHERE command = "?";', [command], function(err) {
+                db.query('DELETE FROM commands WHERE command = ?;', function(err, rows) {
+                    console.log(rows)
                     if (err) {
-                        logger.log('ERROR REMOVING !COMMAND FROM DATABASE: ' + err);
-                        sendMessage(message, 'Error removing "' + command + '" from database. See logs for details.');
+                        logger.log('Error removing ' + command + ' from database: ' + err);
+                        sendMessage(message, 'Error removing ' + command + ' from database. See log for details.');
+                    } else if (rows.affectedRows == 0) {
+                        logger.log('Error removing ' + command + 'from database. No such command was found.');
+                        sendMessage(message, 'Command ' + command + ' was not found.');
                     }
-                    else sendMessage(message, 'Removed "' + command + '" from database.');                        
-                });
+                    else {
+                        sendMessage(message, 'Removed ' + command + ' from database.');  
+                    }                     
+                }, [command]);
             }
         }
     },
@@ -38,13 +44,13 @@ var commands = [
             if (command != undefined && command[0] === '!' && command.length > 1 && command.length && command.length < 21) {
                 // Check if response is valid
                 if (response.length > 0 && response.length < 1001) {
-                    db.query('INSERT INTO commands(command, response, user) VALUES("?", "?", "?");', function(err) {
+                    db.query('INSERT INTO commands(command, response, user) VALUES(?, ?, ?);', function(err) {
                         if (err) {
                             logger.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
                             sendMessage(message, 'An error happened. The !command might be taken.');
                         } else {
-                            logger.log('Command "' + command + '" with response "' + response + '" was added to database successfully.')
-                            sendMessage(message, 'Command "' + command + '" was added successfully.');
+                            logger.log('Command ' + command + ' with response "' + response + '" was added to database successfully.')
+                            sendMessage(message, 'Command ' + command + ' was added successfully.');
                         }
                     }, [command, response, message.sender.username]);
                 } else sendMessage(message, this.help);
@@ -253,10 +259,10 @@ exports.command = function(message) {
         getDbCommands(message, function(rows) {
             if (rows != undefined) {
                 for (var i = 0; i < rows.length; i++) {
-                    var cmd = rows[i].command.replace(/'/g, '');
+                    var cmd = rows[i].command.replace(/'/g, ''); // old command format
                     if (getCmd(message.content) === cmd) {
                         logger.log('Executing ' + cmd + '...');
-                        sendMessage(message, rows[i].response.replace(/'/g, ''));
+                        sendMessage(message, rows[i].response.replace(/'/g, '')); // old command format
                         return; 
                     }
                 }
