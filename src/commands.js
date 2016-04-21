@@ -259,10 +259,10 @@ exports.command = function(message) {
         getDbCommands(message, function(rows) {
             if (rows != undefined) {
                 for (var i = 0; i < rows.length; i++) {
-                    var cmd = rows[i].command.replace(/'/g, ''); // old command format
+                    var cmd = rows[i].command.replace(/'/g, ''); // replacing not in use
                     if (getCmd(message.content) === cmd) {
                         logger.log('Executing ' + cmd + '...');
-                        sendMessage(message, rows[i].response.replace(/'/g, '')); // old command format
+                        sendMessage(message, rows[i].response.replace(/'/g, '')); // replacing not in use
                         return; 
                     }
                 }
