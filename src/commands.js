@@ -9,6 +9,7 @@ var db = require('./database.js');
 
 // Extending modules
 var tenman = require('./tenman.js');
+var poe = require('./poe.js');
 
 var commands = [
     { 
@@ -238,6 +239,7 @@ var commands = [
 
 // Load extending modules
 load(tenman);
+load(poe);
 
 function load(cmds) {
     for (var i = 0; i < cmds.length; i++) {
