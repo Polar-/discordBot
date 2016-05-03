@@ -3,7 +3,7 @@
 // Extends commands
 
 var app = require('./app.js');
-var commands = require("./commands.js")
+var commands = require("./commands.js");
 var config = require("./config/config.js");
 
 // for 10mans
