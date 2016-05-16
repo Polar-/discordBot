@@ -3,9 +3,14 @@
 // Extends commands
 
 var app = require('./app.js');
+var fs = require('fs');
 var commands = require("./commands.js");
 var request = require("request");
 var logger = require("./logger.js");
+
+// Load skillgem.json - skill gem information file
+var skillgem = fs.readFileSync("./poe/skillgem.json");
+skillgem = JSON.parse(skillgem);
 
 var cmds = [
     {
@@ -50,13 +55,72 @@ var cmds = [
                                 "League: " + leaguename + "\n" + 
                                 "Ladder rank: " + body[objKey].rank;
                         
-                        // Send information as respone
-                        commands.sendMessage(message, info); 
+                        url = "http://api.exiletools.com/class-rank?league=" + 
+                        leaguename + "&charName=" + charname + "&format=json";
+                        
+                        request.get(url, function(error, response, body) { 
+                            if (body != "{}") {
+                                body = JSON.parse(body);
+                                var key = Object.keys(body)[0];
+                                info += "\nClass Rank: " + body[key].total;
+                            }
+                            // Send information as respond
+                            commands.sendMessage(message, info); 
+                        });
                     }
                 });
             } else {
                 commands.sendMessage(message, this.help);
             }
+        }
+    },
+    {
+        cmd: "!poegem",
+        alias: "!skillgem",
+        help: "Shows a skill gem's availability. Usage !poegem <skillGemName>.",
+        execute: function(message) {
+             var gemName = commands.splitCmd(message.content, 1);
+             if (gemName) {
+                 var gem;
+                 // Find skill gem from skillgem.json
+                 for (var i = 0; i < skillgem.length; i++) {
+                     if (skillgem[i].name.toLowerCase() == gemName.toLowerCase()) {
+                         // Break loop on match
+                         
+                         gem = skillgem[i];
+                         break;
+                     }
+                 }
+                 
+                 if (!gem) {
+                     commands.sendMessage(message, "Skill gem not found. Either I'm outdated or you can't write. (Gem info updated: 16.05.2016).");
+                 } else {
+                    // Generate content for response message
+                    var content = gem.name + " [" + gem.color + "]\n" +
+                        "Required lvl: " + gem.required_lvl + "\n";
+                    
+                    if (!gem.isVaal && gem.npc) {
+                        content += "Quest: " + gem.quest_name + "\n" + 
+                        "NPC: " + gem.npc + ", " + gem.town + " (Act " + gem.act + ")\n";
+                    } else {
+                        content += "Drop only gem.\n";
+                    }
+                    
+                    // Add class availability if gem is not vaal gem and is not drop only
+                    if (!gem.isVaal && gem.available_to.length > 0) {
+                        content += "Available to: "; 
+                        for (var i = 0; i < gem.available_to.length; i++) {
+                            content += gem.available_to[i] + " ";
+                        }
+                    }
+                    
+                    // Send response
+                    commands.sendMessage(message, content);
+                 }
+                 
+             } else {
+                 commands.sendMessage(message, help);
+             }
         }
     }
 ];
