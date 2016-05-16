@@ -305,7 +305,10 @@ function splitCmd(cmd, index) {
     var split = cmd.split(' ');	
     var joined = '';
     for (var i = index; i < split.length; i++) {
-        joined += split[i] + ' ';
+        joined += split[i];
+        if (i != split.length - 1) {
+            joined += ' ';
+        }
     }
     return joined;
 }
