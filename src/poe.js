@@ -59,7 +59,8 @@ var cmds = [
                         leaguename + "&charName=" + charname + "&format=json";
                         
                         request.get(url, function(error, response, body) { 
-                            if (body != "{}") {
+                            console.log(body);
+                            if (body != "{}" && body[key]) {
                                 body = JSON.parse(body);
                                 var key = Object.keys(body)[0];
                                 info += "\nClass Rank: " + body[key].total;
