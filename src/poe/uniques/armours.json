@@ -10,6 +10,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "14",
             "evasion": "0",
             "energy": "0"
@@ -30,6 +31,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(1420 to 1622)",
             "evasion": "0",
             "energy": "0"
@@ -50,6 +52,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "399",
             "evasion": "0",
             "energy": "0"
@@ -70,6 +73,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "553",
             "evasion": "0",
             "energy": "0"
@@ -90,6 +94,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(1284 to 1498)",
             "evasion": "0",
             "energy": "0"
@@ -110,6 +115,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(202 to 227)",
             "evasion": "0",
             "energy": "0"
@@ -130,6 +136,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(227 to 252)",
             "energy": "0"
@@ -150,6 +157,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(190 to 250)",
             "energy": "0"
@@ -170,6 +178,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(1134 to 1323)",
             "energy": "0"
@@ -190,6 +199,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(273 to 309)",
             "energy": "0"
@@ -210,6 +220,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(1462 to 1949)",
             "energy": "0"
@@ -230,6 +241,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(1455 to 2054)",
             "energy": "0"
@@ -250,6 +262,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(798 to 877)",
             "energy": "0"
@@ -270,6 +283,7 @@
             "int": "55"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "41"
@@ -290,6 +304,7 @@
             "int": "134"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(391 to 433)"
@@ -310,6 +325,7 @@
             "int": "187"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(467 to 531)"
@@ -330,6 +346,7 @@
             "int": "180"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(336 to 420)"
@@ -350,6 +367,7 @@
             "int": "134"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(206 to 227)"
@@ -370,6 +388,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "0"
@@ -390,6 +409,7 @@
             "int": "160"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(250 to 275)"
@@ -410,6 +430,7 @@
             "int": "104"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(138 to 158)"
@@ -430,6 +451,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(453 to 543)",
             "evasion": "181",
             "energy": "0"
@@ -450,6 +472,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(704 to 813)",
             "evasion": "(884 to 1020)",
             "energy": "0"
@@ -470,6 +493,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(871 to 1005)",
             "evasion": "(692 to 798)",
             "energy": "0"
@@ -490,6 +514,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(509 to 590)",
             "evasion": "(509 to 590)",
             "energy": "0"
@@ -510,6 +535,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(202 to 224)",
             "evasion": "(202 to 224)",
             "energy": "0"
@@ -530,6 +556,7 @@
             "int": "64"
         },
         "defenses": {
+            "block": "0",
             "armour": "(473 to 541)",
             "evasion": "0",
             "energy": "(140 to 160)"
@@ -550,6 +577,7 @@
             "int": "105"
         },
         "defenses": {
+            "block": "0",
             "armour": "(404 to 471)",
             "evasion": "0",
             "energy": "(246 to 340)"
@@ -570,6 +598,7 @@
             "int": "59"
         },
         "defenses": {
+            "block": "0",
             "armour": "(370 to 400)",
             "evasion": "0",
             "energy": "(110 to 120)"
@@ -590,6 +619,7 @@
             "int": "115"
         },
         "defenses": {
+            "block": "0",
             "armour": "(761 to 878)",
             "evasion": "0",
             "energy": "(216 to 235)"
@@ -610,6 +640,7 @@
             "int": "96"
         },
         "defenses": {
+            "block": "0",
             "armour": "(690 to 745)",
             "evasion": "0",
             "energy": "(202 to 219)"
@@ -630,6 +661,7 @@
             "int": "69"
         },
         "defenses": {
+            "block": "0",
             "armour": "(407 to 444)",
             "evasion": "0",
             "energy": "(119 to 130)"
@@ -650,6 +682,7 @@
             "int": "53"
         },
         "defenses": {
+            "block": "0",
             "armour": "221",
             "evasion": "0",
             "energy": "66"
@@ -670,6 +703,7 @@
             "int": "96"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(607 to 690)",
             "energy": "(178 to 203)"
@@ -690,6 +724,7 @@
             "int": "76"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(428 to 510)",
             "energy": "(126 to 150)"
@@ -710,6 +745,7 @@
             "int": "122"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(552 to 627)",
             "energy": "(231 to 262)"
@@ -730,6 +766,7 @@
             "int": "17"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(10 to 20)",
             "energy": "(21 to 31)"
@@ -750,6 +787,7 @@
             "int": "76"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(445 to 510)",
             "energy": "(132 to 150)"
@@ -770,6 +808,7 @@
             "int": "66"
         },
         "defenses": {
+            "block": "0",
             "armour": "(234 to 1217)",
             "evasion": "(234 to 1217)",
             "energy": "(69 to 676)"
@@ -790,6 +829,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "53",
             "evasion": "53",
             "energy": "16"
@@ -810,6 +850,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "210",
             "evasion": "0",
             "energy": "0"
@@ -830,6 +871,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(330 to 396)",
             "evasion": "0",
             "energy": "0"
@@ -850,6 +892,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(143 to 171)",
             "evasion": "0",
             "energy": "0"
@@ -870,6 +913,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "599",
             "energy": "0"
@@ -890,6 +934,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "126",
             "energy": "0"
@@ -910,6 +955,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(166 to 192)",
             "energy": "0"
@@ -930,6 +976,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "98",
             "energy": "0"
@@ -950,6 +997,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "11",
             "energy": "0"
@@ -970,6 +1018,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(72 to 90)",
             "energy": "0"
@@ -990,6 +1039,7 @@
             "int": "42"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(28 to 32)"
@@ -1010,6 +1060,7 @@
             "int": "94"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(106 to 123)"
@@ -1030,6 +1081,7 @@
             "int": "54"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(56 to 67)"
@@ -1050,6 +1102,7 @@
             "int": "123"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "64"
@@ -1070,6 +1123,7 @@
             "int": "123"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(194 to 230)"
@@ -1090,6 +1144,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(14 to 24)"
@@ -1110,6 +1165,7 @@
             "int": "21"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(19 to 25)"
@@ -1130,6 +1186,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "105",
             "evasion": "105",
             "energy": "0"
@@ -1150,6 +1207,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(41 to 46)",
             "evasion": "(41 to 46)",
             "energy": "0"
@@ -1170,6 +1228,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "48",
             "evasion": "48",
             "energy": "0"
@@ -1190,6 +1249,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "66",
             "evasion": "(132 to 165)",
             "energy": "0"
@@ -1210,6 +1270,7 @@
             "int": "47"
         },
         "defenses": {
+            "block": "0",
             "armour": "(257 to 297)",
             "evasion": "0",
             "energy": "23"
@@ -1230,6 +1291,7 @@
             "int": "54"
         },
         "defenses": {
+            "block": "0",
             "armour": "(237 to 255)",
             "evasion": "0",
             "energy": "(70 to 76)"
@@ -1250,6 +1312,7 @@
             "int": "28"
         },
         "defenses": {
+            "block": "0",
             "armour": "(54 to 72)",
             "evasion": "0",
             "energy": "(16 to 21)"
@@ -1270,6 +1333,7 @@
             "int": "40"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "65",
             "energy": "(79 to 99)"
@@ -1290,6 +1354,7 @@
             "int": "18"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(56 to 76)",
             "energy": "(23 to 38)"
@@ -1310,6 +1375,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(343 to 382)",
             "energy": "(70 to 100)"
@@ -1330,6 +1396,7 @@
             "int": "27"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(77 to 95)",
             "energy": "13"
@@ -1350,6 +1417,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "0"
@@ -1370,6 +1438,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(603 to 643)",
             "evasion": "0",
             "energy": "0"
@@ -1390,6 +1459,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "201",
             "evasion": "0",
             "energy": "0"
@@ -1410,6 +1480,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(551 to 751)",
             "evasion": "0",
             "energy": "0"
@@ -1430,6 +1501,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(16 to 26)",
             "evasion": "0",
             "energy": "0"
@@ -1450,6 +1522,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(141 to 162)",
             "evasion": "0",
             "energy": "0"
@@ -1470,6 +1543,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "134",
             "evasion": "0",
             "energy": "0"
@@ -1490,6 +1564,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "42",
             "energy": "0"
@@ -1510,6 +1585,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(99 to 112)",
             "energy": "0"
@@ -1530,6 +1606,7 @@
             "int": "39"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "22"
@@ -1550,6 +1627,7 @@
             "int": "21"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "28"
@@ -1570,6 +1648,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "22"
@@ -1590,6 +1669,7 @@
             "int": "79"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(175 to 207)"
@@ -1610,6 +1690,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(80 to 91)",
             "evasion": "(80 to 91)",
             "energy": "0"
@@ -1630,6 +1711,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(45 to 55)",
             "evasion": "(45 to 55)",
             "energy": "0"
@@ -1650,6 +1732,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "43",
             "evasion": "(69 to 86)",
             "energy": "0"
@@ -1670,6 +1753,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(200 to 221)",
             "evasion": "(200 to 221)",
             "energy": "0"
@@ -1690,6 +1774,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(95 to 103)",
             "evasion": "(95 to 103)",
             "energy": "0"
@@ -1710,6 +1795,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(169 to 200)",
             "evasion": "(169 to 200)",
             "energy": "0"
@@ -1730,6 +1816,7 @@
             "int": "44"
         },
         "defenses": {
+            "block": "0",
             "armour": "(222 to 240)",
             "evasion": "0",
             "energy": "(65 to 70)"
@@ -1750,6 +1837,7 @@
             "int": "306"
         },
         "defenses": {
+            "block": "0",
             "armour": "(231 to 294)",
             "evasion": "0",
             "energy": "(85 to 131)"
@@ -1770,6 +1858,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "12",
             "evasion": "0",
             "energy": "4"
@@ -1790,6 +1879,7 @@
             "int": "40"
         },
         "defenses": {
+            "block": "0",
             "armour": "80",
             "evasion": "0",
             "energy": "24"
@@ -1810,6 +1900,7 @@
             "int": "14"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "26",
             "energy": "8"
@@ -1830,6 +1921,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "9",
             "energy": "3"
@@ -1850,6 +1942,7 @@
             "int": "25"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(98 to 113)",
             "energy": "(30 to 35)"
@@ -1870,6 +1963,7 @@
             "int": "45"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(227 to 255)",
             "energy": "27"
@@ -1890,6 +1984,7 @@
             "int": "51"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "105",
             "energy": "(56 to 61)"
@@ -1910,6 +2005,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "0"
@@ -1930,6 +2026,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(602 to 662)",
             "evasion": "0",
             "energy": "0"
@@ -1950,6 +2047,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(23 to 33)",
             "evasion": "0",
             "energy": "0"
@@ -1970,6 +2068,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(480 to 528)",
             "evasion": "0",
             "energy": "0"
@@ -1990,6 +2089,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(578 to 642)",
             "energy": "0"
@@ -2010,6 +2110,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "78",
             "energy": "0"
@@ -2030,6 +2131,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(47 to 67)",
             "energy": "0"
@@ -2050,6 +2152,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(158 to 176)",
             "energy": "0"
@@ -2070,6 +2173,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "600",
             "energy": "0"
@@ -2090,6 +2194,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "301",
             "energy": "0"
@@ -2110,6 +2215,7 @@
             "int": "23"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "20"
@@ -2130,6 +2236,7 @@
             "int": "112"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "68"
@@ -2150,6 +2257,7 @@
             "int": "154"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(220 to 250)"
@@ -2170,6 +2278,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(67 to 87)"
@@ -2190,6 +2299,7 @@
             "int": "83"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "50"
@@ -2210,6 +2320,7 @@
             "int": "138"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(182 to 200)"
@@ -2230,6 +2341,7 @@
             "int": "138"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "91"
@@ -2250,6 +2362,7 @@
             "int": "154"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(230 to 270)"
@@ -2270,6 +2383,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(240 to 300)",
             "evasion": "120",
             "energy": "0"
@@ -2290,6 +2404,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(423 to 564)",
             "evasion": "(609 to 812)",
             "energy": "0"
@@ -2310,6 +2425,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(278 to 378)",
             "evasion": "78",
             "energy": "0"
@@ -2330,6 +2446,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(353 to 423)",
             "evasion": "(508 to 609)",
             "energy": "0"
@@ -2350,6 +2467,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(77 to 88)",
             "evasion": "(77 to 88)",
             "energy": "0"
@@ -2370,6 +2488,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "(136 to 153)",
             "evasion": "(136 to 153)",
             "energy": "0"
@@ -2390,6 +2509,7 @@
             "int": "62"
         },
         "defenses": {
+            "block": "0",
             "armour": "(312 to 390)",
             "evasion": "0",
             "energy": "(96 to 140)"
@@ -2410,6 +2530,7 @@
             "int": "59"
         },
         "defenses": {
+            "block": "0",
             "armour": "(200 to 225)",
             "evasion": "0",
             "energy": "(59 to 67)"
@@ -2430,6 +2551,7 @@
             "int": "16"
         },
         "defenses": {
+            "block": "0",
             "armour": "(42 to 45)",
             "evasion": "0",
             "energy": "(14 to 15)"
@@ -2450,6 +2572,7 @@
             "int": "42"
         },
         "defenses": {
+            "block": "0",
             "armour": "88",
             "evasion": "0",
             "energy": "26"
@@ -2470,6 +2593,7 @@
             "int": "27"
         },
         "defenses": {
+            "block": "0",
             "armour": "53",
             "evasion": "0",
             "energy": "16"
@@ -2490,6 +2614,7 @@
             "int": "58"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(305 to 366)",
             "energy": "(90 to 108)"
@@ -2510,6 +2635,7 @@
             "int": "44"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(198 to 225)",
             "energy": "(59 to 68)"
@@ -2530,6 +2656,7 @@
             "int": "88"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(382 to 415)",
             "energy": "(228 to 273)"
@@ -2550,6 +2677,7 @@
             "int": "33"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "67",
             "energy": "20"
@@ -2570,6 +2698,7 @@
             "int": "21"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "41",
             "energy": "13"
@@ -2590,6 +2719,7 @@
             "int": "40"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "83",
             "energy": "25"
@@ -2610,6 +2740,7 @@
             "int": "72"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "(621 to 684)",
             "energy": "(265 to 330)"
@@ -2630,6 +2761,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "0"
@@ -2650,6 +2782,7 @@
             "int": "85"
         },
         "defenses": {
+            "block": "32%",
             "armour": "(337 to 374)",
             "evasion": "0",
             "energy": "(99 to 110)"
@@ -2670,6 +2803,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "25%",
             "armour": "0",
             "evasion": "(484 to 538)",
             "energy": "0"
@@ -2690,6 +2824,7 @@
             "int": "60"
         },
         "defenses": {
+            "block": "24%",
             "armour": "0",
             "evasion": "0",
             "energy": "(95 to 115)"
@@ -2710,6 +2845,7 @@
             "int": "85"
         },
         "defenses": {
+            "block": "12%",
             "armour": "135",
             "evasion": "0",
             "energy": "40"
@@ -2730,6 +2866,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "31%",
             "armour": "0",
             "evasion": "(164 to 189)",
             "energy": "0"
@@ -2750,6 +2887,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "25%",
             "armour": "(788 to 895)",
             "evasion": "0",
             "energy": "0"
@@ -2770,6 +2908,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "31%",
             "armour": "0",
             "evasion": "38",
             "energy": "0"
@@ -2790,6 +2929,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "(27 to 30)%",
             "armour": "(212 to 233)",
             "evasion": "(212 to 233)",
             "energy": "0"
@@ -2810,6 +2950,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "15%",
             "armour": "0",
             "evasion": "0",
             "energy": "0"
@@ -2830,6 +2971,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "26%",
             "armour": "(76 to 92)",
             "evasion": "(76 to 92)",
             "energy": "0"
@@ -2850,6 +2992,7 @@
             "int": "36"
         },
         "defenses": {
+            "block": "26%",
             "armour": "0",
             "evasion": "(119 to 130)",
             "energy": "(79 to 110)"
@@ -2870,6 +3013,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "27%",
             "armour": "0",
             "evasion": "164",
             "energy": "0"
@@ -2890,6 +3034,7 @@
             "int": "85"
         },
         "defenses": {
+            "block": "24%",
             "armour": "0",
             "evasion": "210",
             "energy": "62"
@@ -2910,6 +3055,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "29%",
             "armour": "0",
             "evasion": "(152 to 190)",
             "energy": "0"
@@ -2930,6 +3076,7 @@
             "int": "100"
         },
         "defenses": {
+            "block": "0",
             "armour": "0",
             "evasion": "0",
             "energy": "(77 to 95)"
@@ -2950,6 +3097,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "30%",
             "armour": "(1218 to 1421)",
             "evasion": "0",
             "energy": "0"
@@ -2970,6 +3118,7 @@
             "int": "159"
         },
         "defenses": {
+            "block": "23%",
             "armour": "0",
             "evasion": "0",
             "energy": "(187-216)"
@@ -2990,6 +3139,7 @@
             "int": "58"
         },
         "defenses": {
+            "block": "25%",
             "armour": "0",
             "evasion": "106",
             "energy": "31"
@@ -3010,6 +3160,7 @@
             "int": "60"
         },
         "defenses": {
+            "block": "24%",
             "armour": "0",
             "evasion": "0",
             "energy": "(35 to 45)"
@@ -3030,6 +3181,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "24%",
             "armour": "0",
             "evasion": "331",
             "energy": "0"
@@ -3050,6 +3202,7 @@
             "int": "85"
         },
         "defenses": {
+            "block": "22%",
             "armour": "135",
             "evasion": "0",
             "energy": "40"
@@ -3070,6 +3223,7 @@
             "int": "159"
         },
         "defenses": {
+            "block": "25%",
             "armour": "0",
             "evasion": "0",
             "energy": "(184 to 218)"
@@ -3090,6 +3244,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "30%",
             "armour": "189",
             "evasion": "0",
             "energy": "0"
@@ -3110,6 +3265,7 @@
             "int": "85"
         },
         "defenses": {
+            "block": "24%",
             "armour": "(229 to 254)",
             "evasion": "0",
             "energy": "(67 to 74)"
@@ -3130,6 +3286,7 @@
             "int": "76"
         },
         "defenses": {
+            "block": "24%",
             "armour": "194",
             "evasion": "0",
             "energy": "57"
@@ -3150,6 +3307,7 @@
             "int": "82"
         },
         "defenses": {
+            "block": "30%",
             "armour": "0",
             "evasion": "0",
             "energy": "43"
@@ -3170,6 +3328,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "22%",
             "armour": "(27 to 33)",
             "evasion": "0",
             "energy": "(9 to 11)"
@@ -3190,6 +3349,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "32%",
             "armour": "0",
             "evasion": "(478 to 526)",
             "energy": "0"
@@ -3210,6 +3370,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "23%",
             "armour": "(398 to 448)",
             "evasion": "0",
             "energy": "0"
@@ -3230,6 +3391,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "25%",
             "armour": "94",
             "evasion": "0",
             "energy": "0"
@@ -3250,6 +3412,7 @@
             "int": "64"
         },
         "defenses": {
+            "block": "24%",
             "armour": "98",
             "evasion": "0",
             "energy": "29"
@@ -3270,6 +3433,7 @@
             "int": "0"
         },
         "defenses": {
+            "block": "28%",
             "armour": "(16 to 21)",
             "evasion": "11",
             "energy": "0"
