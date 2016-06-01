@@ -1,0 +1,1022 @@
+[
+    {
+        "name": "The Anvil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a8/The_Anvil.png/39px-The_Anvil.png?version=d5dd3e0298946af07a784d949220fc2c",
+        "baseItem": "Amber Amulet",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "+(20 to 30) to Strength",
+            "explicit": "10% reduced Attack Speed \n10% reduced Cast Speed \n+(400 to 500) to Armour \n+(34 to 48) Life gained when you Block \n+(10 to 24) Mana gained when you Block \n10% reduced Movement Speed \n+3% to maximum Block Chance \n8% Chance to Block \nReflects 240-300 Physical Damage to Attackers on Block"
+        }
+    },
+    {
+        "name": "Araku Tiki",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b8/Araku_Tiki.png/39px-Araku_Tiki.png?version=d2baf273749209295acebf88b181ed6f",
+        "baseItem": "Coral Amulet",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "(2 to 4) Life Regenerated per second",
+            "explicit": "You gain 100 Evasion Rating when on Low Life \n+(30 to 50) to maximum Life \n+(20 to 30)% to Fire Resistance \n1% of Life Regenerated per Second while on Low Life"
+        }
+    },
+    {
+        "name": "Astramentis",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/ab/Astramentis.png/39px-Astramentis.png?version=28d6b82ae9247e23b1f5b72683b9e8d4",
+        "baseItem": "Onyx Amulet",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(10 to 16) to all Attributes",
+            "explicit": "+(80 to 100) to all Attributes \n+4 Physical Damage taken from Attacks"
+        }
+    },
+    {
+        "name": "Atziri's Foible",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/76/Atziri%27s_Foible.png/39px-Atziri%27s_Foible.png?version=53d85f353b2de77078d4c18ad6435821",
+        "baseItem": "Paua Amulet",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "(20 to 30)% increased Mana Regeneration Rate",
+            "explicit": "+50 to maximum Mana \n(8 to 12)% increased maximum Mana \n(40 to 60)% increased Mana Regeneration Rate \nItems and Gems have 25% reduced Attribute Requirements"
+        }
+    },
+    {
+        "name": "The Aylardex",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/The_Aylardex.png/39px-The_Aylardex.png?version=f1c49582749e1e71122625a0878f487e",
+        "baseItem": "Agate Amulet",
+        "reqLevel": "32",
+        "mods": {
+            "implicit": "+(16 to 24) to Strength and Intelligence",
+            "explicit": "+(30 to 50) to maximum Life \n+(50 to 70) to maximum Mana \n+1 to Maximum Power Charges \n1% of Damage is taken from Mana before Life per Power Charge \n10% increased Mana Regeneration Rate Per Power Charge \n40% reduced Critical Strike Chance per Power Charge"
+        }
+    },
+    {
+        "name": "Blightwell",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Blightwell.png/39px-Blightwell.png?version=8903c7c125dbd4a94f6172d6ec03a564",
+        "baseItem": "Clutching Talisman",
+        "reqLevel": "28",
+        "mods": {
+            "implicit": "(15 to 25)% increased Global Defences",
+            "explicit": "+(20 to 30) to maximum Energy Shield \n+(15 to 30)% to Fire Resistance \n+(15 to 30)% to Lightning Resistance \n30% slower start of Energy Shield Recharge during Flask Effect \n400% increased Energy Shield Recharge Rate during Flask Effect \nCorrupted"
+        }
+    },
+    {
+        "name": "Blood of Corruption",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/14/Blood_of_Corruption.png/39px-Blood_of_Corruption.png?version=50c923ca78c7e41f2c37bfdbe991b448",
+        "baseItem": "Amber Amulet",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(20 to 30) to Strength",
+            "explicit": "Grants level 10 Gluttony of Elements Skill \nAdds 19-43 Chaos Damage to Attacks \n+(10 to 5)% to all Elemental Resistances \n+(17 to 29)% to Chaos Resistance \nCorrupted"
+        }
+    },
+    {
+        "name": "Bloodgrip",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4c/Bloodgrip.png/39px-Bloodgrip.png?version=1845f3eb38ff02a993229333c093240c",
+        "baseItem": "Coral Amulet",
+        "reqLevel": "55",
+        "mods": {
+            "implicit": "(2 to 4) Life Regenerated per second",
+            "explicit": "+(60 to 70) to maximum Life \nAdds 10-20 Physical Damage to Attacks \n(8 to 12) Life Regenerated per second \n100% increased Life Recovery from Flasks \nMoving while Bleeding doesn't cause you to take extra Damage"
+        }
+    },
+    {
+        "name": "Carnage Heart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/73/Carnage_Heart.png/39px-Carnage_Heart.png?version=6ab0540926ccc1b3128a1be839b46c29",
+        "baseItem": "Onyx Amulet",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(10 to 16) to all Attributes",
+            "explicit": "+(20 to 40) to all Attributes \n25% reduced maximum Life \n25% reduced maximum Energy Shield \n+(10 to 20)% to all Elemental Resistances \n(1.2 to 2)% of Physical Attack Damage Leeched as Life \nExtra Gore"
+        }
+    },
+    {
+        "name": "Daresso's Salute",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/96/Daresso%27s_Salute.png/39px-Daresso%27s_Salute.png?version=115b4bdcc478a0fb190b4ca0c423f62b",
+        "baseItem": "Citrine Amulet",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(16 to 24) to Strength and Dexterity",
+            "explicit": "50% reduced maximum Energy Shield \n+(30 to 40)% to Fire Resistance \n+(30 to 40)% to Cold Resistance \n10% increased Movement Speed when on Full Life \n+2 to Melee Weapon and Unarmed range \n60% increased Melee Damage when on Full Life"
+        }
+    },
+    {
+        "name": "Demigod's Presence",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3a/Demigod%27s_Presence.png/39px-Demigod%27s_Presence.png?version=b8668ecfe260f93c9dc6bc66523c24ad",
+        "baseItem": "Gold Amulet",
+        "reqLevel": "8",
+        "mods": {
+            "implicit": "(12 to 20)% increased Rarity of Items found",
+            "explicit": "+20% to all Elemental Resistances \n20% increased Character Size"
+        }
+    },
+    {
+        "name": "Extractor Mentis",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d9/Extractor_Mentis.png/39px-Extractor_Mentis.png?version=ff59843f5ad0c2e51e460c0b4738e3bf",
+        "baseItem": "Agate Amulet",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(16 to 24) to Strength and Intelligence",
+            "explicit": "+(30 to 50) to Strength \n5% chance to grant Unholy Might to nearby Enemies on Kill \n5% chance to grant Onslaught to nearby Enemies on Kill \n5% chance to gain Unholy Might for 3 seconds on Kill \n5% chance to gain Onslaught for 3 seconds on Kill \nRecover 1% of Maximum Life on Kill"
+        }
+    },
+    {
+        "name": "Eye of Chayula",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/35/Eye_of_Chayula.png/39px-Eye_of_Chayula.png?version=0eed6585e21701734b963ea59744b2fc",
+        "baseItem": "Onyx Amulet",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(10 to 16) to all Attributes",
+            "explicit": "20% reduced maximum Life \n30% increased Rarity of Items found \nCannot be Stunned"
+        }
+    },
+    {
+        "name": "Eyes of the Greatwolf",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/50/Eyes_of_the_Greatwolf.png/39px-Eyes_of_the_Greatwolf.png?version=aa30b471e4d90686fa2d8d38a1b4f0fd",
+        "baseItem": "Greatwolf Talisman",
+        "reqLevel": "52",
+        "mods": {
+            "implicit": "<Style Variant> \n",
+            "explicit": "Implicit Modifier magnitudes are doubled \nCorrupted"
+        }
+    },
+    {
+        "name": "The Ignomon",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b9/The_Ignomon.png/39px-The_Ignomon.png?version=859905c8979e9b05914d532320738f62",
+        "baseItem": "Gold Amulet",
+        "reqLevel": "8",
+        "mods": {
+            "implicit": "(12 to 20)% increased Rarity of Items found",
+            "explicit": "+10 to Dexterity \nAdds 12-24 Fire Damage to Attacks \n+(100 to 150) to Accuracy Rating \n+(100 to 150) to Evasion Rating \n+20% to Fire Resistance"
+        }
+    },
+    {
+        "name": "Karui Ward",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bd/Karui_Ward.png/39px-Karui_Ward.png?version=64d4095fdd1847ef642feebe81eceaf4",
+        "baseItem": "Jade Amulet",
+        "reqLevel": "5",
+        "mods": {
+            "implicit": "+(20 to 30) to Dexterity",
+            "explicit": "+(20 to 30) to Strength \n+100 to Accuracy Rating \n30% increased Projectile Speed \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Marylene's Fallacy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/61/Marylene%27s_Fallacy.png/39px-Marylene%27s_Fallacy.png?version=4e244c9f32dedbebc8d447d2cae464ad",
+        "baseItem": "Lapis Amulet",
+        "reqLevel": "40",
+        "mods": {
+            "implicit": "+(20 to 30) to Intelligence",
+            "explicit": "+(80 to 120) to Accuracy Rating \n+(210 to 240)% to Global Critical Strike Multiplier \n+(80 to 100) to Evasion Rating \n(10 to 15)% increased Light Radius \nNon-critical strikes deal 40% Damage \n40% less Critical Strike Chance \nYour Critical Strikes have Culling Strike"
+        }
+    },
+    {
+        "name": "Natural Hierarchy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/01/Natural_Hierarchy.png/39px-Natural_Hierarchy.png?version=ac3dc0422d6a799623cbb99367158e0a",
+        "baseItem": "Rotfeather Talisman",
+        "reqLevel": "44",
+        "mods": {
+            "implicit": "(25 to 35)% increased Damage",
+            "explicit": "(10 to 15)% increased Physical Damage \n(25 to 30)% increased Fire Damage \n(20 to 25)% increased Cold Damage\n(15 to 20)% increased Lightning Damage \n(30 to 35)% increased Chaos Damage \nCorrupted"
+        }
+    },
+    {
+        "name": "Night's Hold",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/53/Night%27s_Hold.png/39px-Night%27s_Hold.png?version=76b9e67b75e0721746a97a5b1be606a6",
+        "baseItem": "Black Maw Talisman",
+        "reqLevel": "10",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Gems \nSocketed Gems are Supported by level 10 Added Chaos Damage \nSocketed Gems are Supported by level 10 Blind \nSocketed Gems are Supported by level 10 Cast When Stunned \nCorrupted"
+        }
+    },
+    {
+        "name": "Rashkaldor's Patience",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2a/Rashkaldor%27s_Patience.png/39px-Rashkaldor%27s_Patience.png?version=1f2de20fab5a9c21a594880d236ea357",
+        "baseItem": "Jade Amulet",
+        "reqLevel": "61",
+        "mods": {
+            "implicit": "+(20 to 30) to Dexterity",
+            "explicit": "+(40 to 80) to maximum Life \n+(20 to 40) to maximum Mana \n20% increased Duration of Elemental Status Ailments on Enemies \nItems and Gems have 10% reduced Attribute Requirements \n5% chance to Freeze, Shock and Ignite \nCannot gain Power Charges"
+        }
+    },
+    {
+        "name": "Rigwald's Curse",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4d/Rigwald%27s_Curse.png/39px-Rigwald%27s_Curse.png?version=812b4fd2bbccaa521492982c02e05502",
+        "baseItem": "Wereclaw Talisman",
+        "reqLevel": "28",
+        "mods": {
+            "implicit": "+(16 to 24)% to Global Critical Strike Multiplier",
+            "explicit": "+7% Base Unarmed Critical Strike Chance \nModifiers to Claw Damage also apply to Unarmed \nModifiers to Claw Attack Speed also apply to Unarmed \nModifiers to Claw Critical Strike Chance also apply to Unarmed \nCorrupted"
+        }
+    },
+    {
+        "name": "Shaper's Seed",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/48/Shaper%27s_Seed.png/39px-Shaper%27s_Seed.png?version=ba50a2eda59962eab0959cf79c5aaef0",
+        "baseItem": "Agate Amulet",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(16 to 24) to Strength and Intelligence",
+            "explicit": "(30 to 50)% increased Mana Regeneration Rate \n2% of Life Regenerated per Second \nNearby Allies gain 1% of Life Regenerated per Second \nNearby Allies gain 40% increased Mana Regeneration Rate"
+        }
+    },
+    {
+        "name": "Sidhebreath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9e/Sidhebreath.png/39px-Sidhebreath.png?version=ef6decaa928a9f519da7f0614c6642f9",
+        "baseItem": "Paua Amulet",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "(20 to 30)% increased Mana Regeneration Rate",
+            "explicit": "+25% to Cold Resistance \n0.2% of Physical Attack Damage Leeched as Mana \nMinions have (10 to 15)% increased maximum Life \nMinions have (10 to 15)% increased Movement Speed \nMinions deal (10 to 15)% increased Damage"
+        }
+    },
+    {
+        "name": "Star of Wraeclast",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/84/Star_of_Wraeclast.png/39px-Star_of_Wraeclast.png?version=a553272aa55f4b98657586584ed20fd1",
+        "baseItem": "Ruby Amulet",
+        "reqLevel": "28",
+        "mods": {
+            "implicit": "+(20 to 30)% to Fire Resistance",
+            "explicit": "(30 to 50)% increased Cold Damage \n+(10 to 15)% to all Elemental Resistances \n30% increased Radius of Curse Skills \nYou are Immune to Silence \nGrants level 20 Illusory Warp Skill \nCorrupted"
+        }
+    },
+    {
+        "name": "Stone of Lazhwar",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/be/Stone_of_Lazhwar.png/39px-Stone_of_Lazhwar.png?version=991340f17a739a729e262907c27ad811",
+        "baseItem": "Lapis Amulet",
+        "reqLevel": "5",
+        "mods": {
+            "implicit": "+(20 to 30) to Intelligence",
+            "explicit": "50% of Block Chance applied to Spells \n(10 to 15)% increased Cast Speed \n+(30 to 50) to maximum Mana"
+        }
+    },
+    {
+        "name": "Talisman of the Victor",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/76/Talisman_of_the_Victor.png/39px-Talisman_of_the_Victor.png?version=d108ffbe6a2fbad899fd8b0dbef48f72",
+        "baseItem": "Jet Amulet",
+        "reqLevel": "12",
+        "mods": {
+            "implicit": "(8 to 12)% to all Elemental Resistances",
+            "explicit": "(3 to 6)% increased Movement Speed \n(5 to 10)% increased Global Defences"
+        }
+    },
+    {
+        "name": "Tear of Purity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9b/Tear_of_Purity.png/39px-Tear_of_Purity.png?version=d3bfa5a88ff1c0d6eff944b55d01fa90",
+        "baseItem": "Lapis Amulet",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(20 to 30) to Intelligence",
+            "explicit": "Grants level 10 Purity of Elements Skill \n+(5 to 10) to all Attributes \n+(20 to 40) to maximum Life \n5% chance to avoid Elemental Status Ailments"
+        }
+    },
+    {
+        "name": "Ungil's Harmony",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/88/Ungil%27s_Harmony.png/39px-Ungil%27s_Harmony.png?version=437fc584b3d224f0db565ba428e9c108",
+        "baseItem": "Turquoise Amulet",
+        "reqLevel": "23",
+        "mods": {
+            "implicit": "+(16 to 24) to Dexterity and Intelligence",
+            "explicit": "100% increased Global Critical Strike Chance \n+75% to Global Critical Strike Multiplier \n+(30 to 50) to maximum Life \n+(30 to 50) to maximum Mana \n40% increased Stun Recovery"
+        }
+    },
+    {
+        "name": "Victario's Acuity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/40/Victario%27s_Acuity.png/39px-Victario%27s_Acuity.png?version=aacaf77759df90345ab227dc14c23f68",
+        "baseItem": "Turquoise Amulet",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(16 to 24) to Dexterity and Intelligence",
+            "explicit": "+(30 to 40)% to Lightning Resistance \n+(8 to 10)% to Chaos Resistance \n10% chance to gain a Frenzy Charge on Kill \n10% chance to gain a Power Charge on Kill \n5% increased Projectile Speed per Frenzy Charge \n5% increased Projectile Damage per Power Charge"
+        }
+    },
+    {
+        "name": "Voll's Devotion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/63/Voll%27s_Devotion.png/39px-Voll%27s_Devotion.png?version=961b0cd738b867b22a82b2b9bd6ff2c5",
+        "baseItem": "Agate Amulet",
+        "reqLevel": "32",
+        "mods": {
+            "implicit": "+(16 to 24) to Strength and Intelligence",
+            "explicit": "+(30 to 40) to maximum Life \n+(20 to 30) to maximum Energy Shield \n+(15 to 20)% to all Elemental Resistances \n30% reduced Endurance Charge Duration \n30% reduced Power Charge Duration \nGain an Endurance Charge when a Power Charge expires or is consumed"
+        }
+    },
+    {
+        "name": "Warped Timepiece",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/dd/Warped_Timepiece.png/39px-Warped_Timepiece.png?version=a5b8f47b14cce09a69cfa7ab656c80bc",
+        "baseItem": "Turquoise Amulet",
+        "reqLevel": "50",
+        "mods": {
+            "implicit": "+(16 to 24) to Dexterity and Intelligence",
+            "explicit": "(8 to 12)% increased Attack Speed \n(8 to 12)% increased Cast Speed \n12% increased Movement Speed \n(8 to 12)% reduced Skill Effect Duration \n30% increased Life Leech Rate \n30% increased Mana Leech Rate"
+        }
+    },
+    {
+        "name": "Winterheart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ea/Winterheart.png/39px-Winterheart.png?version=72aec0261ef87ed9769881a5bada1f77",
+        "baseItem": "Gold Amulet",
+        "reqLevel": "42",
+        "mods": {
+            "implicit": "(12 to 20)% increased Rarity of Items found",
+            "explicit": "+(20 to 30) to Dexterity \n+(50 to 70) to maximum Life \n+75% to Cold Resistance \nCannot be Chilled \n20% of Life Regenerated per Second while Frozen"
+        }
+    },
+    {
+        "name": "Auxium",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/aa/Auxium.png/78px-Auxium.png?version=9fbe8a0ba9ba9feb3bb8656234b0d5f8",
+        "baseItem": "Chain Belt",
+        "reqLevel": "70",
+        "mods": {
+            "implicit": "+(9 to 20) to maximum Energy Shield",
+            "explicit": "(10 to 20)% increased Elemental Damage with Weapons \n+(45 to 55) to maximum Mana \n+(60 to 70) to maximum Energy Shield \n0.2% of Physical Attack Damage Leeched as Mana per Power Charge \nChill and Freeze duration on you is based on 65% of Energy Shield"
+        }
+    },
+    {
+        "name": "Bated Breath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0d/Bated_Breath.png/78px-Bated_Breath.png?version=76225c27f14140449334e76089c647e8",
+        "baseItem": "Chain Belt",
+        "reqLevel": "22",
+        "mods": {
+            "implicit": "+(9 to 20) to maximum Energy Shield",
+            "explicit": "10% increased Damage \n+(15 to 25) to Intelligence \n+(20 to 30) to maximum Energy Shield \n50% increased Energy Shield Recharge Rate"
+        }
+    },
+    {
+        "name": "Belt of the Deceiver",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e6/Belt_of_the_Deceiver.png/78px-Belt_of_the_Deceiver.png?version=3e7d5b39e028c964e413bbfd7d5b2047",
+        "baseItem": "Heavy Belt",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(25 to 35) to Strength",
+            "explicit": "10% reduced Chance to Block Attacks and Spells \n(15 to 25)% increased Physical Damage \nYou take 30% reduced Extra Damage from Critical Strikes \n+(30 to 40) to maximum Life \n+(6 to 10)% to all Elemental Resistances"
+        }
+    },
+    {
+        "name": "Demigod's Bounty",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bb/Demigod%27s_Bounty.png/78px-Demigod%27s_Bounty.png?version=82c92cb132b9569e337e555943f8eb53",
+        "baseItem": "Golden Obi",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "(20 to 30)% increased Rarity of Items found",
+            "explicit": "+(16 to 24)% to all Elemental Resistances \n10% increased Character Size"
+        }
+    },
+    {
+        "name": "Doryani's Invitation",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fb/Doryani%27s_Invitation.png/78px-Doryani%27s_Invitation.png?version=277f3d695cebc852902fd7ad796e21d1",
+        "baseItem": "Heavy Belt",
+        "reqLevel": "68",
+        "mods": {
+            "implicit": "+(25 to 35) to Strength",
+            "explicit": "<Style Variant> \n"
+        }
+    },
+    {
+        "name": "Dyadian Dawn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a5/Dyadian_Dawn.png/78px-Dyadian_Dawn.png?version=e415a2c2f4a98098c0aac8aa89087b31",
+        "baseItem": "Heavy Belt",
+        "reqLevel": "52",
+        "mods": {
+            "implicit": "+(25 to 35) to Strength",
+            "explicit": "+(70 to 85) to maximum Life \n+(20 to 40)% to Fire Resistance \n+(20 to 40)% to Cold Resistance \n0.6% of Attack Damage Leeched as Life against Chilled enemies \nEnemies Ignited by an Attack Burn 20% faster \nDeal no Physical Damage"
+        }
+    },
+    {
+        "name": "Faminebind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a4/Faminebind.png/78px-Faminebind.png?version=ce156b67761c16f78762070dc01359b7",
+        "baseItem": "Rustic Sash",
+        "reqLevel": "18",
+        "mods": {
+            "implicit": "(12 to 24)% increased Physical Damage",
+            "explicit": "+(20 to 30)% to Cold Resistance \n60% increased Flask effect duration \nDeals 50 Chaos Damage per second to nearby Enemies \n20% increased Projectile Damage \n30% reduced Flask Charges gained while using a Flask"
+        }
+    },
+    {
+        "name": "Feastbind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a5/Feastbind.png/78px-Feastbind.png?version=9c13582e81c80dc065be480ad2c25976",
+        "baseItem": "Rustic Sash",
+        "reqLevel": "11",
+        "mods": {
+            "implicit": "(12 to 24)% increased Physical Damage",
+            "explicit": "Adds 5-10 Physical Damage to Attacks \n+(20 to 40) to maximum Life \n0.2% of Physical Attack Damage Leeched as Life \n50% increased Flask Charges gained while using a Flask \n50% increased Mana Regeneration while using a Flask"
+        }
+    },
+    {
+        "name": "Headhunter",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/06/Headhunter.png/78px-Headhunter.png?version=a8d19a2d7187e9684669632d38962a34",
+        "baseItem": "Leather Belt",
+        "reqLevel": "40",
+        "mods": {
+            "implicit": "+(25 to 40) to Maximum Life",
+            "explicit": "+(40 to 55) to Strength \n+(40 to 55) to Dexterity \n+(50 to 60) to maximum Life \n(20 to 30)% increased Damage against Rare monsters \nWhen you Kill a Rare monster, you gain its mods for 20 seconds"
+        }
+    },
+    {
+        "name": "Immortal Flesh",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/be/Immortal_Flesh.png/78px-Immortal_Flesh.png?version=fa0487d3038c5cceacec2439ca3b867c",
+        "baseItem": "Leather Belt",
+        "reqLevel": "50",
+        "mods": {
+            "implicit": "+(25 to 40) to maximum Life",
+            "explicit": "+(75 to 100) to maximum Life \n(67 to 75) Life Regenerated per second \n(8 to 10) Mana Regenerated per second \n+5% to all maximum Resistances \n+(50 to 40) Physical Damage taken from Attacks \n40% increased Armour while not Ignited, Frozen or Shocked"
+        }
+    },
+    {
+        "name": "The Magnate",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/75/The_Magnate.png/78px-The_Magnate.png?version=0d1bdeaa05cf7c8b6676e095a261b04b",
+        "baseItem": "Studded Belt",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "(20 to 30)% increased Stun Duration on enemies",
+            "explicit": "(25 to 40)% increased Physical Damage \n+(40 to 50) to Strength \n50% increased Flask Charges gained"
+        }
+    },
+    {
+        "name": "Maligaro's Restraint",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/29/Maligaro%27s_Restraint.png/78px-Maligaro%27s_Restraint.png?version=964764579edc3cb21de7d1fe04ffbd94",
+        "baseItem": "Chain Belt",
+        "reqLevel": "44",
+        "mods": {
+            "implicit": "+(9 to 20) to maximum Energy Shield",
+            "explicit": "Adds (1-30 to 1-50) Lightning Damage to Attacks \n100% increased Shock Duration on You \nShocks you cause are reflected back to you \n60% increased Damage while Shocked \n15% increased Movement Speed while Shocked"
+        }
+    },
+    {
+        "name": "Meginord's Girdle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/57/Meginord%27s_Girdle.png/78px-Meginord%27s_Girdle.png?version=a04ec98287130e05503d78c33ad67f04",
+        "baseItem": "Heavy Belt",
+        "reqLevel": "8",
+        "mods": {
+            "implicit": "+(25 to 35) to Strength",
+            "explicit": "Adds 5-15 Physical Damage to Attacks \n+25 to Strength \n10% increased maximum Life \n+(10 to 20)% to Cold Resistance \n25% increased Flask Life Recovery rate"
+        }
+    },
+    {
+        "name": "Perandus Blazon",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Perandus_Blazon.png/78px-Perandus_Blazon.png?version=a252bf4f1acf2af3e5b0cf7d125ad8d2",
+        "baseItem": "Cloth Belt",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "(15 to 25)% increased Stun Recovery",
+            "explicit": "+(20 to 30) to all Attributes \n(6 to 8)% increased Quantity of Items found \n+20% to Fire Resistance \n20% increased Flask effect duration \n+2 Physical Damage taken from Attacks"
+        }
+    },
+    {
+        "name": "Prismweave",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2b/Prismweave.png/78px-Prismweave.png?version=c7d1ef917abede045ebba56a98a90171",
+        "baseItem": "Rustic Sash",
+        "reqLevel": "25",
+        "mods": {
+            "implicit": "(12 to 24)% increased Physical Damage",
+            "explicit": "10% increased Elemental Damage with Weapons \nAdds (3-7 to 4-8) Fire Damage to Attacks \nAdds (2-5 to 3-7) Cold Damage to Attacks \nAdds (1-13 to 1-17) Lightning Damage to Attacks \n+(6 to 8)% to all Elemental Resistances \n30% increased Elemental Damage with Weapons while using a Flask"
+        }
+    },
+    {
+        "name": "The Retch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/ce/The_Retch.png/78px-The_Retch.png?version=7ab8b6435aa0616a2e9d186010905c21",
+        "baseItem": "Rustic Sash",
+        "reqLevel": "44",
+        "mods": {
+            "implicit": "(12 to 24)% increased Physical Damage",
+            "explicit": "+(60 to 80) to maximum Life \n+(25 to 40)% to Cold Resistance \n0.4% of Physical Attack Damage Leeched as Life \n60% increased Flask Effect Duration \n30% reduced Flask Charges gained while using a Flask \n200% of Life Leech applies to enemies as Chaos Damage \n15% increased Movement Speed while using a Flask"
+        }
+    },
+    {
+        "name": "Soulthirst",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/43/Soulthirst.png/78px-Soulthirst.png?version=9337a331c9b143b173f2824fb97d6339",
+        "baseItem": "Cloth Belt",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "(15 to 25)% increased Stun Recovery",
+            "explicit": "+(60 to 80) to maximum Life \n+15% to all Elemental Resistances \n(20 to 30)% increased Mana Recovery from Flasks \n(20 to 30)% reduced Flask effect duration \nGain Soul Eater during Flask Effect \nLose Souls gained from Soul Eater on Flask Use"
+        }
+    },
+    {
+        "name": "Sunblast",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/12/Sunblast.png/78px-Sunblast.png?version=460d8c275bb7c3f0fa9d9a92574fda96",
+        "baseItem": "Cloth Belt",
+        "reqLevel": "37",
+        "mods": {
+            "implicit": "(15 to 25)% increased Stun Recovery",
+            "explicit": "(30 to 40)% increased Trap Damage \n20% increased Mana Regeneration Rate \n+(20 to 30)% to Fire Resistance \n80% reduced Trap Duration \n25% increased Light Radius \nTraps trigger at the end of their Duration"
+        }
+    },
+    {
+        "name": "Umbilicus Immortalis",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c2/Umbilicus_Immortalis.png/78px-Umbilicus_Immortalis.png?version=b8efb1b5e5968ba1e7ceedda57130525",
+        "baseItem": "Leather Belt",
+        "reqLevel": "30",
+        "mods": {
+            "implicit": "+(25 to 40) to maximum Life",
+            "explicit": "(8 to 12)% increased maximum Life\n2% of Life Regenerated per second\nFlasks do not apply to You\nFlasks apply to your Zombies and Spectres"
+        }
+    },
+    {
+        "name": "Wurm's Molt",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d6/Wurm%27s_Molt.png/78px-Wurm%27s_Molt.png?version=edbe3f74631c01ce30765870be745db2",
+        "baseItem": "Leather Belt",
+        "reqLevel": "8",
+        "mods": {
+            "implicit": "+(25 to 40) to Maximum Life",
+            "explicit": "+(20 to 30) to Strength \n+(20 to 30) to Intelligence \n+(10 to 20)% to Cold Resistance \n0.4% of Physical Attack Damage Leeched as Life \n0.4% of Physical Attack Damage Leeched as Mana"
+        }
+    },
+    {
+        "name": "Andvarius",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4d/Andvarius.png/39px-Andvarius.png?version=796675b24a17c71508fca8c4feb31fbf",
+        "baseItem": "Gold Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "(6 to 15)% increased Rarity of Items found",
+            "explicit": "+10 to Dexterity \n(50 to 70)% increased Rarity of Items found \n+20% to all Elemental Resistances"
+        }
+    },
+    {
+        "name": "Berek's Grip",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fc/Berek%27s_Grip.png/39px-Berek%27s_Grip.png?version=3c85ba10a0c1c63a15e75af80e4c3c4f",
+        "baseItem": "Two-Stone Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "(12 to 16)% to Cold and Lightning Resistances",
+            "explicit": "(10 to 15)% increased Cold Damage \nAdds (1-1 to 1-50) Lightning Damage to Attacks \n+(30 to 40) to maximum Life \n1% of Damage against Frozen Enemies Leeched as Life \n1% of Damage against Shocked Enemies Leeched as Mana"
+        }
+    },
+    {
+        "name": "Berek's Pass",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/96/Berek%27s_Pass.png/39px-Berek%27s_Pass.png?version=ecdb2e920f00fd0f4bed4ed13748328c",
+        "baseItem": "Two-Stone Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "(12 to 16)% to Fire and Cold Resistances",
+            "explicit": "(10 to 15)% increased Fire Damage \nAdds (1-10 to 1-30) Cold Damage to Attacks \n+(30 to 40) to maximum Energy Shield \n30% increased Damage while Ignited \n+5000 to Armour while Frozen"
+        }
+    },
+    {
+        "name": "Berek's Respite",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b0/Berek%27s_Respite.png/39px-Berek%27s_Respite.png?version=81fcd12a4a653e396cfda6d912bc4fc9",
+        "baseItem": "Two-Stone Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "(12 to 16)% to Fire and Lightning Resistances",
+            "explicit": "Adds (1-10 to 1-30) Fire Damage to Attacks \n(10 to 15)% increased Lightning Damage \n+(30 to 40) to maximum Mana \nShock a nearby Enemy for 2 seconds on Killing a Shocked Enemy \nIgnite a nearby Enemy on Killing an Ignited Enemy"
+        }
+    },
+    {
+        "name": "Blackheart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/60/Blackheart.png/39px-Blackheart.png?version=04abe4eeacf0b4d1795c6779d18a48f7",
+        "baseItem": "Iron Ring",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "Adds 1-4 Physical Damage to Attacks",
+            "explicit": "5% increased Physical Damage \nAdds 1-3 Chaos Damage to Attacks \n+(20 to 30) to maximum Life \n(2 to 4) Life Regenerated per second \n10% Chance to Cause Monsters to Flee"
+        }
+    },
+    {
+        "name": "Bloodboil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b7/Bloodboil.png/39px-Bloodboil.png?version=de22d3d4c643d0e70224203c0b6739c7",
+        "baseItem": "Coral Ring",
+        "reqLevel": "24",
+        "mods": {
+            "implicit": "+(20 to 30) to maximum Life",
+            "explicit": "Adds (7-15 to 10-20) Fire Damage to Attacks \n+(20 to 40) to maximum Life \n+(10 to 15)% to Cold Resistance \n45% reduced Effect of Chill on You \n100% increased Ignite Duration on You"
+        }
+    },
+    {
+        "name": "Brinerot Mark",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/27/Brinerot_Mark.png/39px-Brinerot_Mark.png?version=4085e1244eaf38ddd9777f2e75c73319",
+        "baseItem": "Unset Ring",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Golem Gems \nSocketed Gems are Supported by level 15 Concentrated Effect \n(10 to 25)% increased Spell Damage \n+(15 to 25) to maximum Energy Shield \n+(20 to 40)% to Lightning Resistance \nSocketed Gems are Supported by level 15 Increased Minion Life"
+        }
+    },
+    {
+        "name": "Call of the Brotherhood",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/59/Call_of_the_Brotherhood.png/39px-Call_of_the_Brotherhood.png?version=0e3346a29b88f07a631b6c3120b6a72b",
+        "baseItem": "Two-Stone Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "(12 to 16)% to Cold and Lightning Resistances",
+            "explicit": "+(15 to 25) to Intelligence \n(15 to 25)% increased Lightning Damage \n(30 to 40)% increased Mana Regeneration Rate \n50% of Lightning Damage Converted to Cold Damage \nYour spells have 100% chance to Shock against Frozen enemies"
+        }
+    },
+    {
+        "name": "Death Rush",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9d/Death_Rush.png/39px-Death_Rush.png?version=3fe6d60c399ad13b56295feb66c5cb78",
+        "baseItem": "Amethyst Ring",
+        "reqLevel": "46",
+        "mods": {
+            "implicit": "+(9 to 13)% to Chaos Resistance",
+            "explicit": "+(300 to 350) to Accuracy Rating \n+(60 to 80) to Armour \n+(15 to 20)% to Chaos Resistance \n(0.6 to 0.8)% of Physical Attack Damage Leeched as Life \nYou gain Onslaught for 2 seconds on Kill"
+        }
+    },
+    {
+        "name": "Demigod's Eye",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/21/Demigod%27s_Eye.png/39px-Demigod%27s_Eye.png?version=e7efc16d6b4e6999f6e80c0c06ed55ae",
+        "baseItem": "Golden Hoop",
+        "reqLevel": "12",
+        "mods": {
+            "implicit": "+(8 to 12) to All Attributes",
+            "explicit": "(16 to 24)% increased Rarity of Items Found \n(30 to 40)% increased Mana Regeneration Rate \n3% increased Character Size"
+        }
+    },
+    {
+        "name": "Doedre's Damning",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/96/Doedre%27s_Damning.png/39px-Doedre%27s_Damning.png?version=85bbdacf2c81e6fb7480f44c3854f80f",
+        "baseItem": "Paua Ring",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "+(20 to 25) to maximum Mana",
+            "explicit": "+(5 to 10) to Intelligence \n+5% to all Elemental Resistances \n+5 Mana Gained on Kill \nEnemies can have 1 additional Curse"
+        }
+    },
+    {
+        "name": "Dream Fragments",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5c/Dream_Fragments.png/39px-Dream_Fragments.png?version=ccada01e4d4e21a286b1f5ab29cdc78a",
+        "baseItem": "Sapphire Ring",
+        "reqLevel": "11",
+        "mods": {
+            "implicit": "+(20 to 30)% to Cold Resistance",
+            "explicit": "20% increased maximum Mana \n50% increased Mana Regeneration Rate \nCannot be Frozen"
+        }
+    },
+    {
+        "name": "Emberwake",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4c/Emberwake.png/39px-Emberwake.png?version=30070e7d582229f85b1d525fad587075",
+        "baseItem": "Ruby Ring",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(20 to 30)% to Fire Resistance",
+            "explicit": "(15 to 25)% increased Fire Damage \n+(5 to 10)% increased Cast Speed \n5% chance to Ignite \nYou can inflict up to 300 Ignites on an Enemy \nYour Critical Strikes do not deal extra Damage \n80% less Burning Damage"
+        }
+    },
+    {
+        "name": "Essence Worm",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b8/Essence_Worm.png/39px-Essence_Worm.png?version=4572ab4ca2b55c0111d6644a7749aff2",
+        "baseItem": "Unset Ring",
+        "reqLevel": "38",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Aura Gems\nSocketed Gems Reserve No Mana\n40% increased Mana Reserved"
+        }
+    },
+    {
+        "name": "Gifts from Above",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8a/Gifts_from_Above.png/39px-Gifts_from_Above.png?version=f3af825a4d32837b40ad42b041cc0f36",
+        "baseItem": "Diamond Ring",
+        "reqLevel": "28",
+        "mods": {
+            "implicit": "(20 to 30)% increased Global Critical Strike Chance",
+            "explicit": "(30 to 35)% increased Global Critical Strike Chance \n(10 to 15)% increased Light Radius \nCreates Consecrated Ground on Critical Strike \n(40 to 50)% increased Rarity of Items Dropped by Enemies killed with a Critical Strike"
+        }
+    },
+    {
+        "name": "Heartbound Loop",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Heartbound_Loop.png/39px-Heartbound_Loop.png?version=bf46cb71c14ca47aa32c7f5fcb32bddc",
+        "baseItem": "Moonstone Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(15 to 25) to maximum Energy Shield",
+            "explicit": "(10 to 15) Life Regenerated per second \n(20 to 40)% increased Mana Regeneration Rate \nMinions have 15% increased maximum Life \nMinions have 10% increased Radius of Area Skills \n350 Physical Damage taken on Minion Death"
+        }
+    },
+    {
+        "name": "Kaom's Sign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/07/Kaom%27s_Sign.png/39px-Kaom%27s_Sign.png?version=0e9b442e2f54ff5308a30a2f19ecf9b3",
+        "baseItem": "Coral Ring",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "+(20 to 30) to maximum Life",
+            "explicit": "+(10 to 20) to Strength \n+(2 to 4) Life gained for each Enemy hit by your Attacks \n+1 Maximum Endurance Charge"
+        }
+    },
+    {
+        "name": "Kikazaru",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f2/Kikazaru.png/39px-Kikazaru.png?version=053e3e768c010006770b314f1cb4c550",
+        "baseItem": "Topaz Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(20 to 30)% to Lightning Resistance",
+            "explicit": "+(10 to 15) to all Attributes \n(13 to 17) Life Regenerated per second \n(20 to 40)% increased Mana Regeneration Rate \n20% reduced Effect of Curses on You"
+        }
+    },
+    {
+        "name": "Le Heup of All",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3d/Le_Heup_of_All.png/39px-Le_Heup_of_All.png?version=138ba54a84d7d7fbc43e7b9b968e4c95",
+        "baseItem": "Iron Ring",
+        "reqLevel": "24",
+        "mods": {
+            "implicit": "Adds 1-4 Physical Damage to Attacks",
+            "explicit": "(10 to 20)% increased Damage \n+(10 to 20) to all Attributes \n+(10 to 20)% to all Elemental Resistances \n(10 to 20)% increased Rarity of Items found"
+        }
+    },
+    {
+        "name": "Lori's Lantern",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f6/Lori%27s_Lantern.png/39px-Lori%27s_Lantern.png?version=47b2721a4c49fc29787453309aa6b99b",
+        "baseItem": "Prismatic Ring",
+        "reqLevel": "30",
+        "mods": {
+            "implicit": "(8 to 10)% to all Elemental Resistances",
+            "explicit": "10% to all Elemental Resistances \n(6 to 8)% increased Movement Speed when on Low Life \n31% increased Light Radius \n+(20 to 25)% Chaos Resistance when on Low Life \nWhile on Low Life, Enemies are Unlucky when Damaging you"
+        }
+    },
+    {
+        "name": "Malachai's Artifice",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7a/Malachai%27s_Artifice.png/39px-Malachai%27s_Artifice.png?version=34dec57a637cea9f9705e1faca00a9f7",
+        "baseItem": "Unset Ring",
+        "reqLevel": "5",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+25% to all Elemental Resistances \n+(75 to 100)% to Fire Resistance when Socketed with a Red Gem \n+(75 to 100)% to Cold Resistance when Socketed with a Green Gem \n+(75 to 100)% to Lightning Resistance when Socketed with a Blue Gem \nAll Sockets are White \nSocketed Gems have Elemental Equilibrium \nSocketed Gems have 40% reduced Elemental Equilibrium effect"
+        }
+    },
+    {
+        "name": "Ming's Heart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8b/Ming%27s_Heart.png/39px-Ming%27s_Heart.png?version=a71b2befd566f258107fd670c3ff68b9",
+        "baseItem": "Amethyst Ring",
+        "reqLevel": "69",
+        "mods": {
+            "implicit": "+(9 to 13)% to Chaos Resistance",
+            "explicit": "15% reduced maximum Life \n15% reduced maximum Energy Shield \n+(40 to 50)% to Chaos Resistance \nGain 20% of Physical Damage as Extra Chaos Damage"
+        }
+    },
+    {
+        "name": "Mokou's Embrace",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/79/Mokou%27s_Embrace.png/39px-Mokou%27s_Embrace.png?version=e2f5d20e6024d3134c064e3a2e69c218",
+        "baseItem": "Ruby Ring",
+        "reqLevel": "16",
+        "mods": {
+            "implicit": "+(20 to 30)% to Fire Resistance",
+            "explicit": "(15 to 25)% increased Fire Damage \n+(25 to 40)% to Cold Resistance \n(5 to 10)% chance to Ignite \n20% increased Attack Speed while Ignited \n20% increased Cast Speed while Ignited \n+25% chance to be Ignited"
+        }
+    },
+    {
+        "name": "Mutewind Seal",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f4/Mutewind_Seal.png/39px-Mutewind_Seal.png?version=f8f2ccedc38a75e1c1531b1a3e6745c7",
+        "baseItem": "Unset Ring",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Golem Gems \nSocketed Gems are Supported by level 13 Faster Attacks \nAdds (5-11 to 10-15) Physical Damage to Attacks \n(5 to 10)% increased Attack Speed \n (1 to 2)% chance to Dodge Attacks \nSocketed Gems are Supported by level 16 Increased Minion Speed"
+        }
+    },
+    {
+        "name": "Ngamahu's Sign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f4/Ngamahu%27s_Sign.png/39px-Ngamahu%27s_Sign.png?version=7c0a5e7668e1065aa4a429cae1fb0940",
+        "baseItem": "Ruby Ring",
+        "reqLevel": "29",
+        "mods": {
+            "implicit": "+(20 to 30)% to Fire Resistance",
+            "explicit": "+(15 to 25) to Strength \nAdds (8-12 to 10-14) Fire Damage to Attacks \n+(4 to 5) Life gained for each Ignited Enemy hit by your Attacks \n15% increased Ignite Duration on Enemies \n5% chance to Ignite"
+        }
+    },
+    {
+        "name": "The Pariah",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/59/The_Pariah.png/39px-The_Pariah.png?version=15c1df798267d4056e4298871b147765",
+        "baseItem": "Unset Ring",
+        "reqLevel": "60",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Gems \n(5 to 10)% increased Attack and Cast Speed \n+100 to Maximum Life per Red Socket \n+100 to Maximum Energy Shield per Blue Socket  \n+100 to Maximum Mana per Green Socket \n15% increased Item Quantity per White Socket"
+        }
+    },
+    {
+        "name": "Perandus Signet",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6d/Perandus_Signet.png/39px-Perandus_Signet.png?version=0aea80b32588ef27a4260dc1813fdf24",
+        "baseItem": "Paua Ring",
+        "reqLevel": "N/A",
+        "mods": {
+            "implicit": "+(20 to 25) to maximum Mana",
+            "explicit": "+(25 to 30) to maximum Mana \n(45 to 65)% increased Mana Regeneration Rate \n2% increased Experience gain \n2% increased Intelligence for each Unique Item you have equipped \n3% additional chance for Slain monsters to drop Scrolls of Wisdom"
+        }
+    },
+    {
+        "name": "Pyre",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4f/Pyre.png/39px-Pyre.png?version=608cdfcfb349a6dfe1a846857b1069d9",
+        "baseItem": "Sapphire Ring",
+        "reqLevel": "11",
+        "mods": {
+            "implicit": "+(20 to 30)% to Cold Resistance",
+            "explicit": "+(25 to 35)% to Fire Resistance \n(25 to 35)% increased Burning Damage \n100% of Cold Damage Converted to Fire Damage \n10% increased Light Radius \nIgnited enemies you hit are destroyed on Kill"
+        }
+    },
+    {
+        "name": "Redblade Band",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a5/Redblade_Band.png/39px-Redblade_Band.png?version=d40c812722afb0edfbbe42b9ec8309b6",
+        "baseItem": "Unset Ring",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+2 to Level of Socketed Golem Gems \n+(30 to 40) to Strength \nAdds (8-20 to 12-30) Fire Damage to Attacks \n(20 to 30)% increased Fire Damage \nSocketed Gems are Supported by level 12 Lesser Multiple Projectiles \nSocketed Gems are Supported by level 17 Increased Minion Damage"
+        }
+    },
+    {
+        "name": "Rigwald's Crest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/90/Rigwald%27s_Crest.png/39px-Rigwald%27s_Crest.png?version=9c296508368ac09609f68f72ab5c7916",
+        "baseItem": "Two-Stone Ring",
+        "reqLevel": "49",
+        "mods": {
+            "implicit": "(12 to 16)% to Fire and Cold Resistances",
+            "explicit": "(20 to 30)% increased Fire Damage \n(20 to 30)% increased Cold Damage \n(20 to 30)% increased Mana Regeneration Rate \n5% Chance to summon a Spectral Wolf on Kill"
+        }
+    },
+    {
+        "name": "Romira's Banquet",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fe/Romira%27s_Banquet.png/39px-Romira%27s_Banquet.png?version=413eff3b31a0d5095df19ccd081f7e9c",
+        "baseItem": "Diamond Ring",
+        "reqLevel": "60",
+        "mods": {
+            "implicit": "(20 to 30)% increased Global Critical Strike Chance",
+            "explicit": "+333 to Accuracy Rating \n+(15 to 25)% to Global Critical Strike Multiplier \n+(40 to 60) to maximum Mana \n0.4% of Physical Attack Damage Leeched as Mana \nGain a Power Charge on non-Critical Strike \nLose all Power Charges on Critical Strike"
+        }
+    },
+    {
+        "name": "Shavronne's Revelation",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7d/Shavronne%27s_Revelation.png/39px-Shavronne%27s_Revelation.png?version=a72abf43e2b4b839206984348032f416",
+        "baseItem": "Moonstone Ring",
+        "reqLevel": "30",
+        "mods": {
+            "implicit": "+(15 to 25) to maximum Energy Shield",
+            "explicit": "+(60 to 75) to Intelligence \nRight ring slot: You cannot Regenerate Mana \nRight ring slot: 3% of Energy Shield Regenerated per second \nLeft ring slot: 100% increased Mana Regeneration Rate \nLeft ring slot: You cannot Recharge or Regenerate Energy Shield"
+        }
+    },
+    {
+        "name": "Sibyl's Lament",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/76/Sibyl%27s_Lament.png/39px-Sibyl%27s_Lament.png?version=ebb28e6a823d0f97039d4997104ba05e",
+        "baseItem": "Coral Ring",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "+(20 to 30) to maximum Life",
+            "explicit": "(20 to 30)% increased Elemental Damage with Weapons \nAdds (8-20 to 15-28) Fire Damage to Attacks \n(10 to 20)% reduced Rarity of Items found \nLeft ring slot: 30% reduced Reflected Elemental Damage taken \nRight ring slot: 30% reduced Reflected Physical Damage taken"
+        }
+    },
+    {
+        "name": "The Taming",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/50/The_Taming.png/39px-The_Taming.png?version=865bbd00f5c3298dc0016cfa2f3250aa",
+        "baseItem": "Prismatic Ring",
+        "reqLevel": "30",
+        "mods": {
+            "implicit": "(8 to 10)% to all Elemental Resistances",
+            "explicit": "10% increased Damage per Freeze, Shock and Ignite on Enemy \n15% increased Elemental Damage with Weapons \n+(10 to 15)% to all Elemental Resistances \n15% increased Elemental Damage \n5% chance to Freeze, Shock and Ignite"
+        }
+    },
+    {
+        "name": "Tasalio's Sign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/61/Tasalio%27s_Sign.png/39px-Tasalio%27s_Sign.png?version=aedf2d88aa80e59ae06ca3c06b8bbf3e",
+        "baseItem": "Sapphire Ring",
+        "reqLevel": "20",
+        "mods": {
+            "implicit": "+(20 to 30)% to Cold Resistance",
+            "explicit": "Adds 10-15 Physical Damage to Attacks against Frozen Enemies \nAdds (5-7 to 6-9) Cold Damage to Attacks \n+(200 to 300) to Evasion Rating \n20% reduced Chill Duration on You \n5% chance to Freeze"
+        }
+    },
+    {
+        "name": "Thief's Torment",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4e/Thief%27s_Torment.png/39px-Thief%27s_Torment.png?version=50b58b11471c080b20ba2d6ea0a34371",
+        "baseItem": "Prismatic Ring",
+        "reqLevel": "30",
+        "mods": {
+            "implicit": "+(8 to 10)% to all Elemental Resistances",
+            "explicit": "(10 to 16)% increased Quantity of Items found \nCan't use other Rings \n+(8 to 12)% to all Elemental Resistances \n50% reduced Effect of Curses on You \n+(20 to 30) Life gained for each enemy hit by your Attacks \n+15 Mana gained for each enemy hit by your Attacks"
+        }
+    },
+    {
+        "name": "Timeclasp",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9e/Timeclasp.png/39px-Timeclasp.png?version=a1c07234c5821cfb85dd70a991d44e01",
+        "baseItem": "Moonstone Ring",
+        "reqLevel": "22",
+        "mods": {
+            "implicit": "+(15 to 25) to maximum Energy Shield",
+            "explicit": "(10 to 15)% increased Attack Speed \n(5 to 8)% increased Cast Speed \n15% reduced Mana Regeneration Rate \n+(10 to 25) to maximum Energy Shield \nTemporal Chains has 30% reduced Effect on You"
+        }
+    },
+    {
+        "name": "Valako's Sign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/24/Valako%27s_Sign.png/39px-Valako%27s_Sign.png?version=39916ffc3a728986d30742d195cefc3d",
+        "baseItem": "Topaz Ring",
+        "reqLevel": "38",
+        "mods": {
+            "implicit": "+(20 to 30)% to Lightning Resistance",
+            "explicit": "15% increased Damage against Shocked Enemies \n20% increased Lightning Damage \n+(20 to 40) to maximum Mana \n0.2% of Damage Leeched as Life against Shocked Enemies \n5% chance to Shock"
+        }
+    },
+    {
+        "name": "Ventor's Gamble",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b1/Ventor%27s_Gamble.png/39px-Ventor%27s_Gamble.png?version=afd2951d89251d238f169a009e3d651f",
+        "baseItem": "Gold Ring",
+        "reqLevel": "65",
+        "mods": {
+            "implicit": "(6 to 15)% increased Rarity of Items found",
+            "explicit": "+(0 to 60) to maximum Life \n(+10 to 10)% increased Quantity of Items found \n(+40 to 40)% increased Rarity of Items found \n+(+25 to 50)% to Fire Resistance \n+(+25 to 50)% to Cold Resistance \n+(+25 to 50)% to Lightning Resistance"
+        }
+    },
+    {
+        "name": "Voideye",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a7/Voideye.png/39px-Voideye.png?version=9aefd11ceda2f6b50eb85b47482838bd",
+        "baseItem": "Unset Ring",
+        "reqLevel": "45",
+        "mods": {
+            "implicit": "Has 1 Socket",
+            "explicit": "+5 to Level of Socketed Gems"
+        }
+    },
+    {
+        "name": "Asphyxia's Wrath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/33/Asphyxia%27s_Wrath.png/78px-Asphyxia%27s_Wrath.png?version=11340906df9d2fd355de47d627065fbc",
+        "baseItem": "Two-Point Arrow Quiver",
+        "reqLevel": "10",
+        "mods": {
+            "implicit": "(20 to 30)% increased Accuracy Rating",
+            "explicit": "(8 to 12)% increased Attack Speed \n+(30 to 40)% to Cold Resistance \n(30 to 40)% increased Chill Duration on Enemies \n20% of Physical Damage Converted to Cold Damage \n(7 to 10)% chance to Freeze \n40% reduced Radius of Curses \nCurses on Slain Enemies are transferred to a nearby Enemy"
+        }
+    },
+    {
+        "name": "Blackgleam",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1e/Blackgleam.png/78px-Blackgleam.png?version=7b4d092bf3508160f94f22fb9089f519",
+        "baseItem": "Fire Arrow Quiver",
+        "reqLevel": "22",
+        "mods": {
+            "implicit": "Adds 4-8 Fire Damage to Attacks with Bows",
+            "explicit": "10% increased Attack Speed \n+(80 to 100) to Evasion Rating \n+(10 to 30) to maximum Mana \n50% of Physical Damage Converted to Fire Damage \nAdds 5-10 Fire Damage to Attacks with Bows"
+        }
+    },
+    {
+        "name": "Craghead",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/db/Craghead.png/78px-Craghead.png?version=0328812fa5002d61891f474b64a1e807",
+        "baseItem": "Serrated Arrow Quiver",
+        "reqLevel": "5",
+        "mods": {
+            "implicit": "Adds 1-4 Physical Damage to Attacks with Bows",
+            "explicit": "(20 to 25)% reduced Enemy Stun Threshold \n25% reduced Projectile Speed \n(60 to 80)% increased Stun Duration on Enemies \nAdds 6-10 Physical Damage to Attacks with Bows"
+        }
+    },
+    {
+        "name": "Drillneck",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e4/Drillneck.png/78px-Drillneck.png?version=1b58d780d537dae7bff6c8b4285e3028",
+        "baseItem": "Penetrating Arrow Quiver",
+        "reqLevel": "36",
+        "mods": {
+            "implicit": "10% chance of Arrows Piercing",
+            "explicit": "(8 to 12)% increased Attack Speed \n+350 to Evasion Rating \n+(40 to 50) to maximum Life \nAdds (10-19 to 14-24) Physical Damage to Attacks with Bows \nProjectile Damage increased by Arrow Pierce Chance"
+        }
+    },
+    {
+        "name": "Hyrri's Bite",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/df/Hyrri%27s_Bite.png/78px-Hyrri%27s_Bite.png?version=fe7923b83effdaf0b1b082bbbb9108a4",
+        "baseItem": "Sharktooth Arrow Quiver",
+        "reqLevel": "10",
+        "mods": {
+            "implicit": "+(3 to 4) Life gained for each enemy hit by your Attacks",
+            "explicit": "+(15 to 25) to Strength \n+(35 to 45) to Dexterity \n+(15 to 25) to Intelligence \n(7 to 10)% increased Attack Speed \n+(2 to 3) Life gained for each Enemy hit by your Attacks \n10% increased Radius of Area Skills"
+        }
+    },
+    {
+        "name": "Maloney's Nightfall",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3f/Maloney%27s_Nightfall.png/78px-Maloney%27s_Nightfall.png?version=d5ef42b0a39128672678bfb705c00795",
+        "baseItem": "Blunt Arrow Quiver",
+        "reqLevel": "55",
+        "mods": {
+            "implicit": "(25 to 35)% increased Stun Duration on Enemies",
+            "explicit": "(8 to 10)% increased Attack Speed \n+(50 to 70) to maximum Life \n+(12 to 16)% to Chaos Resistance \nAdds (5-8 to 7-10) Physical Damage to Attacks with Bows \n10% chance to create a Smoke Cloud when Hit \n(20 to 40)% increased Damage against Blinded Enemies"
+        }
+    },
+    {
+        "name": "Rearguard",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/35/Rearguard.png/78px-Rearguard.png?version=cf5f5059ab47e7bc1360f2f1344b3692",
+        "baseItem": "Broadhead Arrow Quiver",
+        "reqLevel": "28",
+        "mods": {
+            "implicit": "Adds 6-12 Physical Damage to Attacks with Bows",
+            "explicit": "+(400 to 450) to Armour \n(20 to 30)% increased Projectile Speed \n50% increased Stun Recovery \n(15 to 20)% increased Projectile Damage \n(20 to 24)% Chance to Block \n(12 to 15)% Chance to Block Spells"
+        }
+    },
+    {
+        "name": "Rigwald's Quills",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a9/Rigwald%27s_Quills.png/78px-Rigwald%27s_Quills.png?version=9a66532bbf6eca64527ca81a935d4d82",
+        "baseItem": "Two-Point Arrow Quiver",
+        "reqLevel": "56",
+        "mods": {
+            "implicit": "(20 to 30)% increased Accuracy Rating",
+            "explicit": "+10% to Fire Resistance \n+(20 to 30)% to Lightning Resistance \n+7 Life gained for each Enemy hit by your Attacks \n20% reduced Projectile Speed \n(30 to 50)% increased Projectile Damage \nProjectiles Fork"
+        }
+    },
+    {
+        "name": "Soul Strike",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fc/Soul_Strike.png/78px-Soul_Strike.png?version=3ee14b2f39df66d41efe4088c9982c85",
+        "baseItem": "Spike-Point Arrow Quiver",
+        "reqLevel": "64",
+        "mods": {
+            "implicit": "(20 to 30)% increased Global Critical Strike Chance",
+            "explicit": "+30 to Dexterity \nAdds (13-26 to 18-32) Chaos Damage to Attacks \n(8 to 12)% increased Attack Speed \n+(100 to 120) to maximum Energy Shield \n40% reduced Energy Shield Recharge Rate \n150% faster start of Energy Shield Recharge"
+        }
+    },
+    {
+        "name": "Broadstroke",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ea/Broadstroke.png/78px-Broadstroke.png?version=840dc3bbe8a14be84c3b51443ad4185f",
+        "baseItem": "Heavy Quiver",
+        "reqLevel": "5",
+        "mods": {
+            "implicit": "Adds 1-4 Physical Damage",
+            "explicit": "30% increased Physical Damage \n(10 to 15)% reduced Enemy Stun Threshold \n(20 to 30)% increased Stun Duration on enemies"
+        }
+    }
+]

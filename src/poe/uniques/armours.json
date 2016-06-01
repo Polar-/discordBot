@@ -1,0 +1,3282 @@
+[
+    {
+        "name": "Bramblejack",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Bramblejack.png/78px-Bramblejack.png?version=167f42f17e15433d741ac73a432d15a3",
+        "baseItem": "Plate Vest",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "14",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 2-4 Physical Damage to Attacks \n+(12 to 20) to maximum Life \n+2 Physical Damage taken from Attacks \n40% of Melee Physical Damage taken reflected to Attacker"
+        }
+    },
+    {
+        "name": "Death's Oath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/85/Death%27s_Oath.png/78px-Death%27s_Oath.png?version=d46c3395708a261902383be5ab293ce3",
+        "baseItem": "Astral Plate",
+        "requirements": {
+            "level": "62",
+            "str": "180",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(1420 to 1622)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "+(8 to 12)% to all Elemental Resistances",
+            "explicit": "+(40 to 50) to all Attributes \n(10 to 15)% increased Attack Speed \n(180 to 220)% increased Armour \n1% of Physical Attack Damage Leeched as Life \nDeals 450 Chaos Damage per second to nearby Enemies \nYou take 450 Chaos Damage per second for 3 seconds on Kill \nGore Footprints"
+        }
+    },
+    {
+        "name": "Greed's Embrace",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a7/Greed%27s_Embrace.png/78px-Greed%27s_Embrace.png?version=31648bc1a9095bef827665abea514465",
+        "baseItem": "Golden Plate",
+        "requirements": {
+            "level": "56",
+            "str": "106",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "399",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Quantity of Items found \n(30 to 50)% increased Rarity of Items found \n+10% to Fire Resistance \n+(20 to 30)% to Cold Resistance \n+20% to Lightning Resistance \n20% reduced Movement Speed \n30% reduced Strength Requirement"
+        }
+    },
+    {
+        "name": "Kaom's Heart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/52/Kaom%27s_Heart.png/78px-Kaom%27s_Heart.png?version=648b99d3b505032e3aaad1d12fee3362",
+        "baseItem": "Glorious Plate",
+        "requirements": {
+            "level": "68",
+            "str": "191",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "553",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Has no Sockets \n+500 to maximum Life \n(20 to 40)% increased Fire Damage"
+        }
+    },
+    {
+        "name": "Lioneye's Vision",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Lioneye%27s_Vision.png/78px-Lioneye%27s_Vision.png?version=f04fcaf6b345c14ace1ca0c83b0a47c8",
+        "baseItem": "Crusader Plate",
+        "requirements": {
+            "level": "59",
+            "str": "160",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(1284 to 1498)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(200 to 250)% increased Armour \n+(60 to 100) to maximum Life \n0.4% of Physical Attack Damage Leeched as Mana \nSocketed Gems are Supported by level 15 Pierce \n+20% chance to be Pierced by Projectiles"
+        }
+    },
+    {
+        "name": "Solaris Lorica",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f9/Solaris_Lorica.png/78px-Solaris_Lorica.png?version=c21cd0b00996f310f4fc6401fe2c33b7",
+        "baseItem": "Copper Plate",
+        "requirements": {
+            "level": "17",
+            "str": "53",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(202 to 227)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(10 to 20) to Strength \n(60 to 80)% increased Armour \n25% increased Light Radius \nChaos Damage does not bypass Energy Shield \n+10 Chaos Damage taken"
+        }
+    },
+    {
+        "name": "Ashrend",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b0/Ashrend.png/78px-Ashrend.png?version=92f159ed2db092e61dd7ae12e3195176",
+        "baseItem": "Buckskin Tunic",
+        "requirements": {
+            "level": "17",
+            "str": "0",
+            "dex": "53",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(227 to 252)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(80 to 100)% increased Evasion Rating \n+(40 to 50)% to Fire Resistance \nCannot be Ignited \n(10 to 15)% increased Physical Damage with Ranged Weapons \n+(5 to 7) Physical Damage taken from Attacks"
+        }
+    },
+    {
+        "name": "Briskwrap",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Briskwrap.png/78px-Briskwrap.png?version=3fd9e159efd6bc53e5665f3e00b8ac39",
+        "baseItem": "Strapped Leather",
+        "requirements": {
+            "level": "9",
+            "str": "0",
+            "dex": "32",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(190 to 250)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "5% increased Attack Speed \n+(120 to 180) to Evasion Rating \n+(30 to 40)% to Cold Resistance \n5% increased Movement Speed \n(20 to 25)% increased Mana Recovery from Flasks \n15% increased Dexterity"
+        }
+    },
+    {
+        "name": "Bronn's Lithe",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2d/Bronn%27s_Lithe.png/78px-Bronn%27s_Lithe.png?version=3c403e16840d977ea39e45bb82c8405e",
+        "baseItem": "Cutthroat's Garb",
+        "requirements": {
+            "level": "53",
+            "str": "0",
+            "dex": "144",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(1134 to 1323)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+2 to Level of Socketed Movement Gems \n10% increased Attack Speed \n(35 to 50)% increased Damage with Movement Skills \n(200 to 250)% increased Evasion Rating \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Foxshade",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1c/Foxshade.png/78px-Foxshade.png?version=5ee078ef7a4382b3a3443d0f10264ca7",
+        "baseItem": "Wild Leather",
+        "requirements": {
+            "level": "25",
+            "str": "0",
+            "dex": "73",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(273 to 309)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 5-12 Physical Damage to Attacks \n+(20 to 30) to Dexterity \nYou gain 150 Evasion Rating when on Full Life \n(50 to 70)% increased Evasion Rating \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Hyrri's Ire",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/22/Hyrri%27s_Ire.png/78px-Hyrri%27s_Ire.png?version=f1ab4e4a668caf722b96c46185b44966",
+        "baseItem": "Zodiac Leather",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "197",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(1462 to 1949)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Dexterity \nAdds 13-24 Cold Damage to Attacks \n(140 to 220)% increased Evasion Rating \n25% increased Chill Duration on Enemies \n10% chance to Dodge Attacks \n10% chance to Dodge Spell Damage"
+        }
+    },
+    {
+        "name": "Queen of the Forest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e8/Queen_of_the_Forest.png/78px-Queen_of_the_Forest.png?version=34ac681d024d6ea09941b007d871c7dd",
+        "baseItem": "Destiny Leather",
+        "requirements": {
+            "level": "59",
+            "str": "0",
+            "dex": "160",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(1455 to 2054)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(240 to 380)% increased Evasion Rating \n+(60 to 70) to maximum Life \n+(6 to 10)% to Fire Resistance \n+(26 to 40)% to Cold Resistance \n+(11 to 25)% to Lightning Resistance \n25% reduced Movement Speed \n1% increased Movement Speed per 450 Evasion Rating \n+(50 to 40) Physical Damage taken when hit by Animals"
+        }
+    },
+    {
+        "name": "The Rat Cage",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ee/The_Rat_Cage.png/78px-The_Rat_Cage.png?version=3df139f57c195ae6478eeac495581bfd",
+        "baseItem": "Sharkskin Tunic",
+        "requirements": {
+            "level": "56",
+            "str": "0",
+            "dex": "152",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(798 to 877)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 120)% increased Evasion Rating \n+(160 to 200) to maximum Life \n+5% to maximum Fire Resistance \n15% increased Movement Speed \n20% increased Fire Damage taken \n10% of Fire Damage taken as Physical Damage"
+        }
+    },
+    {
+        "name": "Cloak of Flame",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fd/Cloak_of_Flame.png/78px-Cloak_of_Flame.png?version=8d658a7e5fcb7cdcd3267eb9b820231c",
+        "baseItem": "Scholar's Robe",
+        "requirements": {
+            "level": "18",
+            "str": "0",
+            "dex": "0",
+            "int": "55"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "41"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(30 to 50)% to Fire Resistance \n(30 to 50)% increased Ignite Duration on enemies \n10% chance to Ignite \nReflects 15 Fire Damage to Melee Attackers \n20% of Physical Damage taken as Fire Damage"
+        }
+    },
+    {
+        "name": "The Covenant",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7c/The_Covenant.png/78px-The_Covenant.png?version=745abbb55df93a41be8bedda010362c7",
+        "baseItem": "Spidersilk Robe",
+        "requirements": {
+            "level": "49",
+            "str": "0",
+            "dex": "0",
+            "int": "134"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(391 to 433)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 15 Added Chaos Damage \n+(20 to 30) to Intelligence \n20% reduced maximum Life \n(280 to 320)% increased Energy Shield \nBlood Magic"
+        }
+    },
+    {
+        "name": "Infernal Mantle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/36/Infernal_Mantle.png/78px-Infernal_Mantle.png?version=39a91fd7563478b8414693ac10c51093",
+        "baseItem": "Widowsilk Robe",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "0",
+            "int": "187"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(467 to 531)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Fire Gems \n(25 to 35)% increased Fire Damage \n100% increased Global Critical Strike Chance \n(190 to 230)% increased Energy Shield \n25% of Fire Damage Converted to Chaos Damage \n100% increased Spell Damage taken when on Low Mana"
+        }
+    },
+    {
+        "name": "Shavronne's Wrappings",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7a/Shavronne%27s_Wrappings.png/78px-Shavronne%27s_Wrappings.png?version=004c3e047c8c47660940d5c8c637ca72",
+        "baseItem": "Occultist's Vestment",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "0",
+            "int": "180"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(336 to 420)"
+        },
+        "mods": {
+            "implicit": "(3 to 10)% increased Spell Damage",
+            "explicit": "(140 to 200)% increased Energy Shield \n10% faster start of Energy Shield Recharge \n+(30 to 40)% to Lightning Resistance \nReflects 1-250 Lightning Damage to Melee Attackers \nChaos Damage does not bypass Energy Shield"
+        }
+    },
+    {
+        "name": "Soul Mantle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Soul_Mantle.png/78px-Soul_Mantle.png?version=8ef51872cf9c36ee37723729c8e3e0c3",
+        "baseItem": "Spidersilk Robe",
+        "requirements": {
+            "level": "49",
+            "str": "0",
+            "dex": "0",
+            "int": "134"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(206 to 227)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 14 Spell Totem \n(20 to 25)% increased Spell Damage \n(100 to 120)% increased Energy Shield \n50% increased Totem Life \nCan have up to 1 additional Totem summoned at a time \nInflicts a random level 20 Curse on you when your Totems die"
+        }
+    },
+    {
+        "name": "Tabula Rasa",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/08/Tabula_Rasa.png/78px-Tabula_Rasa.png?version=82a0e1f97812ea64a70cf27054091e11",
+        "baseItem": "Simple Robe",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": ""
+        }
+    },
+    {
+        "name": "Vis Mortis",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/13/Vis_Mortis.png/78px-Vis_Mortis.png?version=b6fcf332e1eea1de500a4a4dc3852765",
+        "baseItem": "Necromancer Silks",
+        "requirements": {
+            "level": "59",
+            "str": "0",
+            "dex": "0",
+            "int": "160"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(250 to 275)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to maximum Mana \n(100 to 120)% increased Energy Shield \nMinions have 20% reduced Maximum Life \nMinions deal 15% increased Damage \n+1 to Maximum number of Spectres \nMinions gain Unholy Might for 5 seconds on Kill"
+        }
+    },
+    {
+        "name": "Zahndethus' Cassock",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6f/Zahndethus%27_Cassock.png/78px-Zahndethus%27_Cassock.png?version=a4ca89dd771227be39e5f4ff77e512d1",
+        "baseItem": "Sage's Robe",
+        "requirements": {
+            "level": "37",
+            "str": "0",
+            "dex": "0",
+            "int": "104"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(138 to 158)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 1-40 Lightning Damage to Attacks \n(75 to 100)% increased Energy Shield \n+(40 to 50)% to Chaos Resistance \n25% increased Light Radius \n100% chance on Block to create Consecrated Ground"
+        }
+    },
+    {
+        "name": "Belly of the Beast",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fd/Belly_of_the_Beast.png/78px-Belly_of_the_Beast.png?version=1789c4aa9673dbf4986c0916e0891529",
+        "baseItem": "Full Wyrmscale",
+        "requirements": {
+            "level": "46",
+            "str": "68",
+            "dex": "68",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(453 to 543)",
+            "evasion": "181",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(150 to 200)% increased Armour \n(30 to 40)% increased maximum Life \n+(10 to 15)% to all Elemental Resistances \n50% increased Flask Life Recovery rate \nExtra Gore"
+        }
+    },
+    {
+        "name": "Cherrubim's Maleficence",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/80/Cherrubim%27s_Maleficence.png/78px-Cherrubim%27s_Maleficence.png?version=cbb6f9228a178da3b5568e2ff59fdba3",
+        "baseItem": "Triumphant Lamellar",
+        "requirements": {
+            "level": "69",
+            "str": "95",
+            "dex": "116",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(704 to 813)",
+            "evasion": "(884 to 1020)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 20)% increased Chaos Damage \n(160 to 200)% increased Armour and Evasion \n+(70 to 100) to maximum Life \n100% increased Life Leeched per second"
+        }
+    },
+    {
+        "name": "Daresso's Defiance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3b/Daresso%27s_Defiance.png/71px-Daresso%27s_Defiance.png?version=e7041278097bf05b23386187045f1607",
+        "baseItem": "Full Dragonscale",
+        "requirements": {
+            "level": "63",
+            "str": "115",
+            "dex": "94",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(871 to 1005)",
+            "evasion": "(692 to 798)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(160 to 200)% increased Armour and Evasion \n+(40 to 60) to maximum Life \n(0.4 to 0.6)% of Physical Attack Damage Leeched as Life \n6% Chance to Dodge Attacks \nYou lose all Endurance Charges when Hit \nYou gain an Endurance Charge on Kill \nYou gain Onslaught for 1 second per Endurance Charge when Hit"
+        }
+    },
+    {
+        "name": "Lightning Coil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7a/Lightning_Coil.png/78px-Lightning_Coil.png?version=b96fe59425b00ecc27a37f77552418fb",
+        "baseItem": "Desert Brigandine",
+        "requirements": {
+            "level": "60",
+            "str": "96",
+            "dex": "96",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(509 to 590)",
+            "evasion": "(509 to 590)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (1-20 to 1-30) Lightning Damage to Attacks\n(90 to 120)% increased Armour and Evasion \n+(60 to 80) to maximum Life \n+60% to Lightning Resistance \n30% of Physical Damage taken as Lightning Damage"
+        }
+    },
+    {
+        "name": "Viper's Scales",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/67/Viper%27s_Scales.png/78px-Viper%27s_Scales.png?version=f81ffe9125055830efaf2c264d39db80",
+        "baseItem": "Full Scale Armour",
+        "requirements": {
+            "level": "28",
+            "str": "43",
+            "dex": "43",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(202 to 224)",
+            "evasion": "(202 to 224)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(80 to 100)% increased Armour and Evasion \n+(30 to 40) to maximum Life \n+(15 to 25)% to Cold Resistance \n5% increased Movement Speed \n20% chance to Poison on Hit with Attacks \nCannot be Poisoned"
+        }
+    },
+    {
+        "name": "Ambu's Charge",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/cc/Ambu%27s_Charge.png/78px-Ambu%27s_Charge.png?version=13cc8d9bbaa5904f9d201ed7b57b4650",
+        "baseItem": "Crusader Chainmail",
+        "requirements": {
+            "level": "43",
+            "str": "64",
+            "dex": "0",
+            "int": "64"
+        },
+        "defenses": {
+            "armour": "(473 to 541)",
+            "evasion": "0",
+            "energy": "(140 to 160)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(180 to 220)% increased Armour and Energy Shield \n+15% to all Elemental Resistances \nGain an Endurance Charge when you take a Critical Strike \n2% of Life Regenerated per Second while on Low Life \nShare Endurance Charges with nearby party members"
+        }
+    },
+    {
+        "name": "Geofri's Sanctuary",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/51/Geofri%27s_Sanctuary.png/78px-Geofri%27s_Sanctuary.png?version=a4e9608475cf91ff961f3f597fcff0cc",
+        "baseItem": "Elegant Ringmail",
+        "requirements": {
+            "level": "64",
+            "str": "90",
+            "dex": "0",
+            "int": "105"
+        },
+        "defenses": {
+            "armour": "(404 to 471)",
+            "evasion": "0",
+            "energy": "(246 to 340)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(50 to 75)% increased Armour and Energy Shield \n+(50 to 70) to maximum Life \n+(70 to 100) to maximum Energy Shield \n(14 to 18)% to all Elemental Resistances \n+1 maximum Energy Shield per 5 Strength \nZealot's Oath"
+        }
+    },
+    {
+        "name": "Icetomb",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/60/Icetomb.png/78px-Icetomb.png?version=e991f5c324e710dedaa049308fad99a5",
+        "baseItem": "Latticed Ringmail",
+        "requirements": {
+            "level": "39",
+            "str": "59",
+            "dex": "0",
+            "int": "59"
+        },
+        "defenses": {
+            "armour": "(370 to 400)",
+            "evasion": "0",
+            "energy": "(110 to 120)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(30 to 40) to Strength \n+(30 to 40) to Intelligence \n(140 to 160)% increased Armour and Energy Shield \n+(50 to 75)% to Cold Resistance \nCannot be Chilled \n150% increased Chill Duration on Enemies"
+        }
+    },
+    {
+        "name": "Incandescent Heart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1e/Incandescent_Heart.png/78px-Incandescent_Heart.png?version=7a98ecd86af0c5ac81576a033111d1f5",
+        "baseItem": "Saintly Chainmail",
+        "requirements": {
+            "level": "70",
+            "str": "99",
+            "dex": "0",
+            "int": "115"
+        },
+        "defenses": {
+            "armour": "(761 to 878)",
+            "evasion": "0",
+            "energy": "(216 to 235)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 80) to Armour\n(120 to 140)% increased Armour and Energy Shield\n+(80 to 90) to maximum Life\n(0.8 to 1)% of Physical Attack Damage Leeched as Life\n25% of Elemental Damage taken as Chaos Damage\n(20 to 30)% increased Light Radius\nLight Radius is based on Energy Shield instead of Life"
+        }
+    },
+    {
+        "name": "Kingsguard",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bf/Kingsguard.png/78px-Kingsguard.png?version=7fcde826a5c3a4fe23b61067f3efef70",
+        "baseItem": "Conquest Chainmail",
+        "requirements": {
+            "level": "61",
+            "str": "96",
+            "dex": "0",
+            "int": "96"
+        },
+        "defenses": {
+            "armour": "(690 to 745)",
+            "evasion": "0",
+            "energy": "(202 to 219)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(150 to 170)% increased Armour and Energy Shield \n+(60 to 90) to maximum Life \n+(50 to 70) to maximum Mana \n30% increased Endurance Charge Duration \nGain 100 Life when an Endurance Charge expires or is consumed"
+        }
+    },
+    {
+        "name": "Lightbane Raiment",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/52/Lightbane_Raiment.png/78px-Lightbane_Raiment.png?version=51a188db5fcf7a3ed4bf815ba4e77e4a",
+        "baseItem": "Ornate Ringmail",
+        "requirements": {
+            "level": "47",
+            "str": "69",
+            "dex": "0",
+            "int": "69"
+        },
+        "defenses": {
+            "armour": "(407 to 444)",
+            "evasion": "0",
+            "energy": "(119 to 130)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(120 to 140)% increased Armour and Energy Shield \n30% of Physical Damage Converted to Chaos Damage \nReflects 30 Chaos Damage to Melee Attackers \n25% reduced Light Radius \n100% chance on Block to create Desecrated Ground"
+        }
+    },
+    {
+        "name": "Voll's Protector",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5c/Voll%27s_Protector.png/78px-Voll%27s_Protector.png?version=b9b055baf75621c024e9071e6a8a0999",
+        "baseItem": "Holy Chainmail",
+        "requirements": {
+            "level": "35",
+            "str": "53",
+            "dex": "0",
+            "int": "53"
+        },
+        "defenses": {
+            "armour": "221",
+            "evasion": "0",
+            "energy": "66"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "60% increased Armour and Energy Shield \n50% reduced maximum Mana \nGain a Power Charge for each Enemy you hit with a Critical Strike"
+        }
+    },
+    {
+        "name": "Carcass Jack",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3c/Carcass_Jack.png/78px-Carcass_Jack.png?version=b9f653a6f09824b6cca35c975ff2cd6e",
+        "baseItem": "Varnished Coat",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "96",
+            "int": "96"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(607 to 690)",
+            "energy": "(178 to 203)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(120 to 150)% increased Evasion and Energy Shield \n+(50 to 70) to maximum Life \n+(9 to 12)% to all Elemental Resistances \n20% increased Radius of Area Skills \n12% increased Area Damage \nExtra gore"
+        }
+    },
+    {
+        "name": "Cloak of Defiance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e4/Cloak_of_Defiance.png/78px-Cloak_of_Defiance.png?version=5befd22b997a385258c8fa966c479922",
+        "baseItem": "Lacquered Garb",
+        "requirements": {
+            "level": "52",
+            "str": "0",
+            "dex": "76",
+            "int": "76"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(428 to 510)",
+            "energy": "(126 to 150)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(110 to 150)% increased Evasion and Energy Shield \n+(90 to 110) to maximum Mana \n(40 to 50)% increased Mana Regeneration Rate \nMind Over Matter"
+        }
+    },
+    {
+        "name": "The Restless Ward",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7c/The_Restless_Ward.png/78px-The_Restless_Ward.png?version=b9191b64241bb95081224f4ebcd091f7",
+        "baseItem": "Carnal Armour",
+        "requirements": {
+            "level": "71",
+            "str": "0",
+            "dex": "88",
+            "int": "122"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(552 to 627)",
+            "energy": "(231 to 262)"
+        },
+        "mods": {
+            "implicit": "+(20 to 25) to maximum Mana",
+            "explicit": "+(40 to 60) to maximum Life \n(120 to 150)% increased Evasion and Energy Shield \n1% increased Movement Speed per Frenzy Charge \n100% increased Endurance, Frenzy and Power Charge Duration \n(15 to 20) Life Regenerated per second per Endurance Charge"
+        }
+    },
+    {
+        "name": "Thousand Ribbons",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b3/Thousand_Ribbons.png/78px-Thousand_Ribbons.png?version=32ebfd560116c837025fc337ae0d484e",
+        "baseItem": "Simple Robe",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "17"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(10 to 20)",
+            "energy": "(21 to 31)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 5 Elemental Proliferation \nAdds 2-3 Fire Damage to Attacks\nAdds 2-3 Cold Damage to Attacks \nAdds 1-4 Lightning Damage to Attacks \n10% reduced Cast Speed \n+(10 to 20) to Evasion Rating \n+6 to maximum Life \n+6 to maximum Mana \n+(10 to 20) to maximum Energy Shield \n+(5 to 10)% to Fire Resistance \n+(5 to 10)% to Cold Resistance \n+(5 to 10)% to Lightning Resistance"
+        }
+    },
+    {
+        "name": "Victario's Influence",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5e/Victario%27s_Influence.png/78px-Victario%27s_Influence.png?version=7c0ee2427e5075e39be99b536cab47c1",
+        "baseItem": "Lacquered Garb",
+        "requirements": {
+            "level": "52",
+            "str": "0",
+            "dex": "76",
+            "int": "76"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(445 to 510)",
+            "energy": "(132 to 150)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Aura Gems \nSocketed Gems have 20% reduced Mana Reservation \nSocketed Gems are Supported by level 1 Generosity \n(120 to 150)% increased Evasion and Energy Shield \n(10 to 20)% increased Radius of Auras \n(10 to 15)% increased effect of Non-Curse Auras you Cast"
+        }
+    },
+    {
+        "name": "Atziri's Splendour",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/22/Atziri%27s_Splendour.png/78px-Atziri%27s_Splendour.png?version=7d7922521528a4c85d0be08095d4d188",
+        "baseItem": "Sacrificial Garb",
+        "requirements": {
+            "level": "75",
+            "str": "66",
+            "dex": "66",
+            "int": "66"
+        },
+        "defenses": {
+            "armour": "(234 to 1217)",
+            "evasion": "(234 to 1217)",
+            "energy": "(69 to 676)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "<Style Variant> \n \n+(20 to 24)%  to all Elemental Resistances \n+100 Life Gained on Kill \n+100 Mana Gained on Kill"
+        }
+    },
+    {
+        "name": "Demigod's Dominance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a8/Demigod%27s_Dominance.png/78px-Demigod%27s_Dominance.png?version=dd127d22d57cbff4990a0f359caa6b43",
+        "baseItem": "Golden Mantle",
+        "requirements": {
+            "level": "20",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "53",
+            "evasion": "53",
+            "energy": "16"
+        },
+        "mods": {
+            "implicit": "+(15 to 25)% to all Elemental Resistances",
+            "explicit": "+1 to Level of Socketed Gems \n+(30 to 50) to all Attributes"
+        }
+    },
+    {
+        "name": "Kaom's Roots",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/ab/Kaom%27s_Roots.png/78px-Kaom%27s_Roots.png?version=99900a6be49121bfd0cca37143d46371",
+        "baseItem": "Titan Greaves",
+        "requirements": {
+            "level": "68",
+            "str": "120",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "210",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Has no Sockets \nCannot be Knocked Back \n+(120 to 150) to maximum Life \nUnwavering Stance"
+        }
+    },
+    {
+        "name": "Redblade Tramplers",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/11/Redblade_Tramplers.png/78px-Redblade_Tramplers.png?version=fa1bb5a59536d63758ac139c47811a1f",
+        "baseItem": "Ancient Greaves",
+        "requirements": {
+            "level": "46",
+            "str": "82",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(330 to 396)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (2-7 to 5-10) Physical Damage to Attacks \n(5 to 10)% reduced Enemy Stun Threshold \n(150 to 200)% increased Armour \n +(20 to 30)% to Fire Resistance \n20% increased Movement Speed \nUnaffected by Burning Ground"
+        }
+    },
+    {
+        "name": "Windscream",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Windscream.png/78px-Windscream.png?version=7fa43bcc5f40a06546ba9d62082c5138",
+        "baseItem": "Reinforced Greaves",
+        "requirements": {
+            "level": "33",
+            "str": "60",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(143 to 171)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(50 to 80)% increased Armour \n+(10 to 15)% to all Elemental Resistances \n10% increased Movement Speed \n10% increased Elemental Damage \nEnemies can have 1 additional Curse"
+        }
+    },
+    {
+        "name": "Atziri's Step",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Atziri%27s_Step.png/78px-Atziri%27s_Step.png?version=ad3b55654763e99bdc507e7494602367",
+        "baseItem": "Slink Boots",
+        "requirements": {
+            "level": "69",
+            "str": "0",
+            "dex": "120",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "599",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "180% increased Evasion Rating  \n+(55 to 75) to maximum Life \n30% increased Movement Speed \n(14 to 16)% Chance to Dodge Spell Damage"
+        }
+    },
+    {
+        "name": "The Blood Dance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/61/The_Blood_Dance.png/78px-The_Blood_Dance.png?version=abbed6bb714025b59db190951968cd83",
+        "baseItem": "Sharkskin Boots",
+        "requirements": {
+            "level": "44",
+            "str": "0",
+            "dex": "79",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "126",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(30 to 40) to Dexterity \n20% increased Movement Speed \n2% increased Movement Speed per Frenzy Charge \n3% reduced Attack and Cast Speed per Frenzy Charge \n0.5% of Life Regenerated per Second per Frenzy Charge \n(20 to 30)% chance to gain a Frenzy Charge on Kill \nGore Footprints \n6% increased Damage against Enemies on Low Life per Frenzy Charge"
+        }
+    },
+    {
+        "name": "Deerstalker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/96/Deerstalker.png/78px-Deerstalker.png?version=5e71a5608b403bfb777bea7f5b36a15a",
+        "baseItem": "Deerskin Boots",
+        "requirements": {
+            "level": "22",
+            "str": "0",
+            "dex": "42",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(166 to 192)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 11 Trap \n(160 to 200)% increased Evasion Rating \n+(35 to 45) to maximum Life \n(14 to 18)% increased Trap Throwing Speed \n30% increased Movement Speed for 9 seconds on Throwing a Trap"
+        }
+    },
+    {
+        "name": "Goldwyrm",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/89/Goldwyrm.png/78px-Goldwyrm.png?version=dc9b17a318bcd9face14a7ad10ea6466",
+        "baseItem": "Nubuck Boots",
+        "requirements": {
+            "level": "34",
+            "str": "0",
+            "dex": "62",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "98",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "60% increased Mana Regeneration Rate \n(14 to 20)% increased Quantity of Items Found \n+(40 to 50)% to Fire Resistance \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Seven-League Step",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/07/Seven-League_Step.png/78px-Seven-League_Step.png?version=2e42022354a2971371345ac7785f05b1",
+        "baseItem": "Rawhide Boots",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "11",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "50% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Victario's Flight",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/02/Victario%27s_Flight.png/78px-Victario%27s_Flight.png?version=5cf983d347fd661bd61a3917019ab8e1",
+        "baseItem": "Goathide Boots",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "26",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(72 to 90)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+15 to Dexterity \n+15 to Intelligence \n(100 to 150)% increased Evasion Rating \n30% increased Movement Speed when on Low Life \n(5 to 10)% of Damage taken Gained as Mana when Hit"
+        }
+    },
+    {
+        "name": "Bones of Ullr",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e0/Bones_of_Ullr.png/78px-Bones_of_Ullr.png?version=fc1db9c47158df8076917160ab10d86d",
+        "baseItem": "Silk Slippers",
+        "requirements": {
+            "level": "22",
+            "str": "0",
+            "dex": "0",
+            "int": "42"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(28 to 32)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+20 to maximum Life \n+20 to maximum Mana \n(40 to 60)% increased Energy Shield \n(5 to 15)% increased Movement Speed \n+1 to Maximum number of Zombies \n+1 to Maximum number of Spectres"
+        }
+    },
+    {
+        "name": "Rainbowstride",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Rainbowstride.png/78px-Rainbowstride.png?version=87323747015b2d18dc1b155994dece7e",
+        "baseItem": "Conjurer Boots",
+        "requirements": {
+            "level": "53",
+            "str": "0",
+            "dex": "0",
+            "int": "94"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(106 to 123)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 25)% of Block Chance applied to Spells \n+(40 to 60) to maximum Mana \n(140 to 180)% increased Energy Shield \n+20% to all Elemental Resistances \n20% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Shavronne's Pace",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/36/Shavronne%27s_Pace.png/78px-Shavronne%27s_Pace.png?version=15231fc177155502aba3286dd529855e",
+        "baseItem": "Scholar Boots",
+        "requirements": {
+            "level": "32",
+            "str": "0",
+            "dex": "0",
+            "int": "54"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(56 to 67)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+10 to Dexterity \n+(20 to 30) to Intelligence \n(100 to 140)% increased Energy Shield \n35% increased Movement Speed when on Full Life \n(10 to 15)% increased Stun Recovery"
+        }
+    },
+    {
+        "name": "Skyforth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5f/Skyforth.png/78px-Skyforth.png?version=49b51cb8aa4be9923216fcbbb10fe670",
+        "baseItem": "Sorcerer Boots",
+        "requirements": {
+            "level": "67",
+            "str": "0",
+            "dex": "0",
+            "int": "123"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "64"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 120) to maximum Mana \n30% increased Movement Speed\n25% chance to gain a Power Charge on Critical Strike\n6% reduced Mana Reserved\nYou have no Life Regeneration\nStun Threshold is based on 500% of your Mana instead of Life"
+        }
+    },
+    {
+        "name": "Steppan Eard",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bf/Steppan_Eard.png/78px-Steppan_Eard.png?version=ad998a56ff47a6643afe12c6707ec866",
+        "baseItem": "Sorcerer Boots",
+        "requirements": {
+            "level": "67",
+            "str": "0",
+            "dex": "0",
+            "int": "123"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(194 to 230)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(110 to 140)% increased Energy Shield \n(20 to 30) to maximum Energy Shield \n30% increased Movement Speed \n20% increased Movement Speed on Shocked Ground \n50% increased Damage on Burning Ground \n2% of Life Regenerated Per Second on Chilled Ground \nUnaffected by Desecrated Ground"
+        }
+    },
+    {
+        "name": "Wanderlust",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8e/Wanderlust.png/78px-Wanderlust.png?version=0e865f25d3b0c3c3ccc590272484032b",
+        "baseItem": "Wool Shoes",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(14 to 24)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+5 to Dexterity \n(20 to 40)% increased Mana Regeneration Rate \n+(10 to 20) to maximum Energy Shield \n20% increased Movement Speed \nCannot be Frozen"
+        }
+    },
+    {
+        "name": "Wondertrap",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/67/Wondertrap.png/78px-Wondertrap.png?version=2b17fda0edfab3c9f0d31d4bb26685db",
+        "baseItem": "Velvet Slippers",
+        "requirements": {
+            "level": "9",
+            "str": "0",
+            "dex": "0",
+            "int": "21"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(19 to 25)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(5 to 10) to Strength \n+(5 to 10) to Dexterity \n+(5 to 10) to Intelligence \n+(10 to 16) to maximum Energy Shield \n100% increased Rarity of Items found when on Low Life \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Darkray Vectors",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0c/Darkray_Vectors.png/78px-Darkray_Vectors.png?version=e8c48efb93867cbc65555735aeec93e4",
+        "baseItem": "Dragonscale Boots",
+        "requirements": {
+            "level": "65",
+            "str": "62",
+            "dex": "62",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "105",
+            "evasion": "105",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 40)% to Lightning Resistance \n5% increased Movement Speed per Frenzy Charge \n+1 maximum Frenzy Charge \n50% reduced Frenzy Charge Duration \n25% reduced Light Radius \n2% chance to Dodge Attacks per Frenzy Charge"
+        }
+    },
+    {
+        "name": "Dusktoe",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/90/Dusktoe.png/78px-Dusktoe.png?version=b3de8a422d9548c9dd3cdd99c0400d62",
+        "baseItem": "Ironscale Boots",
+        "requirements": {
+            "level": "18",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(41 to 46)",
+            "evasion": "(41 to 46)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 60)% increased Armour and Evasion \n+(10 to 20) to maximum Life \n+(10 to 20) to maximum Mana \n15% increased Movement Speed \n50% increased Stun Recovery \n20% reduced Light Radius \n+50% to Chaos Resistance while using a Flask"
+        }
+    },
+    {
+        "name": "Lioneye's Paws",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c5/Lioneye%27s_Paws.png/78px-Lioneye%27s_Paws.png?version=7cb9eeed872a985e2dd14d4d1405f8ac",
+        "baseItem": "Bronzescale Boots",
+        "requirements": {
+            "level": "30",
+            "str": "30",
+            "dex": "30",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "48",
+            "evasion": "48",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(40 to 60) to Strength \n+(40 to 60) to Dexterity \nAdds 12-24 Fire Damage to Attacks \n20% increased Movement Speed \n40% reduced Movement Speed when on Low Life \n20% increased Stun Recovery \nCannot be Stunned when on Low Life"
+        }
+    },
+    {
+        "name": "Mutewind Whispersteps",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Mutewind_Whispersteps.png/78px-Mutewind_Whispersteps.png?version=3850a062dee31a15aa0ebf0d8e4d43bd",
+        "baseItem": "Serpentscale Boots",
+        "requirements": {
+            "level": "42",
+            "str": "40",
+            "dex": "40",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "66",
+            "evasion": "(132 to 165)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (15-28 to 19-35) Cold Damage to Spells \n(20 to 40)% increased Critical Strike Chance for Spells \n(100 to 150)% increased Evasion Rating \n+(20 to 30)% to Cold Resistance \n20% increased Movement Speed \nUnaffected by Chilled Ground"
+        }
+    },
+    {
+        "name": "Alberon's Warpath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/35/Alberon%27s_Warpath.png/78px-Alberon%27s_Warpath.png?version=f4f73905b2f7be1c5f9d9569be716290",
+        "baseItem": "Soldier Boots",
+        "requirements": {
+            "level": "49",
+            "str": "47",
+            "dex": "0",
+            "int": "47"
+        },
+        "defenses": {
+            "armour": "(257 to 297)",
+            "evasion": "0",
+            "energy": "23"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 1-80 Chaos Damage to Attacks \n+(180 to 220) to Armour \n(9 to 12)% to Chaos Resistance \n20% increased Movement Speed \n+2 to Maximum number of Skeletons \n(15 to 18)% increased Strength"
+        }
+    },
+    {
+        "name": "Gang's Momentum",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7b/Gang%27s_Momentum.png/78px-Gang%27s_Momentum.png?version=aeb491cdb57d3cc1cb68e4b13a28fad6",
+        "baseItem": "Legion Boots",
+        "requirements": {
+            "level": "58",
+            "str": "54",
+            "dex": "0",
+            "int": "54"
+        },
+        "defenses": {
+            "armour": "(237 to 255)",
+            "evasion": "0",
+            "energy": "(70 to 76)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(160 to 180)% increased Armour and Energy Shield \n+(50 to 60)% to Fire Resistance \n25% increased Movement Speed \n(5 to 7)% chance to Ignite \n15% increased Damage against Ignited Enemies"
+        }
+    },
+    {
+        "name": "Wake of Destruction",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/56/Wake_of_Destruction.png/78px-Wake_of_Destruction.png?version=b802aea639faaad217cd40a69539e776",
+        "baseItem": "Mesh Boots",
+        "requirements": {
+            "level": "28",
+            "str": "28",
+            "dex": "0",
+            "int": "28"
+        },
+        "defenses": {
+            "armour": "(54 to 72)",
+            "evasion": "0",
+            "energy": "(16 to 21)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 1-120 Lightning Damage to Attacks \n+(10 to 20) Life gained on Kill \n(20 to 60)% increased Armour and Energy Shield \n10% Chance to Cause Monsters to Flee"
+        }
+    },
+    {
+        "name": "Brinerot Whalers",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/86/Brinerot_Whalers.png/78px-Brinerot_Whalers.png?version=8c2c6f84d004d89a9f10d8ca9ed7d4d0",
+        "baseItem": "Trapper Boots",
+        "requirements": {
+            "level": "41",
+            "str": "0",
+            "dex": "40",
+            "int": "40"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "65",
+            "energy": "(79 to 99)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 80) to maximum Energy Shield \n20% increased Physical Damage \n20% increased Movement Speed \n+(20 to 30)% to Lightning Resistance \n(20 to 40)% increased Projectile Damage \nUnaffected by Shocked Ground"
+        }
+    },
+    {
+        "name": "Nomic's Storm",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b8/Nomic%27s_Storm.png/78px-Nomic%27s_Storm.png?version=8b9016442c178528cf20416910372a64",
+        "baseItem": "Strapped Boots",
+        "requirements": {
+            "level": "16",
+            "str": "0",
+            "dex": "18",
+            "int": "18"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(56 to 76)",
+            "energy": "(23 to 38)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Dexterity \n+(30 to 50) to Evasion Rating \n+(15 to 30) to maximum Energy Shield \n20% increased Movement Speed \n20% to Cold Resistance \n20% increased Physical Damage taken \n20% increased Movement Speed when on Full Energy Shield"
+        }
+    },
+    {
+        "name": "Sin Trek",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/18/Sin_Trek.png/78px-Sin_Trek.png?version=eeb9f6023b4f3535dc4a30786f6d39a4",
+        "baseItem": "Stealth Boots",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "117",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(343 to 382)",
+            "energy": "(70 to 100)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Dexterity \n+(20 to 30) to Intelligence \n(80 to 100)% increased Evasion Rating \n+(70 to 100) to maximum Energy Shield \n30% increased Movement Speed \nEnemies Cannot Leech Life From You"
+        }
+    },
+    {
+        "name": "Sundance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/04/Sundance.png/78px-Sundance.png?version=00ef400fdfb87a8474bf0c110e44b280",
+        "baseItem": "Clasped Boots",
+        "requirements": {
+            "level": "27",
+            "str": "0",
+            "dex": "27",
+            "int": "27"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(77 to 95)",
+            "energy": "13"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "10% increased Attack Speed \n(80 to 120)% increased Evasion Rating \n(20 to 30)% increased Rarity of Items found \n+(30 to 40)% to Fire Resistance \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Demigod's Stride",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1f/Demigod%27s_Stride.png/78px-Demigod%27s_Stride.png?version=89e519dda0365e57dbd3f44705648a4f",
+        "baseItem": "Golden Caligae",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "+(8 to 16)% to all Elemental Resistances",
+            "explicit": "(20 to 30)% increased Rarity of Items found \n+20% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Atziri's Acuity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f7/Atziri%27s_Acuity.png/78px-Atziri%27s_Acuity.png?version=bce6401b7635b0a7159c2ed8a88ecd88",
+        "baseItem": "Vaal Gauntlets",
+        "requirements": {
+            "level": "75",
+            "str": "100",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(603 to 643)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 80) to Intelligence \n+(60 to 75) to maximum Life \n(200 to 220)% increased Armour \n(25 to 35)% increased Global Critical Strike Chance \nLeech applies instantly on Critical Strike"
+        }
+    },
+    {
+        "name": "Doryani's Fist",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a3/Doryani%27s_Fist.png/78px-Doryani%27s_Fist.png?version=a0e1021f76d134ee252e8d4beed5d3a7",
+        "baseItem": "Vaal Gauntlets",
+        "requirements": {
+            "level": "63",
+            "str": "100",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "201",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+30 to maximum Energy Shield \n10% chance to Shock \nAdds (225-785 to 335-900) Lightning Damage to Attacks while Unarmed \nAdds (60-210 to 90-240) Lightning Damage to Spells while Unarmed \n+30 Energy Shield gained on Killing a Shocked Enemy"
+        }
+    },
+    {
+        "name": "Empire's Grasp",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/92/Empire%27s_Grasp.png/78px-Empire%27s_Grasp.png?version=1d071fc4e5a125a82106d77287128ae9",
+        "baseItem": "Goliath Gauntlets",
+        "requirements": {
+            "level": "53",
+            "str": "76",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(551 to 751)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(400 to 600) to Armour \nKnockback direction is reversed \nSocketed Gems are Supported by level 10 Knockback"
+        }
+    },
+    {
+        "name": "Lochtonial Caress",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/92/Lochtonial_Caress.png/78px-Lochtonial_Caress.png?version=d26a3328adb48e3827be21f553d80e88",
+        "baseItem": "Iron Gauntlets",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(16 to 26)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Attack Speed \n+(10 to 20) to Armour \n(10 to 15)% reduced maximum Mana \n(10 to 15)% increased Cast Speed \nConduit"
+        }
+    },
+    {
+        "name": "Meginord's Vise",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5b/Deshret%27s_Vise.png/78px-Deshret%27s_Vise.png?version=cec3d86cd7caf9f53541a065a1bd0ffc",
+        "baseItem": "Steel Gauntlets",
+        "requirements": {
+            "level": "35",
+            "str": "52",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(141 to 162)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "10% increased Physical Damage \n+100 to Strength \n(40 to 60)% increased Armour"
+        }
+    },
+    {
+        "name": "Winds of Change",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/75/Winds_of_Change.png/78px-Winds_of_Change.png?version=c28eda349716d882eaf2001c93147e3d",
+        "baseItem": "Ancient Gauntlets",
+        "requirements": {
+            "level": "47",
+            "str": "68",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "134",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(30 to 60) to maximum Life \n 30% increased Projectile Speed \n10% reduced Movement Speed \n10% chance to Knock Enemies Back on hit \n(30 to 50)% increased Projectile Damage"
+        }
+    },
+    {
+        "name": "Hrimsorrow",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/56/Hrimsorrow.png/78px-Hrimsorrow.png?version=59455121c9c8f4b908258dbbd1703e2c",
+        "baseItem": "Goathide Gloves",
+        "requirements": {
+            "level": "9",
+            "str": "0",
+            "dex": "17",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "42",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Strength \n50% increased Evasion Rating \n+(10 to 20)% to Cold Resistance \n25% of Physical Damage Converted to Cold Damage \nReflects 10 Cold Damage to Melee Attackers"
+        }
+    },
+    {
+        "name": "Maligaro's Virtuosity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ea/Maligaro%27s_Virtuosity.png/78px-Maligaro%27s_Virtuosity.png?version=0ccddf25e38c647e376e380de115a568",
+        "baseItem": "Deerskin Gloves",
+        "requirements": {
+            "level": "21",
+            "str": "0",
+            "dex": "33",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(99 to 112)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Dexterity \n5% increased Attack Speed \n50% increased Global Critical Strike Chance \n+(28 to 36)% to Global Critical Strike Multiplier \n(60 to 80)% increased Evasion Rating"
+        }
+    },
+    {
+        "name": "Asenath's Gentle Touch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1d/Asenath%27s_Gentle_Touch.png/78px-Asenath%27s_Gentle_Touch.png?version=c7527ba2a65432755d2b02fd35d9bd5a",
+        "baseItem": "Silk Gloves",
+        "requirements": {
+            "level": "25",
+            "str": "0",
+            "dex": "0",
+            "int": "39"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "22"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Intelligence \n+(20 to 30) to maximum Life \n+(20 to 30) to maximum Mana \nCurse Enemies with Temporal Chains on Hit"
+        }
+    },
+    {
+        "name": "Doedre's Tenure",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c7/Doedre%27s_Tenure.png/78px-Doedre%27s_Tenure.png?version=af1de3ed7f8def9674c360a5869c93dd",
+        "baseItem": "Velvet Gloves",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "0",
+            "int": "21"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "28"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 50)% increased Spell Damage \n+10 to Intelligence \n20% reduced Cast Speed \n+16 to maximum Energy Shield"
+        }
+    },
+    {
+        "name": "Sadima's Touch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a4/Sadima%27s_Touch.png/78px-Sadima%27s_Touch.png?version=68c60093a156ff4e50564972c61cab04",
+        "baseItem": "Wool Gloves",
+        "requirements": {
+            "level": "11",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "22"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 4-8 Fire Damage to Attacks \nAdds 1-13 Lightning Damage to Attacks \n+18 to maximum Energy Shield \n(12 to 16)% increased Quantity of Items found"
+        }
+    },
+    {
+        "name": "Voidbringer",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c2/Voidbringer.png/78px-Voidbringer.png?version=f7e9a501cfb2c52cf0f24164033b60a3",
+        "baseItem": "Conjurer Gloves",
+        "requirements": {
+            "level": "55",
+            "str": "0",
+            "dex": "0",
+            "int": "79"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(175 to 207)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(125 to 150)% increased Critical Strike Chance for Spells \n(280 to 350)% increased Energy Shield \n80% increased Mana Cost of Skills \n+(15 to 20) Energy Shield gained on Kill \n+1 to Level of Socketed Elemental Gems"
+        }
+    },
+    {
+        "name": "Aurseize",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c5/Aurseize.png/78px-Aurseize.png?version=091b9e7f665b0bfbeedb41263bc7c014",
+        "baseItem": "Steelscale Gauntlets",
+        "requirements": {
+            "level": "36",
+            "str": "29",
+            "dex": "29",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(80 to 91)",
+            "evasion": "(80 to 91)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 60)% increased Armour and Evasion \n+15% to all Elemental Resistances \n(40 to 50)% increased Rarity of Items found \n5% reduced Movement Speed"
+        }
+    },
+    {
+        "name": "Flesh and Spirit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/22/Flesh_and_Spirit.png/78px-Flesh_and_Spirit.png?version=cb7803283bae4df1e2dd0306a0fae93c",
+        "baseItem": "Ironscale Gauntlets",
+        "requirements": {
+            "level": "15",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(45 to 55)",
+            "evasion": "(45 to 55)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(6 to 9)% increased Attack Speed \n(80 to 120)% increased Armour and Evasion \n(3 to 4) Life Regenerated per second \nRecover 20% of your Maximum Life on Rampage \nGain 5 Souls for Vaal Skills on Rampage \nRampage"
+        }
+    },
+    {
+        "name": "Slitherpinch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/28/Slitherpinch.png/78px-Slitherpinch.png?version=80db557c9f9df530b78180b4cc64311c",
+        "baseItem": "Bronzescale Gauntlets",
+        "requirements": {
+            "level": "27",
+            "str": "22",
+            "dex": "22",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "43",
+            "evasion": "(69 to 86)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(40 to 50) to Dexterity \n5% increased Attack Speed \n(60 to 100)% increased Evasion Rating \n0.6% of Physical Attack Damage Leeched as Life \n0.4% of Physical Attack Damage Leeched as Mana"
+        }
+    },
+    {
+        "name": "Surgebinders",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Surgebinders.png/78px-Surgebinders.png?version=e0f9caea5b58e18b777c75430b3a0f60",
+        "baseItem": "Dragonscale Gauntlets",
+        "requirements": {
+            "level": "67",
+            "str": "51",
+            "dex": "51",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(200 to 221)",
+            "evasion": "(200 to 221)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(90 to 110)% increased Armour and Evasion\n(4 to 7)% increased Elemental Damage per Frenzy Charge\n(4 to 7)% increased Physical Damage per Endurance Charge\n(4 to 7)% increased Spell Damage per Power Charge\n10% chance to Steal Power, Frenzy, and Endurance Charges on Hit\n(10 to 30)% reduced Endurance, Frenzy and Power Charge Duration\n"
+        }
+    },
+    {
+        "name": "Vaal Caress",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/28/Vaal_Caress.png/78px-Vaal_Caress.png?version=45a46834b484da7c8ed7114b782353ed",
+        "baseItem": "Bronzescale Gauntlets",
+        "requirements": {
+            "level": "27",
+            "str": "22",
+            "dex": "22",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(95 to 103)",
+            "evasion": "(95 to 103)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+2 to Level of Socketed Vaal Gems \n(120 to 140)% increased Armour and Evasion \n+(30 to 40) to maximum Life \n+30% to Cold Resistance \nYou gain Onslaught for 5 seconds on using a Vaal Skill"
+        }
+    },
+    {
+        "name": "Wyrmsign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f1/Wyrmsign.png/78px-Wyrmsign.png?version=24815ef9007352693f6286c92bee35a6",
+        "baseItem": "Wyrmscale Gauntlets",
+        "requirements": {
+            "level": "49",
+            "str": "38",
+            "dex": "38",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(169 to 200)",
+            "evasion": "(169 to 200)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 5 Concentrated Effect \n(120 to 160)% increased Armour and Evasion \n+(50 to 70) to maximum Life \n4% reduced Mana Cost per Endurance Charge \nGain Rampage while at Maximum Endurances Charges \nLose all Endurance Charges when Rampage ends"
+        }
+    },
+    {
+        "name": "Null and Void",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3d/Null_and_Void.png/78px-Null_and_Void.png?version=2d51cb06c0bfc654e4f8d4944eb9844f",
+        "baseItem": "Legion Gloves",
+        "requirements": {
+            "level": "57",
+            "str": "44",
+            "dex": "0",
+            "int": "44"
+        },
+        "defenses": {
+            "armour": "(222 to 240)",
+            "evasion": "0",
+            "energy": "(65 to 70)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Strength \n(150 to 180)% increased Armour and Energy Shield \n+(50 to 70) to maximum Life \n(20 to 40)% increased Mana Regeneration Rate \nDispels elemental Status Ailments on Rampage \nGain Immunity to Physical Damage for 1.5 seconds on Rampage \nRampage"
+        }
+    },
+    {
+        "name": "Repentance",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4e/Repentance.png/78px-Repentance.png?version=42b802185bc80fd34eb8812ccda012fd",
+        "baseItem": "Crusader Gloves",
+        "requirements": {
+            "level": "66",
+            "str": "306",
+            "dex": "0",
+            "int": "306"
+        },
+        "defenses": {
+            "armour": "(231 to 294)",
+            "evasion": "0",
+            "energy": "(85 to 131)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(0 to 30)% reduced Spell Damage \n(120 to 180)% increased Armour and Energy Shield \n+(8 to 16) to maximum Energy Shield \n500% increased Attribute Requirements \nIron Will"
+        }
+    },
+    {
+        "name": "Shackles of the Wretched",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bf/Shackles_of_the_Wretched.png/78px-Shackles_of_the_Wretched.png?version=e1c7d0ae71499d017afd9ef223dcd469",
+        "baseItem": "Chain Gloves",
+        "requirements": {
+            "level": "7",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "12",
+            "evasion": "0",
+            "energy": "4"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 60)% increased Stun Recovery \nCurses in this item are reflected back to you \nYou cannot be Chilled for 3 seconds after being Chilled \nYou cannot be Frozen for 3 seconds after being Frozen \nYou cannot be Ignited for 3 seconds after being Ignited \nYou cannot be Shocked for 3 seconds after being Shocked \nYou grant (4 to 6) Frenzy Charges to allies on Death"
+        }
+    },
+    {
+        "name": "Southbound",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/cc/Southbound.png/78px-Southbound.png?version=bceaaa1de8d8a33e107ff963d1628e65",
+        "baseItem": "Soldier Gloves",
+        "requirements": {
+            "level": "51",
+            "str": "40",
+            "dex": "0",
+            "int": "40"
+        },
+        "defenses": {
+            "armour": "80",
+            "evasion": "0",
+            "energy": "24"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (30-44 to 36-50) Cold Damage to Attacks \n(12 to 16)% increased maximum Life \n(40 to 50)% to Cold Resistance \n25% increased Freeze Duration on Enemies \nYour Hits can only Kill Frozen enemies"
+        }
+    },
+    {
+        "name": "Facebreaker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/48/Facebreaker.png/78px-Facebreaker.png?version=39c725abc7da0b81cf3c89217c61450c",
+        "baseItem": "Strapped Mitts",
+        "requirements": {
+            "level": "16",
+            "str": "0",
+            "dex": "14",
+            "int": "14"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "26",
+            "energy": "8"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+90% to Global Critical Strike Multiplier \n10% reduced Enemy Stun Threshold \n(600 to 800)% more Unarmed Physical Damage \nExtra gore"
+        }
+    },
+    {
+        "name": "Ondar's Clasp",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a1/Ondar%27s_Clasp.png/78px-Ondar%27s_Clasp.png?version=0d6263c61057a39cee5f2e5abace95f3",
+        "baseItem": "Wrapped Mitts",
+        "requirements": {
+            "level": "5",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "9",
+            "energy": "3"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "30% increased Attack Speed when on Full Life \nAdds 1-13 Lightning Damage to Attacks \n+(50 to 80) to Accuracy Rating \n20% increased Movement Speed when on Low Life"
+        }
+    },
+    {
+        "name": "Shadows and Dust",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/34/Shadows_and_Dust.png/78px-Shadows_and_Dust.png?version=9aefa418e9b5557477fe3f411ce52918",
+        "baseItem": "Clasped Mitts",
+        "requirements": {
+            "level": "31",
+            "str": "0",
+            "dex": "25",
+            "int": "25"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(98 to 113)",
+            "energy": "(30 to 35)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 30)% increased Global Critical Strike Chance \n+(25 to 45)% to Global Critical Strike Multiplier \n(100 to 130)% increased Evasion and Energy Shield \n0.2% of Physical Attack Damage Leeched as Mana \nCreates a Smoke Cloud on Rampage \nGain Unholy Might for 3 seconds on Rampage \nRampage"
+        }
+    },
+    {
+        "name": "Snakebite",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/05/Snakebite.png/78px-Snakebite.png?version=ed3326e804f3c25f43e1579153f5e71a",
+        "baseItem": "Assassin's Mitts",
+        "requirements": {
+            "level": "58",
+            "str": "0",
+            "dex": "45",
+            "int": "45"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(227 to 255)",
+            "energy": "27"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(150 to 180)% increased Evasion Rating \n+(60 to 70) to maximum Life \n2% increased Attack Speed per Frenzy Charge \n6% increased Accuracy Rating per Frenzy Charge \n10% reduced Frenzy Charge Duration per Frenzy Charge \nWhen at Maximum Frenzy Charges, Attacks Poison enemies"
+        }
+    },
+    {
+        "name": "Thunderfist",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/88/Thunderfist.png/78px-Thunderfist.png?version=0dffa59c212f8ab011bbb4d9f0139ad5",
+        "baseItem": "Murder Mitts",
+        "requirements": {
+            "level": "67",
+            "str": "0",
+            "dex": "51",
+            "int": "51"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "105",
+            "energy": "(56 to 61)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 18 Added Lightning Damage \nAdds 1-40 Lightning Damage to Attacks \n10% increased Attack Speed \n+(25 to 30) to maximum Energy Shield \n100% increased Shock Duration on Enemies \n10% increased Stun Duration on Enemies"
+        }
+    },
+    {
+        "name": "Demigod's Touch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9e/Demigod%27s_Touch.png/78px-Demigod%27s_Touch.png?version=fdae6d50d0c2ac32a16cc69da338e9fe",
+        "baseItem": "Golden Bracers",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "+(20 to 30) to maximum Life",
+            "explicit": "(10 to 16)% increased Attack Speed \n(6 to 10)% increased Cast Speed"
+        }
+    },
+    {
+        "name": "Abyssus",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/77/Abyssus.png/78px-Abyssus.png?version=c2fc835d221770684ee71f5e973e90a2",
+        "baseItem": "Ezomyte Burgonet",
+        "requirements": {
+            "level": "60",
+            "str": "138",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(602 to 662)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 40-60 Physical Damage to Attacks \n+(20 to 25) to all Attributes \n+(150 to 225)% to Melee Critical Strike Multiplier \n(100 to 120)% increased Armour \n(40 to 50)% increased Physical Damage taken"
+        }
+    },
+    {
+        "name": "Ezomyte Peak",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/75/Ezomyte_Peak.png/78px-Ezomyte_Peak.png?version=3e69e3d8a9fc2e8de6f5e0d83eb861b6",
+        "baseItem": "Iron Hat",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(23 to 33)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "20% increased Physical Damage \n+(15 to 25) to Armour \n+(25 to 50) to maximum Life \nCannot Evade enemy Attacks"
+        }
+    },
+    {
+        "name": "Hrimnor's Resolve",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2a/Hrimnor%27s_Resolve.png/78px-Hrimnor%27s_Resolve.png?version=d59d5266ab667715a9b837fe40efe579",
+        "baseItem": "Samite Helmet",
+        "requirements": {
+            "level": "55",
+            "str": "114",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(480 to 528)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(30 to 40)% increased Fire Damage \n(100 to 120)% increased Armour \n+30% to Cold Resistance \n50% chance to Avoid being Chilled \n50% chance to Avoid being Frozen \n10% increased Stun Recovery"
+        }
+    },
+    {
+        "name": "Alpha's Howl",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/10/Alpha%27s_Howl.png/78px-Alpha%27s_Howl.png?version=6f9f4b4d92a2957375cc59d98a99bef8",
+        "baseItem": "Sinner Tricorne",
+        "requirements": {
+            "level": "64",
+            "str": "0",
+            "dex": "138",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(578 to 642)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+2 to Level of Socketed Aura Gems \n(80 to 100)% increased Evasion Rating \n+(20 to 30)% to Cold Resistance \n25% chance to Avoid being Chilled \nCannot be Frozen \n8% reduced Mana Reserved"
+        }
+    },
+    {
+        "name": "Fairgraves' Tricorne",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/23/Fairgraves%27_Tricorne.png/78px-Fairgraves%27_Tricorne.png?version=0a29612e0d2a910ecb5909b8c292e5bc",
+        "baseItem": "Tricorne",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "27",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "78",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 6-12 Cold Damage to Attacks \n70% increased Evasion Rating \n+(15 to 30) to maximum Mana \n+(20 to 30)% to Lightning Resistance \nCannot be Shocked \n15% increased Stun Recovery"
+        }
+    },
+    {
+        "name": "Goldrim",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Goldrim.png/78px-Goldrim.png?version=cb83dc6c02c18143f75c3ebfd4594b19",
+        "baseItem": "Leather Cap",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(47 to 67)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(30 to 50) to Evasion Rating \n10% increased Rarity of Items found \n+(30 to 40)% to all Elemental Resistances \nReflects 4 Physical Damage to Melee Attackers"
+        }
+    },
+    {
+        "name": "Heatshiver",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6d/Heatshiver.png/78px-Heatshiver.png?version=642b7e93c1601f30de2a6c10a8186322",
+        "baseItem": "Leather Hood",
+        "requirements": {
+            "level": "20",
+            "str": "0",
+            "dex": "46",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(158 to 176)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Fire Gems \n+1 to Level of Socketed Cold Gems \n(80 to 100)% increased Evasion Rating \n60% increased Mana Regeneration Rate \n+(20 to 10)% to Fire Resistance \n+(20 to 10)% to Cold Resistance"
+        }
+    },
+    {
+        "name": "Rat's Nest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8f/Rat%27s_Nest.png/78px-Rat%27s_Nest.png?version=d663fb60edd9181a7c38e9cd3f035bda",
+        "baseItem": "Ursine Pelt",
+        "requirements": {
+            "level": "55",
+            "str": "0",
+            "dex": "114",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "600",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "15% increased Attack Speed \n(60 to 75)% increased Global Critical Strike Chance \n150% increased Evasion Rating \n(20 to 25)% increased Rarity of Items found \n10% increased Movement Speed \n10% reduced Character Size"
+        }
+    },
+    {
+        "name": "Starkonja's Head",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Starkonja%27s_Head.png/78px-Starkonja%27s_Head.png?version=32a5fc992d4f54daad658cc151351841",
+        "baseItem": "Silken Hood",
+        "requirements": {
+            "level": "60",
+            "str": "0",
+            "dex": "138",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "301",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "50% reduced Damage when on Low Life \n+(30 to 50) to Dexterity \n10% increased Attack Speed \n25% increased Global Critical Strike Chance \n+(80 to 100) to maximum Life \n50% increased Global Evasion Rating when on Low Life"
+        }
+    },
+    {
+        "name": "Asenath's Mark",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/19/Asenath%27s_Mark.png/78px-Asenath%27s_Mark.png?version=d0d95e2f794f6b60e88239e9d72a73b4",
+        "baseItem": "Iron Circlet",
+        "requirements": {
+            "level": "8",
+            "str": "0",
+            "dex": "0",
+            "int": "23"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "20"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Attack Speed \n(10 to 15)% increased Cast Speed \n30% increased Mana Regeneration Rate \n50% increased Energy Shield \n5% increased Movement Speed \n(10 to 15)% increased Stun Recovery"
+        }
+    },
+    {
+        "name": "Chitus' Apex",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/24/Chitus%27_Apex.png/78px-Chitus%27_Apex.png?version=49f6342b3a6a8519137cba0a1c66555b",
+        "baseItem": "Necromancer Circlet",
+        "requirements": {
+            "level": "54",
+            "str": "0",
+            "dex": "0",
+            "int": "112"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "68"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Strength \n+(20 to 30) to maximum Mana \n+10% to all Elemental Resistances \n5% increased Experience gain \n(10 to 20)% increased Elemental Damage"
+        }
+    },
+    {
+        "name": "Crown of Eyes",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/48/Crown_of_Eyes.png/78px-Crown_of_Eyes.png?version=264b2131386784aa0dacc9bf88fda978",
+        "baseItem": "Hubris Circlet",
+        "requirements": {
+            "level": "69",
+            "str": "0",
+            "dex": "0",
+            "int": "154"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(220 to 250)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(200 to 250) to Accuracy Rating \n(120 to 150)% increased Energy Shield \n+30% to Fire Resistance \n(0.4 to 0.8)% of Physical Attack Damage Leeched as Life \n(0.2 to 0.4)% of Physical Attack Damage Leeched as Mana \nIncreases and Reductions to Spell Damage also apply to Attacks"
+        }
+    },
+    {
+        "name": "Crown of Thorns",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/dd/Crown_of_Thorns.png/78px-Crown_of_Thorns.png?version=10ae8783f7a660c8d593f56eeac1b0da",
+        "baseItem": "Vine Circlet",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(67 to 87)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 80) to maximum Energy Shield \nReflects 5 Physical Damage to Melee Attackers \nTake 5 Physical Damage when hit by Attacks \nPain Attunement"
+        }
+    },
+    {
+        "name": "Doedre's Scorn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/65/Doedre%27s_Scorn.png/78px-Doedre%27s_Scorn.png?version=46ba26f3a9b510014afacbafa75efa4c",
+        "baseItem": "Lunaris Circlet",
+        "requirements": {
+            "level": "39",
+            "str": "0",
+            "dex": "0",
+            "int": "83"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "50"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Curse Gems \n+(20 to 30) to Intelligence \n(30 to 50)% increased Curse Duration \n20% increased Elemental Damage \n(10 to 20)% increased Damage per Curse on Enemy"
+        }
+    },
+    {
+        "name": "Rime Gaze",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d2/Rime_Gaze.png/78px-Rime_Gaze.png?version=1cd0cfcf64546617d843131a2fa8a4d6",
+        "baseItem": "Mind Cage",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "0",
+            "int": "138"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(182 to 200)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 15 Concentrated Effect \n30% increased Cold Damage \n+(40 to 60) to maximum Mana \n(100 to 120)% increased Energy Shield \n50% slower start of Energy Shield Recharge"
+        }
+    },
+    {
+        "name": "Scold's Bridle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/66/Scold%27s_Bridle.png/78px-Scold%27s_Bridle.png?version=e580e3f6f789f6b3a29d85dac28db371",
+        "baseItem": "Mind Cage",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "0",
+            "int": "138"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "91"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(80 to 100)% increased Spell Damage \n15% reduced Cast Speed \n+(30 to 60) to maximum Mana \nYour Skills deal you 400% of Mana Cost as Physical Damage"
+        }
+    },
+    {
+        "name": "Ylfeban's Trickery",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1f/Ylfeban%27s_Trickery.png/78px-Ylfeban%27s_Trickery.png?version=c38e723fbfdbe39cd8cf056a3e0126a2",
+        "baseItem": "Hubris Circlet",
+        "requirements": {
+            "level": "69",
+            "str": "0",
+            "dex": "0",
+            "int": "154"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(230 to 270)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (1-60 to 1-80) Lightning Damage to Spells and Attacks \n(130 to 170)% increased Energy Shield \n+(25 to 35)% to Lightning Resistance \n10% chance to Curse Enemies with a random Curse on Hit \n5% chance to create Shocked Ground when Hit"
+        }
+    },
+    {
+        "name": "Black Sun Crest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/89/Black_Sun_Crest.png/78px-Black_Sun_Crest.png?version=8306a7c4dad02d5531e1092ef8b220a4",
+        "baseItem": "Lacquered Helmet",
+        "requirements": {
+            "level": "51",
+            "str": "57",
+            "dex": "57",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(240 to 300)",
+            "evasion": "120",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Gems \n(100 to 150)% increased Armour \n40% reduced Light Radius \n(5 to 15)% increased Dexterity \n(5 to 15)% increased Strength \n(5 to 15)% increased Intelligence"
+        }
+    },
+    {
+        "name": "The Bringer of Rain",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7b/The_Bringer_of_Rain.png/78px-The_Bringer_of_Rain.png?version=ab3e00dae66e92f3b2c8b6ba3cf12fbd",
+        "baseItem": "Nightmare Bascinet",
+        "requirements": {
+            "level": "67",
+            "str": "62",
+            "dex": "85",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(423 to 564)",
+            "evasion": "(609 to 812)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 18 Melee Physical Damage \nSocketed Gems are Supported by level 12 Faster Attacks \nSocketed Gems are Supported by level 6 Blind \nAdds 20-30 Physical Damage to Attacks \n(200 to 300)% increased Armour and Evasion \n+(120 to 160) to maximum Life \n20% chance to gain an Endurance Charge when you Block \nExtra gore \nCan't use Chest armour \n6% Chance to Block"
+        }
+    },
+    {
+        "name": "Deidbell",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a0/Deidbell.png/78px-Deidbell.png?version=3aa3a9a31c4b1d73c32f9c5f361d3c42",
+        "baseItem": "Gilded Sallet",
+        "requirements": {
+            "level": "33",
+            "str": "38",
+            "dex": "38",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(278 to 378)",
+            "evasion": "78",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 30) to Strength \n+(20 to 30) to Dexterity \n+(200 to 300) to Armour \n20% increased Melee Damage \nCannot Leech when on Low Life"
+        }
+    },
+    {
+        "name": "Devoto's Devotion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/48/Devoto%27s_Devotion.png/78px-Devoto%27s_Devotion.png?version=2ba22d56821c8e2f06641a0532482165",
+        "baseItem": "Nightmare Bascinet",
+        "requirements": {
+            "level": "67",
+            "str": "62",
+            "dex": "85",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(353 to 423)",
+            "evasion": "(508 to 609)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "10% reduced Physical Damage \n+(50 to 65) to Dexterity \n16% increased Attack Speed \n(150 to 200)% increased Armour and Evasion \n+(15 to 25)% to Chaos Resistance \n20% increased Movement Speed \nMercury Footprints"
+        }
+    },
+    {
+        "name": "The Peregrine",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/16/The_Peregrine.png/78px-The_Peregrine.png?version=d661b43d53919759d51211245fe55cfc",
+        "baseItem": "Visored Sallet",
+        "requirements": {
+            "level": "23",
+            "str": "28",
+            "dex": "28",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(77 to 88)",
+            "evasion": "(77 to 88)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+100 to Accuracy Rating \n(40 to 60)% increased Armour and Evasion \n(20 to 30)% increased Rarity of Items found \n+30% to Lightning Resistance \n0.2% of Physical Attack Damage Leeched as Mana \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Skullhead",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/42/Skullhead.png/78px-Skullhead.png?version=c82e0c7c7a791db00631747fa4fe0ea7",
+        "baseItem": "Secutor Helm",
+        "requirements": {
+            "level": "36",
+            "str": "42",
+            "dex": "42",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(136 to 153)",
+            "evasion": "(136 to 153)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(60 to 80)% increased Armour and Evasion \n+(50 to 70) to maximum Life \n+(50 to 70) to maximum Mana \nMinions have 10% Chance to Block \nMinions have +(300 to 350) to Armour \nMinions Regenerate 2% Life per Second"
+        }
+    },
+    {
+        "name": "The Broken Crown",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/80/The_Broken_Crown.png/78px-The_Broken_Crown.png?version=20023ab8e2c9c3ec84c442ba71f819c6",
+        "baseItem": "Prophet Crown",
+        "requirements": {
+            "level": "63",
+            "str": "85",
+            "dex": "0",
+            "int": "62"
+        },
+        "defenses": {
+            "armour": "(312 to 390)",
+            "evasion": "0",
+            "energy": "(96 to 140)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are supported by level 20 Cast on Death \n20% increased Damage when on Low Life \n+(10 to 15) to all Attributes \n(60 to 100)% increased Armour and Energy Shield \n20% reduced Mana Regeneration Rate \n+(20 to 30) to maximum Energy Shield \n+(43 to 61)% to Chaos Resistance"
+        }
+    },
+    {
+        "name": "Geofri's Crest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/34/Geofri%27s_Crest.png/78px-Geofri%27s_Crest.png?version=08efe8969afcd6cc07e4b902eb71ac59",
+        "baseItem": "Great Crown",
+        "requirements": {
+            "level": "53",
+            "str": "59",
+            "dex": "0",
+            "int": "59"
+        },
+        "defenses": {
+            "armour": "(200 to 225)",
+            "evasion": "0",
+            "energy": "(59 to 67)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Gems \n(60 to 80)% increased Armour and Energy Shield \n+(15 to 20)% to Fire Resistance \n+(15 to 20)% to Cold Resistance \n+(15 to 20)% to Lightning Resistance \n+(20 to 30)% to Chaos Resistance"
+        }
+    },
+    {
+        "name": "Honourhome",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/80/Honourhome.png/78px-Honourhome.png?version=2509234a68e365bd45afdd0601a930ee",
+        "baseItem": "Soldier Helmet",
+        "requirements": {
+            "level": "12",
+            "str": "16",
+            "dex": "0",
+            "int": "16"
+        },
+        "defenses": {
+            "armour": "(42 to 45)",
+            "evasion": "0",
+            "energy": "(14 to 15)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 1-13 Lightning Damage to Attacks \n(40 to 50)% increased Armour and Energy Shield \n+(10 to 20)% to all Elemental Resistances \n20% increased Elemental Resistances while on Low Life \n20% reduced Mana Cost of Skills when on Low Life"
+        }
+    },
+    {
+        "name": "Mindspiral",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6c/Mindspiral.png/78px-Mindspiral.png?version=e7838611414f203825ad47759f4cf655",
+        "baseItem": "Aventail Helmet",
+        "requirements": {
+            "level": "37",
+            "str": "42",
+            "dex": "0",
+            "int": "42"
+        },
+        "defenses": {
+            "armour": "88",
+            "evasion": "0",
+            "energy": "26"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Cold Damage \n(10 to 15)% increased Lightning Damage \n+(100 to 150) to maximum Mana \nEnemies Cannot Leech Mana From You \n(5 to 10)% of Damage taken Gained as Mana when Hit \nCannot Leech Mana"
+        }
+    },
+    {
+        "name": "Veil of the Night",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/66/Veil_of_the_Night.png/78px-Veil_of_the_Night.png?version=6f65c72d9fa3de31469e1f0c66281055",
+        "baseItem": "Great Helmet",
+        "requirements": {
+            "level": "22",
+            "str": "27",
+            "dex": "0",
+            "int": "27"
+        },
+        "defenses": {
+            "armour": "53",
+            "evasion": "0",
+            "energy": "16"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 22)% increased Stun Recovery \n40% reduced Light Radius \nReflects (1-180 to 1-220) Lightning Damage to Attackers on Block \n(18 to 22)% increased Global Defences \nElemental Resistances are Zero"
+        }
+    },
+    {
+        "name": "Crown of the Pale King",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1b/Crown_of_the_Pale_King.png/78px-Crown_of_the_Pale_King.png?version=e83e20df7b9373e9da6f8be165497b5c",
+        "baseItem": "Regicide Mask",
+        "requirements": {
+            "level": "52",
+            "str": "0",
+            "dex": "58",
+            "int": "58"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(305 to 366)",
+            "energy": "(90 to 108)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(0.4 to 0.8)% of Physical Attack Damage Leeched as Life \n(150 to 200)% increased Evasion and Energy Shield \nReflects 100-150 Physical Damage to Melee Attackers \n30% of Damage you Reflect to enemies is gained as Life"
+        }
+    },
+    {
+        "name": "The Gull",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8e/The_Gull.png/78px-The_Gull.png?version=f2e01d3abaeec79fb271fe42d70da38f",
+        "baseItem": "Raven Mask",
+        "requirements": {
+            "level": "38",
+            "str": "0",
+            "dex": "44",
+            "int": "44"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(198 to 225)",
+            "energy": "(59 to 68)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(120 to 150)% increased Evasion and Energy Shield \n+(30 to 40) to maximum Mana \n+(15 to 20) Life gained on Kill \n+(10 to 15) Energy Shield gained on Kill \n75% increased Effect of Shrine Buffs on you \n50% increased Duration of Shrine Effects on you"
+        }
+    },
+    {
+        "name": "Heretic's Veil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f7/Heretic%27s_Veil.png/78px-Heretic%27s_Veil.png?version=49485c7d9e8cc4daf06e1092a3cf783b",
+        "baseItem": "Deicide Mask",
+        "requirements": {
+            "level": "67",
+            "str": "0",
+            "dex": "73",
+            "int": "88"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(382 to 415)",
+            "energy": "(228 to 273)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(40 to 50) to maximum Energy Shield\n(130 to 150)% increased Evasion and Energy Shield\n+2 to Level of Socketed Curse Gems\nSocketed Curse Gems Supported by Level 22 Blasphemy\nSocketed Curse Gems have 12% reduced Mana Reservation"
+        }
+    },
+    {
+        "name": "Leer Cast",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1e/Leer_Cast.png/78px-Leer_Cast.png?version=600482e1f9c4f888c884bec4fb5b6c20",
+        "baseItem": "Festival Mask",
+        "requirements": {
+            "level": "28",
+            "str": "0",
+            "dex": "33",
+            "int": "33"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "67",
+            "energy": "20"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "30% reduced Damage \n+(20 to 30) to Dexterity \n+(20 to 30) to maximum Life \n+(20 to 30) to maximum Mana \nYou and nearby allies gain 15% increased Damage"
+        }
+    },
+    {
+        "name": "Malachai's Simula",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6b/Malachai%27s_Simula.png/78px-Malachai%27s_Simula.png?version=96c203c79a30b17455a5be8b57e2b0a5",
+        "baseItem": "Iron Mask",
+        "requirements": {
+            "level": "17",
+            "str": "0",
+            "dex": "21",
+            "int": "21"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "41",
+            "energy": "13"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(15 to 30)% increased Spell Damage\n+20 to Strength \n(20 to 30)% increased Lightning Damage\n+10% to Lightning Resistance\nBlood Magic"
+        }
+    },
+    {
+        "name": "The Three Dragons",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/85/The_Three_Dragons.png/78px-The_Three_Dragons.png?version=28d5145e19c5ad0b618e9d10aeaad360",
+        "baseItem": "Golden Mask",
+        "requirements": {
+            "level": "35",
+            "str": "0",
+            "dex": "40",
+            "int": "40"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "83",
+            "energy": "25"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(26 to 30)% to all Elemental Resistances\nYour Fire Damage can Shock but not Ignite\nYour Cold Damage can Ignite but not Freeze or Chill\nYour Lightning Damage can Freeze but not Shock"
+        }
+    },
+    {
+        "name": "The Vertex",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/95/The_Vertex.png/78px-The_Vertex.png?version=299bba500958ffe2609fa89f9a549826",
+        "baseItem": "Vaal Mask",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "79",
+            "int": "72"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(621 to 684)",
+            "energy": "(265 to 330)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Gems\n(245 to 280)% increased Evasion and Energy Shield \n+(30 to 40) to maximum Energy Shield \n+(24 to 30)% to Chaos Resistance \nEnemies cannot Leech Mana from You \nSocketed Gems have 50% reduced Mana Cost"
+        }
+    },
+    {
+        "name": "Demigod's Triumph",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fc/Demigod%27s_Triumph.png/78px-Demigod%27s_Triumph.png?version=37262f4eb5b8f0ecabe3b839b5834835",
+        "baseItem": "Golden Wreath",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "+(16 to 24) to all Attributes",
+            "explicit": "2.0 Life Regenerated per second \n+(20 to 30)% increased Rarity of Items found"
+        }
+    },
+    {
+        "name": "Aegis Aurora",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Aegis_Aurora.png/78px-Aegis_Aurora.png?version=ffd1ec8c31676ab2cd57e96f5cf0644c",
+        "baseItem": "Champion Kite Shield",
+        "requirements": {
+            "level": "62",
+            "str": "85",
+            "dex": "0",
+            "int": "85"
+        },
+        "defenses": {
+            "armour": "(337 to 374)",
+            "evasion": "0",
+            "energy": "(99 to 110)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 20)% increased Elemental Damage with Weapons \n(80 to 100)% increased Armour and Energy Shield \n+10% to all Elemental Resistances \n+5% to maximum Cold Resistance \n+6% Chance to Block \nReplenishes Energy Shield by 2% of Armour when you Block"
+        }
+    },
+    {
+        "name": "Atziri's Mirror",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Atziri%27s_Mirror.png/78px-Atziri%27s_Mirror.png?version=547f54708e581853e34ccf8d4ab6b1bd",
+        "baseItem": "Golden Buckler",
+        "requirements": {
+            "level": "54",
+            "str": "0",
+            "dex": "130",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(484 to 538)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(40 to 60) to Intelligence \n(80 to 100)% increased Evasion Rating \n+(20 to 30) to all Elemental Resistances \n50% reduced Duration of Curses on you \nCurse Reflection"
+        }
+    },
+    {
+        "name": "Brinerot Flag",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f9/Brinerot_Flag.png/78px-Brinerot_Flag.png?version=681df9a6ba2182d256f9b85122a5f1cb",
+        "baseItem": "Tarnished Spirit Shield",
+        "requirements": {
+            "level": "23",
+            "str": "0",
+            "dex": "0",
+            "int": "60"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(95 to 115)"
+        },
+        "mods": {
+            "implicit": "5% increased Spell Damage",
+            "explicit": "+(70 to 90) to maximum Energy Shield \n(8 to 12)% increased Attack Speed \n(20 to 40)% increased Mana Regeneration Rate \n+1 to Level of Socketed Warcry Gems \nGain +3 Mana when you hit a Taunted Enemy"
+        }
+    },
+    {
+        "name": "Broken Faith",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/65/Broken_Faith.png/78px-Broken_Faith.png?version=88fb9424b271489cbf6c115ae4c580d1",
+        "baseItem": "Archon Kite Shield",
+        "requirements": {
+            "level": "68",
+            "str": "85",
+            "dex": "0",
+            "int": "85"
+        },
+        "defenses": {
+            "armour": "135",
+            "evasion": "0",
+            "energy": "40"
+        },
+        "mods": {
+            "implicit": "+12% to all Elemental Resistances",
+            "explicit": "0.4% of Chaos Damage Leeched as Life \nGain (5 to 10)% of Physical Damage as Extra Chaos Damage \n-10% Chance to Block \n(20 to 30)% increased Damage when you have no Energy Shield \n30% Chance to gain Unholy Might on Block for 3 seconds"
+        }
+    },
+    {
+        "name": "Chalice of Horrors",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0e/Chalice_of_Horrors.png/78px-Chalice_of_Horrors.png?version=c8a160fad8ed2221991676202bf9a04b",
+        "baseItem": "War Buckler",
+        "requirements": {
+            "level": "29",
+            "str": "0",
+            "dex": "74",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(164 to 189)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Curse Gems \n(30 to 50)% increased Evasion Rating \n100% increased Curse Duration \n+5% Chance to Block \n10% Chance to Cause Monster to Flee on Block"
+        }
+    },
+    {
+        "name": "Chernobog's Pillar",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9f/Chernobog%27s_Pillar.png/78px-Chernobog%27s_Pillar.png?version=9abe2269f50a5720878f33d775dd46c1",
+        "baseItem": "Ebony Tower Shield",
+        "requirements": {
+            "level": "61",
+            "str": "159",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(788 to 895)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (7-15 to 10-25) Fire Damage to Attacks \n(120 to 150)% increased Armour \n+(35 to 50)% to Fire Resistance \n25% of Physical Damage Converted to Fire Damage \n10% chance to Curse Enemies with Enfeeble on Hit"
+        }
+    },
+    {
+        "name": "Crest of Perandus",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/dc/Crest_of_Perandus.png/78px-Crest_of_Perandus.png?version=5ce6d4934df6301c49a2958a860e4539",
+        "baseItem": "Pine Buckler",
+        "requirements": {
+            "level": "8",
+            "str": "0",
+            "dex": "26",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "38",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(60 to 80) to maximum Life \n(5 to 8) Life Regenerated per second \n+30% to Lightning Resistance \n0.6% of Physical Attack Damage Leeched as Life \n+5% Chance to Block"
+        }
+    },
+    {
+        "name": "Daresso's Courage",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/60/Daresso%27s_Courage.png/78px-Daresso%27s_Courage.png?version=240113f5676f3aac7098d830ba3d1209",
+        "baseItem": "Baroque Round Shield",
+        "requirements": {
+            "level": "54",
+            "str": "70",
+            "dex": "70",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(212 to 233)",
+            "evasion": "(212 to 233)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "120% increased Block Recovery",
+            "explicit": "20% increased Physical Damage \n(100 to 120)% increased Armour and Evasion \n+(10 to 20)% to Fire Resistance \n+(10 to 20)% to Cold Resistance \n+(10 to 20)% to Lightning Resistance \n120% of Block Chance applied to Spells when on Low Life \n+(3 to 6)% Chance to Block"
+        }
+    },
+    {
+        "name": "Demigod's Beacon",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/93/Demigod%27s_Beacon.png/78px-Demigod%27s_Beacon.png?version=f28ec09278720bf18756f80710e70ddc",
+        "baseItem": "Golden Flame",
+        "requirements": {
+            "level": "15",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "(10 to 20)% Chaos Resistance",
+            "explicit": "Adds 10-20 Fire Damage to Attacks \n(15 to 20)% increased Rarity of Items found \n20% increased Light Radius"
+        }
+    },
+    {
+        "name": "The Deep One's Hide",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6f/The_Deep_One%27s_Hide.png/78px-The_Deep_One%27s_Hide.png?version=d3e260984777651d0bb97cb0411a6e25",
+        "baseItem": "Studded Round Shield",
+        "requirements": {
+            "level": "20",
+            "str": "28",
+            "dex": "28",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(76 to 92)",
+            "evasion": "(76 to 92)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "60% increased Block Recovery",
+            "explicit": "Adds 4-8 Physical Damage to Attacks \nAdds 4-8 Cold Damage to Attacks \n(90 to 130)% increased Armour and Evasion \n+(30 to 50)% to Fire Resistance \nCurse Enemies with level 5 Vulnerability on Block"
+        }
+    },
+    {
+        "name": "Glitterdisc",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/32/Glitterdisc.png/78px-Glitterdisc.png?version=44f5158cae0d7a9c60797c7e6ae79755",
+        "baseItem": "Burnished Spiked Shield",
+        "requirements": {
+            "level": "27",
+            "str": "0",
+            "dex": "36",
+            "int": "36"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(119 to 130)",
+            "energy": "(79 to 110)"
+        },
+        "mods": {
+            "implicit": "Reflects (10 to 23) Physical Damage to Melee Attackers",
+            "explicit": "(120 to 140)% increased Evasion and Energy Shield\n+(30 to 50) to maximum Life\n+(20 to 30) to maximum Energy Shield\n10% increased Rarity of Items found\n25% chance to avoid Fire Damage when Hit"
+        }
+    },
+    {
+        "name": "Great Old One's Ward",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/da/Great_Old_One%27s_Ward.png/78px-Great_Old_One%27s_Ward.png?version=e4334a72a443a53c1bad9bf9212c9e72",
+        "baseItem": "Corrugated Buckler",
+        "requirements": {
+            "level": "46",
+            "str": "0",
+            "dex": "112",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "164",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (8-15 to 12-20) Physical Damage to Attacks \n(6 to 10)% increased Attack Speed \n+(50 to 70) to maximum Life \n(8 to 12)% Chance to Block Spells"
+        }
+    },
+    {
+        "name": "Jaws of Agony",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/74/Jaws_of_Agony.png/78px-Jaws_of_Agony.png?version=fbdfc0f1497857d18d02042003ed5846",
+        "baseItem": "Supreme Spiked Shield",
+        "requirements": {
+            "level": "70",
+            "str": "0",
+            "dex": "85",
+            "int": "85"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "210",
+            "energy": "62"
+        },
+        "mods": {
+            "implicit": "Reflects (221 to 260) Physical Damage to Melee Attackers",
+            "explicit": "(18 to 28)% increased Trap Damage \n(15 to 25)% increased Physical Damage \n+(60 to 80) to maximum Life \n+(14 to 18) Physical Damage taken from Attacks \n25% chance to gain a Power Charge on Throwing a Trap \nGrants level 20 Bear Trap Skill"
+        }
+    },
+    {
+        "name": "Kaltenhalt",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/50/Kaltenhalt.png/78px-Kaltenhalt.png?version=94747e6a794b347c379435312c449672",
+        "baseItem": "Painted Buckler",
+        "requirements": {
+            "level": "16",
+            "str": "0",
+            "dex": "44",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(152 to 190)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(60 to 100)% increased Evasion Rating \n+5% to maximum Cold Resistance \n+50% to Cold Resistance \nReflects (25 to 50) Cold Damage to Melee Attackers \n+5% Chance to Block"
+        }
+    },
+    {
+        "name": "Kongming's Stratagem",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f2/Kongming%27s_Stratagem.png/78px-Kongming%27s_Stratagem.png?version=54285682f808fe9975da257634e9b563",
+        "baseItem": "Ivory Spirit Shield",
+        "requirements": {
+            "level": "41",
+            "str": "0",
+            "dex": "0",
+            "int": "100"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(77 to 95)"
+        },
+        "mods": {
+            "implicit": "15% increased Spell Damage",
+            "explicit": "+(20 to 30) to Intelligence\n(80 to 120)% increased Energy Shield\nSocketed Trap Skills create a Smoke Cloud when triggered\n30% increased Fire Damage against Blinded Enemies\n30% reduced Spell Damage taken from Blinded Enemies\nNo Block Chance"
+        }
+    },
+    {
+        "name": "Lioneye's Remorse",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f1/Lioneye%27s_Remorse.png/78px-Lioneye%27s_Remorse.png?version=e06f206aec0e5720e331ddcc5d46e273",
+        "baseItem": "Pinnacle Tower Shield",
+        "requirements": {
+            "level": "70",
+            "str": "159",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(1218 to 1421)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(200 to 250)% increased Armour \n+(80 to 100) to maximum Life \n5% reduced Movement Speed \n20% increased Stun Recovery \n+25 Physical Damage taken from Projectile Attacks \n+5% Chance to Block"
+        }
+    },
+    {
+        "name": "Malachai's Loop",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Malachai%27s_Loop.png/78px-Malachai%27s_Loop.png?version=116da25e5d6bfc3eeee56a8b06912580",
+        "baseItem": "Harmonic Spirit Shield",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "0",
+            "int": "159"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(187-216)"
+        },
+        "mods": {
+            "implicit": "10% increased Spell Damage",
+            "explicit": "(160 to 200)% increased Energy Shield\n+2 to Maximum Power Charges\n20% chance to gain a Power Charge on Hit\n6% increased Spell Damage per Power Charge\nLose all Power Charges on reaching Maximum Power Charges\nYou are Shocked for 4 seconds on reaching Maximum Power Charges"
+        }
+    },
+    {
+        "name": "Maligaro's Lens",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Maligaro%27s_Lens.png/78px-Maligaro%27s_Lens.png?version=7c2f8032967aa527b2e73782ca64ef36",
+        "baseItem": "Compound Spiked Shield",
+        "requirements": {
+            "level": "45",
+            "str": "0",
+            "dex": "58",
+            "int": "58"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "106",
+            "energy": "31"
+        },
+        "mods": {
+            "implicit": "Reflects (51 to 70) Physical Damage to Melee Attackers",
+            "explicit": "(10 to 15)% increased Attack Speed \n(10 to 20)% increased maximum Life \n+50% to all Elemental Resistances \n10% increased Radius of Area Skills \nNearby allies Recover 2% of your maximum Life when you Die"
+        }
+    },
+    {
+        "name": "Matua Tupuna",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0d/Matua_Tupuna.png/78px-Matua_Tupuna.png?version=6f80ae06d3a1529056d12dccd633fe93",
+        "baseItem": "Tarnished Spirit Shield",
+        "requirements": {
+            "level": "23",
+            "str": "0",
+            "dex": "0",
+            "int": "60"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(35 to 45)"
+        },
+        "mods": {
+            "implicit": "5% increased Spell Damage",
+            "explicit": "+2 to Level of Socketed Minion Gems \n+(15 to 25) to maximum Mana \n(40 to 80)% increased Energy Shield \n10% increased Effect of Auras on You \n10% increased Effect of Auras on your Minions \nSpreads Tar when you take a Critical Strike"
+        }
+    },
+    {
+        "name": "Mutewind Pennant",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/dc/Mutewind_Pennant.png/78px-Mutewind_Pennant.png?version=8d7360d8e6dcd1df5d937cbabc5275b8",
+        "baseItem": "Enameled Buckler",
+        "requirements": {
+            "level": "42",
+            "str": "0",
+            "dex": "103",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "331",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 40)% to Cold Resistance \n+1 to Level of Socketed Warcry Gems \n10% increased Radius of Area Skills \n(20 to 30)% increased Chaos Damage \nYou gain Onslaught for 2 seconds on Killing Taunted Enemies"
+        }
+    },
+    {
+        "name": "Prism Guardian",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2e/Prism_Guardian.png/78px-Prism_Guardian.png?version=59af51d211349c678855effaa746ca85",
+        "baseItem": "Archon Kite Shield",
+        "requirements": {
+            "level": "68",
+            "str": "85",
+            "dex": "0",
+            "int": "85"
+        },
+        "defenses": {
+            "armour": "135",
+            "evasion": "0",
+            "energy": "40"
+        },
+        "mods": {
+            "implicit": "+12% to all Elemental Resistances",
+            "explicit": "+2 to Level of Socketed Aura Gems \nSocketed Gems have Blood Magic \nSocketed Gems have 25% reduced Mana Reservation \n+(20 to 30) to Dexterity \n+25% to all Elemental Resistances"
+        }
+    },
+    {
+        "name": "Rathpith Globe",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/23/Rathpith_Globe.png/78px-Rathpith_Globe.png?version=a5c7fac03a3a1968c8e8d35a372eb360",
+        "baseItem": "Titanium Spirit Shield",
+        "requirements": {
+            "level": "68",
+            "str": "0",
+            "dex": "0",
+            "int": "159"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "(184 to 218)"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 60)% of Block Chance applied to Spells \n(40 to 60)% increased Spell Damage \n10% increased maximum Life \n(120 to 160)% increased Energy Shield \n+25% to Lightning Resistance"
+        }
+    },
+    {
+        "name": "Redblade Banner",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a8/Redblade_Banner.png/78px-Redblade_Banner.png?version=30c8dab3acfffe5ed75eefee258c5fdf",
+        "baseItem": "Painted Tower Shield",
+        "requirements": {
+            "level": "35",
+            "str": "87",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "189",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(20 to 60) to maximum Life \n+1 to Level of Socketed Warcry Gems \n+5% Chance to Block \n20% increased Endurance Charge Duration \nGain +10 Life when you Taunt an Enemy"
+        }
+    },
+    {
+        "name": "Rise of the Phoenix",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/aa/Rise_of_the_Phoenix.png/78px-Rise_of_the_Phoenix.png?version=caf189f7f69a224ca8970e7a756b9ce1",
+        "baseItem": "Mosaic Kite Shield",
+        "requirements": {
+            "level": "65",
+            "str": "85",
+            "dex": "0",
+            "int": "85"
+        },
+        "defenses": {
+            "armour": "(229 to 254)",
+            "evasion": "0",
+            "energy": "(67 to 74)"
+        },
+        "mods": {
+            "implicit": "+8% to all Elemental Resistances",
+            "explicit": "(80 to 100)% increased Armour and Energy Shield \n6 Life Regenerated per second \n+8% to maximum Fire Resistance \n+(20 to 25)% to Fire Resistance \n25% increased Fire Resistance while on Low Life \n10% increased Movement Speed when on Low Life \nCannot be Ignited while on Low Life"
+        }
+    },
+    {
+        "name": "Saffell's Frame",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9e/Saffell%27s_Frame.png/78px-Saffell%27s_Frame.png?version=b6c76eff1545d9464b2adac2cc7bcf3f",
+        "baseItem": "Branded Kite Shield",
+        "requirements": {
+            "level": "59",
+            "str": "76",
+            "dex": "0",
+            "int": "76"
+        },
+        "defenses": {
+            "armour": "194",
+            "evasion": "0",
+            "energy": "57"
+        },
+        "mods": {
+            "implicit": "+4% to all Elemental Resistances",
+            "explicit": "(70 to 80)% of Block Chance applied to Spells \n(20 to 30)% increased Spell Damage \n+10% to all Elemental Resistances \n+4% to all maximum Resistances \nCannot Block Attacks"
+        }
+    },
+    {
+        "name": "Sentari's Answer",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b9/Sentari%27s_Answer.png/78px-Sentari%27s_Answer.png?version=5403431763e183592e62e439edf9f2ee",
+        "baseItem": "Brass Spirit Shield",
+        "requirements": {
+            "level": "33",
+            "str": "0",
+            "dex": "0",
+            "int": "82"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "0",
+            "energy": "43"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "25% of Block Chance applied to Spells \n+(20 to 30) to Intelligence \n(4 to 8)% increased Quantity of Items found \n+5% Chance to Block \nApplies level 15 Punishment on Blocking a Melee Attack \nApplies level 15 Temporal Chains on Blocking a Projectile Attack \nApplies level 15 Elemental Weakness on Blocking a Spell"
+        }
+    },
+    {
+        "name": "Springleaf",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2b/Springleaf.png/78px-Springleaf.png?version=ae9cb08633c2a157ad149bcfa736dc7c",
+        "baseItem": "Plank Kite Shield",
+        "requirements": {
+            "level": "7",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(27 to 33)",
+            "evasion": "0",
+            "energy": "(9 to 11)"
+        },
+        "mods": {
+            "implicit": "+4% to all Elemental Resistances",
+            "explicit": "(80 to 120)% increased Armour and Energy Shield \n50% reduced Freeze Duration on You \n1% of Life Regenerated per Second \n5% of Life Regenerated per Second while on Low Life"
+        }
+    },
+    {
+        "name": "Thousand Teeth Temu",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f4/Thousand_Teeth_Temu.png/78px-Thousand_Teeth_Temu.png?version=920a95bc8f16212b5634afa09db4a631",
+        "baseItem": "Vaal Buckler",
+        "requirements": {
+            "level": "63",
+            "str": "0",
+            "dex": "159",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "0",
+            "evasion": "(478 to 526)",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 120)% increased Evasion Rating \n+(70 to 90) to maximum Life \n0.4% of Physical Attack Damage Leeched as Life \n+5% Chance to Block \nReflects 1-1000 Physical Damage to Attackers on Block"
+        }
+    },
+    {
+        "name": "Titucius' Span",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a3/Titucius%27_Span.png/78px-Titucius%27_Span.png?version=06eaa84044f99ae0a41535342e284ca9",
+        "baseItem": "Reinforced Tower Shield",
+        "requirements": {
+            "level": "30",
+            "str": "76",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(398 to 448)",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "(60 to 80)% increased Armour \n+(30 to 50) to maximum Life \n+10 Physical Damage taken from Projectile Attacks \n200% increased Armour against Projectiles \n+25% additional Block Chance against Projectiles"
+        }
+    },
+    {
+        "name": "Trolltimber Spire",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/55/Trolltimber_Spire.png/78px-Trolltimber_Spire.png?version=86fe371d7fa21b15f44a4fede5f9bdf7",
+        "baseItem": "Cedar Tower Shield",
+        "requirements": {
+            "level": "17",
+            "str": "46",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "94",
+            "evasion": "0",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "",
+            "explicit": "+(40 to 60) to maximum Life \n0.5% of Life Regenerated per Second \n15% increased Area of Effect for Skills used by Totems \n1% of Damage Leeched as Life for Skills used by Totems"
+        }
+    },
+    {
+        "name": "Victario's Charity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/52/Victario%27s_Charity.png/78px-Victario%27s_Charity.png?version=77e8d36831c280a9d8323d058e72db92",
+        "baseItem": "Laminated Kite Shield",
+        "requirements": {
+            "level": "50",
+            "str": "64",
+            "dex": "0",
+            "int": "64"
+        },
+        "defenses": {
+            "armour": "98",
+            "evasion": "0",
+            "energy": "29"
+        },
+        "mods": {
+            "implicit": "+8% to all Elemental Resistances",
+            "explicit": "+(50 to 70) to maximum Life\n+(20 to 30)% to Lightning Resistance\n+11% to Chaos Resistance\n10% increased Radius of Aura Skills\n10% chance to grant a Power Charge to nearby Allies on Kill\n5% chance to grant a Frenzy Charge to nearby Allies on Hit"
+        }
+    },
+    {
+        "name": "Wheel of the Stormsail",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Wheel_of_the_Stormsail.png/78px-Wheel_of_the_Stormsail.png?version=2cf731f5dcd7e29783ac05a2ebb30cb5",
+        "baseItem": "Rotted Round Shield",
+        "requirements": {
+            "level": "5",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "defenses": {
+            "armour": "(16 to 21)",
+            "evasion": "11",
+            "energy": "0"
+        },
+        "mods": {
+            "implicit": "60% increased Block Recovery",
+            "explicit": "+(5 to 10) to Armour \n(30 to 40)% increased Rarity of Items found \n25% increased Curse Duration \n100% increased Duration of Curses on you \n+5% Chance to Block"
+        }
+    }
+]

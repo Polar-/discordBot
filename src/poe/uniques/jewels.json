@@ -1,0 +1,1036 @@
+[
+    {
+        "name": "Anatomical Knowledge",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7a/Anatomical_Knowledge.png/39px-Anatomical_Knowledge.png?version=46ddadfd10670cbdb700f0f63074a354",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "(6 to 8)% increased maximum Life\nAdds 1 to maximum Life per 3 Intelligence in Radius"
+        }
+    },
+    {
+        "name": "Apparitions",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/de/Apparitions.png/39px-Apparitions.png?version=f3af9c33c0a1cd25325491d0cf7ef8cd",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Minions have (5 to 10)% increased Movement Speed \nMinions have (2 to 5)% additional chance to Dodge Attacks"
+        }
+    },
+    {
+        "name": "Army of Bones",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/38/Army_of_Bones.png/39px-Army_of_Bones.png?version=2ade32c3bc66337bc2ea63f3e1b4a05f",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Minions deal (8 to 12)% increased Damage \n+2 to maximum number of Skeletons \n(10 to 20)% reduced Skeleton Duration"
+        }
+    },
+    {
+        "name": "Brawn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f0/Brawn.png/39px-Brawn.png?version=f8161f97198d7a2712fa14f4e9e0b2a2",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(4 to 6)% increased Dexterity \n(4 to 6)% increased Strength \n(10 to 15)% reduced Intelligence"
+        }
+    },
+    {
+        "name": "Brute Force Solution",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/05/Brute_Force_Solution.png/39px-Brute_Force_Solution.png?version=4988b38c9a07589bde2445b16184a631",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Intelligence \nStrength from Passives in Radius is Transformed to Intelligence"
+        }
+    },
+    {
+        "name": "Careful Planning",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3e/Careful_Planning.png/39px-Careful_Planning.png?version=b526d1b4018c37f2ba618a7c334d4f1c",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Dexterity \nIntelligence from Passives in Radius is Transformed to Dexterity"
+        }
+    },
+    {
+        "name": "Cheap Construction",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e0/Cheap_Construction.png/39px-Cheap_Construction.png?version=4df0f8a55fac2426e97b9d61b399531e",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "10% reduced Trap Duration\nCan have up to 1 additional Trap placed at a time"
+        }
+    },
+    {
+        "name": "Clear Mind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/87/Clear_Mind.png/39px-Clear_Mind.png?version=9bbc258b6b9f9d712f0d9428a9fdc790",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 30)% increased Mana Regeneration Rate \n(40 to 60)% increased Spell Damage while no Mana is Reserved"
+        }
+    },
+    {
+        "name": "Cold Steel",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/69/Cold_Steel.png/39px-Cold_Steel.png?version=a60bd296a2cec310c535368db1a9789d",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "Increases and Reductions to Physical Damage in Radius\nare transformed to apply to Cold Damage\nIncreases and Reductions to Cold Damage in Radius\nare transformed to apply to Physical Damage"
+        }
+    },
+    {
+        "name": "Dead Reckoning",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0d/Dead_Reckoning.png/39px-Dead_Reckoning.png?version=84154192be1084952b6f237ee91f3acd",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Minions have +(7 to 10)% to all Elemental Resistances\nWith at least 50 Intelligence Allocated in Radius, can summon\nup to 3 Skeleton Mages with Summon Skeletons"
+        }
+    },
+    {
+        "name": "Efficient Training",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/82/Efficient_Training.png/39px-Efficient_Training.png?version=c15bb9a800998107d85ad4eee95c41c3",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Strength \nIntelligence from Passives in Radius is Transformed to Strength"
+        }
+    },
+    {
+        "name": "Eldritch Knowledge",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d1/Eldritch_Knowledge.png/39px-Eldritch_Knowledge.png?version=cc2e48da4b01fb28bc194399ead1afb2",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "5% increased Chaos damage per 10 Intelligence from Allocated Passives in Radius"
+        }
+    },
+    {
+        "name": "Energised Armour",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Energised_Armour.png/39px-Energised_Armour.png?version=bd17dad6c92304cdc79a8158fb1c9f54",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "(15 to 20)% increased Armour\nIncreases and Reductions to Energy Shield in Radius \nare transformed to apply  to Armour  at 200% of their value"
+        }
+    },
+    {
+        "name": "Energy From Within",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/81/Energy_From_Within.png/39px-Energy_From_Within.png?version=a0d0c973e057ff55ce3f87396af48dcd",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "(8 to 12)% increased maximum Energy Shield\nIncreases and Reductions to Life in Radius are Transformed to\napply to Energy Shield"
+        }
+    },
+    {
+        "name": "Fertile Mind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d8/Fertile_Mind.png/39px-Fertile_Mind.png?version=d3deb50582104891f0db841791fed977",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Intelligence \nDexterity from Passives in Radius is Transformed to Intelligence"
+        }
+    },
+    {
+        "name": "Fireborn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/dd/Fireborn.png/39px-Fireborn.png?version=25080912e79f0149ca2265038d783072",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Increases and Reductions to other Damage Types in Radius are Transformed to\napply to Fire Damage"
+        }
+    },
+    {
+        "name": "Fluid Motion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/ca/Fluid_Motion.png/39px-Fluid_Motion.png?version=a6b73aaf51baef81c243dd9d8054e5c0",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Dexterity \nStrength from Passives in Radius is Transformed to Dexterity"
+        }
+    },
+    {
+        "name": "Fortified Legion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ec/Fortified_Legion.png/39px-Fortified_Legion.png?version=57f98a5d2d20cef028cfdcabd1c90bdc",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Minions have (5 to 15)% increased maximum Life \nMinions Recover 2% of their Maximum Life when they Block"
+        }
+    },
+    {
+        "name": "Fragile Bloom",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/58/Fragile_Bloom.png/39px-Fragile_Bloom.png?version=d3516468ae73a33d1766cec747a6491b",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "2% of Life Regenerated per Second \n10% increased Damage taken"
+        }
+    },
+    {
+        "name": "Growing Agony",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/74/Growing_Agony.png/39px-Growing_Agony.png?version=5881f43308a22edade545332e9fba3ca",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(4 to 12)% increased Damage over Time\nWith at least 50 Dexterity Allocated in Radius,\nViper Strike deals 2% increased Attack Damage\nfor each Poison on the Enemy"
+        }
+    },
+    {
+        "name": "Hair Trigger",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b9/HairTrigger.png/39px-HairTrigger.png?version=95134409154756af2ff314803c7a396b",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(15 to 25)% increased Trap Damage \n(20 to 30)% increased Trap Trigger Radius"
+        }
+    },
+    {
+        "name": "Healthy Mind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Healthy_Mind.png/39px-Healthy_Mind.png?version=4c31ac29d50a7b68089c9f11130bf2e7",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "(15 to 20)% increased maximum Mana\nIncreases and Reductions to Life in Radius are Transformed to apply to Mana\nat 200% of their value"
+        }
+    },
+    {
+        "name": "Hidden Potential",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6e/Hidden_Potential.png/39px-Hidden_Potential.png?version=049051d66a9e0cdcae4b2e835224e57b",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 25)% increased Damage for each Magic Item you have equipped"
+        }
+    },
+    {
+        "name": "Hotfooted",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Hotfooted.png/39px-Hotfooted.png?version=0dfa4a621645ee67bc077c0af9a17b88",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Movement Speed while Ignited"
+        }
+    },
+    {
+        "name": "Inertia",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/64/Inertia.png/39px-Inertia.png?version=1dd6039df193a41ac97900a0e2a102f1",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(16 to 24) to Strength\nDexterity from Passives in Radius is Transformed to Strength"
+        }
+    },
+    {
+        "name": "Inspired Learning",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d7/Inspired_Learning.png/39px-Inspired_Learning.png?version=44cfae6f8ab81b1e33f46f8bf74a8d60",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Small",
+        "mods": {
+            "implicit": "",
+            "explicit": "If 4 Notables are Allocated in Radius, When you Kill a Rare monster, you gain 1\nof its mods for 20 seconds"
+        }
+    },
+    {
+        "name": "Intuitive Leap",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/ac/Intuitive_Leap.png/39px-Intuitive_Leap.png?version=7ae23ad145e522e25c891a2ed78d988d",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Small",
+        "mods": {
+            "implicit": "",
+            "explicit": "Passives in Radius can be Allocated without being connected to your tree"
+        }
+    },
+    {
+        "name": "Izaro's Turmoil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2a/Izaro%27s_Turmoil.png/39px-Izaro%27s_Turmoil.png?version=88f3a104d4679c7d79ff65c67bf83188",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(18 to 25)% increased Fire Damage \n(18 to 25)% increased Cold Damage \n2% chance to Freeze \n2% chance to Ignite"
+        }
+    },
+    {
+        "name": "Lioneye's Fall",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7d/Lioneye%27s_Fall.png/39px-Lioneye%27s_Fall.png?version=1c41ae4a58970695675ac68aae268cb9",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Melee and Melee Weapon Type Modifiers in Radius are Transformed to Bow Modifiers"
+        }
+    },
+    {
+        "name": "Malicious Intent",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a9/Malicious_Intent.png/39px-Malicious_Intent.png?version=5bffbf7175c7f0c7b2a5c754fca77708",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "5% chance to Gain Unholy Might for 4 seconds on Melee Kill"
+        }
+    },
+    {
+        "name": "Mantra of Flames",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/27/Mantra_of_Flames.png/39px-Mantra_of_Flames.png?version=bb9a7fcfc1f67d9ec98a009f6d621169",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (3-5 to 8-12) Fire Damage to Attacks per Buff on You \nAdds (2-3 to 5-8) Fire Damage to Spells per Buff on You"
+        }
+    },
+    {
+        "name": "Martial Artistry",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Martial_Artistry.png/39px-Martial_Artistry.png?version=3cb90c9d80e4b7777aca7668697e8622",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Area of Effect while Unarmed"
+        }
+    },
+    {
+        "name": "Might in All Forms",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fb/Might_in_All_Forms.png/39px-Might_in_All_Forms.png?version=85be8ae77b0bde7cc201e5448afd01c5",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Dexterity and Intelligence from passives in Radius \ncount towards Strength Melee Damage bonus"
+        }
+    },
+    {
+        "name": "Pitch Darkness",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a7/Pitch_Darkness.png/39px-Pitch_Darkness.png?version=76402f773599662b53967071ff148195",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 15)% increased Fire Damage\nWith at least 50 Dexterity Allocated in Radius, Burning Arrow has \na 10% chance to spread Burning Ground if it Ignites an Enemy.\nWith at least 50 Dexterity Allocated in Radius, Burning Arrow has\na 10% chance to spread Tar if it does not Ignite an Enemy."
+        }
+    },
+    {
+        "name": "Pugilist",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/cb/Pugilist.png/39px-Pugilist.png?version=716f4f67fc48359ae86bda9f54884388",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "1% increased Evasion Rating per 3 Dexterity Allocated in Radius\n1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius\n1% increased Melee Physical Damage while Unarmed per 3 Dexterity Allocated in Radius"
+        }
+    },
+    {
+        "name": "Rain of Splinters",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fc/Rain_of_Splinters.png/39px-Rain_of_Splinters.png?version=0e1c7beec6ec47f1364ab0844d3aa8a4",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(30 to 50)% reduced  Totem Damage \nTotems Fire 2 additional Projectiles"
+        }
+    },
+    {
+        "name": "Rapid Expansion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e5/Rapid_Expansion.png/39px-Rapid_Expansion.png?version=94b0d72001b26b0016b1f9c50a56a0f9",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(4 to 12)% increased Physical Damage\nWith at least 50 Strength Allocated in radius,\nGround Slam has a 20% increased angle"
+        }
+    },
+    {
+        "name": "Reckless Defence",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/61/Reckless_Defence.png/39px-Reckless_Defence.png?version=04f2b0832e4543fe1f35f9f3b8a5154c",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "20% of Block Chance applied to Spells\n(2 to 4)% additional Block Chance\n(7 to 10)% additional Chance to receive a Critical Strike"
+        }
+    },
+    {
+        "name": "Rolling Flames",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/ac/Rolling_Flames.png/39px-Rolling_Flames.png?version=80fb3116e56d45ca89465f5aba3500d1",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 15)% increased Fire Damage\nWith at least 50 Intelligence Allocated in Radius, Fireball Projectiles gain Area of\nEffect Radius as they travel further, up to 50% increased Radius."
+        }
+    },
+    {
+        "name": "Shattered Chains",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4b/Shattered_Chains.png/39px-Shattered_Chains.png?version=cdc4b60410ce0aefcbad21189a8f0d25",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 15)% increased Cold Damage\nWith at least 50 Strength Allocated in Radius, 20% increased \nRarity of Items dropped by Enemies Shattered by Glacial Hammer"
+        }
+    },
+    {
+        "name": "Spire of Stone",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1e/Spire_of_Stone.png/39px-Spire_of_Stone.png?version=23a77062b4dbeac6401a8e7787d6f09d",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "3% increased Totem Life per 10 Strength in Radius \nTotems cannot be Stunned"
+        }
+    },
+    {
+        "name": "Spirit Guards",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/46/Spirit_Guards.png/39px-Spirit_Guards.png?version=59e2e274f2a8e21d4b003104252fb614",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Minions deal (8 to 12)% increased Damage\nWith 50 Dexterity Allocated in radius, \nAnimate Weapon can Animate up to 4 Ranged Weapons"
+        }
+    },
+    {
+        "name": "Spirited Response",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0e/Spirited_Response.png/39px-Spirited_Response.png?version=e9293e6d4d0f853541ad157b9e330d99",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 10)% increased maximum Mana\nWith at least 50 Intelligence Allocated in radius,\n10% of Damage taken gained as Mana when Hit \nduring Rallying Cry for you and Allies"
+        }
+    },
+    {
+        "name": "Static Electricity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/07/Static_Electricity.png/39px-Static_Electricity.png?version=63646f348b911e64f27025b2dd45fa6e",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius\nAdds 1-2 Lightning Damage to Attacks"
+        }
+    },
+    {
+        "name": "Steel Spirit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/ba/Steel_Spirit.png/39px-Steel_Spirit.png?version=8f72ce0de54692629f64188c2c98f1f5",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(6 to 10)% increased Projectile Damage\nWith at least 50 Dexterity Allocated in Radius, each \nSpectral Throw Projectile gains 4% increased Damage each time it Hits."
+        }
+    },
+    {
+        "name": "Unstable Payload",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Unstable_Payload.png/39px-Unstable_Payload.png?version=f56b3a3e5d7ae829525429f977edfffb",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(8 to 12)% Chance for Traps to Trigger an additional time"
+        }
+    },
+    {
+        "name": "The Vigil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/33/The_Vigil.png/39px-The_Vigil.png?version=f4ae902455a637f58880fcbbddf40422",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(8 to 15)% increased Armour\nWith at least 50 Strength Allocated in Radius, Vigilant Strike\nalso Fortifies Nearby Allies for 3 seconds."
+        }
+    },
+    {
+        "name": "Volley Fire",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b1/Volley_Fire.png/39px-Volley_Fire.png?version=ce5907965387816e96dc94af86676871",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(6 to 10)% increased Projectile Damage\nWith at least 50 Dexterity Allocated in radius, \nBarrage fires an additional 2 projectiles \nsimultaneously on the first and final attacks"
+        }
+    },
+    {
+        "name": "Weight of the Empire",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a8/Weight_of_the_Empire.png/39px-Weight_of_the_Empire.png?version=155d44e06a675c20304b63bdc86f8732",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(4 to 12)% increased Physical Damage\nWith at least 50 Strength Allocated in Radius, Heavy Strike has a\n10% chance to deal Double Damage."
+        }
+    },
+    {
+        "name": "Winter's Bounty",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c1/Winter%27s_Bounty.png/39px-Winter%27s_Bounty.png?version=5350daa0fe561934c0c3ca50f3ed4e22",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 15)% increased Cold Damage\nWith at least 50 Intelligence Allocated in radius, \nCold Snap has a 25% chance to grant a Power \nCharge on Kill"
+        }
+    },
+    {
+        "name": "Ancient Waystones",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e3/Ancient_Waystones.png/39px-Ancient_Waystones.png?version=2f1fb1905d39fccca5d4e016cf912037",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "60% reduced Mana Cost of Totem Skills that cast an Aura \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Atziri's Reign",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fa/Atziri%27s_Reign.png/39px-Atziri%27s_Reign.png?version=693042e636c32caf4e78a79172d40043",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "(15 to 20)% increased Vaal Skill Effect Duration\nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Blood Sacrifice",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9d/Blood_Sacrifice.png/39px-Blood_Sacrifice.png?version=e8a630e6edec5c93218060aadde1dd42",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "1% of maximum Mana gained on Kill \nRemoves 1% of maximum Life on Kill \nRemoves 1% of maximum Energy Shield on Kill \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Brittle Barrier",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ea/Brittle_Barrier.png/39px-Brittle_Barrier.png?version=85f711afb205c0f8087b832c1821effa",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "20% faster start of Energy Shield Recharge \n10% increased Damage Taken while Energy Shield is Full \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Chill of Corruption",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/10/Chill_of_Corruption.png/39px-Chill_of_Corruption.png?version=ffa80d63ee987c31b5b20678203b2ea0",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "50% chance to gain an additional Vaal Soul per Enemy Shattered \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Combustibles",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a9/Combustibles.png/39px-Combustibles.png?version=68e05fd4bac1224cab0aea3404b3c78e",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "10% reduced Quantity of Items found \n(20 to 30)% increased Burning Damage \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Corrupted Energy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ec/Corrupted_Energy.png/39px-Corrupted_Energy.png?version=c70e29d3b8476f93136a4b23468fe85b",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "With 5 Corrupted Items Equipped: \n50% of Chaos Damage does not bypass Energy Shield \nand 50% of Physical Damage bypasses Energy Shield \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Fevered Mind",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/95/Fevered_Mind.png/39px-Fevered_Mind.png?version=b08aaa33a9540c126c40000c8621d91d",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "(20 to 30)% increased Spell Damage \n100% increased Mana Cost of Skills \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Fragility",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/33/Fragility.png/39px-Fragility.png?version=591dfff8f9a9d6265020d6a43acfd20f",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "+1 Maximum Endurance Charges \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Hungry Abyss",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/74/Hungry_Abyss.png/39px-Hungry_Abyss.png?version=785017578a706d619bc66daebc8ed4b1",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "With 5 Corrupted Items Equipped: Life Leech recovers based on your Chaos \nDamage instead \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Mutated Growth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/61/Mutated_Growth.png/39px-Mutated_Growth.png?version=444c5be4864b14027fde38cc05a170c6",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "10% increased Experience Gain of Corrupted Gems \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Pacifism",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3c/Pacifism.png/39px-Pacifism.png?version=00f5b4c7ee4a3f59f8f70d60261cf906",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "+1 Maximum Frenzy Charges \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Powerlessness",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/24/Powerlessness.png/39px-Powerlessness.png?version=f86c181385e02abd07526d8b9a6381d3",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "+1 Maximum Power Charges \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Sacrificial Harvest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0e/Sacrificial_Harvest.png/39px-Sacrificial_Harvest.png?version=b408e3dffbd9b47d7d1823c2507757e4",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "(20 to 30)% chance to gain an additional Vaal Soul on Kill \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Self-Flagellation",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/37/Self-Flagellation.png/39px-Self-Flagellation.png?version=415a4c352ff73733c7f5cbc0a929b927",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "You can have one additional Curse \n(10 to 20)% increased Damage per Curse on you \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Vaal Sentencing",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f5/Vaal_Sentencing.png/39px-Vaal_Sentencing.png?version=b0988f9cc151892d72a249c3e1f64a0e",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "(80 to 120)% increased Vaal Skill Critical Strike Chance \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Weight of Sin",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/44/Weight_of_Sin.png/39px-Weight_of_Sin.png?version=19284c9945cbb81a88574395cae5d461",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "(15 to 20)% increased Chaos Damage \n15% reduced Movement Speed \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    },
+    {
+        "name": "Assassin's Haste",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Assassin%27s_Haste.png/39px-Assassin%27s_Haste.png?version=af3a0b00cc9b286ccb06e8c1204e7d08",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "10% increased Mana Regeneration Rate \n4% increased Movement Speed \n4% increased Attack and Cast Speed"
+        }
+    },
+    {
+        "name": "Conqueror's Efficiency",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/71/Conqueror%27s_Efficiency.png/39px-Conqueror%27s_Efficiency.png?version=7a264d6a7ac529c6faf35fed9ec19d21",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "3% reduced Mana Cost of Skills \n4% increased Skill Effect Duration \n2% reduced Mana Reserved"
+        }
+    },
+    {
+        "name": "Conqueror's Longevity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Conqueror%27s_Longevity.png/39px-Conqueror%27s_Longevity.png?version=6d4dafb3653ea88df6546527f7a35c55",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "3% chance to Avoid Elemental Status Ailments \n8% increased Life Recovery from Flasks \n2% chance to Dodge Attacks"
+        }
+    },
+    {
+        "name": "Conqueror's Potency",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/03/Conqueror%27s_Potency.png/39px-Conqueror%27s_Potency.png?version=6fd29d76ca2550f6597897d40c3bd2af",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "4% increased Effect of your Curses \n8% increased effect of Flasks \n3% increased effect of Non-Curse Auras you Cast"
+        }
+    },
+    {
+        "name": "Poacher's Aim",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f9/Poacher%27s_Aim.png/39px-Poacher%27s_Aim.png?version=142619c3642fb92ee1d16d878430f7ec",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "15% chance of Projectiles Piercing \n10% increased Projectile Damage"
+        }
+    },
+    {
+        "name": "Survival Instincts",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b6/Survival_Instincts.png/39px-Survival_Instincts.png?version=fc0904af044b245fdc02932064df7a3e",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "+20 to Dexterity \n+6% to all Elemental Resistances"
+        }
+    },
+    {
+        "name": "Survival Secrets",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Survival_Secrets.png/39px-Survival_Secrets.png?version=63c4ab351eee8e9b7c14f1ea475ca874",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "3 Mana Regenerated per second \n10% increased Elemental Damage"
+        }
+    },
+    {
+        "name": "Survival Skills",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ec/Survival_Skills.png/39px-Survival_Skills.png?version=3aa00dea17b6a14994b3e18419c2739e",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "10% increased Physical Damage \n+50 to Armour"
+        }
+    },
+    {
+        "name": "Warlord's Reach",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3e/Warlord%27s_Reach.png/39px-Warlord%27s_Reach.png?version=08a0be3d73108702079f1c375321f11a",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "8% increased Attack Damage \n+1 Melee Weapon and Unarmed Range"
+        }
+    },
+    {
+        "name": "Emperor's Cunning",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f8/Emperor%27s_Cunning.png/39px-Emperor%27s_Cunning.png?version=d70d2eadb4b2563bdc8395bf88da9594",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "20% increased Accuracy Rating \n3% increased Character Size \n(4 to 6)% increased Dexterity"
+        }
+    },
+    {
+        "name": "Emperor's Might",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/36/Emperor%27s_Might.png/39px-Emperor%27s_Might.png?version=eb61c6359797f1ed47c99ae9e0343246",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "10% increased Damage \n3% increased Character Size \n(4 to 6)% increased Strength"
+        }
+    },
+    {
+        "name": "Emperor's Wit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/be/Emperor%27s_Wit.png/39px-Emperor%27s_Wit.png?version=01fa2b6110737f130f08891f2da1c7a9",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "30% increased Global Critical Strike Chance \n3% increased Character Size \n(4 to 6)% increased Intelligence"
+        }
+    },
+    {
+        "name": "Cannibalistic Habits",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/35/Cannibalistic_Habits.png/39px-Cannibalistic_Habits.png?version=5ad83ad47491c4e61710acb698605c3b",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Recover 2% of your Maximum Life when you Consume or Destroy a Corpse"
+        }
+    },
+    {
+        "name": "Coated Weapons",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/55/Coated_Weapons.png/39px-Coated_Weapons.png?version=d15db483092dae73ca5fb8a60cda59c3",
+        "baseItem": "Viridian Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "If at least 70 Dexterity is Allocated in Radius, gain 5% of Physical Damage as Extra Chaos Damage"
+        }
+    },
+    {
+        "name": "Controlled Energy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Unstable_Payload.png/39px-Unstable_Payload.png?version=f56b3a3e5d7ae829525429f977edfffb",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 30)% increased Spell Damage while your Energy Shield is Full \n5% chance to Dodge Spell Damage while your Energy Shield is Full"
+        }
+    },
+    {
+        "name": "Dark Thoughts",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Dark_Thoughts.png/39px-Dark_Thoughts.png?version=773678757a0fa311f8868d4371bf7974",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Large",
+        "mods": {
+            "implicit": "",
+            "explicit": "If at least 70 Intelligence is Allocated within the Radius, Enemies can have an additional Curse"
+        }
+    },
+    {
+        "name": "Mantra of Force",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/27/Mantra_of_Flames.png/39px-Mantra_of_Flames.png?version=bb9a7fcfc1f67d9ec98a009f6d621169",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (3-8 to 5-12) Physical Damage per Buff on You"
+        }
+    },
+    {
+        "name": "Miser of Misery",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5c/Miser_of_Misery.png/39px-Miser_of_Misery.png?version=a1c7ff2c8eaed564f15a2b24cf148b0b",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "+3 Life gained for each Status Ailment on Enemies hit by your Attacks \n+3 Life gained for each Status Ailment on Enemies hit by your Spells"
+        }
+    },
+    {
+        "name": "Projected Force",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e0/Cheap_Construction.png/39px-Cheap_Construction.png?version=4df0f8a55fac2426e97b9d61b399531e",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "+4 to Unarmed Range"
+        }
+    },
+    {
+        "name": "Selfless Leadership",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/ff/Selfless_Leadership.png/39px-Selfless_Leadership.png?version=168e53c79e4920a633c7df9aeaf4d2cd",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "Bonuses from Allocated Passives in Radius apply to Minions instead of you"
+        }
+    },
+    {
+        "name": "Specialised",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f6/Viridian_Jewel.png/39px-Viridian_Jewel.png?version=5ca06fa1a18786ceec454347134fe681",
+        "baseItem": "Viridian Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "4% increased Attributes per allocated Keystone"
+        }
+    },
+    {
+        "name": "Stimulated Growth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f6/Stimulated_Growth.png/39px-Stimulated_Growth.png?version=9c919d711202671729724ec090e7950c",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 15)% increased Life Regeneration rate when on full Energy Shield"
+        }
+    },
+    {
+        "name": "Sturdy Growth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/58/Fragile_Bloom.png/39px-Fragile_Bloom.png?version=d3516468ae73a33d1766cec747a6491b",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "Medium",
+        "mods": {
+            "implicit": "",
+            "explicit": "If at least 70 Strength is Allocated in Radius, 15% increased Life Recovery rate"
+        }
+    },
+    {
+        "name": "Surplus",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2a/Izaro%27s_Turmoil.png/39px-Izaro%27s_Turmoil.png?version=88f3a104d4679c7d79ff65c67bf83188",
+        "baseItem": "Cobalt Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(15 to 25)% increased Spell Damage while not on Low Mana \n10% reduced Mana Cost while not on Low Mana"
+        }
+    },
+    {
+        "name": "Vampire's Might",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/52/Vampire%27s_Might.png/39px-Vampire%27s_Might.png?version=c2a246fc1a062fb1d5c0fad41375f0de",
+        "baseItem": "Crimson Jewel",
+        "limit": "0",
+        "radius": "0",
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 20)% reduced Life Leech Rate \n(25 to 30)% increased Damage while Leeching"
+        }
+    },
+    {
+        "name": "Wisdom of the Path Not Taken",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8c/Wisdom_of_the_Path_Not_Taken.png/39px-Wisdom_of_the_Path_Not_Taken.png?version=446772adc7dd747d4821e7491e7fba0e",
+        "baseItem": "Cobalt Jewel",
+        "limit": "0",
+        "radius": "Small",
+        "mods": {
+            "implicit": "",
+            "explicit": "+4 Intelligence for each Unallocated Passive in Radius"
+        }
+    },
+    {
+        "name": "Zerphi's Youth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Zerphi%27s_Youth.png/39px-Zerphi%27s_Youth.png?version=b38a7ff807df4e602aef647ade8c00e4",
+        "baseItem": "Crimson Jewel",
+        "limit": "1",
+        "radius": "0",
+        "mods": {
+            "implicit": "With 5 Corrupted Items Equipped: Gain Soul Eater for 10 seconds on Vaal Skill use \nCorrupted",
+            "explicit": "Corrupted"
+        }
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Blood of the Karui",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d6/Blood_of_the_Karui.png/39px-Blood_of_the_Karui.png?version=556cf0007aba5836d05d85a97eff94dd",
+        "baseItem": "Sanctified Life Flask",
+        "levelReq": "60",
+        "mods": {
+            "implicit": "",
+            "explicit": "(5 to 20)% increased Recovery Speed \nNo Life Recovery Applies during flask effect \nRecover Full Life at the end of the flask effect"
+        }
+    },
+    {
+        "name": "Doedre's Elixir",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3d/Doedre%27s_Elixir.png/39px-Doedre%27s_Elixir.png?version=1e95f12b778e1e2665d09e1537130c89",
+        "baseItem": "Greater Mana Flask",
+        "levelReq": "12",
+        "mods": {
+            "implicit": "",
+            "explicit": "Removes 20% of your maximum Energy Shield on use \nYou take 10% of your maximum Life as Chaos Damage on use \nYou gain a Power Charge on use \nYou gain a Frenzy Charge on use \nYou gain an Endurance Charge on use \n(120 to 150)% increased Charges used"
+        }
+    },
+    {
+        "name": "Lavianga's Spirit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/be/Lavianga%27s_Spirit.png/39px-Lavianga%27s_Spirit.png?version=52b0c6c4283d4963f65d51d1481f967c",
+        "baseItem": "Sanctified Mana Flask",
+        "levelReq": "60",
+        "mods": {
+            "implicit": "",
+            "explicit": "(30 to 50)% increased Amount Recovered \n100% increased Recovery Speed \nYour Skills have no Mana Cost during flask effect"
+        }
+    },
+    {
+        "name": "Zerphi's Last Breath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ee/Zerphi%27s_Last_Breath.png/39px-Zerphi%27s_Last_Breath.png?version=34f9c601fa640fff4e9bdd68f4e05f6c",
+        "baseItem": "Grand Mana Flask",
+        "levelReq": "18",
+        "mods": {
+            "implicit": "",
+            "explicit": "50% increased Charges used \nGain 800% of the Mana Cost of used Skills as Life during Flask effect"
+        }
+    },
+    {
+        "name": "Divination Distillate",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3e/Divination_Distillate.png/39px-Divination_Distillate.png?version=452841bea329ea704b502074f6e2fe8d",
+        "baseItem": "Large Hybrid Flask",
+        "levelReq": "30",
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 60)% increased Rarity of Items found during flask effect \n(12 to 18)% increased Quantity of Items found during flask effect \n25% increased Light Radius during flask effect \n+4% to all maximum Elemental Resistances during flask effect"
+        }
+    },
+    {
+        "name": "The Writhing Jar",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6d/The_Writhing_Jar.png/39px-The_Writhing_Jar.png?version=1cb031fe1eb20163e162496c790494f3",
+        "baseItem": "Hallowed Hybrid Flask",
+        "levelReq": "60",
+        "mods": {
+            "implicit": "",
+            "explicit": "(65 to 75)% reduced Amount Recovered \nInstant Recovery \n2 Enemy Writhing Worms escape the Flask when used \n(10 to 20)% reduced Charges used"
+        }
+    },
+    {
+        "name": "Atziri's Promise",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0d/Atziri%27s_Promise.png/39px-Atziri%27s_Promise.png?version=1b0b77c6a506ef963cd6277246f4a1b0",
+        "baseItem": "Amethyst Flask",
+        "levelReq": "68",
+        "mods": {
+            "implicit": "",
+            "explicit": "2% of Chaos Damage Leeched as Life during flask effect \nGain (22 to 25)% of Physical Damage as Extra Chaos Damage during effect \nGain (13 to 15)% of Elemental Damage as Extra Chaos Damage during effect"
+        }
+    },
+    {
+        "name": "Coruscating Elixir",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a7/Coruscating_Elixir.png/39px-Coruscating_Elixir.png?version=3a4e3f711bf68f6c635a59e3887f7c3c",
+        "baseItem": "Ruby Flask",
+        "levelReq": "18",
+        "mods": {
+            "implicit": "",
+            "explicit": "Chaos damage does not bypass Energy Shield during effect \nRemoves all but one Life on use \nRemoved life is regenerated as Energy Shield over 2 seconds"
+        }
+    },
+    {
+        "name": "Forbidden Taste",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fe/Forbidden_Taste.png/39px-Forbidden_Taste.png?version=1be90d7e489f3c801d1c1cf505871d4b",
+        "baseItem": "Quartz Flask",
+        "levelReq": "27",
+        "mods": {
+            "implicit": "",
+            "explicit": "50% increased Charges used \nRecover 75% of your maximum Life on use \n8% of maximum Life taken as Chaos Damage per Second"
+        }
+    },
+    {
+        "name": "Lion's Roar",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/eb/Lion%27s_Roar.png/39px-Lion%27s_Roar.png?version=6fd4dfb5d2f4e01e8877d2db3e3983df",
+        "baseItem": "Granite Flask",
+        "levelReq": "27",
+        "mods": {
+            "implicit": "",
+            "explicit": "Knocks Back Enemies in an Area on Flask use \n75% chance to cause Enemies to Flee on use \n(30 to 35)% more Melee Physical Damage during effect \nAdds Knockback during flask effect"
+        }
+    },
+    {
+        "name": "Rotgut",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/cf/Rotgut.png/39px-Rotgut.png?version=737fd5670493ab2ef9cf08ce4de2370c",
+        "baseItem": "Quicksilver Flask",
+        "levelReq": "40",
+        "mods": {
+            "implicit": "",
+            "explicit": "(10 to 30)% increased Movement Speed during Flask effect\n15% chance to gain a Flask Charge when you deal a Critical Strike\n(50 to 100)% increased Charges used\nGain Onslaught for 1 second per Frenzy Charge on use\nConsumes Frenzy Charges on use"
+        }
+    },
+    {
+        "name": "Rumi's Concoction",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/69/Rumi%27s_Concoction.png/39px-Rumi%27s_Concoction.png?version=64a4b22f3b2b43c3fe251b4ca6231e8a",
+        "baseItem": "Granite Flask",
+        "levelReq": "68",
+        "mods": {
+            "implicit": "",
+            "explicit": "(20 to 30)% Chance to Block during flask effect \n(10 to 15)% Chance to Block Spells during flask effect"
+        }
+    },
+    {
+        "name": "The Sorrow of the Divine",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/df/The_Sorrow_of_the_Divine.png/39px-The_Sorrow_of_the_Divine.png?version=d5f32fec76ec682cf59eb776028cdd13",
+        "baseItem": "Sulphur Flask",
+        "levelReq": "35",
+        "mods": {
+            "implicit": "Creates Consecrated Ground on Use",
+            "explicit": "(25 to 50)% increased Duration \nZealot's Oath during Flask effect"
+        }
+    },
+    {
+        "name": "Taste of Hate",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1f/Taste_of_Hate.png/39px-Taste_of_Hate.png?version=73f603b923a08bf35018376d203a15f2",
+        "baseItem": "Sapphire Flask",
+        "levelReq": "18",
+        "mods": {
+            "implicit": "",
+            "explicit": "20% of Physical Damage taken as Cold Damage during flask effect \nGain (20 to 30)% of Physical Damage as Extra Cold Damage during effect \n30% chance to Avoid being Chilled during flask effect \n30% chance to Avoid being Frozen during flask effect"
+        }
+    },
+    {
+        "name": "Vessel of Vinktar",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/97/Vessel_of_Vinktar.png/39px-Vessel_of_Vinktar.png?version=2ba43f4b6f914fdfb05bfe7b4bf91463",
+        "baseItem": "Topaz Flask",
+        "levelReq": "68",
+        "mods": {
+            "implicit": "",
+            "explicit": "(80 to 100)% increased Charges used \nShocks nearby Enemies during Flask effect \nYou are Shocked during Flask effect \n20% of Lightning Damage Leeched as Life during Flask effect \n20% of Lightning Damage Leeched as Mana during Flask effect \n<Style Variant> \n"
+        }
+    }
+]

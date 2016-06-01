@@ -1,0 +1,2576 @@
+[
+    {
+        "name": "Dreadarc",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d9/Dreadarc.png/78px-Dreadarc.png?version=8f1c215ac092a6effe47c4ff9a0bccd3",
+        "baseItem": "Cleaver",
+        "requirements": {
+            "level": "16",
+            "str": "48",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(5-20 to 15-25)\n",
+        "crit": "5%",
+        "aps": "(1.18 to 1.21)",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (5-20 to 15-25) Physical Damage \nAdds (5-20 to 15-25) Fire Damage \n5% increased Movement Speed \n(7 to 10)% Increased Attack Speed \n(15 to 25)% to Fire Resistance \nCurse Enemies with Flammability on Hit"
+        }
+    },
+    {
+        "name": "Dyadus",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e0/Dyadus.png/78px-Dyadus.png?version=f7b5adc3eea5b905ca0c45aa00a953e8",
+        "baseItem": "Infernal Axe",
+        "requirements": {
+            "level": "69",
+            "str": "158",
+            "dex": "76",
+            "int": "0"
+        },
+        "damage": "(170-200 to 190-220)\n",
+        "crit": "5%",
+        "aps": "(1.43 to 1.50)",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (170-200 to 190-220) Fire Damage in Main Hand \nAdds (170-200 to 190-220) Cold Damage in Off Hand \n(10 to 15)% increased Attack Speed \nEnemies Chilled by you take 40% increased Burning Damage \n25% Chance to Ignite when in Main Hand \n100% increased Chill Duration on enemies when in Off Hand"
+        }
+    },
+    {
+        "name": "Jack, the Axe",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b5/Jack%2C_the_Axe.png/78px-Jack%2C_the_Axe.png?version=0389ab4de662ecdbb6102571689f8c41",
+        "baseItem": "Vaal Hatchet",
+        "requirements": {
+            "level": "65",
+            "str": "140",
+            "dex": "86",
+            "int": "0"
+        },
+        "damage": "(68-174 to 81-203)\n",
+        "crit": "5.00%",
+        "aps": "(1.54 to 1.61)",
+        "mods": {
+            "implicit": "",
+            "explicit": "(90 to 110)% increased Physical Damage \nAdds (11-18 to 14-23) Physical Damage \n(10 to 15)% increased Attack Speed \n2% of Physical Attack Damage Leeched as Life \n50% reduced Life Leeched per second \nCauses Bleeding on Hit"
+        }
+    },
+    {
+        "name": "Moonbender's Wing",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2b/Moonbender%27s_Wing.png/78px-Moonbender%27s_Wing.png?version=a71aba3a5852d5b7259c9cea85e29278",
+        "baseItem": "Tomahawk",
+        "requirements": {
+            "level": "39",
+            "str": "81",
+            "dex": "56",
+            "int": "0"
+        },
+        "damage": "(45-91 to 58-110)\n",
+        "crit": "(6.50 to 7.50)%",
+        "aps": "1.5",
+        "mods": {
+            "implicit": "",
+            "explicit": "(70 to 90)% increased Physical Damage \nAdds (5-13 to 9-17) Physical Damage \n(30 to 50)% increased Critical Strike Chance \n25% of Physical Damage Converted to Cold Damage \n25% of Physical Damage Converted to Lightning Damage \nGrants level 1 Lightning Warp Skill"
+        }
+    },
+    {
+        "name": "Relentless Fury",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/6e/Relentless_Fury.png/78px-Relentless_Fury.png?version=98c6a0b382b16f96bf107954c811edcb",
+        "baseItem": "Decorative Axe",
+        "requirements": {
+            "level": "29",
+            "str": "80",
+            "dex": "23",
+            "int": "0"
+        },
+        "damage": "(42-80 to 50-95)\n",
+        "crit": "5.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "(60 to 80)% increased Physical Damage \nAdds (3-7 to 5-10) Physical Damage \n0.6% of Physical Attack Damage Leeched as Life \nCulling Strike \nYou gain Onslaught for 3 seconds on Culling Strike \nCannot be Chilled while you have Onslaught"
+        }
+    },
+    {
+        "name": "Rigwald's Savagery",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ef/Rigwald%27s_Savagery.png/78px-Rigwald%27s_Savagery.png?version=664476be6cadefb0abbab63a334c8c30",
+        "baseItem": "Royal Axe",
+        "requirements": {
+            "level": "67",
+            "str": "167",
+            "dex": "57",
+            "int": "0"
+        },
+        "damage": "(93-215 to 113-245)\n",
+        "crit": "5%",
+        "aps": "(1.32 to 1.38)",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (50-135 to 70-165) Physical Damage \n40% increased Physical Weapon Damage while Dual Wielding \n(10 to 15)% increased Attack Speed \n35% increased Attack Speed with Swords \nCauses Bleeding on Hit"
+        }
+    },
+    {
+        "name": "The Screaming Eagle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2c/The_Screaming_Eagle.png/78px-The_Screaming_Eagle.png?version=c443b8dcf7f1ed36174d29b91cad230b",
+        "baseItem": "Jade Hatchet",
+        "requirements": {
+            "level": "6",
+            "str": "21",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(18-38 to 23-43)\n",
+        "crit": "5.00%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (10-25 to 15-30) Physical Damage \n+(10 to 15) to maximum Life \n+(5 to 7) Life gained on Kill \n10% increased Movement Speed \nSocketed Gems are supported by level 2 Chance to Flee"
+        }
+    },
+    {
+        "name": "Soul Taker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bf/Soul_Taker.png/78px-Soul_Taker.png?version=f8130433fc5c2294f7f5172a1c5d4169",
+        "baseItem": "Siege Axe",
+        "requirements": {
+            "level": "59",
+            "str": "119",
+            "dex": "82",
+            "int": "0"
+        },
+        "damage": "(84-158 to 101-190)\n",
+        "crit": "5%",
+        "aps": "(1.80 to 1.88)",
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 140)% increased Physical Damage \nAdds 10-20 Physical Damage \n(20 to 25)% increased Attack Speed \n+(20 to 25)% to Cold Resistance \nInsufficient Mana doesn't prevent your Melee Attacks \nYour Physical Damage can Chill"
+        }
+    },
+    {
+        "name": "Atziri's Disfavour",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/df/Atziri%27s_Disfavour.png/78px-Atziri%27s_Disfavour.png?version=665765c970e9c1e692f28729cc87cc41",
+        "baseItem": "Vaal Axe",
+        "requirements": {
+            "level": "75",
+            "str": "158",
+            "dex": "76",
+            "int": "0"
+        },
+        "damage": "(305-411 to 320-431)\n",
+        "crit": "5%",
+        "aps": "(1.35 to 1.39)",
+        "mods": {
+            "implicit": "",
+            "explicit": "+2 to Level of Socketed Support Gems \nAdds (220-270 to 235-290) Physical Damage \n(12 to 16)% increased Attack Speed \nCauses Bleeding on Hit \n+2 to Weapon range"
+        }
+    },
+    {
+        "name": "The Blood Reaper",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/97/The_Blood_Reaper.png/78px-The_Blood_Reaper.png?version=578c38fabc171a7e7b9897d4d61ef042",
+        "baseItem": "Headsman Axe",
+        "requirements": {
+            "level": "45",
+            "str": "99",
+            "dex": "57",
+            "int": "0"
+        },
+        "damage": "(120-182 to 132-200)\n",
+        "crit": "5%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 120)% increased Physical Damage \n+100 to maximum Life \n10.0 Life Regenerated per second \n1% of Physical Damage Leeched as Life \n50% increased Mana Cost of Skills \nCauses Bleeding on Hit"
+        }
+    },
+    {
+        "name": "The Harvest",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a9/The_Harvest.png/78px-The_Harvest.png?version=39587fe027feb3ccb1142c92a53f5e31",
+        "baseItem": "Jasper Chopper",
+        "requirements": {
+            "level": "37",
+            "str": "100",
+            "dex": "29",
+            "int": "0"
+        },
+        "damage": "(110-172 to 120-187)\n",
+        "crit": "5.00%",
+        "aps": "1.00",
+        "mods": {
+            "implicit": "",
+            "explicit": "(120 to 140)% increased Physical Damage \n1.2% of Damage leeched as Life on Critical Strike \n3% increased Global Critical Strike Chance per Level \nGain Flask Charges when you deal a Critical Strike"
+        }
+    },
+    {
+        "name": "Hezmana's Bloodlust",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4a/Hezmana%27s_Bloodlust.png/78px-Hezmana%27s_Bloodlust.png?version=7244c231728ba5b74f27403a7be469c5",
+        "baseItem": "Vaal Axe",
+        "requirements": {
+            "level": "64",
+            "str": "158",
+            "dex": "76",
+            "int": "0"
+        },
+        "damage": "(217-367 to 246-418)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "(150 to 170)% increased Physical Damage \nAdds (7-16 to 12-25) Physical Damage \n1% of Physical Attack Damage Leeched as Life \nAttacks have Blood Magic"
+        }
+    },
+    {
+        "name": "Kaom's Primacy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/97/Kaom%27s_Primacy.png/78px-Kaom%27s_Primacy.png?version=56a9bec58524e448b87f6ad5b49116fa",
+        "baseItem": "Karui Chopper",
+        "requirements": {
+            "level": "58",
+            "str": "151",
+            "dex": "43",
+            "int": "0"
+        },
+        "damage": "(16-32 to 21-38)\n",
+        "crit": "5%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "",
+            "explicit": "(160 to 220)% increased Physical Damage \nAdds (16-32 to 21-38) Fire Damage \n+(150 to 250) to Accuracy Rating \n+20 Life gained on Kill \nCulling Strike"
+        }
+    },
+    {
+        "name": "Kingmaker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c5/Kingmaker.png/78px-Kingmaker.png?version=143e21249338e6d8a7afa6d3bef5a0a8",
+        "baseItem": "Despot Axe",
+        "requirements": {
+            "level": "66",
+            "str": "140",
+            "dex": "86",
+            "int": "0"
+        },
+        "damage": "(228-309 to 266-361)\n",
+        "crit": "5%",
+        "aps": "(1.3 to 1.46)",
+        "mods": {
+            "implicit": "",
+            "explicit": "(200 to 250)% increased Physical Damage \n(7 to 12)% increased Attack Speed \n+(100 to 150) to maximum Mana \nNearby Allies have 30% increased Item Rarity \nNearby Allies' spells have Culling Strike"
+        }
+    },
+    {
+        "name": "Limbsplit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1f/Limbsplit.png/78px-Limbsplit.png?version=10d7693ed6208b400031760b75ecdc19",
+        "baseItem": "Woodsplitter",
+        "requirements": {
+            "level": "13",
+            "str": "36",
+            "dex": "17",
+            "int": "0"
+        },
+        "damage": "(43-90 to 48-100)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Strength Gems \n(80 to 100)% increased Physical Damage \nAdds 5-10 Physical Damage \n+(15 to 30) to Strength \nCulling Strike"
+        }
+    },
+    {
+        "name": "Reaper's Pursuit",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fb/Reaper%27s_Pursuit.png/78px-Reaper%27s_Pursuit.png?version=af97bde0a7f596e2c4adc935cbced906",
+        "baseItem": "Shadow Axe",
+        "requirements": {
+            "level": "33",
+            "str": "80",
+            "dex": "37",
+            "int": "0"
+        },
+        "damage": "(94-142 to 106-160)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 125)% increased Physical Damage \n+10 Life Gained on Kill \n(30 to 40)% increased Rarity of Items found \n15% increased Movement Speed when on Full Life \nCulling Strike \nHits can't be Evaded"
+        }
+    },
+    {
+        "name": "Wideswing",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/95/Wideswing.png/78px-Wideswing.png?version=19b35e211bcf430f4bd07182c828da4e",
+        "baseItem": "Poleaxe",
+        "requirements": {
+            "level": "18",
+            "str": "44",
+            "dex": "25",
+            "int": "0"
+        },
+        "damage": "(62-92 to 73-111)\n",
+        "crit": "5%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "",
+            "explicit": "Socketed Gems are Supported by level 20 Increased Area of Effect \n(120 to 160)% increased Physical Damage \n+10 to Strength \n+(50 to 80) to Accuracy Rating \n+10 Mana Gained on Kill \n+2 to Weapon range"
+        }
+    },
+    {
+        "name": "Wings of Entropy",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/12/Wings_of_Entropy.png/78px-Wings_of_Entropy.png?version=0ea6ad68d8af474ef7ffea390f5bd907",
+        "baseItem": "Sundering Axe",
+        "requirements": {
+            "level": "60",
+            "str": "149",
+            "dex": "76",
+            "int": "0"
+        },
+        "damage": "(55-100 to 65-120)\n",
+        "crit": "5.00%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "",
+            "explicit": "25% of Block Chance applied to Spells \n8% additional Chance to Block while Dual Wielding \n(100 to 120)% increased Physical Damage \nAdds (55-100 to 65-120) Fire Damage in Main Hand \nAdds (55-100 to 65-120) Chaos Damage in Off Hand \nCounts as Dual Wielding"
+        }
+    },
+    {
+        "name": "Chin Sol",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/9f/Chin_Sol.png/78px-Chin_Sol.png?version=c3c76a3fd22a89a35297a56fd1ed1cf1",
+        "baseItem": "Assassin Bow",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "212",
+            "int": "0"
+        },
+        "damage": "25-50\n",
+        "crit": "6.50%",
+        "aps": "(1.38 to 1.43)",
+        "mods": {
+            "implicit": "",
+            "explicit": "(150 to 180)% increased Physical Damage \n+(10 to 20) to Dexterity \nAdds 25-50 Fire Damage \n(10 to 14)% increased Attack Speed \n100% More Bow Damage at Close Range \nBow Knockback at Close Range"
+        }
+    },
+    {
+        "name": "Darkscorn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/79/Darkscorn.png/78px-Darkscorn.png?version=30329bb27742dc0d8ff289980b6a8e04",
+        "baseItem": "Assassin Bow",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "212",
+            "int": "0"
+        },
+        "damage": "(80-208 to 101-245)\n",
+        "crit": "6.50%",
+        "aps": "1.38",
+        "mods": {
+            "implicit": "",
+            "explicit": "(100 to 125)% increased Physical Damage \nAdds (10-15 to 15-20) Physical Damage \n10% increased Attack Speed \n25% of Physical Damage Converted to Chaos Damage \n(15 to 30)% increased Accuracy Rating \n25% of Physical Damage taken as Chaos Damage"
+        }
+    },
+    {
+        "name": "Death's Harp",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/95/Death%27s_Harp.png/78px-Death%27s_Harp.png?version=27b07cb953540ac2e53960462c93239e",
+        "baseItem": "Death Bow",
+        "requirements": {
+            "level": "32",
+            "str": "0",
+            "dex": "107",
+            "int": "0"
+        },
+        "damage": "(44-50 to 116-131)\n",
+        "crit": "(5.00 to 7.50)%",
+        "aps": "1.32",
+        "mods": {
+            "implicit": "(30 to 50)% increased Critical Strike Chance",
+            "explicit": "(100 to 125)% increased Physical Damage \n10% increased Attack Speed \n+150% to Global Critical Strike Multiplier \nAdds an additional Arrow"
+        }
+    },
+    {
+        "name": "Doomfletch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b3/Doomfletch.png/78px-Doomfletch.png?version=a54db89503757734b05f291cc82384b7",
+        "baseItem": "Royal Bow",
+        "requirements": {
+            "level": "28",
+            "str": "0",
+            "dex": "95",
+            "int": "0"
+        },
+        "damage": "(18-57 to 22-61)\n",
+        "crit": "(6.50 to 7.00)%",
+        "aps": "(1.59 to 1.65)",
+        "mods": {
+            "implicit": "(6 to 12)% increased Elemental Damage with Weapons",
+            "explicit": "Adds (8-16 to 12-20) Physical Damage \n(10 to 14)% increased Attack Speed \n(30 to 40)% increased Critical Strike Chance \n60% increased Mana Regeneration Rate \nGain 110% of Bow Physical Damage as Extra Damage of an Element"
+        }
+    },
+    {
+        "name": "Infractem",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/04/Infractem.png/78px-Infractem.png?version=4a2ee227c90af41b2623ebc65b72544a",
+        "baseItem": "Decimation Bow",
+        "requirements": {
+            "level": "53",
+            "str": "0",
+            "dex": "170",
+            "int": "0"
+        },
+        "damage": "(112-235 to 133-254)\n",
+        "crit": "(6.5 to 7.5)",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "(30 to 50)% increased Critical Strike Chance",
+            "explicit": "(90 to 100)% increased Physical Damage \nAdds (25–36 to 35–45) Physical Damage \n+(20 to 30) to Dexterity \n+(200 to 250) to Accuracy Rating \nArrows always Pierce \n10% increased Movement Speed \nCannot Leech"
+        }
+    },
+    {
+        "name": "Iron Commander",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/31/Iron_Commander.png/78px-Iron_Commander.png?version=920cd54e2b5ae15c63cbf0e70c669db6",
+        "baseItem": "Death Bow",
+        "requirements": {
+            "level": "32",
+            "str": "0",
+            "dex": "107",
+            "int": "0"
+        },
+        "damage": "(28-69 to 32-77)\n",
+        "crit": "(6.5 to 7.5)%",
+        "aps": "(1.37 to 1.44)",
+        "mods": {
+            "implicit": "(30 to 50)% increased Critical Strike Chance",
+            "explicit": "Adds (8-16 to 12-24) Physical Damage\n(14 to 20)% increased Attack Speed\n(14 to 20)% increased Totem Life\n(14 to 20)% increased Totem Placement speed\nCan summon 1 additional Siege Ballista Totem per 200 Dexterity\nAdds 1-3 Physical Damage to Attacks per 25 Dexterity"
+        }
+    },
+    {
+        "name": "Lioneye's Glare",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b5/Lioneye%27s_Glare.png/78px-Lioneye%27s_Glare.png?version=9b7cfc3f0bfc7d3472385fc9ff4e59da",
+        "baseItem": "Imperial Bow",
+        "requirements": {
+            "level": "66",
+            "str": "0",
+            "dex": "212",
+            "int": "0"
+        },
+        "damage": "(62-245 to 85-302)\n",
+        "crit": "5%",
+        "aps": "(1.59 to 1.74)",
+        "mods": {
+            "implicit": "(6 to 12)% increased Elemental Damage with Weapons",
+            "explicit": "(150 to 175)% increased Physical Damage \nAdds (6-20 to 12-32) Physical Damage \n(10 to 20)% increased Attack Speed\n+(80 to 100) to maximum Mana \nHits can't be Evaded"
+        }
+    },
+    {
+        "name": "Null's Inclination",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/eb/Null%27s_Inclination.png/78px-Null%27s_Inclination.png?version=12d724d4bb634ee39d7bdb9c73d7cb45",
+        "baseItem": "Ranger Bow",
+        "requirements": {
+            "level": "60",
+            "str": "0",
+            "dex": "212",
+            "int": "212"
+        },
+        "damage": "(50-130 to 80-180)\n",
+        "crit": "6.00%",
+        "aps": "(1.39 to 1.46)",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (50-130 to 80-180) Chaos Damage \n(7 to 12)% increased Attack Speed \n+(7 to 11)% to Chaos Resistance \nMinions deal 1% increased Damage per 10 Dexterity \n+212 Intelligence Requirement \nCast Socketed Minion Spells on Kill with this Weapon"
+        }
+    },
+    {
+        "name": "Quill Rain",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f0/Quill_Rain.png/71px-Quill_Rain.png?version=629c5a5a00f3582a0ff2d2e7ef0f1fd1",
+        "baseItem": "Short Bow",
+        "requirements": {
+            "level": "5",
+            "str": "0",
+            "dex": "26",
+            "int": "0"
+        },
+        "damage": "6-16\n",
+        "crit": "5%",
+        "aps": "3.00",
+        "mods": {
+            "implicit": "",
+            "explicit": "+(10 to 20) to Dexterity \n100% increased Attack Speed \n+(25 to 50) to Accuracy Rating \n(50 to 100)% increased Projectile Speed \n50% less Weapon Damage"
+        }
+    },
+    {
+        "name": "Roth's Reach",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8d/Roth%27s_Reach.png/78px-Roth%27s_Reach.png?version=818ad5a3dc17f0ec0110e143e181a5ed",
+        "baseItem": "Recurve Bow",
+        "requirements": {
+            "level": "18",
+            "str": "0",
+            "dex": "71",
+            "int": "0"
+        },
+        "damage": "(18-54 to 20-61)\n",
+        "crit": "6.5%",
+        "aps": "(1.30 to 1.35)",
+        "mods": {
+            "implicit": "",
+            "explicit": "(60 to 80)% increased Physical Damage\n(20 to 40)% increased Elemental Damage with Weapons\n(4 to 8)% increased Attack Speed\nSkills Chain +1 times\n30% increased Projectile Speed"
+        }
+    },
+    {
+        "name": "Silverbranch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f6/Silverbranch.png/71px-Silverbranch.png?version=af622c0f5a6dbc5efc9b9f11daf2bd23",
+        "baseItem": "Crude Bow",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(9-23 to 10-26)\n",
+        "crit": "5%",
+        "aps": "1.32",
+        "mods": {
+            "implicit": "",
+            "explicit": "+1 to Level of Socketed Bow Gems \n(80 to 100)% increased Physical Damage \n10% increased Attack Speed \n+30 to Accuracy Rating \n+10 Mana Gained on Kill"
+        }
+    },
+    {
+        "name": "Storm Cloud",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/38/Storm_Cloud.png/78px-Storm_Cloud.png?version=f1d0ba1914bcc2985daec7ef379ba88c",
+        "baseItem": "Long Bow",
+        "requirements": {
+            "level": "9",
+            "str": "0",
+            "dex": "38",
+            "int": "0"
+        },
+        "damage": "1-85\n",
+        "crit": "6.00%",
+        "aps": "(1.77 to 1.95)",
+        "mods": {
+            "implicit": "",
+            "explicit": "No Physical Damage \nAdds 1-85 Lightning Damage \n(36 to 50)% increased Attack Speed"
+        }
+    },
+    {
+        "name": "Voltaxic Rift",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/ff/Voltaxic_Rift.png/78px-Voltaxic_Rift.png?version=3de8fea03ec7fac4eaf97f2417ca4b76",
+        "baseItem": "Spine Bow",
+        "requirements": {
+            "level": "64",
+            "str": "0",
+            "dex": "212",
+            "int": "0"
+        },
+        "damage": "(1-275 to 1-325)\n",
+        "crit": "6%",
+        "aps": "(1.49 to 1.55)",
+        "mods": {
+            "implicit": "",
+            "explicit": "Adds (1-275 to 1-325) Lightning Damage \n(10 to 15)% increased Attack Speed \n100% of Lightning Damage Converted to Chaos Damage \n10% Chance to Shock \nYour Chaos Damage can Shock"
+        }
+    },
+    {
+        "name": "Windripper",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fe/Windripper.png/78px-Windripper.png?version=3d66815d5e0fe2f75cf0dd17a7923e35",
+        "baseItem": "Imperial Bow",
+        "requirements": {
+            "level": "66",
+            "str": "0",
+            "dex": "212",
+            "int": "0"
+        },
+        "damage": "(1-80 to 1-100)\n",
+        "crit": "(8 to 9)%",
+        "aps": "(1.59 to 1.67)",
+        "mods": {
+            "implicit": "(6 to 12)% increased Elemental Damage with Weapons",
+            "explicit": "Adds (32-48 to 40-60) Cold Damage \nAdds (1-80 to 1-100) Lightning Damage \n(10 to 15)% increased Attack Speed \n(60 to 80)% increased Critical Strike Chance \n15% increased Quantity of Items Dropped by Slain Frozen enemies \n30% increased Rarity of Items Dropped by Slain Shocked enemies"
+        }
+    },
+    {
+        "name": "Advancing Fortress",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c5/Advancing_Fortress.png/78px-Advancing_Fortress.png?version=0e77cdfe57b4c52fec2b7f58101d1387",
+        "baseItem": "Gut Ripper",
+        "requirements": {
+            "level": "46",
+            "str": "0",
+            "dex": "80",
+            "int": "80"
+        },
+        "damage": "(36-96 to 40-106)\n",
+        "crit": "6.30%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "+21 Life gained for each Enemy hit by Attacks",
+            "explicit": "Socketed Gems are Supported by level 12 Fortify\n(100 to 120)% increased Physical Damage\n+110 to Evasion Rating\n+(30 to 50) to maximum Life\n+35 to maximum Energy Shield\nReflects (71 to 90) Physical Damage to Melee Attackers\n15% Chance to Block"
+        }
+    },
+    {
+        "name": "Al Dhih",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/98/Al_Dhih.png/78px-Al_Dhih.png?version=71ecabd192b386592848eb7e3c0af120",
+        "baseItem": "Timeworn Claw",
+        "requirements": {
+            "level": "26",
+            "str": "0",
+            "dex": "39",
+            "int": "56"
+        },
+        "damage": "(28-72 to 31-79)\n",
+        "crit": "6.50%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "2% of Physical Attack Damage Leeched as Life",
+            "explicit": "(100 to 120)% increased Physical Damage \n3% of Physical Attack Damage Leeched as Life \n10% reduced Enemy Stun Threshold with this Weapon \nSocketed Gems have 10% chance to cause Enemies to Flee on Hit"
+        }
+    },
+    {
+        "name": "Allure",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/16/Allure.png/78px-Allure.png?version=09d0c42e9bd1c80ec3aeaf149d6ef88e",
+        "baseItem": "Vaal Claw",
+        "requirements": {
+            "level": "66",
+            "str": "0",
+            "dex": "131",
+            "int": "95"
+        },
+        "damage": "(76-184 to 94-224)\n",
+        "crit": "6.5%",
+        "aps": "(1.40 to 1.46)",
+        "mods": {
+            "implicit": "2% of Physical Attack Damage Leeched as Life",
+            "explicit": "(80 to 100)% increased Physical Damage \nAdds (15-30 to 20-40) Physical Damage \n(8 to 12)% increased Attack Speed \n15% increased Movement Speed while Phasing \nYou gain Phasing for 3 seconds on using a Vaal Skill"
+        }
+    },
+    {
+        "name": "Bloodseeker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1e/Bloodseeker.png/78px-Bloodseeker.png?version=b6492bd990b4ff9b3890bf720fc5d10e",
+        "baseItem": "Hellion's Paw",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "131",
+            "int": "95"
+        },
+        "damage": "(74-126 to 81-139)\n",
+        "crit": "6%",
+        "aps": "1.68",
+        "mods": {
+            "implicit": "1.6% of Physical Attack Damage Leeched as Life",
+            "explicit": "(100 to 120)% increased Physical Damage \nAdds 10-12 Physical Damage \n5% increased Attack Speed \n1.2% of Physical Attack Damage Leeched as Life \n5% increased Movement Speed \nLife Leech from Hits with this Weapon applies instantly"
+        }
+    },
+    {
+        "name": "Cybil's Paw",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/42/Cybil%27s_Paw.png/78px-Cybil%27s_Paw.png?version=6ad23283880ab28146fdf779868d8174",
+        "baseItem": "Thresher Claw",
+        "requirements": {
+            "level": "37",
+            "str": "0",
+            "dex": "53",
+            "int": "77"
+        },
+        "damage": "18-48\n",
+        "crit": "6.5%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "+21 Life gained for each Enemy hit by Attacks",
+            "explicit": "(8 to 12)% increased Cast Speed \n+(30 to 40) to maximum Mana \n+(5 to 8) Life gained for each Enemy hit by your Spells \n8% increased Spell Damage per 5% Block Chance"
+        }
+    },
+    {
+        "name": "Essentia Sanguis",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f1/Essentia_Sanguis.png/78px-Essentia_Sanguis.png?version=55f666481370979a744a1c46708668bd",
+        "baseItem": "Eye Gouger",
+        "requirements": {
+            "level": "64",
+            "str": "0",
+            "dex": "113",
+            "int": "113"
+        },
+        "damage": "1-80\n",
+        "crit": "6.30%",
+        "aps": "(1.80 to 1.95)",
+        "mods": {
+            "implicit": "+31 Life gained for each Enemy hit by Attacks",
+            "explicit": "8% additional Chance to Block while Dual Wielding Claws \n(140 to 180)% increased Physical Damage \nAdds 1-80 Lightning Damage \n(20 to 30)% increased Attack Speed \n+(30 to 40) to maximum Energy Shield \nGhost Reaver"
+        }
+    },
+    {
+        "name": "Izaro's Dilemma",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3a/Izaro%27s_Dilemma.png/78px-Izaro%27s_Dilemma.png?version=709eb80646d3c4da2a2a8f025033c365",
+        "baseItem": "Imperial Claw",
+        "requirements": {
+            "level": "68",
+            "str": "0",
+            "dex": "131",
+            "int": "95"
+        },
+        "damage": "(59-150 to 67-171)\n",
+        "crit": "6%",
+        "aps": "(1.76 to 1.84)",
+        "mods": {
+            "implicit": "+25 Life gained for each Enemy hit by Attacks",
+            "explicit": "(40 to 60)% increased Physical Damage \nAdds 20-50 Physical Damage \n(10 to 15)% increased Attack Speed \n+(250 to 350) to Accuracy Rating \n100% increased Physical Damage while Frozen"
+        }
+    },
+    {
+        "name": "Last Resort",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/88/Last_Resort.png/78px-Last_Resort.png?version=74868a95409cc7796559d4b4a9b68acb",
+        "baseItem": "Nailed Fist",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(11-34 to 12-38)\n",
+        "crit": "6.2%",
+        "aps": "1.60",
+        "mods": {
+            "implicit": "+3 Life gained for each Enemy hit by your Attacks",
+            "explicit": "25% increased Attack Speed when on Low Life \n(80 to 100)% increased Physical Damage \nAdds 2-10 Physical Damage \n100% increased Claw Physical Damage when on Low Life \n100% increased Accuracy Rating when on Low Life"
+        }
+    },
+    {
+        "name": "Mortem Morsu",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/42/Mortem_Morsu.png/78px-Mortem_Morsu.png?version=2419aeb0753107ff7cdf7814ce0badce",
+        "baseItem": "Fright Claw",
+        "requirements": {
+            "level": "34",
+            "str": "0",
+            "dex": "61",
+            "int": "61"
+        },
+        "damage": "(16-65 to 18-74)\n",
+        "crit": "7.88%",
+        "aps": "1.80",
+        "mods": {
+            "implicit": "2% of Physical Attack Damage Leeched as Life",
+            "explicit": "(75 to 100)% increased Physical Damage \n20% increased Attack Speed \n25% increased Critical Strike Chance \n+40% to Global Critical Strike Multiplier \n(10 to 20)% of Physical Damage Converted to Chaos Damage \nPoisonous Hit \n25% reduced Enemy Stun Threshold with this Weapon"
+        }
+    },
+    {
+        "name": "Ornament of the East",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/28/Ornament_of_the_East.png/78px-Ornament_of_the_East.png?version=42f6d7617ebdef9a6bcbdca2862546dc",
+        "baseItem": "Gut Ripper",
+        "requirements": {
+            "level": "46",
+            "str": "0",
+            "dex": "80",
+            "int": "80"
+        },
+        "damage": "(36-96 to 40-106)\n",
+        "crit": "6.30%",
+        "aps": "1.65 to 1.72",
+        "mods": {
+            "implicit": "+21 Life gained for each Enemy hit by Attacks",
+            "explicit": "(100 to 120)% increased Physical Damage \n(10 to 15)% increased Attack Speed \n25% increased Stun Recovery \n+1 to Level of Socketed Dexterity Gems \nHits can't be Evaded"
+        }
+    },
+    {
+        "name": "Rive",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d5/Rive.png/78px-Rive.png?version=742b41430109a95c32f598ed801ff5c3",
+        "baseItem": "Terror Claw",
+        "requirements": {
+            "level": "70",
+            "str": "0",
+            "dex": "113",
+            "int": "113"
+        },
+        "damage": "(64-198 to 90-225)\n",
+        "crit": "6.30%",
+        "aps": "1.5",
+        "mods": {
+            "implicit": "2% of Physical Attack Damage Leeched as Life",
+            "explicit": "(60 to 80)% increased Physical Damage \nAdds (25-50 to 35-65) Physical Damage \nCauses Bleeding on Hit \n2% increased Physical Damage over time per 10 Dexterity\n1% increased Bleed Duration per 12 Intelligence\n30% Chance to cause Bleeding Enemies to Flee on hit"
+        }
+    },
+    {
+        "name": "Wildslash",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/44/Wildslash.png/78px-Wildslash.png?version=b7cc3f981e904aa6e9cb8ed23d8bba32",
+        "baseItem": "Awl",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "25",
+            "int": "25"
+        },
+        "damage": "(8-36 to 12-42)\n",
+        "crit": "6.30%",
+        "aps": "(1.65 to 1.73)",
+        "mods": {
+            "implicit": "+5 Life gained for each Enemy hit by Attacks",
+            "explicit": "+(10 to 15) to Strength \n+(10 to 15) to Dexterity \n15% reduced Accuracy Rating \nAdds (2-16 to 6-22) Physical Damage \n(10 to 15)% increased Attack Speed \n20% increased Damage with Movement Skills \n15% increased Attack Speed with Movement Skills"
+        }
+    },
+    {
+        "name": "Bino's Kitchen Knife",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/ed/Bino%27s_Kitchen_Knife.png/39px-Bino%27s_Kitchen_Knife.png?version=76893fa4910479aa0efb89271bbda07d",
+        "baseItem": "Slaughter Knife",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "81",
+            "int": "117"
+        },
+        "damage": "(59-198 to 69-218)\n",
+        "crit": "(9.24 to 9.90)%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "30% increased Damage over Time \nAdds (50-120 to 60-140) Physical Damage \n(40 to 50)% increased Critical Strike Chance \n+(15 to 25)% to Global Critical Strike Multiplier \n+(8 to 12)% to Chaos Resistance \nOn Killing a Poisoned Enemy, nearby Enemies are Poisoned \nand nearby Allies Regenerate 200 Life per second"
+        }
+    },
+    {
+        "name": "Bloodplay",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1c/Bloodplay.png/39px-Bloodplay.png?version=ed31d7d1fa194b3c36a0767e9dba8ceb",
+        "baseItem": "Stiletto",
+        "requirements": {
+            "level": "15",
+            "str": "0",
+            "dex": "30",
+            "int": "30"
+        },
+        "damage": "(11-35 to 21-50)\n",
+        "crit": "6.3%",
+        "aps": "1.55",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "+20 to Dexterity \n(20 to 40)% increased Physical Damage \nAdds (3-9 to 6-13) Physical Damage \n10% increased Attack Speed \nExtra Gore \n10% chance to cause Bleeding on Hit"
+        }
+    },
+    {
+        "name": "The Consuming Dark",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c4/The_Consuming_Dark.png/39px-The_Consuming_Dark.png?version=e9bc3d94a0f4702f7a7decfa52b925d7",
+        "baseItem": "Fiend Dagger",
+        "requirements": {
+            "level": "53",
+            "str": "0",
+            "dex": "58",
+            "int": "123"
+        },
+        "damage": "19-76\n",
+        "crit": "7.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "60% increased Global Critical Strike Chance",
+            "explicit": "+1 to Level of Socketed Fire Gems \n(40 to 60)% increased Spell Damage \n+(20 to 40) to Intelligence \n50% of Fire Damage Converted to Chaos Damage \nYour Chaos Damage Poisons Enemies"
+        }
+    },
+    {
+        "name": "Divinarius",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/87/Divinarius.png/39px-Divinarius.png?version=129327e81d15f6ad59d1ba4fbaaf6c65",
+        "baseItem": "Imperial Skean",
+        "requirements": {
+            "level": "66",
+            "str": "0",
+            "dex": "95",
+            "int": "131"
+        },
+        "damage": "17-69\n",
+        "crit": "6.6%",
+        "aps": "1.45",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "(50 to 70)% increased Spell Damage \n(80 to 100)% increased Critical Strike Chance for Spells \n+10 Life gained on Kill  \n+5 Mana gained on Kill \n10% increased Radius of Area Skills"
+        }
+    },
+    {
+        "name": "Goredrill",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b8/Goredrill.png/39px-Goredrill.png?version=b6db901dc1c516b65195ae26d09f7ac9",
+        "baseItem": "Skinning Knife",
+        "requirements": {
+            "level": "5",
+            "str": "0",
+            "dex": "16",
+            "int": "0"
+        },
+        "damage": "(8-27 to 12-36)\n",
+        "crit": "7.8%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "+(10 to 15) to Dexterity \n(50 to 70)% increased Physical Damage \nAdds (1-3 to 2-5) Physical Damage \n30% increased Critical Strike Chance \nMelee Critical Strikes cause Bleeding \n40% increased Attack Damage against Bleeding Enemies"
+        }
+    },
+    {
+        "name": "Heartbreaker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8e/Heartbreaker.png/39px-Heartbreaker.png?version=0e9b121c5e881b119c5711fcdadbfa81",
+        "baseItem": "Royal Skean",
+        "requirements": {
+            "level": "50",
+            "str": "0",
+            "dex": "71",
+            "int": "102"
+        },
+        "damage": "15-59\n",
+        "crit": "6.6%",
+        "aps": "1.45",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "(40 to 50)% increased Spell Damage \n+(40 to 50) to maximum Mana \n+50 to maximum Energy Shield \n10% faster start of Energy Shield Recharge \nYour Spells have Culling Strike"
+        }
+    },
+    {
+        "name": "Mark of the Doubting Knight",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d1/Mark_of_the_Doubting_Knight.png/39px-Mark_of_the_Doubting_Knight.png?version=f5843139c382b1af34898cff55a471a2",
+        "baseItem": "Platinum Kris",
+        "requirements": {
+            "level": "64",
+            "str": "0",
+            "dex": "76",
+            "int": "149"
+        },
+        "damage": "(62-251 to 68-275)\n",
+        "crit": "7%",
+        "aps": "1.08",
+        "mods": {
+            "implicit": "80% increased Global Critical Strike Chance",
+            "explicit": "5% Additional Chance to Block while Dual Wielding \n(210 to 240)% increased Physical Damage \n10% reduced Attack Speed \n+(6 to 10)% to all Elemental Resistances \nMelee Critical Strikes have 25% chance to cause Bleeding \nMelee Critical Strikes have 25% chance to Poison the Enemy"
+        }
+    },
+    {
+        "name": "Mightflay",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Mightflay.png/39px-Mightflay.png?version=bf92e0cef60be2e4892faedfd3c01e1f",
+        "baseItem": "Flaying Knife",
+        "requirements": {
+            "level": "35",
+            "str": "0",
+            "dex": "73",
+            "int": "51"
+        },
+        "damage": "(47-144 to 52-160)\n",
+        "crit": "6%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "(80 to 100)% increased Physical Damage \nAdds 12-24 Physical Damage \n+25 to Strength \n+10 Life gained for each enemy hit by your Attacks"
+        }
+    },
+    {
+        "name": "Ungil's Gauche",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d1/Ungil%27s_Gauche.png/39px-Ungil%27s_Gauche.png?version=4818a93f280cc8d4923ce5199de09f8b",
+        "baseItem": "Boot Knife",
+        "requirements": {
+            "level": "20",
+            "str": "0",
+            "dex": "31",
+            "int": "45"
+        },
+        "damage": "3-30\n",
+        "crit": "6.6%",
+        "aps": "1.54",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "12% additional Chance to Block while Dual Wielding \n(80 to 100)% increased Physical Damage \n+(10 to 20) to Dexterity \nAdds 3-30 Lightning Damage \n10% increased Attack Speed \n50% increased Global Critical Strike Chance"
+        }
+    },
+    {
+        "name": "Widowmaker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/44/Widowmaker.png/39px-Widowmaker.png?version=a73fe9f076ff47ef43fc9a2f0336484e",
+        "baseItem": "Boot Blade",
+        "requirements": {
+            "level": "44",
+            "str": "0",
+            "dex": "63",
+            "int": "90"
+        },
+        "damage": "(29-90 to 39-100)\n",
+        "crit": "(8.05 to 8.58)%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "40% increased Global Critical Strike Chance",
+            "explicit": "Adds (15-35 to 25-45) Physical Damage\n(22 to 30)% increased Critical Strike Chance\n+(30 to 40)% to Global Critical Strike Multiplier\n100% increased Critical Strike Chance against Enemies on Full Life\n1% of Attack Damage Leeched as Life on Critical Strike"
+        }
+    },
+    {
+        "name": "Reefbane",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/43/Reefbane.png/39px-Reefbane.png?version=8760b5d99e5862f225bee6e2439c2303",
+        "baseItem": "Fishing Rod",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "7-13\n",
+        "crit": "5.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "(36)% increase Cast Speed\nThaumaturgical Lure\n(30)% increased Quantity of Fish Caught\nGlows when in an area with a Unique Fish"
+        }
+    },
+    {
+        "name": "Song of the Sirens",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b1/Song_of_the_Sirens.png/39px-Song_of_the_Sirens.png?version=6153ae5344d42fea1b22c998e4eda224",
+        "baseItem": "Fishing Rod",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "7-13\n",
+        "crit": "5.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "",
+            "explicit": "Siren Worm Bait \n(40 to 50)% reduced Quantity of Fish Caught \n(50 to 60)% increased Rarity of Fish Caught \nYou can catch Exotic Fish"
+        }
+    },
+    {
+        "name": "Brightbeak",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8e/Brightbeak.png/78px-Brightbeak.png?version=85363888d699490a245b426a20468f55",
+        "baseItem": "War Hammer",
+        "requirements": {
+            "level": "20",
+            "str": "71",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(18-42 to 21-49)\n",
+        "crit": "6.25%",
+        "aps": "2.1",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "(50 to 75)% increased Physical Damage \n50% increased Attack Speed \n25% increased Critical Strike Chance \n+(20 to 30)% to Fire Resistance \n+(20 to 30)% to Lightning Resistance"
+        }
+    },
+    {
+        "name": "Callinellus Malleus",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/eb/Callinellus_Malleus.png/78px-Callinellus_Malleus.png?version=ec06578bc8be96070e422256afc2a68a",
+        "baseItem": "Auric Mace",
+        "requirements": {
+            "level": "66",
+            "str": "212",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(135-195 to 177-258)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "Adds (5-15 to 10-23) Physical Damage \n(150 to 200)% increased Physical Damage \n(15 to 25)% reduced Enemy Stun Threshold with this Weapon \nCannot Knock Enemies Back \nAll Attack Damage Chills when you Stun"
+        }
+    },
+    {
+        "name": "Cameria's Maul",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3e/Cameria%27s_Maul.png/78px-Cameria%27s_Maul.png?version=7d8065bb9a4efa924b250e8f93e15300",
+        "baseItem": "Gavel",
+        "requirements": {
+            "level": "60",
+            "str": "212",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(10-30 to 20-50)\n",
+        "crit": "(5.75 to 7.00)%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "(140 to 180)% increased Physical Damage \nAdds (10-30 to 20-50) Cold Damage \n(15 to 40)% increased Critical Strike Chance \n(30 to 40)% increased Cold Damage with Weapons \n40% increased Rarity of Items Dropped by Frozen Enemies \n"
+        }
+    },
+    {
+        "name": "Clayshaper",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/fc/Clayshaper.png/78px-Clayshaper.png?version=860de6d4a5cfea96012d4f157144d6b0",
+        "baseItem": "Rock Breaker",
+        "requirements": {
+            "level": "41",
+            "str": "134",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(54-89 to 60-95)\n",
+        "crit": "5%",
+        "aps": "(1.24 to 1.27)",
+        "mods": {
+            "implicit": "40% increased Stun Duration on Enemies",
+            "explicit": "Adds (24-34 to 30-40) Physical Damage \n(8 to 10)% increased Attack Speed \nMinions have (20 to 30)% increased maximum Life \nMinions' Attacks deal (5-12 to 8-16) additional Physical Damage \n+1 to maximum number of Golems \nGrants level 12 Summon Stone Golem"
+        }
+    },
+    {
+        "name": "Flesh-Eater",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/26/Flesh-Eater.png/78px-Flesh-Eater.png?version=1d448cd16f5070fc65166833283179e9",
+        "baseItem": "Dream Mace",
+        "requirements": {
+            "level": "32",
+            "str": "107",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(43-80 to 49-90)\n",
+        "crit": "5%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "20% increased Stun Duration on Enemies",
+            "explicit": "(60 to 80)% increased Physical Damage \nAdds 10-15 Physical Damage \n10% increased Attack Speed \n1% of Physical Attack Damage leeched as Life \n10% Chance to cause Bleeding on Hit \n1% of Attack Damage leeched as Life against Bleeding Enemies"
+        }
+    },
+    {
+        "name": "Frostbreath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/21/Frostbreath.png/78px-Frostbreath.png?version=cd323a33e788c9fd2ff59424de21e976",
+        "baseItem": "Ornate Mace",
+        "requirements": {
+            "level": "50",
+            "str": "161",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(16-26 to 22-32)\n",
+        "crit": "5.0%",
+        "aps": "(1.30 to 1.37)",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "Adds (16-26 to 22-32) Physical Damage \nAdds (16-26 to 22-32) Cold Damage\n(8 to 14)% increased Attack Speed\n+(40 to 50)% to Fire Resistance\n(35 to 50)% increased Chill Duration on Enemies\nAttacks with this Weapon deal double Damage to Chilled Enemies"
+        }
+    },
+    {
+        "name": "Gorebreaker",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b1/Gorebreaker.png/39px-Gorebreaker.png?version=dc60b99defc3067cb4cec1da23612fae",
+        "baseItem": "Spiked Club",
+        "requirements": {
+            "level": "10",
+            "str": "41",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(44-56 to 51-64)\n",
+        "crit": "5%",
+        "aps": "1.12",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "(300 to 360)% increased Physical Damage \n20% reduced Attack Speed \n(10 to 20)% reduced Enemy Stun Threshold \n(30 to 50)% increased Stun Duration on Enemies \n30% increased Melee Damage against Bleeding Enemies"
+        }
+    },
+    {
+        "name": "Lavianga's Wisdom",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/64/Lavianga%27s_Wisdom.png/78px-Lavianga%27s_Wisdom.png?version=ec118dd1419f75eb3330e2241687684a",
+        "baseItem": "War Hammer",
+        "requirements": {
+            "level": "20",
+            "str": "71",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(26-60 to 29-68)\n",
+        "crit": "5.00%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "20% increased Stun Duration on Enemies",
+            "explicit": "+(10 to 20) to maximum Life \n+(10 to 20) to maximum Mana \n(130 to 160)% increased Physical Damage \n5% reduced Movement Speed \n10% increased Radius of Area Skills \n(10 to 15)% increased Area Damage"
+        }
+    },
+    {
+        "name": "Mjölner",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/17/Mj%C3%B6lner.png/78px-Mj%C3%B6lner.png?version=8460f5d7e12e81c237477be7cbe98f09",
+        "baseItem": "Gavel",
+        "requirements": {
+            "level": "60",
+            "str": "412",
+            "dex": "0",
+            "int": "300"
+        },
+        "damage": "(81-151 to 99-185)\n",
+        "crit": "5%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "(80 to 120)% increased Physical Damage \nSkills Chain +1 times \n(30 to 40)% increased Lightning Damage with Weapons \n+200 Strength Requirement \n+300 Intelligence Requirement \n30% chance to Cast Socketed Lightning Spells on Hit"
+        }
+    },
+    {
+        "name": "Axiom Perpetuum",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/04/Axiom_Perpetuum.png/78px-Axiom_Perpetuum.png?version=81047f0559ad8888980fea6aba1c7e43",
+        "baseItem": "Bronze Sceptre",
+        "requirements": {
+            "level": "10",
+            "str": "22",
+            "dex": "0",
+            "int": "22"
+        },
+        "damage": "10-19\n",
+        "crit": "6.0%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "(4 to 6)% increased Cast Speed\n(100 to 140)% increased Critical Strike Chance for Spells\nAdds (2-5 to 3-6) Fire Damage to Spells\nAdds (2-5 to 3-6) Cold Damage to Spells\nAdds (1-10 to 1-12) Lightning Damage to Spells"
+        }
+    },
+    {
+        "name": "Bitterdream",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/98/Bitterdream.png/78px-Bitterdream.png?version=211ae4362eb30be7067c6730416c79a0",
+        "baseItem": "Shadow Sceptre",
+        "requirements": {
+            "level": "32",
+            "str": "52",
+            "dex": "0",
+            "int": "62"
+        },
+        "damage": "25-37\n",
+        "crit": "6.5%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "15% increased Elemental Damage",
+            "explicit": "Socketed Gems are Supported by level 1 Hypothermia\nSocketed Gems are Supported by level 1 Ice Bite\nSocketed Gems are Supported by level 1 Cold Penetration\nSocketed Gems are Supported by level 1 Mana Leech\nSocketed Gems are Supported by level 10 Added Cold Damage\nSocketed Gems are Supported by level 1 Reduced Mana"
+        }
+    },
+    {
+        "name": "Brutus' Lead Sprinkler",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/ce/Brutus%27_Lead_Sprinkler.png/78px-Brutus%27_Lead_Sprinkler.png?version=b0be3b00ebd995032bdce803b39999de",
+        "baseItem": "Ritual Sceptre",
+        "requirements": {
+            "level": "28",
+            "str": "51",
+            "dex": "0",
+            "int": "51"
+        },
+        "damage": "(31-80 to 37-86)\n",
+        "crit": "(7.80 to 8.40)%",
+        "aps": "(1.38 to 1.44)",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "20% increased Physical Damage \nAdds 15-25 Fire Damage against Ignited Enemies \nAdds (8-26 to 13-31) Physical Damage \n30% increased Fire Damage \n(15 to 20)% increased Attack Speed \n(30 to 40)% increased Critical Strike Chance"
+        }
+    },
+    {
+        "name": "The Dark Seer",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c8/The_Dark_Seer.png/78px-The_Dark_Seer.png?version=27728462d70bd4404fea490920f647b3",
+        "baseItem": "Shadow Sceptre",
+        "requirements": {
+            "level": "32",
+            "str": "52",
+            "dex": "0",
+            "int": "62"
+        },
+        "damage": "25-38\n",
+        "crit": "6.65%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "15% increased Elemental Damage",
+            "explicit": "(30 to 50)% increased Damage \n7% Global chance to Blind enemies on hit \n+1 Mana gained on Kill per Level \n+1 Energy Shield gained on Kill per Level \nCannot be Blinded"
+        }
+    },
+    {
+        "name": "Death's Hand",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/da/Death%27s_Hand.png/78px-Death%27s_Hand.png?version=94fe6141dbdf42b9a519e12e8976b282",
+        "baseItem": "Karui Sceptre",
+        "requirements": {
+            "level": "56",
+            "str": "96",
+            "dex": "0",
+            "int": "96"
+        },
+        "damage": "(63-129 to 74-172)\n",
+        "crit": "(7.2% to 9%)",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "Adds (30-80 to 41-123) Physical Damage \n(20 to 50)% increased Critical Strike Chance \n30% chance to gain a Power Charge when you Stun \nGain Unholy Might for 2 seconds on Critical Strike"
+        }
+    },
+    {
+        "name": "Doon Cuebiyari",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e3/Doon_Cuebiyari.png/78px-Doon_Cuebiyari.png?version=cb1c147957349a6ecc895f9a3344ebeb",
+        "baseItem": "Vaal Sceptre",
+        "requirements": {
+            "level": "64",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "31-58\n",
+        "crit": "6.68%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "+(50 to 70) to Strength \n(15 to 18)% increased Cast Speed \n+(20 to 30) to maximum Mana \nSocketed Gems are Supported by level 30 Iron Will \n1% increased Damage per 8 Strength when in Main Hand \n1% increased Armour per 16 Strength when in Off Hand"
+        }
+    },
+    {
+        "name": "Doryani's Catalyst",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/04/Doryani%27s_Catalyst.png/78px-Doryani%27s_Catalyst.png?version=277b1e27fd9d766a3168dbb39d4495a5",
+        "baseItem": "Vaal Sceptre",
+        "requirements": {
+            "level": "75",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "(96-158 to 116-218)\n",
+        "crit": "6%",
+        "aps": "(1.55 to 1.61)",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "Socketed Gems are Supported by level 20 Elemental Proliferation \nAdds (65-100 to 85-160) Physical Damage \n(11 to 15)% increased Attack Speed \n(6 to 10)% increased Cast Speed \n(30 to 40)% increased Global Critical Strike Chance \n0.2% of Elemental Damage Leeched as Life \n(80 to 100)% increased Elemental Damage"
+        }
+    },
+    {
+        "name": "Mon'tregul's Grasp",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/90/Mon%27tregul%27s_Grasp.png/71px-Mon%27tregul%27s_Grasp.png?version=3178dfc9ad9e8cbe0ba35be3cb2eb08f",
+        "baseItem": "Void Sceptre",
+        "requirements": {
+            "level": "68",
+            "str": "104",
+            "dex": "0",
+            "int": "122"
+        },
+        "damage": "44-66\n",
+        "crit": "6.83%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "15% increased Elemental Damage",
+            "explicit": "50% reduced number of Zombies allowed \n+2000 to Zombie maximum Life \n(25 to 30)% increased Zombie Resistances \n25% increased Zombie Size \nZombies deal (80 to 100)% increased Physical Damage \nEnemies killed by Zombies explode dealing Fire Damage"
+        }
+    },
+    {
+        "name": "Nycta's Lantern",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Nycta%27s_Lantern.png/78px-Nycta%27s_Lantern.png?version=90bfad89704b14f0b3e0cb8308f1505d",
+        "baseItem": "Crystal Sceptre",
+        "requirements": {
+            "level": "41",
+            "str": "59",
+            "dex": "0",
+            "int": "85"
+        },
+        "damage": "(73-108 to 87-129)\n",
+        "crit": "7%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "20% increased Elemental Damage",
+            "explicit": "Socketed Gems are Supported by level 10 Added Fire Damage \nSocketed Gems are Supported by level 10 Cold to Fire \nSocketed Gems are Supported by level 10 Fire Penetration \n(20 to 30)% increased Spell Damage \n(150 to 200)% increased Physical Damage \n+(6 to 10) Life gained for each Enemy hit by Attacks \n25% increased Light Radius"
+        }
+    },
+    {
+        "name": "Singularity",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d0/Singularity.png/78px-Singularity.png?version=fc3d5d5485a7a93cf30c7d1be52e518b",
+        "baseItem": "Platinum Sceptre",
+        "requirements": {
+            "level": "62",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "42-63\n",
+        "crit": "6.00%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "Adds (30-60 to 40-70) Lightning Damage to Spells\n(14 to 18)% increased Cast Speed\n(6 to 8)% reduced Mana Cost of Skills\nNearby Enemies are Hindered, with 25% reduced Movement Speed\n(60 to 80)% increased Damage against Hindered Enemies"
+        }
+    },
+    {
+        "name": "Spine of the First Claimant",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Spine_of_the_First_Claimant.png/78px-Spine_of_the_First_Claimant.png?version=f0c53d528c140caf043d2389fe596a04",
+        "baseItem": "Iron Sceptre",
+        "requirements": {
+            "level": "20",
+            "str": "38",
+            "dex": "0",
+            "int": "38"
+        },
+        "damage": "(40-59 to 43-65)\n",
+        "crit": "6%",
+        "aps": "(1.31 to 1.37)",
+        "mods": {
+            "implicit": "10% increased Elemental Damage",
+            "explicit": "(100 to 140)% increased Physical Damage \n40% increased Damage against Frozen Enemies \n(30 to 50)% increased Cold Damage \n(5 to 10)% increased Attack Speed \n(4 to 8)% increased Cast Speed \n5% chance to Freeze"
+        }
+    },
+    {
+        "name": "The Supreme Truth",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b2/The_Supreme_Truth.png/78px-The_Supreme_Truth.png?version=c1ba7a1bcd11c1cc32f6b6b31f27a290",
+        "baseItem": "Crystal Sceptre",
+        "requirements": {
+            "level": "41",
+            "str": "59",
+            "dex": "0",
+            "int": "136"
+        },
+        "damage": "(52-77 to 58-86)\n",
+        "crit": "7.00%",
+        "aps": "(1.38 to 1.50)",
+        "mods": {
+            "implicit": "20% increased Elemental Damage",
+            "explicit": "+1 to Level of Socketed Gems \n(80 to 100)% increased Physical Damage \n(10 to 20)% increased Attack Speed \n3% increased Experience gain \n20% increased Elemental Damage \n60% increased Intelligence Requirement"
+        }
+    },
+    {
+        "name": "Chober Chaber",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4e/Chober_Chaber.png/78px-Chober_Chaber.png?version=e5095af4d16aa4604d283c6e7cc0bcdc",
+        "baseItem": "Great Mallet",
+        "requirements": {
+            "level": "40",
+            "str": "104",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(82-172 to 90-189)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "+1 to Level of Socketed Melee Gems \n+1 to Level of Socketed Minion Gems \n(100 to 120)% increased Physical Damage \n25% increased maximum Mana \nMinions have (20 to 40)% increased maximum Life \n15% increased Skill Effect Duration \n20% reduced Strength Requirement"
+        }
+    },
+    {
+        "name": "Geofri's Baptism",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c4/Geofri%27s_Baptism.png/78px-Geofri%27s_Baptism.png?version=9c5e2562a107475c778b2f328c54caa9",
+        "baseItem": "Brass Maul",
+        "requirements": {
+            "level": "27",
+            "str": "92",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "11-23\n",
+        "crit": "5%",
+        "aps": "1.10",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "200% increased Physical Damage \nAdds 11-23 Cold Damage \n(10 to 20)% increased Stun Duration on enemies \nNever deal Critical Strikes"
+        }
+    },
+    {
+        "name": "Hrimnor's Hymn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/09/Hrimnor%27s_Hymn.png/78px-Hrimnor%27s_Hymn.png?version=902c0ad67748e592496f63046f838748",
+        "baseItem": "Sledgehammer",
+        "requirements": {
+            "level": "17",
+            "str": "62",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(60-91 to 75-114)\n",
+        "crit": "5%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "(140 to 200)% increased Physical Damage \n+10 to Strength \n15% reduced Enemy Stun Threshold \n1% of Physical Attack Damage Leeched as Life \n(40 to 50)% increased Stun Duration on enemies"
+        }
+    },
+    {
+        "name": "Jorrhast's Blacksteel",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c7/Jorrhast%27s_Blacksteel.png/78px-Jorrhast%27s_Blacksteel.png?version=83c4cdb130363334c5c9076983a36efe",
+        "baseItem": "Steelhead",
+        "requirements": {
+            "level": "44",
+            "str": "143",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(118-182 to 141-210)\n",
+        "crit": "5%",
+        "aps": "(1.40 to 1.46)",
+        "mods": {
+            "implicit": "40% increased Stun Duration on enemies",
+            "explicit": "(150 to 200)% increased Physical Damage \n(8 to 12)% increased Cast Speed \n(8 to 12)% increased Attack Speed \n30% less Animate Weapon Duration \nWeapons you Animate create an additional copy"
+        }
+    },
+    {
+        "name": "Kongor's Undying Rage",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8c/Kongor%27s_Undying_Rage.png/78px-Kongor%27s_Undying_Rage.png?version=28cd2c52f6e85c857bc4e27d0bcdfc46",
+        "baseItem": "Terror Maul",
+        "requirements": {
+            "level": "67",
+            "str": "212",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(102-372 to 131-502)\n",
+        "crit": "(6.50 to 7.00)%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "Adds (27-270 to 56-400) Physical Damage \n(30 to 40)% increased Critical Strike Chance \n+(15 to 20)% to all Elemental Resistances \nHits can't be Evaded \nYour Critical Strikes do not deal increased Damage \nYou gain Onslaught for 2 seconds on Critical Strike"
+        }
+    },
+    {
+        "name": "Marohi Erqi",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Marohi_Erqi.png/78px-Marohi_Erqi.png?version=7de0d0a54b78988e4a258fffe20d510e",
+        "baseItem": "Karui Maul",
+        "requirements": {
+            "level": "57",
+            "str": "182",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(285-442 to 312-483)\n",
+        "crit": "5%",
+        "aps": "0.99",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "Socketed Gems are Supported by level 15 Increased Area of Effect \n(220 to 250)% increased Physical Damage \nAdds 10-20 Physical Damage \n10% reduced Attack Speed \n+100 to Accuracy Rating \n10% reduced Movement Speed \n(40 to 50)% increased Stun Duration on enemies"
+        }
+    },
+    {
+        "name": "Quecholli",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/92/Quecholli.png/78px-Quecholli.png?version=325f59fb2bdc5b7066a48ef823b27d57",
+        "baseItem": "Jagged Maul",
+        "requirements": {
+            "level": "22",
+            "str": "77",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "(49-92 to 54-102)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "(80 to 100)% increased Physical Damage \nAdds 5-25 Physical Damage \n+(25 to 50) to all Attributes \n+10 Life gained on Kill \nEnemies killed explode dealing 10% of their Life as Fire Damage"
+        }
+    },
+    {
+        "name": "Trypanon",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/db/Trypanon.png/78px-Trypanon.png?version=65daa24c0c90f42200f8d999d93407b0",
+        "baseItem": "Great Mallet",
+        "requirements": {
+            "level": "40",
+            "str": "131",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "37–76\n",
+        "crit": "100.00%",
+        "aps": "0.63",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "50% reduced Attack Speed \nAll Attacks with this Weapon are Critical Strikes"
+        }
+    },
+    {
+        "name": "Voidhome",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/92/Voidhome.png/78px-Voidhome.png?version=a567ca623bee5b7307371cc02d174b86",
+        "baseItem": "Dread Maul",
+        "requirements": {
+            "level": "54",
+            "str": "173",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "165-222\n",
+        "crit": "5%",
+        "aps": "1.88",
+        "mods": {
+            "implicit": "20% increased Stun Duration on enemies",
+            "explicit": "150% increased Physical Damage \n50% increased Attack Speed \n(30 to 50)% reduced Rarity of Items found \n(30 to 50)% reduced Experience gain \n0.4% of Physical Attack Damage Leeched as Mana"
+        }
+    },
+    {
+        "name": "Dreamfeather",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e3/Dreamfeather.png/78px-Dreamfeather.png?version=ff49d99e5f21e7a88e9beda811e60438",
+        "baseItem": "Eternal Sword",
+        "requirements": {
+            "level": "66",
+            "str": "104",
+            "dex": "122",
+            "int": "0"
+        },
+        "damage": "(52-107 to 72-122)\n",
+        "crit": "5%",
+        "aps": "(1.80 to 1.88)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Adds (20-55 to 40-70) Physical Damage \n(20 to 25)% increased Attack Speed \n+(180 to 200) to Accuracy Rating \n+(180 to 200) to Evasion Rating \n3% increased Movement Speed \n1% increased Attack Damage per 450 Evasion Rating"
+        }
+    },
+    {
+        "name": "Ephemeral Edge",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8e/Ephemeral_Edge.png/78px-Ephemeral_Edge.png?version=4c875b762ce01acc2585738d981f410f",
+        "baseItem": "Dusk Blade",
+        "requirements": {
+            "level": "32",
+            "str": "57",
+            "dex": "57",
+            "int": "0"
+        },
+        "damage": "38-108\n",
+        "crit": "5%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "150% increased Physical Damage \n+10 to Intelligence \n50% increased Global Critical Strike Chance \n(0.6 to 1)% of Physical Attack Damage Leeched as Mana \n10% reduced Maximum Life \n(40 to 50)% increased Maximum Energy Shield"
+        }
+    },
+    {
+        "name": "Hyaon's Fury",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/32/Hyaon%27s_Fury.png/78px-Hyaon%27s_Fury.png?version=13cb3440d697659f34e66875b62d41bf",
+        "baseItem": "Legion Sword",
+        "requirements": {
+            "level": "62",
+            "str": "122",
+            "dex": "104",
+            "int": "0"
+        },
+        "damage": "(1-550 to 1-650)\n",
+        "crit": "5%",
+        "aps": "(1.28 to 1.32)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Adds (1-550 to 1-650) Lightning Damage \n(7 to 10)% increased Attack Speed \n3% increased Damage taken per Frenzy Charge \n12% increased Lightning Damage per Frenzy Charge \n+20 Life gained on Kill per Frenzy Charge"
+        }
+    },
+    {
+        "name": "The Goddess Scorned",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a5/The_Goddess_Scorned.png/78px-The_Goddess_Scorned.png?version=fabd37d60fac12aa2a5aad3012e746ba",
+        "baseItem": "Elegant Sword",
+        "requirements": {
+            "level": "28",
+            "str": "46",
+            "dex": "55",
+            "int": "0"
+        },
+        "damage": "(60-95 to 68-108)\n",
+        "crit": "(9.50 to 10.50)%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "18% Increased Accuracy Rating",
+            "explicit": "Uses both hand slots \n(250 to 300)% increased Physical Damage \n(90 to 110)% increased Critical Strike Chance \n+(20 to 30)% to Global Critical Strike Multiplier \n+(40 to 50)% to Fire Resistance \nCannot be Ignited \n100% of Physical Damage Converted to Fire Damage \nIgnited Enemies Burn 50% faster \nYou can only deal Damage with this Weapon and Ignite"
+        }
+    },
+    {
+        "name": "The Goddess Unleashed",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/58/The_Goddess_Unleashed.png/78px-The_Goddess_Unleashed.png?version=84df8f6a2bd2664b96606fec73a44557",
+        "baseItem": "Eternal Sword",
+        "requirements": {
+            "level": "51",
+            "str": "104",
+            "dex": "122",
+            "int": "0"
+        },
+        "damage": "(35-85 to 38-118)\n",
+        "crit": "(7.20 to 8.30)%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Uses both hand slots \nAdds (3-33 to 6-66) Physical Damage \n(44 to 66)% increased Critical Strike Chance \n33% increased Ignite Duration on Enemies \n(66 to 99)% of Sword Physical Damage Added as Fire Damage \nGain Her Blessing for 3 seconds when you Ignite an Enemy \n33% chance to Blind nearby Enemies when gaining Her Blessing \nCannot be Frozen, Chilled or Ignited with Her Blessing \n20% increased Attack and Movement Speed with Her Blessing"
+        }
+    },
+    {
+        "name": "Ichimonji",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/8a/Ichimonji.png/39px-Ichimonji.png?version=6f367562a7c9783aacde1181eb6774ca",
+        "baseItem": "Corsair Sword",
+        "requirements": {
+            "level": "58",
+            "str": "81",
+            "dex": "117",
+            "int": "0"
+        },
+        "damage": "(34-117 to 52-149)\n",
+        "crit": "5%",
+        "aps": "(1.71 to 1.79)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Adds (5-13 to 10-20) Physical Damage \n(60% to 80)% increased Physical Damage \n(10 to 15)% increased Attack Speed \n5% reduced Mana Reserved \nAllies' Aura Buffs do not affect you \nYour Aura Buffs do not affect allies \n10% increased Effect of Buffs on you"
+        }
+    },
+    {
+        "name": "Lakishu's Blade",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f1/Lakishu%27s_Blade.png/78px-Lakishu%27s_Blade.png?version=6e6439e2d333a481c6ba8ab4f09747c3",
+        "baseItem": "Elegant Sword",
+        "requirements": {
+            "level": "28",
+            "str": "46",
+            "dex": "55",
+            "int": "0"
+        },
+        "damage": "(35-56 to 49-74)\n",
+        "crit": "5.00%",
+        "aps": "(1.65 to 1.73)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(60 to 80)% increased Physical Damage \nAdds (5-10 to 8-14) Physical Damage \n(10 to 15)% increased Attack Speed \n(30 to 40)% reduced Stun Recovery \n20% chance to Avoid being Stunned \nSocketed Gems are supported by level 1 Multistrike"
+        }
+    },
+    {
+        "name": "The Princess",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/f/f4/The_Princess.png/39px-The_Princess.png?version=cabf46e73997456958ae3353ed0f0e0d",
+        "baseItem": "Sabre",
+        "requirements": {
+            "level": "10",
+            "str": "18",
+            "dex": "26",
+            "int": "0"
+        },
+        "damage": "(8-28 to 12-39)\n",
+        "crit": "5.00%",
+        "aps": "1.79",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(20 to 50)% increased Physical Damage \nAdds (3-5 to 4-8) Physical Damage \n15% increased Attack Speed \nGain 10% of Physical Damage as Extra Cold Damage \n10% increased Damage taken from Skeletons \n10% increased Damage taken from Ghosts"
+        }
+    },
+    {
+        "name": "Prismatic Eclipse",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/51/Prismatic_Eclipse.png/78px-Prismatic_Eclipse.png?version=ac4bfd12f16ff03eb66cdf1c710d0f0a",
+        "baseItem": "Twilight Blade",
+        "requirements": {
+            "level": "53",
+            "str": "91",
+            "dex": "91",
+            "int": "0"
+        },
+        "damage": "(43-97 to 53-106)\n",
+        "crit": "5%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "8% additional Chance to Block while Dual Wielding \nAdds (20-31 to 30-40) Physical Damage \n25% increased Physical Damage with Weapons per Red Socket \n12% increased Global Attack Speed per Green Socket \n0.4% of Physical Attack Damage Leeched as Mana per Blue Socket \n+2 to Melee Weapon Range per White Socket"
+        }
+    },
+    {
+        "name": "Rebuke of the Vaal",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/3a/Rebuke_of_the_Vaal.png/78px-Rebuke_of_the_Vaal.png?version=067ddfaa58f19cefe03151c16fd2bd85",
+        "baseItem": "Vaal Blade",
+        "requirements": {
+            "level": "64",
+            "str": "113",
+            "dex": "113",
+            "int": "0"
+        },
+        "damage": "(19-31 to 28-40)\n",
+        "crit": "5%",
+        "aps": "(1.43 to 1.56)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Adds (19-31 to 28-40) Physical Damage \nAdds (19-31 to 28-40) Fire Damage \nAdds (19-31 to 28-40) Cold Damage \nAdds (1-50 to 1-70) Lightning Damage \nAdds (19-31 to 28-40) Chaos Damage \n(10 to 20)% increased Attack Speed"
+        }
+    },
+    {
+        "name": "Redbeak",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/16/Redbeak.png/39px-Redbeak.png?version=fe47175e15beb8e0fcec721445c41ae2",
+        "baseItem": "Rusted Sword",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "9-21\n",
+        "crit": "5%",
+        "aps": "1.59",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "100% increased Damage when on Low Life \n50% increased Physical Damage \nAdds 2-6 Physical Damage \n10% increased Attack Speed \n+(20 to 30) to maximum Life \n+2 Life Gained for each Enemy hit by Attacks"
+        }
+    },
+    {
+        "name": "Rigwald's Command",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4d/Rigwald%27s_Command.png/58px-Rigwald%27s_Command.png?version=418aa34a9d8f184673e4af9c66b37f7d",
+        "baseItem": "Midnight Blade",
+        "requirements": {
+            "level": "68",
+            "str": "113",
+            "dex": "113",
+            "int": "0"
+        },
+        "damage": "(86-224 to 106-254)\n",
+        "crit": "5%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "10% additional Block Chance while Dual Wielding \nAdds (60-150 to 80-180) Physical Damage \n80% increased Physical Damage with Axes \n+(350 to 400) to Accuracy Rating \n15% chance to gain a Frenzy Charge on Kill"
+        }
+    },
+    {
+        "name": "The Tempestuous Steel",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a8/The_Tempestuous_Steel.png/58px-The_Tempestuous_Steel.png?version=60ba231188a577306920703f80504ea0",
+        "baseItem": "War Sword",
+        "requirements": {
+            "level": "20",
+            "str": "41",
+            "dex": "35",
+            "int": "0"
+        },
+        "damage": "(21-45 to 24-50)\n",
+        "crit": "5%",
+        "aps": "(1.30 to 1.37)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Adds (5-15 to 8-20) Physical Damage\n(8 to 14)% increased Attack Speed\nHits can't be Evaded\nAttacks with this Weapon Penetrate 30% Elemental Resistances\n15% of Physical Attack Damage Added as Lightning Damage\n15% of Physical Attack Damage Added as Fire Damage"
+        }
+    },
+    {
+        "name": "Varunastra",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/15/Varunastra.png/78px-Varunastra.png?version=197a8c68ea32215695e9079bde0e27f3",
+        "baseItem": "Vaal Blade",
+        "requirements": {
+            "level": "64",
+            "str": "113",
+            "dex": "113",
+            "int": "0"
+        },
+        "damage": "(91-203 to 128-264)\n",
+        "crit": "5.00%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(40 to 60)% increased Physical Damage \nAdds (30-80 to 45-100) Physical Damage \n+(2 to 3) Mana Gained for each Enemy hit by Attacks \nCounts as all One Handed Melee Weapon Types"
+        }
+    },
+    {
+        "name": "Aurumvorax",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0a/Aurumvorax.png/39px-Aurumvorax.png?version=d79eac13c333066f98db48e3e61b186e",
+        "baseItem": "Basket Rapier",
+        "requirements": {
+            "level": "17",
+            "str": "0",
+            "dex": "62",
+            "int": "0"
+        },
+        "damage": "(20-48 to 23-55)\n",
+        "crit": "5.50%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "+30% to Global Critical Strike Multiplier",
+            "explicit": "(120 to 150)% increased Physical Damage \n20% reduced Rarity of Items found \n+(40 to 60)% to all Elemental Resistances \n+3 Life gained for each Enemy hit by your Attacks"
+        }
+    },
+    {
+        "name": "Chitus' Needle",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Chitus%27_Needle.png/39px-Chitus%27_Needle.png?version=1459af76f4c029b9100f174ee9ad1e1e",
+        "baseItem": "Elegant Foil",
+        "requirements": {
+            "level": "30",
+            "str": "0",
+            "dex": "101",
+            "int": "0"
+        },
+        "damage": "(36-67 to 39-73)\n",
+        "crit": "5.50%",
+        "aps": "1.60",
+        "mods": {
+            "implicit": "+30% to Global Critical Strike Multiplier",
+            "explicit": "(140 to 160)% increased Physical Damage \n+30 to Strength \n+30 to Maximum Mana \n5% increased Movement Speed \n30% increased Elemental Damage \n+2 to Weapon Range"
+        }
+    },
+    {
+        "name": "Daresso's Passion",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a5/Daresso%27s_Passion.png/39px-Daresso%27s_Passion.png?version=bab1fad2a47f412d7cc070bfbee51d91",
+        "baseItem": "Estoc",
+        "requirements": {
+            "level": "43",
+            "str": "0",
+            "dex": "140",
+            "int": "0"
+        },
+        "damage": "(30-40 to 38-50)\n",
+        "crit": "5.50%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "+30% to Global Critical Strike Multiplier",
+            "explicit": "Adds (30-40 to 38-50) Physical Damage \nAdds (30-40 to 38-50) Cold Damage \n20% reduced Frenzy Charge Duration \n25% chance to gain a Frenzy Charge on Kill \n(60 to 80)% increased Damage while you have no Frenzy Charges"
+        }
+    },
+    {
+        "name": "Fidelitas' Spike",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/40/Fidelitas%27_Spike.png/39px-Fidelitas%27_Spike.png?version=d3263b2957d65ef1ed838ce14838325c",
+        "baseItem": "Jagged Foil",
+        "requirements": {
+            "level": "22",
+            "str": "0",
+            "dex": "77",
+            "int": "0"
+        },
+        "damage": "(1-40 to 1-50)\n",
+        "crit": "5.50%",
+        "aps": "(2.00 to 2.08)",
+        "mods": {
+            "implicit": "+30% to Global Critical Strike Multiplier",
+            "explicit": "No Physical Damage \nAdds (1-40 to 1-50) Lightning Damage \n(25 to 30)% increased Attack Speed \n+2 Life gained for each Enemy hit by Attacks \n5% Chance to Shock"
+        }
+    },
+    {
+        "name": "The Goddess Bound",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/91/The_Goddess_Bound.png/39px-The_Goddess_Bound.png?version=24ee01e07269bd79adcd0133d99864e7",
+        "baseItem": "Whalebone Rapier",
+        "requirements": {
+            "level": "7",
+            "str": "0",
+            "dex": "32",
+            "int": "0"
+        },
+        "damage": "3-7\n",
+        "crit": "5.50%",
+        "aps": "1.86",
+        "mods": {
+            "implicit": "+30% to Global Critical Strike Multiplier",
+            "explicit": "+1 to Level of Socketed Melee Gems \nUses both hand slots \n(250 to 300)% increased Physical Damage \nAdds 3-7 Fire Damage \n20% increased Attack Speed \n30% increased Global Critical Strike Chance \n+(20 to 40) to Evasion Rating \n20% reduced Rarity of Items found \n30% increased Movement Speed when on Low Life"
+        }
+    },
+    {
+        "name": "Doomsower",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/cf/Doomsower.png/78px-Doomsower.png?version=633199ce4c7d87062c4e08aea2456971",
+        "baseItem": "Lion Sword",
+        "requirements": {
+            "level": "65",
+            "str": "104",
+            "dex": "122",
+            "int": "0"
+        },
+        "damage": "(170-270 to 252-366)\n",
+        "crit": "5%",
+        "aps": "(1.38 to 1.46)",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Socketed Melee Gems have 15% increased Area of Effect Radius \nSocketed Red Gems get 10% Physical Damage as Extra Fire Damage \n(50 to 70)% increased Physical Damage \nAdds (50-85 to 75-110) Physical Damage \n(6 to 12)% increased Attack Speed"
+        }
+    },
+    {
+        "name": "Edge of Madness",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Edge_of_Madness.png/78px-Edge_of_Madness.png?version=ae7cf5eca3e0e4a6f5e8fa2cd432155c",
+        "baseItem": "Etched Greatsword",
+        "requirements": {
+            "level": "22",
+            "str": "45",
+            "dex": "38",
+            "int": "0"
+        },
+        "damage": "(60-90 to 68-102)\n",
+        "crit": "5%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "+1 to Level of Active Socketed Skill Gems \n(60 to 80)% increased Physical Damage \nAdds (60-90 to 65-105) Chaos Damage \n+1 Life gained on Kill per Level \n1% increased Elemental Damage per Level \n1% increased Chaos Damage per Level"
+        }
+    },
+    {
+        "name": "Oro's Sacrifice",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/ba/Oro%27s_Sacrifice.png/78px-Oro%27s_Sacrifice.png?version=04862b48cdf762d6ca893eb8bed21288",
+        "baseItem": "Infernal Sword",
+        "requirements": {
+            "level": "67",
+            "str": "113",
+            "dex": "113",
+            "int": "0"
+        },
+        "damage": "(425-550 to 475-600)\n",
+        "crit": "5%",
+        "aps": "(1.38 to 1.44)",
+        "mods": {
+            "implicit": "30% increased Accuracy Rating",
+            "explicit": "No Physical Damage \nAdds (425-550 to 475-600) Fire Damage \n(10 to 15)% increased Attack Speed \n20% chance to Ignite \n10% increased Physical Damage taken \n10% increased Fire Damage taken \nCulling Strike against Burning Enemies \nGain a Frenzy Charge if an Attack Ignites an Enemy"
+        }
+    },
+    {
+        "name": "Queen's Decree",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7d/Queen%27s_Decree.png/78px-Queen%27s_Decree.png?version=9c95af512dbba322c083657cb8111235",
+        "baseItem": "Ornate Sword",
+        "requirements": {
+            "level": "27",
+            "str": "56",
+            "dex": "54",
+            "int": "0"
+        },
+        "damage": "31-52\n",
+        "crit": "5%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "Minions have (10 to 15)% increased maximum Life \nMinions deal (10 to 15)% increased Damage \n+1 to Maximum number of Zombies \n+1 to Maximum number of Spectres \n+2 to Maximum number of Skeletons \n(150 to 200)% increased Skeleton Duration \n25% increased Strength Requirement"
+        }
+    },
+    {
+        "name": "Rigwald's Charge",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7f/Rigwald%27s_Charge.png/78px-Rigwald%27s_Charge.png?version=92954130116d62cd58cf5701b53106b2",
+        "baseItem": "Highland Blade",
+        "requirements": {
+            "level": "44",
+            "str": "77",
+            "dex": "77",
+            "int": "0"
+        },
+        "damage": "(110-202 to 125-230)\n",
+        "crit": "5%",
+        "aps": "1.44",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(120 to 150)% increased Physical Damage \n20% increased Attack Speed \n+(150 to 200) to Accuracy Rating \n10% increased Movement Speed"
+        }
+    },
+    {
+        "name": "Shiversting",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e7/Shiversting.png/78px-Shiversting.png?version=f7710f9ac394dd5b378cd44723f21f66",
+        "baseItem": "Bastard Sword",
+        "requirements": {
+            "level": "14",
+            "str": "21",
+            "dex": "30",
+            "int": "0"
+        },
+        "damage": "35-70\n",
+        "crit": "5%",
+        "aps": "1.35",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(80 to 100)% increased Physical Damage \nAdds 35-70 Cold Damage \n0.6% of Physical Attack Damage Leeched as Mana \nCannot be Frozen"
+        }
+    },
+    {
+        "name": "Terminus Est",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d3/Terminus_Est.png/78px-Terminus_Est.png?version=c23a51761be576046d5ba28524b40709",
+        "baseItem": "Tiger Sword",
+        "requirements": {
+            "level": "51",
+            "str": "80",
+            "dex": "96",
+            "int": "0"
+        },
+        "damage": "(116-193 to 154-255)\n",
+        "crit": "5%",
+        "aps": "1.56",
+        "mods": {
+            "implicit": "18% increased Accuracy Rating",
+            "explicit": "(120 to 180)% increased Physical Damage \n20% increased Attack Speed \n+10 Mana Gained on Kill \n10% increased Movement Speed \nGain a Frenzy Charge on Critical Strike"
+        }
+    },
+    {
+        "name": "Agnerod East",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Agnerod_East.png/78px-Agnerod_East.png?version=bd32a1896af34439ae84efe7620038d6",
+        "baseItem": "Imperial Staff",
+        "requirements": {
+            "level": "66",
+            "str": "158",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "49-147\n",
+        "crit": "7.20%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+1 to Level of Socketed Lightning Gems \n+(80 to 120) to Intelligence \n(30 to 50)% increased Lightning Damage \n100% increased Shock Duration on enemies \n40% increased Strength Requirement \nDamage Penetrates 20% Lightning Resistance"
+        }
+    },
+    {
+        "name": "Agnerod North",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Agnerod_East.png/78px-Agnerod_East.png?version=bd32a1896af34439ae84efe7620038d6",
+        "baseItem": "Imperial Staff",
+        "requirements": {
+            "level": "66",
+            "str": "158",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "49-147\n",
+        "crit": "7.20%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+1 to Level of Socketed Lightning Gems \n+(80 to 120) to Intelligence \n(30 to 50)% increased Lightning Damage \n15% chance to Shock \n40% increased Strength Requirement \nDamage Penetrates 20% Lightning Resistance"
+        }
+    },
+    {
+        "name": "Agnerod South",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Agnerod_East.png/78px-Agnerod_East.png?version=bd32a1896af34439ae84efe7620038d6",
+        "baseItem": "Imperial Staff",
+        "requirements": {
+            "level": "66",
+            "str": "158",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "49-147\n",
+        "crit": "7.20%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+1 to Level of Socketed Lightning Gems \n+(80 to 120) to Intelligence \n(30 to 50)% increased Lightning Damage \n+5% to Maximum Lightning Resistance \n40% increased Strength Requirement \nDamage Penetrates 20% Lightning Resistance"
+        }
+    },
+    {
+        "name": "Agnerod West",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Agnerod_East.png/78px-Agnerod_East.png?version=bd32a1896af34439ae84efe7620038d6",
+        "baseItem": "Imperial Staff",
+        "requirements": {
+            "level": "66",
+            "str": "158",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "49-147\n",
+        "crit": "7.20%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+1 to Level of Socketed Lightning Gems \n+(80 to 120) to Intelligence \n(30 to 50)% increased Lightning Damage \nAdds (5-100 to 15-140) Lightning Damage to Spells \n40% increased Strength Requirement \nDamage Penetrates 20% Lightning Resistance"
+        }
+    },
+    {
+        "name": "The Blood Thorn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/52/The_Blood_Thorn.png/39px-The_Blood_Thorn.png?version=8fa1051d810c9371c351f78b98f48478",
+        "baseItem": "Gnarled Branch",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "16-34\n",
+        "crit": "6.40%",
+        "aps": "(1.37 to 1.43)",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "12% Chance to Block \n100% increased Physical Damage \n(5 to 10)% increased Attack Speed \nReflects (22 to 44) Physical Damage to Attackers on Block \nCurse Enemies with level 5 Vulnerability on Block"
+        }
+    },
+    {
+        "name": "Dying Breath",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/bc/Dying_Breath.png/78px-Dying_Breath.png?version=b80ba03021f84cf99d87a4e9a9b5ebda",
+        "baseItem": "Coiled Staff",
+        "requirements": {
+            "level": "23",
+            "str": "43",
+            "dex": "0",
+            "int": "43"
+        },
+        "damage": "23-48\n",
+        "crit": "6.40%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "18% Chance to Block",
+            "explicit": "18% increased Cast Speed \n18% increased maximum Mana \n18% increased Radius of Auras \n18% increased Radius of Curses \nNearby enemies have 18% increased Effect of Curses on them \n18% increased effect of Auras you Cast \nNearby allies gain 18% increased Damage"
+        }
+    },
+    {
+        "name": "Femurs of the Saints",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/21/Femurs_of_the_Saints.png/78px-Femurs_of_the_Saints.png?version=fc5621df156dac746d3b8c2be3f170bd",
+        "baseItem": "Primordial Staff",
+        "requirements": {
+            "level": "58",
+            "str": "99",
+            "dex": "0",
+            "int": "99"
+        },
+        "damage": "47-141\n",
+        "crit": "6.80%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+2 to Level of Socketed Minion Gems \nMinions Regenerate (1.5 to 2.5)% Life per Second \n2% increased Minion Attack and Cast Speed per Skeleton you own \n2% increased Minion Duration per Zombie you own \n(8 to 12)% increased Minion Damage per Spectre you own"
+        }
+    },
+    {
+        "name": "Fencoil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/00/Fencoil.png/39px-Fencoil.png?version=44ed26233646f43926cace74ec3f45f5",
+        "baseItem": "Gnarled Branch",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "8-17\n",
+        "crit": "6.40%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "Socketed Gems are Supported by level 8 Trap \n(40 to 50)% increased Damage \n(10 to 20)% increased maximum Life \n(10 to 20)% increased maximum Mana"
+        }
+    },
+    {
+        "name": "Hegemony's Era",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1b/Hegemony%27s_Era.png/78px-Hegemony%27s_Era.png?version=6b2f25435090f322fb81f9f94621b835",
+        "baseItem": "Judgement Staff",
+        "requirements": {
+            "level": "68",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "(245-311 to 255-341)\n",
+        "crit": "(7.92 to 8.58)%",
+        "aps": "(1.4 to 1.45)",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "6% Chance to Block \nAdds (180-190 to 190-220) Physical Damage \n(12 to 16)% increased Attack Speed \n(20 to 30)% increased Critical Strike Chance \n+1 maximum Power Charge \n10% chance to gain a Power Charge if you Knock an Enemy Back with Melee Damage"
+        }
+    },
+    {
+        "name": "Pillar of the Caged God",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/26/Pillar_of_the_Caged_God.png/78px-Pillar_of_the_Caged_God.png?version=7dca5d5efbe74b1649143ed08aa8cdd5",
+        "baseItem": "Long Staff",
+        "requirements": {
+            "level": "13",
+            "str": "27",
+            "dex": "0",
+            "int": "27"
+        },
+        "damage": "17-28\n",
+        "crit": "6.40%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "1% increased Area of Effect Radius per 20 Intelligence \n1% increased Attack Speed per 10 Dexterity \n16% increased Physical Weapon Damage per 10 Strength"
+        }
+    },
+    {
+        "name": "Pledge of Hands",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/6/60/Pledge_of_Hands.png/78px-Pledge_of_Hands.png?version=1970c296e10258cccc665753ad43f265",
+        "baseItem": "Judgement Staff",
+        "requirements": {
+            "level": "68",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "61-113\n",
+        "crit": "6.60%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "Socketed Gems are Supported by level 30 Spell Echo \n(120 to 160)% increased Spell Damage \n100% increased maximum Mana"
+        }
+    },
+    {
+        "name": "Realmshaper",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b3/Realmshaper.png/78px-Realmshaper.png?version=aab728c03734a0119ef172d0a6be6ae8",
+        "baseItem": "Iron Staff",
+        "requirements": {
+            "level": "18",
+            "str": "35",
+            "dex": "0",
+            "int": "35"
+        },
+        "damage": "(10-20 to 15-25)\n",
+        "crit": "7.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "Adds (10-20 to 15-25) Fire Damage \nAdds (10-20 to 15-25) Cold Damage \n+1 to Level of Socketed Fire Gems \n+1 to Level of Socketed Cold Gems \n(30 to 50)% increased Elemental Damage \nSocketed Gems are Supported by level 5 Cold to Fire"
+        }
+    },
+    {
+        "name": "The Searing Touch",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a6/The_Searing_Touch.png/78px-The_Searing_Touch.png?version=410e01526c3cd31e29f723fdfcc8fbc0",
+        "baseItem": "Lathi",
+        "requirements": {
+            "level": "60",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "62-103\n",
+        "crit": "6.40%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+2 to Level of Socketed Fire Gems \n(30 to 50)% increased Spell Damage \n(20 to 40)% increased Fire Damage \n10% increased Cast Speed \n70% increased Burning Damage"
+        }
+    },
+    {
+        "name": "Sire of Shards",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/74/Sire_of_Shards.png/78px-Sire_of_Shards.png?version=747eea6b4b4eb062b6b0439b29c47a6c",
+        "baseItem": "Serpentine Staff",
+        "requirements": {
+            "level": "49",
+            "str": "85",
+            "dex": "0",
+            "int": "85"
+        },
+        "damage": "46-95\n",
+        "crit": "6.40%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "18% Chance to Block",
+            "explicit": "+(15 to 20) to All Attributes \n+(5 to 7)% to All Elemental Resistances \n(60 to 100)% increased Projectile Damage \n20% increased Light Radius \nSocketed Gems fire 4 additional Projectiles \nSocketed Gems fire Projectiles in a Nova"
+        }
+    },
+    {
+        "name": "The Stormheart",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/9/93/The_Stormheart.png/78px-The_Stormheart.png?version=34c99746029910bd6188094c0915324c",
+        "baseItem": "Royal Staff",
+        "requirements": {
+            "level": "28",
+            "str": "51",
+            "dex": "0",
+            "int": "51"
+        },
+        "damage": "(1-70 to 10-90)\n",
+        "crit": "(8.64 to 9.72)%",
+        "aps": "1.15",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "(80 to 100)% increased Physical Damage \nAdds (25-45 to 35-60) Cold Damage \nAdds (1-70 to 10-90) Lightning Damage \n(20 to 35)% increased Critical Strike Chance \nYou Cannot Be Shocked While Frozen"
+        }
+    },
+    {
+        "name": "Taryn's Shiver",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5d/Taryn%27s_Shiver.png/78px-Taryn%27s_Shiver.png?version=3f91488c7e82eb610e5a33168059f752",
+        "baseItem": "Maelström Staff",
+        "requirements": {
+            "level": "64",
+            "str": "113",
+            "dex": "0",
+            "int": "113"
+        },
+        "damage": "57-119\n",
+        "crit": "6.40%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "18% Chance to Block",
+            "explicit": "+1 to Level of Socketed Cold Gems \n(50 to 60)% increased Spell Damage \n(40 to 50)% increased Cold Damage \n(10 to 20)% increased Cast Speed \n8% chance to Freeze \nEnemies Frozen by you take 20% increased Damage"
+        }
+    },
+    {
+        "name": "Tremor Rod",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/0c/Tremor_Rod.png/78px-Tremor_Rod.png?version=49354e757a2eeb26e7acb5305db3099b",
+        "baseItem": "Military Staff",
+        "requirements": {
+            "level": "45",
+            "str": "78",
+            "dex": "0",
+            "int": "78"
+        },
+        "damage": "34-101\n",
+        "crit": "7.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "Socketed Gems are Supported by level 10 Remote Mine \n35% less Mine Damage \n(40 to 60)% increased Spell Damage \n(15 to 20)% reduced Enemy Stun Threshold \n(40 to 60)% increased Mine Laying Speed \nMines can be Detonated an additional time"
+        }
+    },
+    {
+        "name": "The Whispering Ice",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/37/The_Whispering_Ice.png/78px-The_Whispering_Ice.png?version=79a6a4f5eb9e312c395c53850f5cd32b",
+        "baseItem": "Vile Staff",
+        "requirements": {
+            "level": "33",
+            "str": "59",
+            "dex": "0",
+            "int": "59"
+        },
+        "damage": "33-62\n",
+        "crit": "6.60%",
+        "aps": "1.25",
+        "mods": {
+            "implicit": "12% Chance to Block",
+            "explicit": "+1 to Level of Socketed Support Gems \nGrants level 1 Icestorm Skill \n(8 to 12)% increased Cast Speed \n1% increased Spell Damage per 10 Intelligence \n(14 to 18)% increased Intelligence"
+        }
+    },
+    {
+        "name": "Xirgil's Crank",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/c/c7/Xirgil%27s_Crank.png/78px-Xirgil%27s_Crank.png?version=d34ff0b925516808a5ff1e02d7f2d0c9",
+        "baseItem": "Coiled Staff",
+        "requirements": {
+            "level": "28",
+            "str": "43",
+            "dex": "0",
+            "int": "43"
+        },
+        "damage": "23-48\n",
+        "crit": "6.40%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "18% Chance to Block",
+            "explicit": "+1 to Level of Socketed Gems \n15% Chance to Block \n(60 to 80)% increased Spell Damage \n+(70 to 100) to Maximum Energy Shield \nReflects 1-150 Lightning Damage to Melee Attackers \n20% Chance for Energy Shield Recharge to Start when you Block"
+        }
+    },
+    {
+        "name": "Abberath's Horn",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1b/Abberath%27s_Horn.png/39px-Abberath%27s_Horn.png?version=40f0ad1b1efa38870d442f4a529882c8",
+        "baseItem": "Goat's Horn",
+        "requirements": {
+            "level": "6",
+            "str": "0",
+            "dex": "0",
+            "int": "29"
+        },
+        "damage": "5-10\n",
+        "crit": "8.00%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "(9 to 12)% Increased Spell Damage",
+            "explicit": "(20 to 30)% increased Fire Damage \nAdds (4-8 to 6-12) Fire Damage to Spells \n(40 to 60)% increased Global Critical Strike Chance \n+10 Life Gained on Killing Ignited Enemies \n25% reduced Ignite Duration on Enemies"
+        }
+    },
+    {
+        "name": "Apep's Rage",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e8/Apep%27s_Rage.png/39px-Apep%27s_Rage.png?version=b68d9dc33d78008375a897115aa9c85e",
+        "baseItem": "Opal Wand",
+        "requirements": {
+            "level": "62",
+            "str": "0",
+            "dex": "0",
+            "int": "212"
+        },
+        "damage": "24-45\n",
+        "crit": "8%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "(17-20)% increased Spell Damage",
+            "explicit": "Adds (50-90 to 65-105) Chaos Damage to Spells \n(25 to 30)% increased Cast Speed \n+(5 to 10)% to Chaos Resistance \n40% increased Mana Cost of Skills"
+        }
+    },
+    {
+        "name": "Eclipse Solaris",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/87/Eclipse_Solaris.png/39px-Eclipse_Solaris.png?version=fe93230334506edcb14785cda784201a",
+        "baseItem": "Crystal Wand",
+        "requirements": {
+            "level": "45",
+            "str": "0",
+            "dex": "0",
+            "int": "146"
+        },
+        "damage": "(37-71 to 41-79)\n",
+        "crit": "8.00%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "(14 to 18)% increased Spell Damage",
+            "explicit": "Adds (18-36 to 22-44) Physical Damage \n+(27 to 33)% to Global Critical Strike Multiplier \n20% increased Light Radius \nNearby Enemies are Blinded \n(120 to 140)% increased Critical Strike Chance against Blinded Enemies"
+        }
+    },
+    {
+        "name": "Lifesprig",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/0/01/Lifesprig.png/39px-Lifesprig.png?version=b8ab06d2ebda6c95d3a53fae71c009cf",
+        "baseItem": "Driftwood Wand",
+        "requirements": {
+            "level": "0",
+            "str": "0",
+            "dex": "0",
+            "int": "0"
+        },
+        "damage": "3-6\n",
+        "crit": "8%",
+        "aps": "1.40",
+        "mods": {
+            "implicit": "(8 to 12)% increased Spell Damage",
+            "explicit": "+1 to Level of Socketed Spell Gems \n(20 to 28)% increased Spell Damage \n(5 to 8)% increased Cast Speed \n+(15 to 20) to maximum Life \n+(15 to 20) to maximum Mana \nRegenerate (6 to 8) Life over 1 second for each Spell you Cast"
+        }
+    },
+    {
+        "name": "Midnight Bargain",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Midnight_Bargain.png/39px-Midnight_Bargain.png?version=a91c3254b8e4914e5b7722fe2e496626",
+        "baseItem": "Engraved Wand",
+        "requirements": {
+            "level": "40",
+            "str": "0",
+            "dex": "0",
+            "int": "131"
+        },
+        "damage": "14-27\n",
+        "crit": "8%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "(12 to 16)% increased Spell Damage",
+            "explicit": "+(10 to 20) to Intelligence \nMinions have (10 to 20)% increased Movement Speed \nMinions deal (10 to 30)% increased Damage \n+1 to Maximum number of Zombies \n+1 to Maximum number of Spectres \n+2 to Maximum number of Skeletons \nReserves 30% of Life \nCannot be used with Chaos Inoculation"
+        }
+    },
+    {
+        "name": "Moonsorrow",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e5/Moonsorrow.png/39px-Moonsorrow.png?version=551fa1cf0e6d3bd513595caf0e59f8aa",
+        "baseItem": "Imbued Wand",
+        "requirements": {
+            "level": "59",
+            "str": "0",
+            "dex": "0",
+            "int": "188"
+        },
+        "damage": "55-105\n",
+        "crit": "8.00%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "(15 to 19)% increased Spell Damage",
+            "explicit": "Socketed Gems are supported by level 5 Blind \n(30 to 40)% increased Spell Damage \n175% increased Physical Damage \n+10 to Intelligence \n(20 to 30)% increased Lightning Damage \n10% increased Cast Speed \n10% chance to Blind Enemies on hit"
+        }
+    },
+    {
+        "name": "Obliteration",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/43/Obliteration.png/39px-Obliteration.png?version=3eab4fa5b452f0d85a1876d91562259e",
+        "baseItem": "Demon's Horn",
+        "requirements": {
+            "level": "56",
+            "str": "0",
+            "dex": "0",
+            "int": "179"
+        },
+        "damage": " (50-128 to 56-140)\n",
+        "crit": "(10.08 to 10.56)%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "(15 to 18)% increased Spell Damage",
+            "explicit": "Adds (24-80 to 30-92) Physical Damage\n(26 to 32)% increased Critical Strike Chance\nGain (13 to 15)% of Physical Damage as Extra Chaos Damage\nEnemies you Kill have a 20% chance to Explode, dealing a quarter\nof their maximum Life as Chaos Damage."
+        }
+    },
+    {
+        "name": "Piscator's Vigil",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/d/d4/Piscator%27s_Vigil.png/39px-Piscator%27s_Vigil.png?version=774364ae9d0e26b258d8e6192b288fcc",
+        "baseItem": "Tornado Wand",
+        "requirements": {
+            "level": "65",
+            "str": "0",
+            "dex": "0",
+            "int": "212"
+        },
+        "damage": "0",
+        "crit": "(9.60 to 10.40)%",
+        "aps": "(1.43 to 1.54)",
+        "mods": {
+            "implicit": "(16 to 19)% increased Spell Damage",
+            "explicit": "No Physical Damage \n(10 to 18)% increased Attack Speed \n+(340 to 400) to Accuracy Rating \n(20 to 30)% increased Critical Strike Chance \nAttacks with this Weapon have (100 to 115)% increased Elemental Damage"
+        }
+    },
+    {
+        "name": "Reverberation Rod",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/1/1a/Reverberation_Rod.png/39px-Reverberation_Rod.png?version=51e1ee30af0b9d1f47ab353e04006cf7",
+        "baseItem": "Spiraled Wand",
+        "requirements": {
+            "level": "24",
+            "str": "0",
+            "dex": "0",
+            "int": "83"
+        },
+        "damage": "8-24\n",
+        "crit": "8.00%",
+        "aps": "1.30",
+        "mods": {
+            "implicit": "(10 to 14)% increased Spell Damage",
+            "explicit": "+1 to Level of Socketed Gems \nSocketed Gems are Supported by level 1 Spell Echo \n+(10 to 30) to Intelligence"
+        }
+    },
+    {
+        "name": "Storm Prison",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/a/a2/Storm_Prison.png/39px-Storm_Prison.png?version=6f6d22af81c3fc79bec3b40e1ad0e8fe",
+        "baseItem": "Carved Wand",
+        "requirements": {
+            "level": "12",
+            "str": "0",
+            "dex": "0",
+            "int": "47"
+        },
+        "damage": "(1-35 to 1-45)\n",
+        "crit": "8%",
+        "aps": "1.50",
+        "mods": {
+            "implicit": "(9 to 13)% increased Spell Damage",
+            "explicit": "(40 to 60)% increased Physical Damage \nAdds (1-35 to 1-45) Lightning Damage \n(15 to 25)% increased Mana Regeneration Rate \n+1 Maximum Power Charge \n(25 to 35)% chance to gain a Power Charge on Kill"
+        }
+    },
+    {
+        "name": "Twyzel",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/27/Twyzel.png/39px-Twyzel.png?version=2ea629d4092596af6af7f26c734957e6",
+        "baseItem": "Sage Wand",
+        "requirements": {
+            "level": "30",
+            "str": "0",
+            "dex": "0",
+            "int": "119"
+        },
+        "damage": "(36-65) to (62-99)\n",
+        "crit": "9.90 to 10.80%",
+        "aps": "1.26 to 1.32",
+        "mods": {
+            "implicit": "(11 to 14)% increased Spell Damage",
+            "explicit": "(80 to 120)% increased Physical Damage \nAdds (5-13 to 8-17) Physical Damage \n(5 to 10)% increased Attack Speed \n(10 to 20)% increased Critical Strike Chance \nSocketed Gems fire an additional Projectile"
+        }
+    },
+    {
+        "name": "Void Battery",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/75/Void_Battery.png/35px-Void_Battery.png?version=5ee3c5acdb1755f37f06ac86092dfb34",
+        "baseItem": "Prophecy Wand",
+        "requirements": {
+            "level": "68",
+            "str": "0",
+            "dex": "0",
+            "int": "245"
+        },
+        "damage": "27-51\n",
+        "crit": "9%",
+        "aps": "1.20",
+        "mods": {
+            "implicit": "(16 to 20)% increased Spell Damage",
+            "explicit": "80% reduced Spell Damage \n(10 to 20)% increased Cast Speed \n(50 to 65)% increased Global Critical Strike Chance \n+(40 to 50) to maximum Mana \n+1 to Maximum Power Charges \n25% increased Spell Damage per Power Charge"
+        }
+    }
+]

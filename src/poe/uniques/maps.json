@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Acton's Nightmare",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/7d/Acton%27s_Nightmare.png/39px-Acton%27s_Nightmare.png?version=cc0698af6840644a11a88af6b3102940",
+        "baseItem": "Overgrown Shrine Map",
+        "mapLevel": "71",
+        "mods": {
+            "implicit": "",
+            "explicit": "Area has patches of burning ground \nArea is inhabited by Skeletons \n(220 to 250)% increased Rarity of Items found in this Area \nRestless Dead \nArea is a large Maze \nArea contains a Large Chest"
+        }
+    },
+    {
+        "name": "Caer Blaidd, Wolfpack's Den",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/4b/Caer_Blaidd%2C_Wolfpack%27s_Den.png/39px-Caer_Blaidd%2C_Wolfpack%27s_Den.png?version=b491d90516b7471dd686829fac236a1e",
+        "baseItem": "Underground Sea Map",
+        "mapLevel": "70",
+        "mods": {
+            "implicit": "",
+            "explicit": "Unique Boss drops 4 additional Maps \n(20 to 50)% more Magic Monsters\n(20 to 50)% more Rare Monsters\n25% more Monster Life\n30% increased Monster Damage"
+        }
+    },
+    {
+        "name": "The Coward's Trial",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/41/The_Coward%27s_Trial.png/39px-The_Coward%27s_Trial.png?version=c2d6ea1ddec647518628e497c68900bc",
+        "baseItem": "Crypt Map",
+        "mapLevel": "68",
+        "mods": {
+            "implicit": "",
+            "explicit": "Area has (22 to 25) waves of monsters \nArea has (30 to 50) seconds between monster waves"
+        }
+    },
+    {
+        "name": "Death and Taxes",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/7/79/Death_and_Taxes.png/39px-Death_and_Taxes.png?version=2ef6e5624659c9069c9320e4e134a740",
+        "baseItem": "Necropolis Map",
+        "mapLevel": "77",
+        "mods": {
+            "implicit": "",
+            "explicit": "Unique Boss deals +(50 to 60)% Damage and attacks (25 to 30)% faster \nUnique Boss gives 10000% increased Experience"
+        }
+    },
+    {
+        "name": "Hall of Grandmasters",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/36/Hall_of_Grandmasters.png/39px-Hall_of_Grandmasters.png?version=741234cdd0fa0a7395ca1b4f6284116a",
+        "baseItem": "Promenade Map",
+        "mapLevel": "71",
+        "mods": {
+            "implicit": "",
+            "explicit": "Contains the Immortalised Grandmasters"
+        }
+    },
+    {
+        "name": "Maelström of Chaos",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5d/Maelstr%C3%B6m_of_Chaos.png/39px-Maelstr%C3%B6m_of_Chaos.png?version=7bcc1e5b3f1d5ac2877e7f10a5b4b63d",
+        "baseItem": "Mountain Ledge Map",
+        "mapLevel": "69",
+        "mods": {
+            "implicit": "",
+            "explicit": "Area has patches of chilled ground \nMonsters deal 50% extra Damage as Lightning \nMonsters are immune to randomly chosen elemental status ailments or stun \nMonsters' Melee Attacks apply random Curses on Hit \nMonsters reflect Curses \n(200 to 400)% increased Rarity of Items found in this Area"
+        }
+    },
+    {
+        "name": "Mao Kun",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e3/Mao_Kun.png/39px-Mao_Kun.png?version=6be6a1f2e79637a2bb6ea278dd241d33",
+        "baseItem": "Reef Map",
+        "mapLevel": "70",
+        "mods": {
+            "implicit": "",
+            "explicit": "Monsters deal (175 to 190)% extra Damage as Lightning\nMonsters gain 3 Endurance Charges every 20 seconds\nMonsters gain 3 Power Charges every 20 seconds"
+        }
+    },
+    {
+        "name": "Oba's Cursed Trove",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e4/Oba%27s_Cursed_Trove.png/39px-Oba%27s_Cursed_Trove.png?version=3973ed58ab7a31b214f8266808b54536",
+        "baseItem": "Torture Chamber Map",
+        "mapLevel": "74",
+        "mods": {
+            "implicit": "",
+            "explicit": "Area has patches of Desecrated Ground \n(40 to 50)% increased Monster Life \n(30 to 40)% increased Monster Damage \nArea becomes fatal after some time"
+        }
+    },
+    {
+        "name": "Olmec's Sanctum",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/b/b4/Olmec%27s_Sanctum.png/39px-Olmec%27s_Sanctum.png?version=3b9538a3be211313e3d1159119683bc5",
+        "baseItem": "Catacomb Map",
+        "mapLevel": "73",
+        "mods": {
+            "implicit": "",
+            "explicit": "(40 to 50)% increased Monster Life \n(30 to 40)% increased Monster Damage \nFinal Boss drops higher Level Items"
+        }
+    },
+    {
+        "name": "The Perandus Manor",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/27/The_Perandus_Manor.png/39px-The_Perandus_Manor.png?version=031779b4dcfa8be6ae6caf5a2f155a6c",
+        "baseItem": "Chateau Map",
+        "mapLevel": "77",
+        "mods": {
+            "implicit": "",
+            "explicit": "(200 to 300)% more Rare Monsters \n(30 to 40)% more Monster Life \n(16 to 24)% increased Monster Damage \n(100 to 150)% increased Experience Gain"
+        }
+    },
+    {
+        "name": "Poorjoy's Asylum",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/4/41/Poorjoy%27s_Asylum.png/39px-Poorjoy%27s_Asylum.png?version=22887d641f0266c6d72b3043b48a9ecc",
+        "baseItem": "Temple Map",
+        "mapLevel": "73",
+        "mods": {
+            "implicit": "",
+            "explicit": "(140 to 160)% increased Monster Life \n(140 to 160)% increased Monster Damage \n25% increased Monster Movement Speed \n25% increased Monster Attack Speed \n25% increased Monster Cast Speed \n250% increased Rarity of Items found in this Area \nArea is a Large Maze \n150% increased Experience gain \nUnique Boss drops (10 to 15) additional Rare <Item Class>"
+        }
+    },
+    {
+        "name": "Vaults of Atziri",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/8/89/Vaults_of_Atziri.png/39px-Vaults_of_Atziri.png?version=9e3312a9bbb2452682a2306fa1c39f7c",
+        "baseItem": "Vaal Pyramid Map",
+        "mapLevel": "70",
+        "mods": {
+            "implicit": "",
+            "explicit": "Chests have (1800 to 2000)% increased Item Rarity \nArea contains no monsters"
+        }
+    },
+    {
+        "name": "The Vinktar Square",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/e3/The_Vinktar_Square.png/39px-The_Vinktar_Square.png?version=7549a30fefc00ab235e2e99387511787",
+        "baseItem": "Courtyard Map",
+        "mapLevel": "80",
+        "mods": {
+            "implicit": "",
+            "explicit": "20% more Monster Life\nMonsters cannot be Shocked\n30% increased Monster Damage\n+35% Monster Lightning Resistance\nMonsters deal 35% extra Damage as Lightning"
+        }
+    },
+    {
+        "name": "Whakawairua Tuahu",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/3/39/Whakawairua_Tuahu.png/39px-Whakawairua_Tuahu.png?version=cad5429d6dcf702ad4a520a3e7d86112",
+        "baseItem": "Strand Map",
+        "mapLevel": "73",
+        "mods": {
+            "implicit": "",
+            "explicit": "Area contains many Totems \nCurses have 50% reduced effect on Monsters \n(120 to 160)% increased Rarity of Items found in this Area \nRare Monsters each have a Nemesis Mod"
+        }
+    }
+]
