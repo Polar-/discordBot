@@ -193,8 +193,12 @@ var cmds = [
         execute: function(message) {
             var leaguename = commands.getCmd(message.content, 2);
             var charname = commands.getCmd(message.content, 1);
-            // Verify that leaguename and charname are not undefined
-            if (leaguename && charname) {
+            
+            // Set league to default is none is given
+            if (!leaguename) { leaguename = defaultLeague };
+            
+            // Verify that charname is not undefined
+            if (charname) {
                 // Init url
                 var url = "http://api.exiletools.com/ladder?league=" + 
                     leaguename + "&charName=" + charname;
