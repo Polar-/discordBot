@@ -1,4 +1,5 @@
 /src/config
 /node_modules
+/src/poe/defaultLeague.*
 sh.exe*
 log.txt
