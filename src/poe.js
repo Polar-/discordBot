@@ -23,8 +23,6 @@ fs.readFile("./poe/defaultLeague.json", { encoding: "utf8" }, function(err, file
     }
 });
 
-
-
 // Load unique item JSON
 var accessories = fs.readFileSync("./poe/uniques/accessories.json");
 var armours = fs.readFileSync("./poe/uniques/armours.json");
@@ -33,13 +31,15 @@ var jewels = fs.readFileSync("./poe/uniques/jewels.json");
 var maps = fs.readFileSync("./poe/uniques/maps.json");
 var weapons = fs.readFileSync("./poe/uniques/weapons.json");
 
+var uniques = [];
+
 // Parse from json
-accessories = JSON.parse(accessories);
-armours = JSON.parse(armours);
-flasks = JSON.parse(flasks);
-jewels = JSON.parse(jewels);
-maps = JSON.parse(maps);
-weapons = JSON.parse(weapons);
+uniques.push(JSON.parse(accessories));
+uniques.push(JSON.parse(armours));
+uniques.push(JSON.parse(flasks));
+uniques.push(JSON.parse(jewels));
+uniques.push(JSON.parse(maps));
+uniques.push(JSON.parse(weapons));
 
 var cmds = [
     {
@@ -47,107 +47,31 @@ var cmds = [
         alias: "!unique",
         help: "Searches for unique item. Usage: !item <itemName>.",
         execute: function(message) {
+            var result;
             var search = commands.splitCmd(message.content, 1);
             // Verify that leaguename and charname are not undefined
             if (search) {
                 // Search for item in files' item-names
-                var type;
                 var result;
                 
                 // Look for match in name (includes)
-                // Accessories - quivers, belts, amulets, rings
-                for (var i = 0; i < accessories.length; i++) {
-                    if (
-                        formatSearch(accessories[i].name.toLowerCase()).includes(search) ||
-                        accessories[i].name.toLowerCase().includes(search)
-                    ) {
-                        type = "accessory";
-                        result = accessories[i];
-                        break; // Break on match
+                for (var i = 0; i < uniques.length; i++) {
+                    result = searchUnique(uniques[i], search);
+                    if (result) {
+                        break;
                     }
                 }
                 
-                // Armours - body, helmet, gloves, boots, shields
-                if (!result) {
-                    for (var i = 0; i < armours.length; i++) {
-                        if (
-                            formatSearch(armours[i].name.toLowerCase()).includes(search) ||
-                            armours[i].name.toLowerCase().includes(search)
-                        ) {
-                            type = "armour";
-                            result = armours[i];
-                            break; // Break on match
-                        }
-                    }
-                }
-                
-                // Weapons - swords, axes, maces, staves, wands, sceptres, daggers
-                if (!result) {
-                    for (var i = 0; i < weapons.length; i++) {
-                        if (
-                            formatSearch(weapons[i].name.toLowerCase()).includes(search) ||
-                            weapons[i].name.toLowerCase().includes(search)
-                        ) {
-                            type = "weapon";
-                            result = weapons[i];
-                            break; // Break on match
-                        }
-                    }
-                }
-                
-                // Flasks 
-                if (!result) {
-                    for (var i = 0; i < flasks.length; i++) {
-                        if (
-                            formatSearch(flasks[i].name.toLowerCase()).includes(search) ||
-                            flasks[i].name.toLowerCase().includes(search)
-                        ) {
-                            type = "flask";
-                            result = flasks[i];
-                            break; // Break on match
-                        }
-                    }
-                }
-                
-                // Maps 
-                if (!result) {
-                    for (var i = 0; i < maps.length; i++) {
-                        if (
-                            formatSearch(maps[i].name.toLowerCase()).includes(search) ||
-                            maps[i].name.toLowerCase().includes(search)
-                        ) {
-                            type = "map";
-                            result = maps[i];
-                            break; // Break on match
-                        }
-                    }
-                }
-                
-                // Jewels 
-                if (!result) {
-                    for (var i = 0; i < jewels.length; i++) {
-                        if (
-                            formatSearch(jewels[i].name.toLowerCase()).includes(search) ||
-                            jewels[i].name.toLowerCase().includes(search)
-                        ) {
-                            type = "map";
-                            result = jewels[i];
-                            break; // Break on match
-                        }
-                    }
-                }
-                
-                var response = "";
-                var br = "\n";
                 if (result) {
-                    // Format response based on item type
-                    response =
-                            result.name + br + 
-                            result.baseItem;
+                    // Format response
+                    var response = "```\n";
+                    response = addBasic(result, response);
                     response = addDef(result.defenses, response);
+                    response = addOff(result, response);
                     response = addReq(result.requirements, response);
                     response = addImplicit(result.mods.implicit, response);
                     response = addExplicit(result.mods.explicit, response);
+                    response += "\n```";
                     
                     // Send item info as response
                     commands.sendMessage(message, response, null, 4); 
@@ -161,7 +85,7 @@ var cmds = [
             }
         }
     },
-        {
+    {
         cmd: "!setDefaultLeague",
         alias: "!setdefaultleague",
         help: "Sorry, that command is only available to admins.",
@@ -263,7 +187,6 @@ var cmds = [
                  for (var i = 0; i < skillgem.length; i++) {
                      if (skillgem[i].name.toLowerCase() == gemName.toLowerCase()) {
                          // Break loop on match
-                         
                          gem = skillgem[i];
                          break;
                      }
@@ -302,6 +225,29 @@ var cmds = [
     }
 ];
 
+// Searches for search-string in item.names
+function searchUnique(items, search) {
+    var result;
+    for (var i = 0; i < items.length; i++) {
+        if (
+            formatSearch(items[i].name.toLowerCase()).includes(search) ||
+            items[i].name.toLowerCase().includes(search)
+        ) {
+            result = items[i];
+            break; // Break on match
+        }
+    }
+    return result;
+}
+
+// Adds basic information (name, base item)
+function addBasic(item, text) {
+    text += 
+        item.name + "\n" + 
+        item.baseItem;
+    return text;
+}
+
 // Adds requirements (lvl, str, dex, int) if they are present
 function addReq(req, text) {
     if (!req) { return text };
@@ -324,6 +270,22 @@ function addReq(req, text) {
     return text;
 }
 
+// Adds offensive values (crit, damage, aps)
+function addOff(item, text) {
+    if (!item.damage && !item.aps && !item.crit) { return text };
+    text += "\n----------------------------------------";
+    if (item.damage) {
+        text += "\n" + item.damage;
+    }
+    if (item.crit) {
+        text += "Crit: " + item.crit;
+    }
+    if (item.aps) {
+        text += "\nAPS: " + item.aps;
+    }
+    return text;
+}
+
 // Adds defensive values (armor, evasion, energy shield, block)
 function addDef(def, text) {
     if (!def) { return text };
@@ -339,7 +301,7 @@ function addDef(def, text) {
         text += "\nEnergy Shield: " + def.energy;
     }
     if (def.block != 0) {
-        text += "\Block: " + def.block;
+        text += "\nBlock: " + def.block;
     }
     return text;
 }
