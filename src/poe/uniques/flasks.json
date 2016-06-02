@@ -90,6 +90,16 @@
         }
     },
     {
+        "name": "Kiara's Determination",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/5/5d/Kiara%27s_Determination.png/38px-Kiara%27s_Determination.png?version=cecc3f0f9a90617baf9b198d94d6927a",
+        "baseItem": "Silver Flask",
+        "levelReq": "22",
+        "mods": {
+            "implicit": "",
+            "explicit": "Immunity to Freeze and Chill during Flask effect\nRemoves Freeze and Chill on use\nImmunity to Curses during Flask effect\nRemoves Curses on use\n50% reduced Duration\nCannot be Stunned during Flask effect"
+        }
+    },
+    {
         "name": "Lion's Roar",
         "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/e/eb/Lion%27s_Roar.png/39px-Lion%27s_Roar.png?version=6fd4dfb5d2f4e01e8877d2db3e3983df",
         "baseItem": "Granite Flask",
@@ -117,6 +127,16 @@
         "mods": {
             "implicit": "",
             "explicit": "(20 to 30)% Chance to Block during flask effect \n(10 to 15)% Chance to Block Spells during flask effect"
+        }
+    },
+    {
+        "name": "The Overflowing Chalice",
+        "picture": "https://hydra-media.cursecdn.com/pathofexile.gamepedia.com/thumb/2/2b/The_Overflowing_Chalice.png/39px-The_Overflowing_Chalice.png?version=92dd101d78385254b1341788402da5d5",
+        "baseItem": "Sulphur Flask",
+        "levelReq": "35",
+        "mods": {
+            "implicit": "Creates Consecrated Ground on Use",
+            "explicit": "100% increased Charge Recovery\n20% increased Duration\nThis Flask cannot gain Flask Charges during Flask Effect\n100% increased Charges gained by Flasks during Flask Effect"
         }
     },
     {

@@ -76,7 +76,7 @@
         "reqLevel": "55",
         "mods": {
             "implicit": "(2 to 4) Life Regenerated per second",
-            "explicit": "+(60 to 70) to maximum Life \nAdds 10-20 Physical Damage to Attacks \n(8 to 12) Life Regenerated per second \n100% increased Life Recovery from Flasks \nMoving while Bleeding doesn't cause you to take extra Damage"
+            "explicit": "Adds 10-20 Physical Damage to Attacks \n+(60 to 70) to maximum Life \n(8 to 12) Life Regenerated per second \n100% increased Life Recovery from Flasks \nMoving while Bleeding doesn't cause you to take extra Damage"
         }
     },
     {
