@@ -52,7 +52,7 @@ var commands = [
                             logger.log('Command ' + command + ' with response "' + response + '" was added to database successfully.')
                             sendMessage(message, 'Command ' + command + ' was added successfully.');
                         }
-                    }, [command, response, message.sender.username]);
+                    }, [command, response, message.username]);
                 } else sendMessage(message, this.help);
             } else sendMessage(message, this.help);
         }
@@ -101,7 +101,13 @@ var commands = [
             opt.maxUses = 1;
             opt.temporary = false;
             opt.xkcd = true;
-            app.bot.createInvite(message.channel, opt, function(error, invite) {
+            app.bot.createInvite({
+                channel: message.channelID,
+                max_users: 1,
+                maxAge: 300,
+                temporary: false,
+                xkcdpass: true
+            }, function(error, invite) {
                 sendMessage(message, 'This invite can only be used once and is valid for 5 minutes. https://discord.gg/' + invite.code, 5);
             });
         }
@@ -115,13 +121,23 @@ var commands = [
             if (opt == parseInt(opt)) {
                 opt = parseInt(opt);
                 opt++;
-                app.bot.getChannelLogs(message.channel, 100, function(error, messages) {
+                app.bot.getMessages({
+                    channel: message.channelID,
+                    limit: 100
+                }, function(error, messages) {
                     if (error) return;
                     else {
+                        app.bot.deleteMessage({
+                            channel: message.channelID,
+                            messageID: message.id
+                        });
                         var amount = 0;
                         for (var i = 0; i < messages.length; i++) {
-                            if (messages[i].sender == message.sender) {
-                                app.bot.deleteMessage(messages[i]);
+                            if (messages[i].author.username == message.username) {
+                                app.bot.deleteMessage({
+                                    channel: messages[i].channel_id,
+                                    messageID: messages[i].id
+                                });
                                 amount++;
                             }
                             if (amount === opt) return;
@@ -136,17 +152,31 @@ var commands = [
         alias: '!botclear',
         help: 'Deletes a desired amount of bot messages. Usage: !clearbot <amount>.',
         execute: function(message) {
+            // Get amount of messages to clear
             var opt = getCmd(message.content, 1);
+            
+            // opt must be parseable to int
             if (opt == parseInt(opt)) {
                 opt = parseInt(opt);
-                app.bot.getChannelLogs(message.channel, 100, function(error, messages) {
+                
+                // Get last 100 messages (absolute limit)
+                app.bot.getMessages({
+                    channel: message.channelID,
+                    limit: 100
+                },  function(error, messages) {
                     if (error) return;
                     else {
-                        app.bot.deleteMessage(message);
+                        app.bot.deleteMessage({
+                            channel: message.channelID,
+                            messageID: message.id
+                        });
                         var amount = 0;
                         for (var i = 0; i < messages.length; i++) {
-                            if (messages[i].sender.username == app.bot.user.username) {
-                                app.bot.deleteMessage(messages[i]);
+                            if (messages[i].author.username == app.bot.username) {
+                                app.bot.deleteMessage({
+                                    channel: messages[i].channel_id,
+                                    messageID: messages[i].id
+                                });
                                 amount++;
                             }
                             if (amount === opt) {
@@ -205,9 +235,8 @@ var commands = [
                             txt += ', ';
                         } else txt += '. To get more information on a certain command, use !help <!command>.';
                     }
-                    var pmChannels = app.bot.privateChannels;
-                    var pmChannel = pmChannels.get("recipient", message.sender);
-                    sendMessage(pmChannel, txt);
+                    message.channelID = message.userID;
+                    sendMessage(message, txt);
                 });
             } else sendMessage(message, this.help);
         }
@@ -232,7 +261,7 @@ var commands = [
         help: '',
         execute: function(message) {
             if (isAdmin(message)) {
-                app.bot.logout();
+                app.bot.disconnect();
             }
         }
     }
@@ -275,7 +304,7 @@ exports.command = function(message) {
 }
 
 // Sends a message to channel
-function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes, 0 = no deletion
+function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes
     app.bot.sendMessage({
         to: cmdMessage.channelID,
         message: content
@@ -293,10 +322,10 @@ function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes,
 function markForDeletion(messageID, channelID, delay) {
     // Deletes a message after delay(ms) has passed
     if (delay !== undefined && delay != 0 && delay == parseInt(delay)) {
-            delay = delay * 60 * 1000; // minutes to ms
-        } else {
-            // delay = 1 min * defaultdeletiontime
-            delay = 60 * 1000 * config.defaultDeletionTime;
+        delay = delay * 60 * 1000; // minutes to ms
+    } else {
+        // delay = 1 min * defaultdeletiontime
+        delay = 60 * 1000 * config.defaultDeletionTime;
     }
     setTimeout(function() {
         app.bot.deleteMessage({
@@ -339,12 +368,12 @@ function isAdmin(message) {
     // Get server the message was sent in
     var server;
     // Go through all servers
-    for (var i = 0; i < app.bot.servers.length; i++) {
+    for (var i = 0; i < app.bot.info.servers.length; i++) {
         // Go through channels of server
-        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+        for (var j = 0; j < app.bot.info.servers[i].channels.length; j++) {
             // Return server roles on match
-            if (app.bot.servers[i].channels[j].id == message.channelID) {
-                server = app.bot.servers[i];
+            if (app.bot.info.servers[i].channels[j].id == message.channelID) {
+                server = app.bot.info.servers[i];
                  break;
             }
         }

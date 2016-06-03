@@ -86,7 +86,8 @@ bot.on('ready', function() {
     }
     
     // Set server properties
-    bot.servers = tmpServers;
+    bot.info = {};
+    bot.info.servers = tmpServers;
 });
 
 // Gets object properties
@@ -141,45 +142,16 @@ function memberInfo(member) {
 }
 
 
-/*
+
 // Disconnect listener
 bot.on("disconnected", function() {
     logger.log("Lost connection to server. Reconnecting in " + config.reconnectInterval / 1000 + " seconds...");
     setTimeout(function() {
         logger.log("Attempting reconnection...");
-        var reconnecting = setInterval(function() {
-            login(function(success) {
-                if (success) {
-                    clearTimeout(reconnecting);
-                }
-                else {
-                    logger.log("Reconnecting failed. Trying again in " + config.reconnectInterval / 1000 + " seconds.");
-                }
-            });
-        }, config.reconnectInterval);
+        bot.connect();
     }, config.reconnectInterval);
 });
 
-// Function for logging in with information from config file
-// Returns true if login was successful
-function login(callback) {
-    bot.login(config.discordUsername, config.discordPassword, function(error, token) {
-        if (error) {
-            logger.log("Couldn't connect to server: " + error)
-            return callback(false);
-        } else {
-            logger.log("Logged in successfully.");
-            return callback(true);
-        }
-    });
-}
-
-// Login bot
-login(function(success) {
-    if (success) {
-        logger.log("Listening for commands...");
-    }
-});*/
 
 // bot-getter
 exports.bot = bot;

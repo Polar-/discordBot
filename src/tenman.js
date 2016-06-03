@@ -14,15 +14,21 @@ var team2 = [];
 var cmds = [
     {
         cmd: "!addplayer",
-        alias: "!addPlayers",
+        alias: "!addplayers",
         execute: function(message) {
             if (commands.isAdmin(message)) {
                 // copy players from options
                 var opt = commands.splitCmd(message.content, 1);
+                console.log(opt);
                 opt = opt.split(" ");
-                opt.splice(opt.length - 1, 1);
+                if (opt.length > 1) {
+                    opt.splice(opt.length - 1, 1);
+                }
+                console.log(opt);
+                
                 if (opt != undefined) {
                     for (var i = 0; i < opt.length; i++) {
+                        console.log(opt[i]);
                         players.push(opt[i]);
                     }
                     commands.sendMessage(message, "Player count: " + players.length + ".");
@@ -106,7 +112,8 @@ var cmds = [
     {
         cmd: "!start",
         execute: function(message) {
-            if (commands.isAdmin(message)) {
+            // MOVING USERS IN VOICE CHANNELS IS NOT SUPPORTED IN DISCORD.IO
+            /*if (commands.isAdmin(message)) {
                 if (players.length == 10 && team1.length == 5 && team2.length == 5) {
                     // get voice channel names (from config)
                     var channels = message.channel.server.channels;
@@ -148,7 +155,7 @@ var cmds = [
                 } else {
                     commands.sendMessage(message, "No players.");
                 }
-            }
+            }*/
         }
     }
 ];

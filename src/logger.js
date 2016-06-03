@@ -31,12 +31,12 @@ exports.log = function(content) {
 // Gets server name of channel
 function serverName(channelID) {
     // Go through all servers
-    for (var i = 0; i < app.bot.servers.length; i++) {
+    for (var i = 0; i < app.bot.info.servers.length; i++) {
         // Go through channels of server
-        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+        for (var j = 0; j < app.bot.info.servers[i].channels.length; j++) {
             // Return server name on match
-            if (app.bot.servers[i].channels[j].id == channelID) {
-                return app.bot.servers[i].name;
+            if (app.bot.info.servers[i].channels[j].id == channelID) {
+                return app.bot.info.servers[i].name;
             }
         }
     }
@@ -45,12 +45,12 @@ function serverName(channelID) {
 // Gets name of channel
 function channelName(channelID) {
     // Go through all servers
-    for (var i = 0; i < app.bot.servers.length; i++) {
+    for (var i = 0; i < app.bot.info.servers.length; i++) {
         // Go through channels of server
-        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+        for (var j = 0; j < app.bot.info.servers[i].channels.length; j++) {
             // Return server name on match
-            if (app.bot.servers[i].channels[j].id == channelID) {
-                return app.bot.servers[i].channels[j].name;
+            if (app.bot.info.servers[i].channels[j].id == channelID) {
+                return app.bot.info.servers[i].channels[j].name;
             }
         }
     }
