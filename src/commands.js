@@ -3,13 +3,17 @@
 
 var mysql = require('mysql');
 var config = require('./config/config.js');
-var app = require('./app.js');
+var bot = require('./app.js');
 var logger = require('./logger.js');
 var db = require('./database.js');
 
 // Extending modules
 var tenman = require('./tenman.js');
 var poe = require('./poe.js');
+
+exports.setApp = function(newApp) {
+    bot = newApp;
+}
 
 var commands = [
     { 
@@ -19,7 +23,6 @@ var commands = [
             var command = getCmd(message.content, 1);
             if (isAdmin(message) && command != undefined && command.length > 1 && command[0] === '!') {
                 db.query('DELETE FROM commands WHERE command = ?;', function(err, rows) {
-                    console.log(rows)
                     if (err) {
                         logger.log('Error removing ' + command + ' from database: ' + err);
                         sendMessage(message, 'Error removing ' + command + ' from database. See log for details.');
@@ -61,7 +64,7 @@ var commands = [
     { 
         cmd: '!hello',
         execute: function(message) {
-            sendMessage(message, 'Hello, ' + message.sender.username + '.');
+            sendMessage(message, 'Hello, ' + message.username + '.');
         }
     },
     {
@@ -69,7 +72,7 @@ var commands = [
         execute: function(message) {
             if (isAdmin(message))
             {
-                app.bot.setChannelTopic(message, splitCmd(message.content, 1));
+                bot.setChannelTopic(message, splitCmd(message.content, 1));
                 markForDeletion(message);
             }
         }
@@ -258,7 +261,7 @@ exports.command = function(message) {
         }
     }
     if (message.content[0] === '!') {
-        getDbCommands(message, function(rows) {
+        getDbCommands(message.content, function(rows) {
             if (rows != undefined) {
                 for (var i = 0; i < rows.length; i++) {
                     var cmd = rows[i].command.replace(/'/g, ''); // replacing not in use
@@ -273,14 +276,23 @@ exports.command = function(message) {
     }
 }
 
-function sendMessage(cmdMessage, content, deletionTime) { // deletionTime in minutes, 0 = no deletion
-    app.bot.sendMessage(cmdMessage, content, function(error, message) {
-        markForDeletion(cmdMessage, deletionTime);
-        markForDeletion(message, deletionTime);
+// Sends a message to channel
+function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes, 0 = no deletion
+    bot.sendMessage({
+        to: cmdMessage.channelID,
+        message: content
+    }, function(error, response) {
+        if (error) {
+            logger.log(error.message);
+        } else {
+            // marks the sent message to be deleted to clean up message history
+            markForDeletion(cmdMessage.id, cmdMessage.channelID, delTime);
+            markForDeletion(response.id, response.channel_id, delTime);
+        }
     });
 }
 
-function markForDeletion(message, delay) {
+function markForDeletion(messageID, channelID, delay) {
     // Deletes a message after delay(ms) has passed
     if (delay !== undefined && delay != 0 && delay == parseInt(delay)) {
             delay = delay * 60 * 1000; // minutes to ms
@@ -289,7 +301,10 @@ function markForDeletion(message, delay) {
             delay = 60 * 1000 * config.defaultDeletionTime;
     }
     setTimeout(function() {
-        app.bot.deleteMessage(message);
+        bot.deleteMessage({
+            channel: channelID,
+            messageID: messageID
+        });
     }, delay);
 }
 

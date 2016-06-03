@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // Logs a message-object
 exports.logMessage = function(message) {
-    var srv = message.channel.server;
+    /*var srv = message.channel.server;
     var chn = message.channel.name;
     var usr = message.sender.username;
     var msg = message.cleanContent;
@@ -17,7 +17,7 @@ exports.logMessage = function(message) {
     
     var content = currentTime() + srv + '/' + chn + ' - ' + usr + ': ' + msg;
     console.log(content);
-    logToFile(content);
+    logToFile(content);/*/
 }
 
 // Logs a message

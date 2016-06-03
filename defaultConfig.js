@@ -3,8 +3,7 @@
 var config = {};
 
 // Discord account credentials
-config.discordUsername = 'yourdiscordusernamehere';
-config.discordPassword = 'yourdiscordpasswordhere';
+config.token = "yourDiscordBotTokenHere"
 
 // Database connection information
 config.dbHost = 'dbHost';

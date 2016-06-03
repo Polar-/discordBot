@@ -1,20 +1,41 @@
 // PolarBot
 // app.js
 
-var Discord = require("discord.js");
-var bot = new Discord.Client();
+var Discord = require("discord.io");
 var config = require("./config/config.js");
 var commands = require("./commands.js");
 var logger = require("./logger.js");
 
+// Init bot
+var bot = new Discord.Client({
+    token: config.token,
+    autorun: true
+});
+
 // Command listener
-bot.on("message", function(message) {
+bot.on("message", function(user, userID, channelID, message, rawEvent) {
     logger.logMessage(message);
-	if (message.sender.username != bot.user.username) {
-        commands.command(message);
+    var tmpMessage = {
+        id: rawEvent.d.id,
+        userID: userID,
+        username: user,
+        channelID: channelID,
+        content: message
+    };
+	if (userID != bot.id) {
+        commands.command(tmpMessage);
 	}
 });
 
+bot.on('ready', function() {
+    logger.log("Listening for commands...");
+    commands.setApp(bot);
+});
+
+
+
+
+/*
 // Disconnect listener
 bot.on("disconnected", function() {
     logger.log("Lost connection to server. Reconnecting in " + config.reconnectInterval / 1000 + " seconds...");
@@ -52,7 +73,7 @@ login(function(success) {
     if (success) {
         logger.log("Listening for commands...");
     }
-});
+});*/
 
 // bot-getter
 exports.bot = bot;
