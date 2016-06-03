@@ -1,14 +1,15 @@
 // PolarBot
 // logger.js
 
-const fs = require('fs');
+var fs = require('fs');
+var app = require("./app.js"); // For bot properties
 
 // Logs a message-object
 exports.logMessage = function(message) {
-    /*var srv = message.channel.server;
-    var chn = message.channel.name;
-    var usr = message.sender.username;
-    var msg = message.cleanContent;
+    var srv = serverName(message.channelID);
+    var chn = channelName(message.channelID);
+    var usr = message.username;
+    var msg = message.content;
     
     if (srv == undefined && chn == undefined) {
         srv = "private";
@@ -17,14 +18,42 @@ exports.logMessage = function(message) {
     
     var content = currentTime() + srv + '/' + chn + ' - ' + usr + ': ' + msg;
     console.log(content);
-    logToFile(content);/*/
+    logToFile(content);
 }
 
-// Logs a message
+// Logs content given in parameter
 exports.log = function(content) {
     content = currentTime() + content;
     console.log(content);
     logToFile(content);
+}
+
+// Gets server name of channel
+function serverName(channelID) {
+    // Go through all servers
+    for (var i = 0; i < app.bot.servers.length; i++) {
+        // Go through channels of server
+        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+            // Return server name on match
+            if (app.bot.servers[i].channels[j].id == channelID) {
+                return app.bot.servers[i].name;
+            }
+        }
+    }
+}
+
+// Gets name of channel
+function channelName(channelID) {
+    // Go through all servers
+    for (var i = 0; i < app.bot.servers.length; i++) {
+        // Go through channels of server
+        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+            // Return server name on match
+            if (app.bot.servers[i].channels[j].id == channelID) {
+                return app.bot.servers[i].channels[j].name;
+            }
+        }
+    }
 }
 
 // Logs a message into log.txt

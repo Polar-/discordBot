@@ -3,17 +3,13 @@
 
 var mysql = require('mysql');
 var config = require('./config/config.js');
-var bot = require('./app.js');
+var app = require('./app.js');
 var logger = require('./logger.js');
 var db = require('./database.js');
 
 // Extending modules
 var tenman = require('./tenman.js');
 var poe = require('./poe.js');
-
-exports.setApp = function(newApp) {
-    bot = newApp;
-}
 
 var commands = [
     { 
@@ -72,8 +68,10 @@ var commands = [
         execute: function(message) {
             if (isAdmin(message))
             {
-                bot.setChannelTopic(message, splitCmd(message.content, 1));
-                markForDeletion(message);
+                app.bot.editChannelInfo({
+                    channel: message.channelID,
+                    topic: splitCmd(message.content, 1)
+                });
             }
         }
     },
@@ -166,13 +164,13 @@ var commands = [
         help: 'Usage: !timer <minutes> <(optional)message>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
-            if (opt == parseInt(opt)) {
-                    opt = parseInt(opt);
+            if (opt == parseFloat(opt)) {
+                    opt = parseFloat(opt);
                     var txt = splitCmd(message.content, 2);
                     sendMessage(message, 'I will remind you in ' + opt + ' minute(s).', opt);
                     opt = opt * 1000 * 60; // milliseconds to minutes
                     setTimeout(function() {
-                       sendMessage(message, message.sender.mention() + ' ' + txt);
+                       sendMessage(message, '<@' + message.userID + '> ' + txt);
                     }, opt);
             } else sendMessage(message, this.help);
         }
@@ -278,7 +276,7 @@ exports.command = function(message) {
 
 // Sends a message to channel
 function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes, 0 = no deletion
-    bot.sendMessage({
+    app.bot.sendMessage({
         to: cmdMessage.channelID,
         message: content
     }, function(error, response) {
@@ -301,7 +299,7 @@ function markForDeletion(messageID, channelID, delay) {
             delay = 60 * 1000 * config.defaultDeletionTime;
     }
     setTimeout(function() {
-        bot.deleteMessage({
+        app.bot.deleteMessage({
             channel: channelID,
             messageID: messageID
         });
@@ -338,13 +336,48 @@ function getDbCommands(message, callback) {
 }
 
 function isAdmin(message) {
-    // Checks if user is admin of the server the message was sent in
-    var roles = [];
-    roles = message.channel.server.rolesOf(message.sender);
-    for (var i = 0; i < roles.length; i++) {
-        if (roles[i].name == 'admin') return true;
+    // Get server the message was sent in
+    var server;
+    // Go through all servers
+    for (var i = 0; i < app.bot.servers.length; i++) {
+        // Go through channels of server
+        for (var j = 0; j < app.bot.servers[i].channels.length; j++) {
+            // Return server roles on match
+            if (app.bot.servers[i].channels[j].id == message.channelID) {
+                server = app.bot.servers[i];
+                 break;
+            }
+        }
     }
-    return false;
+    
+    // Get user roles in server
+    var userRoles;
+    for (var i = 0; i < server.members.length; i++) {
+        if (server.members[i].id == message.userID) {
+            userRoles = server.members[i].roles;
+            break;
+        }
+    }
+    
+    // Get role-id of "admin"-role
+    var adminRole;
+    for (var i = 0; i < server.roles.length; i++) {
+        if (server.roles[i].name == config.adminRoleName) {
+            adminRole = server.roles[i];
+            break;
+        }
+    }
+    
+    // See if adminRole-id matches any of user-role-id's
+    for (var i = 0; i < userRoles.length; i++) {
+        if (userRoles[i] == adminRole.id) {
+            logger.log("User " + message.username + " is admin.");
+            return true;
+        } else {
+            logger.log("User " + message.username + " is not admin. Access denied.");
+            return false;
+        }
+    }
 }
 
 // Export functions
