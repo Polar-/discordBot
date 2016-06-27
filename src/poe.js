@@ -44,11 +44,21 @@ uniques.push(JSON.parse(weapons));
 var cmds = [
     {
         cmd: "!item",
-        alias: "!unique",
-        help: "Searches for unique item. Usage: !item <itemName>.",
+        alias: "!i",
+        help: "Searches for unique item. Usage: !item (text) <itemName>. Use text-type to get item info as text.",
         execute: function(message) {
             var result;
-            var search = commands.splitCmd(message.content, 1);
+            var search;
+            var mode = commands.getCmd(message.content, 1);
+            // !item text bramblejack returns item in text mode
+            if (mode == "text" || mode == "t") {
+                search = commands.splitCmd(message.content, 2);
+                console.log(search);
+            } else {
+                mode = undefined;
+                search = commands.splitCmd(message.content, 1)
+            }
+                        
             // Verify that leaguename and charname are not undefined
             if (search) {
                 // Search for item in files' item-names
@@ -63,19 +73,37 @@ var cmds = [
                 }
                 
                 if (result) {
-                    // Format response
-                    var response = "```\n";
-                    response = addBasic(result, response);
-                    response = addDef(result.defenses, response);
-                    response = addOff(result, response);
-                    response = addReq(result.requirements, response);
-                    response = addImplicit(result.mods.implicit, response);
-                    response = addExplicit(result.mods.explicit, response);
-                    response += "\n```";
-                    
-                    // Send item info as response
-                    commands.sendMessage(message, response, null, 4); 
-                    
+                    var err;
+                    if (!mode) {
+                        app.bot.uploadFile({
+                            to: message.channelID,
+                            file: "./poe/uniques/images/" + toFileName(result.name) + ".png",
+                            filename: toFileName(result.name) + ".png",
+                            message: ""
+                        }, function(error, response) {
+                            if (!error) {
+                                commands.markForDeletion(response.id, response.channel_id);
+                                commands.markForDeletion(message.id, message.channelID);
+                                return; 
+                            } else {
+                                console.log(error);
+                                logger.log("Error in unique item image uploading: " + error);
+                            }
+                        });
+                    } else {
+                        // Format response
+                        var response = "```\n";
+                        response = addBasic(result, response);
+                        response = addDef(result.defenses, response);
+                        response = addOff(result, response);
+                        response = addReq(result.requirements, response);
+                        response = addImplicit(result.mods.implicit, response);
+                        response = addExplicit(result.mods.explicit, response);
+                        response += "\n```";
+                        
+                        // Send item info as response
+                        commands.sendMessage(message, response, null, 4); 
+                    }   
                 } else {
                     commands.sendMessage(message, "Couldn't find an item with that name.");
                 }
@@ -86,8 +114,8 @@ var cmds = [
         }
     },
     {
-        cmd: "!setDefaultLeague",
-        alias: "!setdefaultleague",
+        cmd: "!setdefaultleague",
+        alias: "!defleague",
         help: "Sorry, that command is only available to admins.",
         execute: function(message) {
             if (commands.isAdmin(message)) {
@@ -112,7 +140,7 @@ var cmds = [
     },
     {
         cmd: "!poeladder",
-        alias: "!poeLadder",
+        alias: "!poerank",
         help: "Shows the ladder rank of character in league. Usage: !poeladder <charactername> <league(optional)>.",
         execute: function(message) {
             var leaguename = commands.getCmd(message.content, 2);
@@ -176,8 +204,8 @@ var cmds = [
         }
     },
     {
-        cmd: "!poegem",
-        alias: "!skillgem",
+        cmd: "!skillgem",
+        alias: "!gem",
         help: "Shows a skill gem's availability. Usage !poegem <skillGemName>.",
         execute: function(message) {
              var gemName = commands.splitCmd(message.content, 1);
@@ -185,7 +213,7 @@ var cmds = [
                  var gem;
                  // Find skill gem from skillgem.json
                  for (var i = 0; i < skillgem.length; i++) {
-                     if (skillgem[i].name.toLowerCase() == gemName.toLowerCase()) {
+                     if (skillgem[i].name.toLowerCase().includes(gemName.toLowerCase())) {
                          // Break loop on match
                          gem = skillgem[i];
                          break;
@@ -224,6 +252,13 @@ var cmds = [
         }
     }
 ];
+
+// Formats unique name to filename
+function toFileName(name) {
+    // Replace spaces with underscores
+    name = name.replace(/\s/g, "_");
+    return name;
+}
 
 // Searches for search-string in item.names
 function searchUnique(items, search) {
