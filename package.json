@@ -9,7 +9,7 @@
   "author": "Polar",
   "license": "MIT",
   "dependencies": {
-    "discord.io": "^1.11.1",
+    "discord.io": "^1.12.0",
     "node-mysql": "^0.4.2",
     "request": "^2.72.0"
   }
