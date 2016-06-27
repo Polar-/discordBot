@@ -194,8 +194,8 @@ var commands = [
         help: 'Usage: !timer <minutes> <(optional)message>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
-            if (opt == parseFloat(opt)) {
-                    opt = parseFloat(opt);
+            if (opt == parseInt(opt)) {
+                    opt = parseInt(opt);
                     var txt = splitCmd(message.content, 2);
                     sendMessage(message, 'I will remind you in ' + opt + ' minute(s).', opt);
                     opt = opt * 1000 * 60; // milliseconds to minutes
@@ -414,3 +414,4 @@ exports.isAdmin = isAdmin;
 exports.getCmd = getCmd;
 exports.splitCmd = splitCmd;
 exports.sendMessage = sendMessage;
+exports.markForDeletion = markForDeletion;
