@@ -7,7 +7,7 @@ var commands = require("./commands.js");
 var logger = require("./logger.js");
 
 // For setting avatar
-//var fs = require("fs");
+var fs = require("fs");
 
 // Init bot
 var bot = new Discord.Client({
@@ -93,9 +93,9 @@ bot.on('ready', function() {
     bot.info.servers = tmpServers;
 
     // Set bot avatar
-    /*bot.editUserInfo({
-        avatar: require('fs').readFileSync('./obesebot.png', 'base64')
-    });*/
+    //bot.editUserInfo({
+    //    avatar: require('fs').readFileSync('./obesebot-orange.png', 'base64')
+    //});
 });
 
 // Gets object properties
