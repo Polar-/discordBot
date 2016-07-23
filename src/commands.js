@@ -10,6 +10,7 @@ var db = require('./database.js');
 // Extending modules
 var tenman = require('./tenman.js');
 var poe = require('./poe.js');
+var weather = require('./weather/weather.js');
 
 var commands = [
     { 
@@ -270,6 +271,7 @@ var commands = [
 // Load extending modules
 load(tenman);
 load(poe);
+load(weather);
 
 function load(cmds) {
     for (var i = 0; i < cmds.length; i++) {
@@ -336,7 +338,7 @@ function markForDeletion(messageID, channelID, delay) {
 }
 
 function getCmd(cmd, index) {
-    // Used for getting commands at split[index]
+    // Used for getting options at split[index]
     var i = index == undefined ? 0 : index;
     return cmd.split(' ')[i];
 }
