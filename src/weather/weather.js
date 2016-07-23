@@ -18,21 +18,8 @@ var cmds = [
             // Get options (options are optional)
             var opt = commands.getCmd(message.content, 1);
 
-            // default-option
-            if (opt == "default") {
-                setDefaultLocation(userID, location);
-                return;
-            }
-
-            // if there are no options, use user default
-            else if (opt == '') {
-                getDefaultLocation(); // TODO callback?
-            }
-
-            // else use option[i] as city
-            else {
-                getWeather(message, opt);
-            }
+            // use option[i] as city
+            getWeather(message, opt);
         }
     }
 ];
@@ -110,17 +97,6 @@ function getWeather(message, city) {
             commands.sendMessage(message, content);
         });
     });
-}
-
-
-// sets default location for user
-function setDefaultLocation(userID, location) {
-
-}
-
-// gets default location of user'
-function getDefaultLocation(userID) {
-    return location;
 }
 
 // Export commands
