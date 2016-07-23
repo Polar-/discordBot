@@ -2,5 +2,6 @@
 /node_modules
 /src/poe/defaultLeague.*
 /src/poe/uniques/images
+/src/weather/img
 sh.exe*
 log.txt
