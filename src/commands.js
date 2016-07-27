@@ -49,10 +49,11 @@ var commands = [
                         if (err) {
                             logger.log('ERROR ADDING !COMMAND TO DATABASE: ' + err);
                             sendMessage(message, 'An error happened. The !command might be taken.');
-                        } else {
-                            logger.log('Command ' + command + ' with response "' + response + '" was added to database successfully.')
-                            sendMessage(message, 'Command ' + command + ' was added successfully.');
-                        }
+                            return;
+                        } 
+
+                        logger.log('Command ' + command + ' with response "' + response + '" was added to database successfully.')
+                        sendMessage(message, 'Command ' + command + ' was added successfully.');
                     }, [command, response, message.username]);
                 } else sendMessage(message, this.help);
             } else sendMessage(message, this.help);
@@ -119,33 +120,36 @@ var commands = [
         help: 'Clears a desired amount of your own messages. Usage: !clear <amount>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
-            if (opt == parseInt(opt)) {
-                opt = parseInt(opt);
-                opt++;
-                app.bot.getMessages({
+            if (opt != parseInt(opt)) {
+                sendMessage(message, this.help);
+                return;
+            }
+            opt = parseInt(opt);
+            opt++;
+            app.bot.getMessages({
+                channel: message.channelID,
+                limit: 100
+            }, function(error, messages) {
+                if (error) { 
+                    logger.log("Error getting messages for clearing: " + error.message)
+                    return; 
+                }
+                app.bot.deleteMessage({
                     channel: message.channelID,
-                    limit: 100
-                }, function(error, messages) {
-                    if (error) return;
-                    else {
-                        app.bot.deleteMessage({
-                            channel: message.channelID,
-                            messageID: message.id
-                        });
-                        var amount = 0;
-                        for (var i = 0; i < messages.length; i++) {
-                            if (messages[i].author.username == message.username) {
-                                app.bot.deleteMessage({
-                                    channel: messages[i].channel_id,
-                                    messageID: messages[i].id
-                                });
-                                amount++;
-                            }
-                            if (amount === opt) return;
-                        }
-                    }
+                    messageID: message.id
                 });
-            } else sendMessage(message, this.help);
+                var amount = 0;
+                for (var i = 0; i < messages.length; i++) {
+                    if (messages[i].author.username == message.username) {
+                        app.bot.deleteMessage({
+                            channel: messages[i].channel_id,
+                            messageID: messages[i].id
+                        });
+                        amount++;
+                    }
+                    if (amount === opt) return;
+                }
+            });
         }
     },
     {
@@ -157,36 +161,39 @@ var commands = [
             var opt = getCmd(message.content, 1);
             
             // opt must be parseable to int
-            if (opt == parseInt(opt)) {
-                opt = parseInt(opt);
-                
-                // Get last 100 messages (absolute limit)
-                app.bot.getMessages({
+            if (opt != parseInt(opt)) {
+                sendMessage(message, this.help);
+                return;
+            }
+            opt = parseInt(opt);
+            
+            // Get last 100 messages (absolute limit)
+            app.bot.getMessages({
+                channel: message.channelID,
+                limit: 100
+            },  function(error, messages) {
+                if (error) { 
+                    logger.log("Error getting messages for clearing: " + error.message)
+                    return;
+                }
+                app.bot.deleteMessage({
                     channel: message.channelID,
-                    limit: 100
-                },  function(error, messages) {
-                    if (error) return;
-                    else {
-                        app.bot.deleteMessage({
-                            channel: message.channelID,
-                            messageID: message.id
-                        });
-                        var amount = 0;
-                        for (var i = 0; i < messages.length; i++) {
-                            if (messages[i].author.username == app.bot.username) {
-                                app.bot.deleteMessage({
-                                    channel: messages[i].channel_id,
-                                    messageID: messages[i].id
-                                });
-                                amount++;
-                            }
-                            if (amount === opt) {
-                                return;
-                            }
-                        }
-                    }
+                    messageID: message.id
                 });
-            } else sendMessage(message, this.help);
+                var amount = 0;
+                for (var i = 0; i < messages.length; i++) {
+                    if (messages[i].author.username == app.bot.username) {
+                        app.bot.deleteMessage({
+                            channel: messages[i].channel_id,
+                            messageID: messages[i].id
+                        });
+                        amount++;
+                    }
+                    if (amount === opt) {
+                        return;
+                    }
+                }
+            });
         }
     },
     {
@@ -195,15 +202,17 @@ var commands = [
         help: 'Usage: !timer <minutes> <(optional)message>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
-            if (opt == parseInt(opt)) {
-                    opt = parseInt(opt);
-                    var txt = splitCmd(message.content, 2);
-                    sendMessage(message, 'I will remind you in ' + opt + ' minute(s).', opt);
-                    opt = opt * 1000 * 60; // milliseconds to minutes
-                    setTimeout(function() {
-                       sendMessage(message, '<@' + message.userID + '> ' + txt);
-                    }, opt);
-            } else sendMessage(message, this.help);
+            if (opt != parseInt(opt)) {
+                sendMessage(message, this.help);
+                return;
+            }
+            opt = parseInt(opt);
+            var txt = splitCmd(message.content, 2);
+            sendMessage(message, 'I will remind you in ' + opt + ' minute(s).', opt);
+            opt = opt * 1000 * 60; // milliseconds to minutes
+            setTimeout(function() {
+                sendMessage(message, '<@' + message.userID + '> ' + txt);
+            }, opt);
         }
     },
     {
@@ -212,7 +221,8 @@ var commands = [
         help: 'Usage: !help <(optional)!command>.',
         execute: function(message) {
             var opt = getCmd(message.content, 1);
-            if (opt != undefined && opt[0] === '!') {
+            if (opt == undefined) { return; };
+            if (opt[0] === '!') {
                 // !help !<cmd>
                 for (var i = 0; i < commands.length; i++) {
                     if (commands[i].help != undefined) {
@@ -291,14 +301,14 @@ exports.command = function(message) {
     }
     if (message.content[0] === '!') {
         getDbCommands(message.content, function(rows) {
-            if (rows != undefined) {
-                for (var i = 0; i < rows.length; i++) {
-                    var cmd = rows[i].command.replace(/'/g, ''); // replacing not in use
-                    if (getCmd(message.content) === cmd) {
-                        logger.log('Executing ' + cmd + '...');
-                        sendMessage(message, rows[i].response.replace(/'/g, '')); // replacing not in use
-                        return; 
-                    }
+            if (rows == undefined) { return; }
+
+            for (var i = 0; i < rows.length; i++) {
+                var cmd = rows[i].command.replace(/'/g, ''); // replacing not in use
+                if (getCmd(message.content) === cmd) {
+                    logger.log('Executing ' + cmd + '...');
+                    sendMessage(message, rows[i].response.replace(/'/g, '')); // replacing not in use
+                    return; 
                 }
             }
         });
@@ -313,11 +323,11 @@ function sendMessage(cmdMessage, content, delTime) { // deletionTime in minutes
     }, function(error, response) {
         if (error) {
             logger.log(error.message);
-        } else {
-            // marks the sent message to be deleted to clean up message history
-            markForDeletion(cmdMessage.id, cmdMessage.channelID, delTime);
-            markForDeletion(response.id, response.channel_id, delTime);
+            return;
         }
+        // marks the sent message to be deleted to clean up message history
+        markForDeletion(cmdMessage.id, cmdMessage.channelID, delTime);
+        markForDeletion(response.id, response.channel_id, delTime);
     });
 }
 

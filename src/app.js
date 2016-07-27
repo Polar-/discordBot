@@ -37,7 +37,7 @@ bot.on("message", function(user, userID, channelID, message, rawEvent) {
 
 bot.on('ready', function() {
     listening = true;
-    logger.log("Listening for commands...");
+    logger.log("Listening for commands..."); 
     
     //////////////////////////////////////////////
     // set server-objects to a more usable form //
@@ -92,6 +92,8 @@ bot.on('ready', function() {
     bot.info = {};
     bot.info.servers = tmpServers;
 
+    //console.log(JSON.stringify(bot, null, 4));
+    
     // Set bot avatar
     //bot.editUserInfo({
     //    avatar: require('fs').readFileSync('./obesebot-orange.png', 'base64')
@@ -149,8 +151,6 @@ function memberInfo(member) {
     return tmpMember;
 }
 
-
-
 // Disconnect listener
 bot.on("disconnected", function() {
     logger.log("Lost connection to server. Reconnecting in " + config.reconnectInterval / 1000 + " seconds...");
@@ -159,7 +159,6 @@ bot.on("disconnected", function() {
         bot.connect();
     }, config.reconnectInterval);
 });
-
 
 // bot-getter
 exports.bot = bot;
