@@ -1,6 +1,6 @@
 // Polarbot
 // weather.js
-// Weater-module
+// Weather-module
 
 // Dependencies
 var app = require("../app.js");
