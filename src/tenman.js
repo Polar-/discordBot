@@ -170,9 +170,6 @@ var cmds = [
                 for (var j = 0; j < team1.length; j++) {
                     if (players[i].name.toLowerCase() == team1[j].toLowerCase()) {
                         // move player
-                        console.log("serv: " + srv.id)
-                        console.log("ch: " + ch1)
-                        console.log("user: " + players[i].id)
                         app.bot.moveUserTo({
                             serverID: srv.id,
                             channelID: ch1,
@@ -184,9 +181,6 @@ var cmds = [
                 for (var j = 0; j < team2.length; j++) {
                     if (players[i].name.toLowerCase() == team2[j].toLowerCase()) {
                         // move player
-                        console.log("serv: " + srv.id)
-                        console.log("ch: " + ch1)
-                        console.log("user: " + players[i].id)
                         app.bot.moveUserTo({
                             serverID: srv.id,
                             channelID: ch2,
