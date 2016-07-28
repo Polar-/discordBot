@@ -12,6 +12,12 @@ var players = [];
 var team1 = [];
 var team2 = [];
 
+// Init server/channel -variables
+var srv = "";
+var ch1 = "";
+var ch2 = "";
+
+
 var cmds = [
     {
         cmd: "!addplayer",
@@ -109,14 +115,39 @@ var cmds = [
         }
     },
     {
+        cmd: '!end',
+        execute: function(message) {
+            if (commands.isAdmin(message)) {
+                for (var i = 0; i < players.length; i++) {
+                    // move player
+                    app.bot.moveUserTo({
+                        serverID: srv.id,
+                        channelID: ch1,
+                        userID: players[i].id,
+                    }, function(error) {
+                        if (error) {
+                            logger.log("Error moving user: " + error.message)
+                        }
+                    });
+                    break;
+                }
+            }
+        }
+    },
+    {
         cmd: "!start",
         execute: function(message) {
-            // Moves players to voice channels (only works if player is connected to a voice channel) 
+            // Moves players to voice channels (only works if player is connected to a voice channel)
+
+            // Verify that commanding user is admin
             if (!commands.isAdmin(message)) { return; }
+
+            // Verify players amount, team player-amounts
             if (players.length != 10 || team1.length != 5 || team2.length != 5) {
                 commands.sendMessage(message, "No players.");
                 return;
             }
+
             // Get ID's for all players
             for (var i = 0; i < players.length; i++) {
                 for (var user in app.bot.users) {
@@ -125,11 +156,6 @@ var cmds = [
                     }
                 }
             }
-            // Init server/channel -variables
-            var srv;
-            var ch1;
-            var ch2;
-
 
             // Get server the command was sent in 
             for (var i = 0; i < app.bot.info.servers.length; i++) {
