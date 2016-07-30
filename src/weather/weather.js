@@ -52,7 +52,8 @@ function getWeather(message, city) {
 
         // Probability of rain
         var rainProb = body.findByClass("probability-of-precipitation-value");
-        rainProb = rainProb[0].content;
+        if (rainProb.length != 0) { rainProb = rainProb[0].content; }
+        else { rainProb = "?" }        
 
         // Rain last hour
         var rainAmount = body.findByClass("precipitation-amount");
@@ -80,6 +81,8 @@ function getWeather(message, city) {
             ", tuntuu kuin: " + feelsLike +
             "\nSateen mahdollisuus: " + rainProb + 
             "\n" + wind;
+
+            console.log(content);
 
         // Respond with information
         app.bot.uploadFile({
